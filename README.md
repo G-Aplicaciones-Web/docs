@@ -87,7 +87,7 @@ Además, hemos establecido una estructura de ramas utilizando el siguiente esque
         </p>
         - Creación de ramas por cada capítulo:
         <p align="center">
-            <img src="assets/evidencias/" alt="repo-branches" width=60% >
+            <img src="assets/evidencias/repo-branches.png" alt="repo-branches" width=60% >
         </p>
         - Commits realizados en las ramas individuales:
         <p align="center">
@@ -233,18 +233,10 @@ Criterio: Trabaja efectivamente en un equipo cuyos miembros juntos proporcionan 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo,
 que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
-| <div style="width:100px">Criterio específico</div> | <div style="width:250px" align="center">Acciones Realizadas</div> | <div style="width:250px" align="center">Conclusiones</div> |
-|:-------------------:|-------------------|:------------:|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta| Mathias Aspajo | Se concluye |
-|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos| Mathias Aspajo | Se concluye |
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta| Anyelo Alejos | Se concluye |
-|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos| Anyelo Alejos | Se concluye |
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta| Alejandro Mendoza | Se concluye |
-|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos| Alejandro Mendoza | Se concluye |
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta| Jack Roque | Se concluye |
-|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos| Jack Roque | Se concluye |
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta| Alejandro Torres | Se concluye |
-|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos| Alejandro Torres | Se concluye |
+| <div style="width:100px">Criterio específico</div> | <div align="center" style="width:250px">Acciones Realizadas</div> | <div align="center" style="width:250px">Conclusiones</div> |
+|:-------------------:|-------------------|------------|
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta| **- Mathias Aspajo** <br> **TB1:** En esta entrega me encargué de comunicarle a mi equipo cuál sería la metodología de trabajo. Además, participé activamente en la revisión retroactiva de los avances de mis compañeros. También apoyé en la preparación del material de presentación para nuestras reuniones internas.<br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Anyelo  Alejos** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Mendoza** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jack Roque** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Torres** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br>| **TB1:** Todos los integrantes cumplieron con sus responsabilidades asignadas, manteniendo una comunicación constante y efectiva, lo que reforzó la confianza entre ellos. Esto contribuyó significativamente a fortalecer el trabajo en equipo, un aspecto esencial en proyectos colaborativos. |
+|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos| **- Mathias Aspajo** <br> **TB1:** Colabore con la elaboración de las pautas y alineamientos que nuestro equipo seguiría durante el proceso de desarrollo de software. Asimismo, me encargue de elaborar el Capitulo 2 y 3.<br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Anyelo Alejos** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Mendoza** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jack Roque** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Torres** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos |
 
 <hr>
 
@@ -264,6 +256,39 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 </p>
 
 Mi nombre es Mathias Aspajo, tengo 19 años y actualmente me encuentro en el 5to ciclo de la carrera de Ing. de Software, me considero una persona responsable y colaborativa con cualquier trabajo que tenga. Pienso dar lo mejor de mí para desarrollar un buen proyecto.
+
+- Jack Roque Tello - u20221C448 (Ingeniería de Software)
+
+<p align="center">
+    <img src="assets/fotos/jackfoto.png" alt="foto-jack" width="170px"/>
+</p>
+
+Soy estudiante de Ingeniería de Software, actualmente cursando el quinto ciclo de la carrera en la UPC. Cuento con experiencia en lenguajes como JavaScript, C++, Java y Ruby, además de una sólida base en algoritmos, estructuras de datos y desarrollo web. Me considero una persona proactiva, responsable y con habilidades interpersonales que me permiten trabajar en equipo de forma efectiva. Estoy muy entusiasmado por formar parte de este proyecto, el cual representa una oportunidad única para aplicar mis conocimientos y seguir creciendo profesionalmente. Me comprometo a dar lo mejor de mí en cada etapa, aportando con mi capacidad técnica, pensamiento crítico y comunicación constante para lograr un ambiente colaborativo, motivado y enfocado en cumplir los objetivos que nos hemos propuesto como equipo. Estoy convencido de que, con esfuerzo y trabajo en conjunto, lograremos construir un producto de alto impacto social y tecnológico. 
+
+
+- Alejandro Mendoza Vergara - u202312343 (Ingeniería de Software)
+
+<p align="center">
+    <img src="assets/fotos/aleMendozafoto.jpg" alt="foto-aleMendoza" width="170px"/>
+</p>
+
+Mi nombre es Alejandro Mendoza y soy estudiante de la carrera de Ingeniería de Software. Estoy interesado en seguir aprendiendo sobre diferentes lenguajes de programación y en la creación de distintas aplicaciones web y móviles, por lo que intento dar todo de mí para tener buenos resultados.
+
+- Alejandro Torres Alva - u202022018 (Ingeniería de Software)
+
+<p align="center">
+    <img src="assets/fotos/aleTorresfoto.jpg" alt="foto-aleTorres" width="170px"/>
+</p>
+
+Mi nombre es Alejandro Torres Alva, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona que apoya en todo lo que pueda al trabajo. Tengo conocimientos en C++, Python y PHP.
+
+- Anyelo Bill Alejos Jesus - u20231d149 (Ingeniería de Software)
+
+<p align="center">
+    <img src="assets/fotos/anyelofoto.png" alt="foto-anyelo" width="170px"/>
+</p>
+
+Mi nombre es Anyelo Alejos, tengo 20 años, soy estudiante de la carrera de ingeniería de software actualmente estoy cursando en el 5to ciclo de la carrera, tengo conocimientos en c++, python y me considero una persona responsable y proactiva para dar lo mejor de mi en el proyecto que se realizará.
 
 #### 1.2. Solution Profile
 
