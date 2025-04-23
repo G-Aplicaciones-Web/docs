@@ -371,6 +371,19 @@ EcoVolt tiene un tono respetuoso, formal, sereno y serio, debido a que está enf
 
 #### 4.1.2. Web Style Guidelines
 
+**1.	Diseño**: EL diseño en el que se basa el sitio web es claro, sencillo y llamativo para resaltar en todos los usuarios
+
+<img src="./images/Diseño_aw.png" alt="Canvas" width="400"/>
+
+**2.	Botones**: Los botones son intuitivos y fáciles de comprender para seleccionar funciones
+
+<img src="./images/Botones_aw.png" alt="Canvas" width="400"/>
+
+**3.	Logo**: El logo es fresco y refleja la idea principal del producto
+
+<img src="./images/Logo_aw.png" alt="Canvas" width="400"/>
+
+
 ### 4.2. Information Architecture
 
 #### 4.2.1. Organization Systems
