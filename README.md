@@ -56,5 +56,4 @@ Consideramos que estas aplicaciones similares en el mercado podrían ser nuestro
 
 #### 2.3.5.3. As-is Scenario Mapping Viajeros por trabajo
 
-
 ### 2.4. Ubiquitous Language
