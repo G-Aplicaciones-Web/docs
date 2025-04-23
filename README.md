@@ -401,6 +401,17 @@ Para la landing page de EcoVolt, se usará una organización de forma jerárquic
 
 #### 4.2.2. Labeling Systems
 
+Las etiquetas en la landing page son simples y fáciles de entender para no generar confusión en los usuarios, cuentan con información y títulos claros que ayudan a encontrar cada funcion por sí mismos. Esto debido a que se omite tecnicismos y muchas palabras para optar por la simpleza.
+
+**Board**: Esta sección muestra el historial de consumo de energía.
+
+**Monitoreo**: Esta sección hace un diagnóstico sobre el consumo eléctrico a tiempo real.
+
+**Seguimiento**: Esta sección hace la organización y mantenimiento de los artefactos. Se pueden agregar otros eventos.
+
+**Artefactos**: Esta sección permite comparar el gasto eléctrico de dos artefactos distintos del mismo usuario.
+
+
 #### 4.2.3. SEO Tags and Meta Tags
 
 #### 4.2.4. Searching Systems
