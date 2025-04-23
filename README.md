@@ -43,8 +43,9 @@ Producto: EcoVolt
 ## Registro de Versiones del Informe
 
 | Versión | Fecha | <div style="width:250px">Autor(es) </div> | <div align="center" style="width:400px">Descripción de la modificación</div> |
-        |:-------:|:-----:|:-----------------------------------------:|-------------------------------------------------------------|
+|:-------:|:-----:|:-----------------------------------------:|-------------------------------------------------------------|
 | TB1 | 24/04/2025 | - Aspajo Alvarez, Mathias<br>- Alejos Jesus, Anyelo<br>- Mendoza Vergara, Alejandro<br>- Roque Tello, Jack<br>- Torres Alva, Alejandro | Para esta entrega se han desarrollado los siguientes capítulos: <br>- Carátula<br>- Registro de Versiones del Informe<br>- Project Report Collaboration Insights<br>- Contenido<br>- Student Outcome<br>- Capítulo I: Introducción<br>- Capítulo II: Requirements Elicitation & Analysis<br>- Capítulo III: Requirements Specification<br>- Capítulo IV: Product Design<br>- Capítulo V: Product Implementation, Validation & Deployment<br>- 5.1. Software Configuration Management<br>- 5.1.1. Software Development Environment Configuration<br>- 5.1.2. Source Code Management<br>- 5.1.3. Source Code Style Guide & Conventions<br>- 5.1.4. Software Deployment Configuration<br>- 5.2. Landing Page, Services & Applications Implementation<br>- 5.2.1. Sprint 1<br>- 5.2.1.1. Sprint Planning 1<br>- 5.2.1.2. Aspect Leaders and Collaborators<br>- 5.2.1.3. Sprint Backlog 1<br>- 5.2.1.4. Development Evidence for Sprint Review<br>- 5.2.1.5. Execution Evidence for Sprint Review<br>- 5.2.1.6. Services Documentation Evidence for Sprint Review<br>- 5.2.1.7. Software Deployment Evidence for Sprint Review<br>- 5.2.1.8. Team Collaboration Insights during Sprint<br>- Avance de Conclusiones, Bibliografía y Anexos |
+
 
 <hr>
 
@@ -306,6 +307,134 @@ EnergyCAP es una plataforma líder en gestión de energía y sostenibilidad para
 <img src="assets/competitors/energyCap.png" width=600px>
 
 #### 2.1.1. Análisis competitivo
+
+<table border="1" style="text-align: center;">
+	<tbody>
+		<tr>
+			<td colspan="6">Análisis de competidores</td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+			<td>Shelly</td>
+			<td>Emporia Energy</td>
+			<td>EnergyCAP</td>
+			<td>EcoVolt</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Perfil</td>
+			<td>Resumen</td>
+			<td>Fabricante europeo de dispositivos IoT para automatización del hogar y monitoreo energético.</td>
+			<td>Empresa estadounidense enfocada en soluciones accesibles de gestión energética doméstica.</td>
+			<td>Plataforma SaaS para gestión energética institucional y corporativa</td>
+			<td>Es una aplicación de escritorio que permite a empresas monitorear y optimizar su consumo energético</td>
+		</tr>
+		<tr>
+			<td>Ventaja competitiva</td>
+			<td>Gran compatibilidad con sistemas domóticos, tamaño reducido.</td>
+			<td>Ecosistema todo en uno con aplicación centralizada, sensores a bajo costo</td>
+			<td>Capacidades robustas de reporte, integración con sistemas ERP</td>
+			<td>Compatible con múltiples dispositivos IoT del mercado. Interfaz dual para empresas y técnicos </td>
+		</tr>
+		<tr>
+			<td rowspan="2">Perfil de Marketing</td>
+			<td>Mercado objetivo</td>
+			<td>Consumidores residenciales y electricistas profesionales</td>
+			<td>Propietarios de viviendas, entusiastas de la energía solar y usuarios de vehículos eléctricos</td>
+			<td>Organismos públicos, universidades, grandes corporaciones con múltiples instalaciones</td>
+			<td>Empresas peruanas, técnicos eléctricos y ingenieros eléctricos</td>
+		</tr>
+		<tr>
+			<td>Estrategias de marketing</td>
+			<td>Alianzas con tiendas domótica, contenido técnico en foros y canales de YouTube</td>
+			<td>Posicionamiento como marca eco-amigable y reseñas en YouTube</td>
+			<td>Participación en conferencias de sostenibilidad, estudios de caso, venta consultiva directa</td>
+			<td>Campañas en redes sociales con enfoque educativo y de ahorro de energético. Estrategia de contenido como tutoriales o webinars</td>
+		</tr>
+		<tr>
+			<td rowspan="3">Perfil de Producto</td>
+			<td>Productos y Servicios</td>
+			<td>Interruptores inteligentes, medidores de energía, sensores de temperatura o luz</td>
+			<td>Medidores de energía en panel eléctrico, enchufes inteligentes</td>
+			<td>Plataforma cloud de gestión de energía, seguimiento de facturación</td>
+			<td>Monitoreo en tiempo real y Control de dispositivos</p><p>Modo técnico para calibración y diagnóstico</td>
+		</tr>
+		<tr>
+			<td>Precios y Costos</td>
+			<td>Gama media, 1PM entre $15 a $25</td>
+			<td>Emporia Vue 3 con 16 sensores $150</td>
+			<td>Modelo por suscripción, costoso para pequeñas empresas</td>
+			<td><p>Modelo Freemium para pequeñas empresas</p><p>Planes mensuales o anuales escalables según la cantidad de dispositivos</p></td>
+		</tr>
+		<tr>
+			<td>Canales de distribución</td>
+			<td>Tienda online, Amazon y distribuidores locales</td>
+			<td>Amazon, web oficial y tiendas especializadas</td>
+			<td>Ventas directas B2B, integradores energéticos</td>
+			<td><p>Venta directa vía web</p><p>Distribución a través de electricistas aliados</p><p>Alianzas con distribuidores de dispositivos IoT</p></td>
+		</tr>
+		<tr>
+			<td rowspan="4">Análisis SWOT</td>
+			<td>Fortalezas</td>
+			<td>
+                <p>- Productos pequeños</p><p>- Integración sin nubes obligatorias</p>
+            </td>
+			<td>
+                <p>- Integración sencilla</p><p>- Aplicación intuitiva</p>
+            </td>
+			<td>
+                <p>- Altamente personalizable</p><p>- Enfoque institucional</p>
+            </td>
+			<td>
+                <p>- Enfoque local y contextualizado para el mercado peruano</p><p>- Interfaz dual para empresas y técnicos</p><p>- Compatible con dispositivos IoT existentes</p>
+            </td>
+		</tr>
+		<tr>
+			<td>Debilidades</td>
+			<td>
+                <p>- Interfaz de usuario algo técnica</p><p>- Requiere conocimientos eléctricos</p>
+            </td>
+			<td>
+                <p>- Limitado a uso residencial</p><p>- Poca expansión industrial</p>
+            </td>
+			<td>
+                <p>- Costosa</p><p>- Completa para pequeñas empresas</p>
+            </td>
+			<td>
+                <p>- Requiere alianzas iniciales con técnicos</p><p>- Al depender de hardware con terceros</p>
+            </td>
+		</tr>
+		<tr>
+			<td>Oportunidades</td>
+			<td>
+                <p>- Compatibilidad con más plataformas</p><p>- Expansión hacia sector comercial o industrial ligero</p>
+            </td>
+			<td>
+                <p>- Crecimiento de energía solar doméstica</p><p>- Regulación energética en hogares</p>
+            </td>
+			<td>
+                <p>- Expansión en LATAM</p><p>- Nuevas regulaciones ambientales obligatorios</p>
+            </td>
+			<td>
+                <p>- Regulación energética</p><p>- Alianzas estratégicas con institutos técnicos</p>
+            </td>
+		</tr>
+		<tr>
+			<td>Amenazas</td>
+			<td>
+                <p>- Competencia creciente en domótica</p><p>- Problemas regulatorios según países</p>
+            </td>
+			<td>
+                <p>- Nuevos competidores con más enfoque industrial</p><p>- Dependencia de plataformas móviles</p>
+            </td>
+			<td>
+                <p>- Nuevas plataformas más accesibles</p><p>- Soluciones todo en uno IoT</p>
+            </td>
+			<td>
+                <p>- Ingreso de competidores globales al mercado latinoamericano</p><p>- Barreras de confianza</p>
+            </td>
+		</tr>
+	</tbody>
+</table>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
