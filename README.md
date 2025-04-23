@@ -388,6 +388,17 @@ EcoVolt tiene un tono respetuoso, formal, sereno y serio, debido a que está enf
 
 #### 4.2.1. Organization Systems
 
+Para la landing page de EcoVolt, se usará una organización de forma jerárquica, en la que se ordenará la información en distintas secciones de una forma clara, ordenada e intuitiva para nuestros segmentos objetivo, por lo que tanto las empresas como los electricistas tendrán acceso a este, como :
+
+**Board sobre consumo de energía**: Permite al usuario observar un historial de consumo de energía, además de generar alertas ante excesos.
+
+**Monitoreo y Diagnóstico en tiempo real (IoT)**: Usando un modelo IoT, permite hacer un diagnóstico sobre el consumo eléctrico a tiempo real y muestra posibles anomalías
+
+**Sistema de Alertas y Seguimiento**: Se encarga de la organización y mantenimiento de los artefactos, con recordatorios automáticos, además de poder agregar otros eventos por los usuarios como fechas de auditorías.
+
+**Comparación entre distintos artefactos**: Permite comparar el gasto eléctrico de dos artefactos distintos pero que pertenecen al mismo usuario.
+
+
 #### 4.2.2. Labeling Systems
 
 #### 4.2.3. SEO Tags and Meta Tags
