@@ -459,9 +459,104 @@ EnergyCAP es una plataforma líder en gestión de energía y sostenibilidad para
 
 #### 2.2.1. Diseño de entrevistas
 
+##### Segmento 1:
+
+###### Preguntas para las empresas:
+
+1. ¿Cómo monitorean actualmente su consumo eléctrico?
+2. ¿Tiene alguna solución para optimizar el uso de energía?
+3. ¿Cuáles son los principales retos que enfrentan relacionados al consumo de elctricidad?
+4. ¿Cómo identifican cuándo un equipo está consumiendo más de lo normal?
+5. ¿Cómo es actualmente su relación con los electricistas o técnicos que les hacen mantenimiento?
+6. ¿Qué tan importante sería poder comparar su consumo semanal/mensual?
+7. ¿Qué información energética les gustaría recibir en un reporte ideal?
+8. ¿Creen que el consumo eléctrico afecta sus costos de operación?
+
+###### Preguntas para los electricistas:
+
+1. ¿Qué herramientas usan actualmente para medir o diagnosticar consumo eléctrico?
+2. ¿Usan o han instalado dispositivos IoT? ¿Cuáles?
+3. ¿Qué problemas sueles/n tener durante la instalación o configuración?
+4. ¿Te sería útil un “modo técnico” en una app, con datos específicos para mantenimiento o calibración?
+5. ¿Qué tipo de reportes o diagnósticos suelen pedirte las empresas?
+6. ¿Cuánto tiempo te tomaría preparar un reporte manualmente?
+7. ¿Te gustaría que la aplicación permita generar informes listos para enviar?
+8. ¿Qué otras funciones te gustaría que tenga una app que usas en tu día a día con dispositivos IoT?
+
 #### 2.2.2. Registro de entrevistas
 
+##### Entrevista #1
+
+Nombre y apellido: Edgar Torres Mallma
+
+<img src="assets/interview/Empresa1.png" width=650px >
+
+URL: https://youtu.be/EwcnpYQ2LJA
+
+##### Entrevista #2
+
+##### Entrevista #3
+
+Nombre y apellido: Jesus Gutierrez Pietro
+
+URL: https://youtu.be/9Ox8EdYepqY
+
+<img src="assets/interview/Electricista1.png" width=650px >
+
+##### Entrevista #4
+
+##### Entrevista #5
+
+Nombre y apellido: Higinio Fuertes Vilcapoma
+
+<img src="assets/interview/Empresa2.png" width=650px >
+
+URL: https://youtu.be/QiTkn4epHLs
+
 #### 2.2.3. Análisis de entrevistas
+
+##### Entrevista 1: Edgar Torres Mallma
+
+Análisis de la entrevista:
+
+La entrevista fue realizada a Edgar Torres Mallma, quien dirige una empresa dedicada a la fabricación de botellas y vasos. Nos comentó que actualmente monitorean el consumo eléctrico de forma individual, máquina por máquina, a través de tableros que indican el consumo específico de cada una. Sin embargo, no cuentan con una herramienta centralizada que les permita visualizar el consumo total de todas las máquinas en conjunto.
+Como solución, están constantemente atentos a cualquier anomalía que pueda presentarse en los tableros, lo que requiere una supervisión continua. Uno de sus principales retos es mantener una comunicación constante con el área de producción para asegurar un uso eficiente de las máquinas.
+Además, considera importante contar con reportes periódicos ni bien semanales o mensuales que les permitan comparar el consumo eléctrico de cada máquina en distintos periodos de tiempo. Esto les ayudaría a identificar patrones de uso y oportunidades de mejora.
+También expresó su interés en que los reportes incluyen tanto el consumo de energía activa como de energía reactiva. Esto les permitiría optimizar el consumo energético y evitar el uso ineficiente de electricidad, que podría traducirse en costos adicionales innecesarios.
+Finalmente, mencionó que el exceso en el consumo eléctrico representa un gasto considerable para la empresa. Por ello, siempre están buscando formas de reducirlo al mínimo sin afectar la producción.
+
+##### Entrevista 2:
+
+##### Entrevista 3: Jesus Gutierrez Pietro
+
+Análisis de la entrevista:
+
+La entrevista fue realizada al ingeniero electricista Jesus Gutierrez Pietro. Nos comenta que, tras revisar las instalaciones eléctricas, colocan un instrumento para medir el nivel de aislamiento, el cual se conecta a la entrada de la instalación, ya sea en el tablero principal o en el circuito donde convergen todos los cables eléctricos. Luego, utilizan un multímetro de redes que proporciona un diagnóstico completo del estado eléctrico, incluyendo datos como el consumo, la tensión y el desfase.
+También menciona que suelen presentarse problemas, y estos generalmente están relacionados con la red o con la antena de recepción, que corresponde a la señal de internet. Esta señal debe estar bien definida para evitar fallas en el sistema.
+El ingeniero indica que este tipo de opciones ya se encuentran en muchas aplicaciones similares, las cuales informan sobre cualquier inconveniente, y considera que sería útil contar con una herramienta que permita estar siempre al tanto de los problemas.
+En cuanto a los reportes, explica que la mayoría de empresas solicitan documentos que permitan pasar inspecciones de entidades como INDECI, cumpliendo con todas las normas eléctricas establecidas. Agrega que elaborar un reporte manual puede tomar, como máximo, un día, aunque lo esencial es verificar que esté firmado por la persona autorizada que ejecutó la evaluación.
+Respecto a los informes automatizados, opina que sí podrían ser eficaces. Sin embargo, sugiere complementarlos con una cartilla de diagnóstico, que permita identificar de manera rápida si las máquinas presentan alguna alarma o falla. Esto evitaría tener que hacer revisiones presenciales constantemente, lo que podría ahorrar tiempo en los procesos de mantenimiento.
+
+
+##### Entrevista 4:
+
+##### Entrevista 5: Higinio Fuertes Vilcapoma
+
+Análisis de la entrevista:
+
+La entrevista fue realizada al empresario e Ingeniero Higinio Fuertes Vilcapoma, quien dirige una empresa llamada ViplasticPeru. Nos comenta que el monitoreo del consumo eléctrico se realiza mensualmente a través de los recibos emitidos por la empresa proveedora de energía, llamada Pluz.
+
+Uno de los principales problemas que enfrentan es la dificultad para optimizar el uso de energía debido a la presencia de energía reactiva, la cual deben controlar estrictamente, ya que su exceso podría generar penalidades económicas. Para mitigar estas pérdidas, utilizan bancos de condensadores instalados en la subestación eléctrica.
+
+Su principal reto es el consumo elevado de ciertos equipos de gran potencia. Algunos motores funcionan con corriente alterna y requieren entre 200 y 300 kW. Durante el arranque, el consumo puede multiplicarse hasta cinco veces, lo cual representa una carga significativa para el sistema.
+
+En la planta cuentan con una tabla de control para cada equipo, lo que les permite identificar cuáles consumen mayor energía y darles un seguimiento especial. La relación con los técnicos es directa; se reúnen con ellos para coordinar trabajos y solicitar el historial de cada motor, el cual se actualiza cada seis meses, considerando que las máquinas requieren mantenimiento semestral o anual.
+
+E indica que lo ideal sería contar con un sistema que permita medir y comparar el consumo eléctrico en tiempo real, lo que ayudaría a detectar problemas de manera más eficiente. Actualmente, el seguimiento del consumo se realiza de forma semanal para mantener un control adecuado de las máquinas.
+
+Además, menciona que le gustaría recibir informes diarios con información detallada de todas las máquinas, ya que existen horas punta —entre las 6:00 p.m. y las 10:00 p.m.— en las que el costo de la electricidad es más alto.
+
+Finalmente, señala que el consumo eléctrico es uno de los factores que más impacta en los costos operativos de su empresa. Por esta razón, considera fundamental implementar nuevas tecnologías, como motores más modernos y eficientes, así como establecer un sistema de monitoreo diario y preciso que les brinde información confiable para la toma de decisiones.
 
 ### 2.3. Needfinding
 
