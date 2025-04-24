@@ -470,6 +470,9 @@ administración de artefactos, productividad de empresas
 
 #### 4.2.4. Searching Systems
 
+La aplicación cuenta con una barra de búsqueda para que los usuarios puedan ingresar a la información que buscan.. Se optó por un sistema de búsqueda sencillo y eficaz, para que el usuario no se pierda entre tantas opciones y encuentre sus búsquedas rápido.
+
+
 #### 4.2.5. Navigation Systems
 
 ### 4.3. Landing Page UI Design
