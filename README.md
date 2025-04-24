@@ -475,6 +475,9 @@ La aplicación cuenta con una barra de búsqueda para que los usuarios puedan in
 
 #### 4.2.5. Navigation Systems
 
+El sistema principal de navegación es intuitivo y claro. Este se muestra principalmente en una barra de búsqueda que cuenta con todas las funciones de la aplicación, con las que podremos interactuar y nos dirigirá a cada función buscada.
+
+
 ### 4.3. Landing Page UI Design
 
 #### 4.3.1. Landing Page Wireframe
