@@ -329,9 +329,34 @@ EcoVolt surge como una solución innovadora que conecta estos dos mundos: empres
 
 #### 1.2.2.1. Lean UX Problem Statements
 
+En Perú, muchas empresas enfrentan altos costos por el consumo eléctrico debido a una gestión ineficiente de sus recursos energéticos y a la falta de herramientas tecnológicas que les permitan monitorear y optimizar el uso de energía. Esta situación no solo impacta sus finanzas, sino que también contribuye al uso excesivo e insostenible de recursos. Frente a ello, nos planteamos la siguiente pregunta de negocio: ¿Cómo podemos ayudar a las empresas a reducir sus costos de energía y hacer más eficiente su consumo mediante soluciones tecnológicas accesibles y personalizadas?
+
+
 #### 1.2.2.2. Lean UX Assumptions
 
+**Business Assumptions**:
+1. Demanda energética: Suponemos que existe una necesidad insatisfecha en empresas con alto consumo eléctrico que desean reducir costos mediante soluciones tecnológicas.
+2. Adopción tecnológica: Suponemos que los electricistas, técnicos y gerentes energéticos están dispuestos a utilizar una plataforma digital que facilite la supervisión y el análisis del consumo energético.
+3. Viabilidad económica: Suponemos que el modelo de negocio basado en licencias y servicios personalizados nos permitirá escalar y mantener la solución en el tiempo.
+
+**Business Outcomes**:
+1. Reducción del consumo energético en empresas usuarias.
+2. Incremento en la adopción de nuestra plataforma por parte de técnicos y empresas.
+3. Posicionamiento de EcoVolt como solución confiable en eficiencia energética.
+
+**User Benefits**:
+1. Visualización clara del consumo eléctrico en tiempo real.
+2. Detección de ineficiencias y oportunidades de ahorro energético.
+3. Herramientas intuitivas para el análisis, comparación y toma de decisiones sostenibles.
+
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+**Creemos** que al ofrecer una plataforma que permita monitorear y analizar el consumo eléctrico en tiempo real con alertas inteligentes, **sabremos que hemos tenido éxito** cuando veamos una disminución promedio del 30% de consumo energético en nuestras empresas usuarias dentro de los primeros tres meses.
+
+**Creemos** que al facilitar herramientas específicas para técnicos eléctricos (como reportes, análisis y planes de ahorro), **sabremos que hemos tenido éxito** cuando aumente el número de técnicos registrados y el uso de nuestras funcionalidades técnicas en un 50% luego de 6 meses de aplicado los cambios.
+
+**Creemos** que al permitir una configuración personalizada para cada empresa según su tamaño y sector, **sabremos que hemos tenido éxito** cuando recibamos una valoración promedio de 4.5 / 5 en encuestas de satisfacción sobre adaptabilidad y facilidad de uso.
 
 #### 1.2.2.4. Lean UX Canvas
 
