@@ -414,6 +414,60 @@ Las etiquetas en la landing page son simples y fáciles de entender para no gene
 
 #### 4.2.3. SEO Tags and Meta Tags
 
+Se utilizaron diversas meta tags que mejoran la visibilidad del sitio web en los motores de búsqueda. 
+
+**1. Landing Page**:
+
+**• Title**: EcoVolt: Plataforma para la gestión y ahorro de energía
+
+**•Meta Description**:EcoVolt es una plataforma web diseñada para la gestión y el ahorro de energía usando distintas funciones y enfocándose en las empresas y electricistas.
+
+**•Keywords**:Ahorro de energía, gestión de recursos, 
+administración de artefactos, productividad de empresas
+
+**•Author**: EcoVolt Team
+
+**2. Board**:
+
+**•Title**: Historial de Consumo
+
+**•Meta Description**: Muestra el historial de consumo de energía y genera alertas ante ello
+
+**•Keywords**: Consumo de energía, historial, gestión de energía, alertas
+
+**•Author**: EcoVolt Team
+
+**3. Monitoreo**:
+
+**•Title**: Diagnóstico de Consumo
+
+**•Meta Description**: Genera un diagnóstico a tiempo real del consumo de energía y muestra posibles anomalías
+
+**•Keywords**: anomalías, tiempo real, tecnología IoT
+
+**•Author**: EcoVolt Team
+
+**4. Seguimiento**:
+
+**•Title**: Mantenimiento de Artefactos
+
+**•Meta Description**: Se encarga de la organización y mantenimiento de los artefactos
+
+**•Keywords**: gestión de alertas, futuros eventos, auditorías
+
+**•Author**: EcoVolt Team
+
+**5. Artefactos**:
+
+**•Title**: Comparación de Artefactos
+
+**•Meta Description**: Se encarga de comparar el gasto eléctrico de artefactos distintos de un mismo usuario
+
+**•Keywords**: comparación, gestión de artefactos, relación gasto-ganancia
+
+**•Author**: EcoVolt Team
+
+
 #### 4.2.4. Searching Systems
 
 #### 4.2.5. Navigation Systems
