@@ -392,6 +392,7 @@ En Perú, muchas empresas enfrentan altos costos por el consumo eléctrico debid
  Desarrollar un prototipo funcional de baja fidelidad con las funcionalidades clave (dashboard básico, alertas y reportes) y realizar sesiones de validación con técnicos y gestores de empresas piloto. Esto permitirá recoger insights reales sobre su experiencia, barreras de uso y funcionalidades más valoradas antes de la implementación completa.
 
 ### 1.3. Segmentos Objetivos
+Nuestros segmentos objetivos incluyen a empresas medianas y grandes con altos niveles de consumo eléctrico que buscan reducir costos y mejorar su eficiencia energética mediante el uso de tecnologías IoT. Asimismo, nos dirigimos a electricistas y técnicos especializados que brindan servicios de instalación, configuración y mantenimiento de sistemas eléctricos, y que requieren herramientas digitales para optimizar su labor. EcoVolt ofrece una solución accesible, intuitiva y profesional para ambos segmentos, promoviendo una gestión energética más eficiente y sostenible en el Perú.
 
 <hr>
 
