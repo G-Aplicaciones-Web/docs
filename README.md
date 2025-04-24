@@ -161,9 +161,8 @@ Además, hemos establecido una estructura de ramas utilizando el siguiente esque
 
 [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
 - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.1.1. To-Be Scenario Mapping Turistas nacionales e internacionales](#311-to-Be-scenario-mapping-turistas-nacionales-e-internacionales)
-- [3.1.2. To-Be Scenario Mapping Agencias de turismo locales](#312-to-Be-scenario-mapping-agencias-de-turismo-locales)
-- [3.1.3. To-Be Scenario Mapping Viajeros por trabajo](#313-to-Be-scenario-mapping-viajeros-por-trabajo)
+- [3.1.1. To-Be Scenario Mapping Empresa consumidora](#311-to-be-scenario-mapping-empresa-consumidora)
+- [3.1.2. To-Be Scenario Mapping Electricistas](#312-to-be-scenario-mapping-electricistas)
 - [3.2. User Stories](#32-user-stories)
 - [3.3. Impact Mapping](#33-impact-mapping)
 - [3.4. Product Backlog](#34-product-backlog)
@@ -549,15 +548,107 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 
 #### 3.1.1. To-Be Scenario Mapping Turistas nacionales e internacionales
 
-#### 3.1.2. To-Be Scenario Mapping Agencias de turismo locales
+<p align="center">
+    <img src="assets/recursos/To_be_Empresas.png" alt="To-be-Empresas"/>
+</p>
 
-#### 3.1.3. To-Be Scenario Mapping Viajeros por trabajo
+#### 3.1.2. To-Be Scenario Mapping Electricistas
+
+<p align="center">
+    <img src="assets/recursos/To_be_Electricistas.png" alt="To-be-Electricistas"/>
+</p>
 
 ### 3.2. User Stories
 
+
+|<p>**Epic / Story**</p><p>**ID**</p>|**Título**|**Descripción**|<p>**Criterios de**</p><p>**Aceptación**</p>|<p>**Relacionado**</p><p>**con (Epic ID)**</p>|
+| :- | :- | :- | :- | :- |
+|EP01|Gestión de usuarios y perfiles|Como usuario de la aplicación, quiero gestionar mi cuenta y perfil para acceder a funcionalidades personalizadas según mi rol.|-|-|
+|EP02|Monitoreo y control de consumo|Como usuario empresarial, quiero monitorear y controlar el consumo energético de mis instalaciones para optimizar costos y eficiencia.|-|-|
+|EP03|Herramientas para electricistas|Como electricista certificado, quiero herramientas especializadas para instalar, configurar y diagnosticar sistemas eléctricos de mis clientes.|-|-|
+|US01|Registro empresas|Como gerente de planta, quiero registrar mi empresa para monitorear su consumo energético.|<p>Scenario 1: Registro exitoso</p><p>Dado que completo el formulario con RUC válido, cuando el administrador aprueba los datos, entonces recibo un email de confirmación.</p><p></p><p>Scenario 2: Datos fiscales incorrectos</p><p>Dado que ingreso un RUC inválido, cuando intento registrar mi empresa, entonces el sistema muestra "Verifique su RUC".</p>|EP01|
+|US02|Registro electricistas|Como electricista, quiero registrarme con mi colegiatura para acceder al modo técnico.|<p>Scenario 1: Validación de colegiatura</p><p>Dado que subo mi certificado PDF, cuando el sistema detecta que es válido, entonces activa mi "Modo Técnico".</p><p></p><p>Scenario 2: Documento no legible</p><p>Dado que subo una imagen borrosa, cuando el sistema no puede validar, entonces sugiere "Suba un archivo más claro".</p>|EP01|
+|US03|Inicio de sesión|Como usuario, quiero iniciar sesión con email y contraseña para acceder a mis datos.|<p>Scenario 1: Credenciales correctas</p><p>Dado que ingreso mi email y contraseña válidos, cuando hago clic en "Ingresar", entonces accedo a mi dashboard.</p><p></p><p>Scenario 2: Contraseña incorrecta</p><p>Dado que ingreso una contraseña errónea 3 veces, cuando intento acceder, entonces el sistema bloquea mi cuenta temporalmente.</p>|EP01|
+|US04|Recuperar contraseña|Como usuario, quiero restablecer mi contraseña si la olvido.|<p>Scenario 1: Solicitud exitosa</p><p>Dado que ingreso mi email registrado, cuando hago clic en "Recuperar", entonces recibo un enlace temporal en mi correo.</p><p></p><p>Scenario 2: Email no registrado</p><p>Dado que ingreso un email no existente, cuando intento recuperar contraseña, entonces el sistema muestra "Email no encontrado".</p>|EP01|
+|US05|Perfil corporativo|Como empresa, quiero agregar datos de mi sector industrial para recibir métricas relevantes.|<p>Scenario 1: Actualización de sector</p><p>Dado que selecciono "Industria textil", cuando guardo los cambios, entonces el dashboard muestra benchmarks de ese sector.</p><p></p><p>Scenario 2: Sector no seleccionado</p><p>Dado que no elijo un sector, cuando guardo el perfil, entonces el sistema asigna "Otros" por defecto.</p>|EP01|
+|US06|Permisos por roles|Como administrador, quiero asignar roles a mi equipo.|<p>Scenario 1: Asignación de rol</p><p>Dado que asigno "Solo lectura" a María, cuando ella inicia sesión, entonces no puede editar configuraciones.</p><p></p><p>Scenario 2: Intento de acceso denegado</p><p>Dado que un usuario sin permisos intenta modificar equipos, cuando confirma la acción, entonces el sistema muestra "Acceso restringido".</p>|EP01|
+|US07|Notificaciones|Como usuario, quiero recibir alertas sobre actualizaciones importantes.|<p>Scenario 1: Alerta de actualización</p><p>Dado que hay una nueva versión, cuando el sistema detecta mi app desactualizada, entonces recibo una notificación push.</p><p></p><p>Scenario 2: Notificación silenciada</p><p>Dado que desactivo notificaciones, cuando hay una actualización, entonces no recibo alertas.</p>|EP01|
+|US08|Integración SSO|Como empresa, quiero iniciar sesión con Google Workspace para simplificar el acceso.|<p>Scenario 1: Login con Google</p><p>Dado que selecciono "Ingresar con Google", cuando autentico mi cuenta, entonces accedo sin contraseña.</p><p></p><p>Scenario 2: Cuenta no corporativa</p><p>Dado que uso un email personal, cuando intento ingresar, entonces el sistema muestra "Use su cuenta corporativa".</p>|EP01|
+|US09|Eliminar cuenta|Como usuario, quiero borrar mi cuenta permanentemente.|<p>Scenario 1: Eliminación confirmada</p><p>Dado que solicito borrar mi cuenta, cuando confirmo con mi contraseña, entonces todos mis datos se eliminan en 72h.</p><p></p><p>Scenario 2: Cancelación de eliminación</p><p>Dado que inicio el proceso, cuando cancelo antes de confirmar, entonces mi cuenta permanece activa.</p>|EP01|
+|US10|Múltiples sucursales|Como cadena comercial, quiero agregar todas mis tiendas en un solo dashboard.|<p>Scenario 1: Registro de sucursal</p><p>Dado que ingreso datos de mi tienda "Lima Centro", cuando guardo, entonces aparece en el dashboard filtrable.</p><p></p><p>Scenario 2: Sucursal duplicada</p><p>Dado que registro una ubicación ya existente, cuando intento guardar, entonces el sistema muestra "Sucursal ya registrada".</p>|EP01|
+|US11|Dashboard en tiempo real|Como gerente, quiero ver gráficos actualizados cada 5 minutos.|<p>Scenario 1: Visualización de datos</p><p>Dado que los sensores están activos, cuando abro la app, entonces veo gráficos actualizados cada 5 minutos.</p><p></p><p>Scenario 2: Sin conexión a sensores</p><p>Dado que hay falla en la red, cuando abro el dashboard, entonces muestra "Datos no disponibles".</p>|EP02|
+|US12|Alertas personalizadas|Como técnico, quiero configurar umbrales para recibir alertas.|<p>Scenario 1: Alerta por exceso de consumo</p><p>Dado que seteo 100kW como límite, cuando se supera, then recibo un SMS con detalles.</p><p></p><p>Scenario 2: Umbral inválido</p><p>Dado que ingreso "0kW" como límite, cuando intento guardar, entonces el sistema muestra "Valor debe ser mayor a 1kW".</p>|EP02|
+|US13|Histórico comparativo|Como analista, quiero comparar consumo mensual/anual.|<p>Scenario 1: Comparación anual</p><p>Dado que selecciono "2023 vs 2024", cuando aplico filtros, entonces veo porcentajes de cambio por mes.</p><p></p><p>Scenario 2: Sin datos históricos</p><p>Dado que elijo un período sin registros, cuando genero el reporte, entonces muestra "No hay datos para comparar".</p>|EP02|
+|US14|Programación de equipos|Como operador, quiero programar horarios de máquinas.|<p>Scenario 1: Apagado automático</p><p>Dado que programo apagado a las 8PM, cuando llega la hora, entonces el sistema envía la señal.</p><p></p><p>Scenario 2: Horario no laboral</p><p>Dado que programo encendido a las 3AM, cuando confirmo, entonces el sistema sugiere "¿Está seguro?".</p>|EP02|
+|US15|Energía reactiva|Como especialista, quiero monitorear energía reactiva para evitar multas.|<p>Scenario 1: Corrección sugerida</p><p>Dado que el factor es 0.85, cuando activo el módulo, entonces la app recomienda "Instalar bancos de capacitores".</p><p></p><p>Scenario 2: Valores normales</p><p>Dado que el factor es 0.95, cuando reviso el dashboard, entonces muestra "Dentro del rango óptimo".</p>|EP02|
+|US16|Exportar datos|Como auditor, quiero exportar reportes en CSV/PDF.|<p>Scenario 1: Exportar a PDF</p><p>Dado que selecciono "Exportar", cuando elijo PDF, entonces el archivo se descarga con gráficos.</p><p></p><p>Scenario 2: Sin datos para exportar</p><p>Dado que no hay registros, cuando intento exportar, entonces muestra "Seleccione un período con datos".</p>|EP02|
+|US17|Integración facturación|Como contador, quiero vincular datos con mi software de facturas.|<p>Scenario 1: Vinculación con SAP</p><p>Dado que conecto la API, cuando hay un pico de consumo, entonces SAP actualiza los costos proyectados.</p><p></p><p>Scenario 2: Error de conexión</p><p>Dado que SAP está offline, cuando el sistema intenta sincronizar, entonces notifica "Reintentar más tarde".</p>|EP02|
+|US18|Recomendaciones automáticas|Como usuario, quiero recibir sugerencias de ahorro.|<p>Scenario 1: Sugerencia de ahorro</p><p>Dado que el sistema detecta ineficiencias, cuando analiza patrones, entonces propone "Reducir uso en horario punta".</p><p></p><p>Scenario 2: Sin recomendaciones</p><p>Dado que el consumo es óptimo, cuando reviso sugerencias, entonces muestra "No se detectaron ineficiencias".</p><p></p>|EP02|
+|US19|Mantenimiento predictivo|Como mantenedor, quiero recibir alertas antes de fallas.|<p>Scenario 1: Alerta de vibración</p><p>Dado que un motor supera 5mm/s de vibración, cuando el sistema lo detecta, entonces programa revisión para las 24h siguientes.</p><p></p><p>Scenario 2: Falso positivo</p><p>Dado que la vibración es temporal, cuando se normaliza en 5 minutos, entonces cancela la alerta.</p>|EP02|
+|US20|Mapas térmicos|Como ingeniero, quiero ver calorías de consumo por áreas.|<p>Scenario 1: Identificar zonas críticas</p><p>Dado que activo la vista térmica, cuando analizo la planta, entonces las áreas rojas muestran sobreconsumo.</p><p></p><p>Scenario 2: Sin datos térmicos</p><p>Dado que los sensores están apagados, cuando abro el mapa, entonces muestra "Active los sensores primero".</p>|EP02|
+|US21|Emparejar dispositivos|Como electricista, quiero conectar sensores IoT escaneando QR.|<p>Scenario 1: Conexión exitosa</p><p>Dado que escaneo el QR del sensor, cuando la app lo reconoce, entonces lo agrega al plano eléctrico.</p><p></p><p>Scenario 2: Error de emparejamiento</p><p>Dado que el sensor no responde, cuando intento conectarlo 3 veces, entonces sugiere "Reinicie el dispositivo".</p>|EP03|
+|US22|Calibración remota|Como técnico, quiero ajustar sensores desde mi celular.|<p>Scenario 1: Ajuste de parámetros</p><p>Dado que detecto un desfase del 5%, cuando modifico la sensibilidad, entonces los valores se actualizan en tiempo real.</p><p></p><p>Scenario 2: Fuera de rango</p><p>Dado que ingreso un valor fuera de límites, cuando intento guardar, entonces muestra "Rango permitido: 1-100%".</p>|EP03|
+|US23|Reportes INDECI|Como proveedor, quiero generar documentos pre-formateados.|<p>Scenario 1: Generar PDF</p><p>Dado que completo el diagnóstico, cuando selecciono "INDECI", entonces descarga un PDF con formato oficial.</p><p></p><p>Scenario 2: Campos incompletos</p><p>Dado que falta información, cuando intento generar el reporte, entonces resalta los campos obligatorios.</p>|EP03|
+|US24|Diagnóstico de fallas|Como especialista, quiero ver análisis automáticos de problemas.|<p>Scenario 1: Cortocircuito detectado</p><p>Dado que hay un corto en el circuito B, cuando reviso la app, entonces identifica la ubicación exacta.</p><p></p><p>Scenario 2: Falla intermitente</p><p>Dado que el problema desaparece, cuando el sistema lo registra, entonces sugiere "Monitorear por 24h".</p>|EP03|
+|US25|Historial de clientes|Como freelance, quiero acceder a registros anteriores.|<p>Scenario 1: Acceso a registros</p><p>Dado que selecciono "Cliente X", cuando busco en historial, entonces muestra todas las inspecciones ordenadas por fecha.</p><p></p><p>Scenario 2: Cliente nuevo</p><p>Dado que no hay historial, cuando ingreso a la ficha, entonces muestra "Sin inspecciones previas".</p>|EP03|
+|US26|Firma digital|Como electricista, quiero firmar reportes desde la app.|<p>Scenario 1: Reporte firmado</p><p>Dado que finalizo un reporte, cuando uso mi e-firma, entonces el PDF muestra "Validado por [Nombre]".</p><p></p><p>Scenario 2: Firma no registrada</p><p>Dado que no tengo e-firma configurada, cuando intento firmar, entonces redirige a "Configurar firma".</p>|EP03|
+|US27|Chat con clientes|Como técnico, quiero comunicarme dentro de la plataforma.|<p>Scenario 1: Mensaje enviado</p><p>Dado que escribo "¿El problema persiste?", cuando hago clic en "Enviar", entonces el cliente recibe una notificación.</p><p></p><p>Scenario 2: Archivo adjunto</p><p>Dado que subo una foto del problema, cuando envío el mensaje, entonces el cliente ve la imagen en el chat.</p>|EP03|
+|US28|Plantillas personalizadas|Como usuario avanzado, quiero crear mis propios formatos de reporte.|<p>Scenario 1: Crear plantilla</p><p>Dado que diseño un formato, cuando lo guardo como "Mi Plantilla", entonces aparece en "Mis Templates".</p><p></p><p>Scenario 2: Nombre duplicado</p><p>Dado que uso un nombre ya existente, cuando intento guardar, entonces sugiere "Elija otro nombre".</p>|EP03|
+|US29|Guías visuales de instalación|Como electricista, quiero acceder a guías visuales paso a paso para instalar sensores correctamente y reducir errores.|<p>Scenario 1: Acceso a diagramas interactivos</p><p>Dado que selecciono un sensor específico, cuando abro "Guía de Instalación", entonces veo un diagrama 2D con pasos numerados y zonas de colocación destacadas.</p><p></p><p>Scenario 2: Descarga de manuales</p><p>Dado que necesito offline, cuando hago clic en "Descargar PDF", entonces obtengo un archivo con especificaciones técnicas y buenas prácticas.</p>|EP03|
+|US30|Soporte técnico prioritario|Como profesional, quiero acceso a soporte 24/7.|<p>Scenario 1: Emergencia reportada</p><p>Dado que presiono el botón rojo, cuando describo el problema, entonces recibo una llamada en menos de 5min.</p><p></p><p>Scenario 2: Consulta no urgente</p><p>Dado que uso el chat normal, cuando envío una pregunta, entonces recibo respuesta en 1h.</p>|EP03|
+|US31|Navegación por la landing Page|Como usuario, quiero navegar fácilmente por la landing page para entender las funcionalidades clave de EcoVolt.|<p>Scenario 1: Acceso a secciones</p><p>Dado que hago clic en "Para Empresas", cuando la página carga, entonces muestra testimonios de clientes.</p><p></p><p>Scenario 2: Demo interactivo</p><p>Dado que veo el video demo, cuando paso el cursor, entonces muestra tooltips explicativos.</p>|EP01|
+|US32|Ver información del proyecto|Como usuario potencial, quiero conocer en qué consiste EcoVolt para evaluar si cubre mis necesidades.|<p>Scenario 1: Beneficios clave</p><p>Dado que leo "Cómo funciona", cuando reviso los íconos, entonces identifico 3 ventajas principales.</p><p></p><p>Scenario 2: Tecnología usada</p><p>Dado que busco "Infraestructura", cuando veo los logos, entonces confirmo integración con AWS IoT.</p>|EP01|
+|US33|Conocer la misión|Como inversionista, quiero entender la misión de EcoVolt para evaluar su impacto potencial.|<p>Scenario 1: Impacto ambiental</p><p>Dado que accedo a "Propósito", cuando leo la sección, entonces veo "Reducir 30% desperdicio energético".</p><p></p><p>Scenario 2: Compromiso social</p><p>Dado que reviso "Valores", cuando busco iniciativas, entonces encuentro "Capacitación a comunidades".</p>|EP01|
+|US34|Recomendaciones de usuarios|Como empresa indecisa, quiero leer testimonios verificados de otros clientes para tomar una decisión informada.|<p>Scenario 1: Testimonio verificado</p><p>Dado que veo un comentario de "Tiendas EFE", cuando reviso el sello, entonces confío en su autenticidad.</p><p></p><p>Scenario 2: Filtro por sector</p><p>Dado que selecciono "Manufactura", cuando aplico el filtro, entonces solo muestran casos de ese rubro.</p>|EP02|
+
+<hr>
+
 ### 3.3. Impact Mapping
 
+<p align="center">
+    <img src="assets/recursos/To_be_Electricistas.png" alt="To-be-Electricistas"/>
+</p>
+
 ### 3.4. Product Backlog
+
+
+|# Orden|User Story Id|Título|Descripción|Story Points (1 / 2 / 3 / 5 / 8)|
+| :- | :- | :- | :- | :- |
+|1|US01|Registro empresas|Como gerente de planta, quiero registrar mi empresa para monitorear su consumo energético.|5|
+|2|US02|Registro electricistas|Como electricista, quiero registrarme con mi colegiatura para acceder al modo técnico.|3|
+|3|US03|Inicio de sesión|Como usuario, quiero iniciar sesión con email y contraseña para acceder a mis datos.|2|
+|4|US04|Recuperar contraseña|Como usuario, quiero restablecer mi contraseña si la olvido.|1|
+|5|US05|Perfil corporativo|Como empresa, quiero agregar datos de mi sector industrial para recibir métricas relevantes.|2|
+|6|US06|Permisos por roles|Como administrador, quiero asignar roles a mi equipo.|5|
+|7|US07|Notificaciones|Como usuario, quiero recibir alertas sobre actualizaciones importantes.|1|
+|8|US08|Integración SSO|Como empresa, quiero iniciar sesión con Google Workspace para simplificar el acceso.|8|
+|9|US09|Eliminar cuenta|Como usuario, quiero borrar mi cuenta permanentemente.|2|
+|10|US10|Múltiples sucursales|Como cadena comercial, quiero agregar todas mis tiendas en un solo dashboard.|5|
+|11|US11|Dashboard en tiempo real|Como gerente, quiero ver gráficos actualizados cada 5 minutos.|8|
+|12|US12|Alertas personalizadas|Como técnico, quiero configurar umbrales para recibir alertas.|3|
+|13|US13|Histórico comparativo|Como analista, quiero comparar consumo mensual/anual.|3|
+|14|US14|Programación de equipos|Como operador, quiero programar horarios de máquinas.|5|
+|15|US15|Energía reactiva|Como especialista, quiero monitorear energía reactiva para evitar multas.|5|
+|16|US16|Exportar datos|Como auditor, quiero exportar reportes en CSV/PDF.|2|
+|17|US17|Integración facturación|Como contador, quiero vincular datos con mi software de facturas.|8|
+|18|US18|Recomendaciones automáticas|Como usuario, quiero recibir sugerencias de ahorro.|3|
+|19|US19|Mantenimiento predictivo|Como mantenedor, quiero recibir alertas antes de fallas.|5|
+|20|US20|Mapas térmicos|Como ingeniero, quiero ver calorías de consumo por áreas.|3|
+|21|US21|Emparejar dispositivos|Como electricista, quiero conectar sensores IoT escaneando QR.|3|
+|22|US22|Calibración remota|Como técnico, quiero ajustar sensores desde mi celular.|5|
+|23|US23|Reportes INDECI|Como proveedor, quiero generar documentos pre-formateados.|3|
+|24|US24|Diagnóstico de fallas|Como especialista, quiero ver análisis automáticos de problemas.|5|
+|25|US25|Historial de clientes|Como freelance, quiero acceder a registros anteriores.|2|
+|26|US26|Firma digital|Como electricista, quiero firmar reportes desde la app.|3|
+|27|US27|Chat con clientes|Como técnico, quiero comunicarme dentro de la plataforma.|5|
+|28|US28|Plantillas personalizadas|Como usuario avanzado, quiero crear mis propios formatos de reporte.|3|
+|29|US29|Guías visuales de instalación|Como electricista, quiero acceder a guías visuales paso a paso para instalar sensores correctamente y reducir errores.|5|
+|30|US30|Soporte técnico prioritario|Como profesional, quiero acceso a soporte 24/7.|5|
+|31|US31|Navegación por la landing Page|Como usuario, quiero navegar fácilmente por la landing page para entender las funcionalidades clave de EcoVolt.|3|
+|32|US32|Ver información del proyecto|Como usuario potencial, quiero conocer en qué consiste EcoVolt para evaluar si cubre mis necesidades.|2|
+|33|US33|Conocer la misión|Como inversionista, quiero entender la misión de EcoVolt para evaluar su impacto potencial.|1|
+|34|US34|Recomendaciones de usuarios|Como empresa indecisa, quiero leer testimonios verificados de otros clientes para tomar una decisión informada.|5|
+
 
 <hr>
 
