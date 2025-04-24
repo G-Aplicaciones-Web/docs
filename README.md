@@ -306,6 +306,23 @@ Mi nombre es Anyelo Alejos, tengo 20 años, soy estudiante de la carrera de inge
 
 #### 1.2.1. Antecedentes y problemática
 
+En el contexto actual de transición energética global y creciente preocupación por la sostenibilidad, las empresas enfrentan una presión cada vez mayor para optimizar su consumo energético, tanto por razones económicas como regulatorias. En el Perú, esta situación es particularmente relevante. Según datos del Ministerio de Energía y Minas, el sector empresarial es responsable de cerca del 60% del consumo energético nacional, siendo el sector industrial y comercial los principales consumidores. Asimismo, se estima que hasta un 30% del gasto eléctrico empresarial podría ser evitado mediante una gestión más eficiente del consumo (Osinergmin, 2023).
+A pesar de los avances en normativas como la Ley de Eficiencia Energética (Ley N.º 27345) y la promoción de sistemas de gestión energética ISO 50001, muchas empresas aún carecen de herramientas tecnológicas accesibles y efectivas que les permitan monitorear su consumo en tiempo real y tomar decisiones informadas. A esto se suma el hecho de que la adopción de dispositivos IoT sigue siendo baja en empresas medianas o en regiones fuera de Lima Metropolitana, debido a la falta de soluciones adaptadas a sus necesidades y capacidades técnicas.
+En paralelo, existe una creciente demanda por parte de profesionales técnicos, como electricistas e ingenieros eléctricos, que buscan herramientas especializadas para facilitar la instalación, configuración y mantenimiento de estos dispositivos inteligentes. Sin embargo, la mayoría de soluciones disponibles en el mercado están enfocadas en usuarios finales domésticos o en grandes corporaciones, dejando un vacío para soluciones intermedias, flexibles y adaptadas al contexto peruano.
+EcoVolt surge como una solución innovadora que conecta estos dos mundos: empresas que necesitan reducir costos y ser más eficientes energéticamente, y técnicos que requieren herramientas especializadas para implementar tecnología IoT de forma sencilla y efectiva.
+
+**Problemática:**
+
+| 5W & 2H | Descripción |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **What (Qué)** | Las empresas en Perú presentan un elevado consumo eléctrico que no siempre es monitoreado de manera eficiente, lo que genera costos innecesarios, dificultades para cumplir con normativas de eficiencia energética, y escasa adopción de tecnologías IoT para optimización. |
+| **When (Cuándo)** | Este problema es persistente y se ha agudizado en los últimos años debido al aumento de tarifas eléctricas, mayor digitalización empresarial y nuevas exigencias regulatorias. El impacto se incrementa especialmente en horarios laborales extendidos o durante picos de operación. |
+| **Where (Dónde)** | A nivel nacional, afecta especialmente a empresas medianas y grandes ubicadas en áreas industriales y urbanas, pero también se extiende a zonas periféricas donde la infraestructura técnica para soluciones IoT es limitada. |
+| **Who (Quiénes)** | Empresas de todos los sectores que manejan equipos eléctricos de alto consumo, electricistas encargados de su mantenimiento e implementación, así como instituciones fiscalizadoras como el MINEM y Osinergmin. |
+| **Why (Por qué)** | Debido a la ausencia de herramientas tecnológicas que integren monitoreo, alertas inteligentes y control de dispositivos en tiempo real, adaptadas al contexto local. Además, existe poca capacitación sobre el uso de soluciones energéticas basadas en IoT. |
+| **How (Cómo)** | Se evidencia a través de facturas eléctricas elevadas, consumo desproporcionado en áreas específicas, incumplimiento de estándares energéticos, y poca visibilidad sobre qué equipos o turnos generan mayor gasto. |
+| **How much (Cuánto)** | Se estima que una empresa promedio en Lima podría ahorrar entre 15% y 30% de su consumo mensual solo con monitoreo en tiempo real y desconexión programada de equipos fuera del horario laboral (Energy Efficiency Report, BID 2022). |
+
 #### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
