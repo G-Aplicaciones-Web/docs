@@ -152,12 +152,11 @@ Además, hemos establecido una estructura de ramas utilizando el siguiente esque
 - [2.3.2. User Task Matrix](#232-user-task-matrix)
 - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
 - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-- [2.3.4.1. Empathy Mapping Turistas nacionales e internacionales](#2341-empathy-mapping-turistas-nacionales-e-internacionales)
-- [2.3.4.2. Empathy Mapping Agencias de turismo locales](#2342-empathy-mapping-agencias-de-turismo-locales)
-- [2.3.4.3. Empathy Mapping Viajeros por trabajo](#2343-empathy-mapping-viajeros-por-trabajo)
+- [2.3.4.1. Empathy Mapping Empresa consumidora](#2341-empathy-mapping-empresa-consumidora)
+- [2.3.4.2. Empathy Mapping Electricistas](#2342-empathy-mapping-electricistas)
 - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-- [2.3.5.1. As-is Scenario Mapping Turistas nacionales e internacionales](#2351-as-is-scenario-mapping-turistas-nacionales-e-internacionales)
-- [2.3.5.2. As-is Scenario Mapping Agencias de turismo locales](#2352-as-is-scenario-mapping-agencias-de-turismo-locales) - [2.3.5.3. As-is Scenario Mapping Viajeros por trabajo](#2353-as-is-scenario-mapping-viajeros-por-trabajo)
+- [2.3.5.1. As-is Scenario Mapping Empresa consumidora](#2351-as-is-scenario-mapping-empresa-consumidora)
+- [2.3.5.2. As-is Scenario Mapping Electricistas](#2352-as-is-scenario-mapping-electricistas) 
 - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
@@ -472,7 +471,7 @@ EnergyCAP es una plataforma líder en gestión de energía y sostenibilidad para
 Basándonos en los datos recopilados a través de las entrevistas y el posterior análisis, hemos identificado los rasgos fundamentales de cada grupo objetivo estudiado. Esta información nos permitió crear User Personas detallados para cada segmento, con el objetivo de comprender a profundidad su contexto actual, metas principales, impulsos clave, puntos de dolor y características demográficas. Para el desarrollo de estos User Personas, empleamos la plataforma UXPressia en un entorno de trabajo colaborativo.
 
 <p align="center">
-    <img src="assets/recursos/User_Persona_Edgar.jpg" alt="User-Persona-Edgar"/>
+    <img src="assets/recursos/User_Persona_edgard.jpg" alt="User-Persona-edgard"/>
 </p>
 
 <p align="center">
