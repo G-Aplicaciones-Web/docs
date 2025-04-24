@@ -358,6 +358,39 @@ En Perú, muchas empresas enfrentan altos costos por el consumo eléctrico debid
 
 #### 1.2.2.4. Lean UX Canvas
 
+**Business Problem**
+ Las empresas peruanas con altos niveles de consumo eléctrico enfrentan dificultades para gestionar eficientemente su energía debido a la falta de soluciones accesibles, inteligentes y adaptadas a su realidad operativa. Esto se traduce en costos elevados, baja eficiencia operativa y escasa contribución a objetivos de sostenibilidad.
+ 
+**Users & Customers**
+1. Gerentes de operaciones y responsables de eficiencia energética en empresas medianas y grandes.
+2. Técnicos eléctricos y personal de mantenimiento a cargo de la implementación y supervisión de sistemas eléctricos.
+3. Administradores que requieren reportes claros para la toma de decisiones financieras y operativas.
+
+**Hypothesis**
+ Creemos que una plataforma digital basada en IoT con monitoreo en tiempo real, analítica energética avanzada y reportes automáticos permitirá a las empresas optimizar su consumo eléctrico, reducir costos y adoptar prácticas sostenibles con mayor eficiencia.
+ 
+**Solution Ideas**
+1. Plataforma web y app móvil con dashboards interactivos y personalizables.
+2. Alertas automáticas ante eventos anómalos como sobrecargas o consumos inusuales.
+3. Reportes comparativos inteligentes por áreas, horarios y dispositivos conectados.
+4. Modo técnico para configuración, diagnóstico y soporte en campo.
+
+**What's the most important thing we need to learn first?**
+ Identificar los principales retos y limitaciones que enfrentan las empresas al intentar monitorear y optimizar su consumo energético, así como evaluar la disposición y competencias digitales de técnicos y gestores para adoptar soluciones tecnológicas como EcoVolt.
+ 
+**Business Outcomes**
+1. Reducción comprobada del consumo energético en empresas usuarias.
+2. Crecimiento sostenido en la base de usuarios técnicos activos.
+3. Reconocimiento de EcoVolt como solución líder en eficiencia energética empresarial en Perú.
+
+**User Benefits**
+1. Ahorros significativos mediante gestión energética optimizada.
+2. Control en tiempo real y toma de decisiones basadas en datos.
+3. Aporte directo a las metas de sostenibilidad y responsabilidad ambiental corporativa.
+
+**What's the least amount of work we need to do to learn the next most important thing?**
+ Desarrollar un prototipo funcional de baja fidelidad con las funcionalidades clave (dashboard básico, alertas y reportes) y realizar sesiones de validación con técnicos y gestores de empresas piloto. Esto permitirá recoger insights reales sobre su experiencia, barreras de uso y funcionalidades más valoradas antes de la implementación completa.
+
 ### 1.3. Segmentos Objetivos
 
 <hr>
