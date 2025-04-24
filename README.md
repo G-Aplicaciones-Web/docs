@@ -319,17 +319,11 @@ Consideramos que estas aplicaciones similares en el mercado podrían ser nuestro
 - **Shelly:**
 Shelly es una marca especializada en dispositivos IoT para automatización y monitoreo energético que ofrece soluciones como medidores de energía Wi-Fi, interruptores inteligentes y sensores que permitan controlar y supervisar el consumo eléctrico en tiempo real. Sus productos son conocidos por su facilidad de instalación y compatibilidad con diversas plataformas de automatización del hogar.
 
-<img src="assets/competitors/Shelly.png" width=600px>
-
 - **Emporia Energy:**
 Emporia Energy proporciona soluciones integradas para la gestión energética en los hogares. Su plataforma incluye monitoreos de energía, cargadores para vehículos eléctricos, enchufes inteligentes y baterías domésticas. Estos dispositivos permiten a los usuarios optimizar el uso de energía y así reducir los costos.
 
-<img src="assets/competitors/emporia%20energy.png" width=600px>
-
 - **EnergyCAP:**
 EnergyCAP es una plataforma líder en gestión de energía y sostenibilidad para organizaciones. Ofrece herramientas para el seguimiento, análisis y reporte de datos energéticos, facilitando la identificación de ineficiencias y la implementación de proyectos de conversación de energía.
-
-<img src="assets/competitors/energyCap.png" width=600px>
 
 #### 2.1.1. Análisis competitivo
 
@@ -340,10 +334,10 @@ EnergyCAP es una plataforma líder en gestión de energía y sostenibilidad para
 		</tr>
 		<tr>
 			<td colspan="2"></td>
-			<td>Shelly</td>
-			<td>Emporia Energy</td>
-			<td>EnergyCAP</td>
-			<td>EcoVolt</td>
+			<td>Shelly <img src="assets/logos/Shelly.png" alt="Logo de Shelly" width="100"> </td>
+			<td>Emporia Energy <img src="assets/logos/emporia energy.png" alt="Logo de emporia energy" width="100"></td>
+			<td>EnergyCAP <img src="assets/logos/energyCap.png" alt="Logo de energyCap" width="100"></td>
+			<td>EcoVolt <img src="assets/logos/ecovolt.png" alt="Logo de ecovolt" width="100"></td>
 		</tr>
 		<tr>
 			<td rowspan="2">Perfil</td>
@@ -475,27 +469,78 @@ EnergyCAP es una plataforma líder en gestión de energía y sostenibilidad para
 
 #### 2.3.1. User Personas
 
+Basándonos en los datos recopilados a través de las entrevistas y el posterior análisis, hemos identificado los rasgos fundamentales de cada grupo objetivo estudiado. Esta información nos permitió crear User Personas detallados para cada segmento, con el objetivo de comprender a profundidad su contexto actual, metas principales, impulsos clave, puntos de dolor y características demográficas. Para el desarrollo de estos User Personas, empleamos la plataforma UXPressia en un entorno de trabajo colaborativo.
+
+<p align="center">
+    <img src="assets/recursos/User_Persona_Edgar.jpg" alt="User-Persona-Edgar"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/User_Persona_Jesus.jpg" alt="User-Persona-Jesus"/>
+</p>
+
 #### 2.3.2. User Task Matrix
+
+<p align="center">
+    <img src="assets/recursos/Task_Matrix_empresas.jpg" alt="Task-Matrix-empresas"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Task_Matrix_elec.jpg" alt="Task-Matrix-electricistas"/>
+</p>
 
 #### 2.3.3. User Journey Mapping
 
+<p align="center">
+    <img src="assets/recursos/User_Journey_Mapping.jpg" alt="User-Journey-Mapping"/>
+</p>
+
 #### 2.3.4. Empathy Mapping
 
-#### 2.3.4.1. Empathy Mapping Turistas nacionales e internacionales
+#### 2.3.4.1. Empathy Mapping Empresa consumidora
 
-#### 2.3.4.2. Empathy Mapping Agencias de turismo locales
+<p align="center">
+    <img src="assets/recursos/Empathy_Mapping_empresas.png" alt="Empathy-Mapping-empresas"/>
+</p>
 
-#### 2.3.4.3. Empathy Mapping Viajeros por trabajo
+#### 2.3.4.2. Empathy Mapping Electricistas
+
+<p align="center">
+    <img src="assets/recursos/Empathy_Mapping_electricistas.png" alt="Empathy-Mapping-electricistas"/>
+</p>
 
 #### 2.3.5. As-is Scenario Mapping
 
-#### 2.3.5.1. As-is Scenario Mapping Turistas nacionales e internacionales
+#### 2.3.5.1. As-is Scenario Mapping Empresa consumidora
 
-#### 2.3.5.2. As-is Scenario Mapping Agencias de turismo locales
+<p align="center">
+    <img src="assets/recursos/As_is_electricistas.png" alt="As-is-electricistas"/>
+</p>
 
-#### 2.3.5.3. As-is Scenario Mapping Viajeros por trabajo
+#### 2.3.5.2. As-is Scenario Mapping Electricistas
+
+<p align="center">
+    <img src="assets/recursos/As_is_empresas.png" alt="As-is-empresas"/>
+</p>
 
 ### 2.4. Ubiquitous Language
+
+
+| **Término (Inglés)**       | **Término (Español)**       | **Descripción** |
+|----------------------------|----------------------------|----------------|
+| **Client Company**               | Empresa cliente                    | Organización registrada en la plataforma que requiere servicios eléctricos como instalaciones, mantenimiento o auditorías energéticas. |
+| **Electrician**          | Electricista        | Profesional o técnico registrado en la plataforma que ofrece servicios eléctricos a empresas. |
+| **Service Request**             | Solicitud de servicio                | Petición enviada por una empresa para requerir un servicio eléctrico específico. |
+| **Work Order**       | Orden de trabajo           | Documento generado para coordinar y detallar el servicio eléctrico solicitado, incluyendo tareas, plazos y responsables. |
+| **Recommended Technician**                  | Técnico recomendado | Electricista sugerido automáticamente por el sistema en función de la especialidad, disponibilidad y cercanía. |
+| **Match**        | Coincidencia / Compatibilidad       | Nivel de afinidad entre una empresa y un electricista, considerando criterios como tipo de servicio, experiencia previa y ubicación. |
+| **Availability**           | Disponibilidad             | Intervalo de tiempo en el que un electricista puede atender una solicitud de servicio. |
+| **Profile**                | Perfil                     | Información personal, profesional y técnica relacionada con un usuario (empresa o electricista). |
+| **Feedback**               | Retroalimentación          | 	Calificaciones y comentarios proporcionados por las empresas sobre los servicios recibidos. |
+| **Service Package**           | Paquete de servicios          | Conjunto de tareas o intervenciones ofrecidas como un servicio completo (ej. instalación eléctrica integral, mantenimiento mensual). |
+| **Local Supplier**          | Proveedor local               | Entidad o persona asociada al electricista que provee materiales o equipos eléctricos. |
+| **Energy Demand**            | Demanda energética             | Requerimiento energético de una empresa, que puede influir en el tipo de servicio solicitado. |
+| **Target Industry**        | Industria objetivo         | Sector económico al que pertenece la empresa cliente para una mejor personalización del servicio. |
 
 <hr>
 
