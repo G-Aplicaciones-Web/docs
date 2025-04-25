@@ -683,13 +683,13 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 #### 2.3.4.1. Empathy Mapping Empresa consumidora
 
 <p align="center">
-    <img src="assets/recursos/Empathy_Mapping_empresas.png" alt="Empathy-Mapping-empresas"/>
+    <img src="assets/recursos/Empathy_Mapping_empresass.jpg" alt="Empathy-Mapping-empresas"/>
 </p>
 
 #### 2.3.4.2. Empathy Mapping Electricistas
 
 <p align="center">
-    <img src="assets/recursos/Empathy_Mapping_electricistas.png" alt="Empathy-Mapping-electricistas"/>
+    <img src="assets/recursos/Empathy_Mapping_electricistass.jpg" alt="Empathy-Mapping-electricistas"/>
 </p>
 
 #### 2.3.5. As-is Scenario Mapping
@@ -791,7 +791,7 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 ### 3.3. Impact Mapping
 
 <p align="center">
-    <img src="assets/recursos/To_be_Electricistas.png" alt="To-be-Electricistas"/>
+    <img src="assets/recursos/Impact_Mapping.jpg" alt="Impact-Mapping"/>
 </p>
 
 ### 3.4. Product Backlog
