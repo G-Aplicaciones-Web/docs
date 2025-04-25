@@ -231,10 +231,10 @@ Criterio: Trabaja efectivamente en un equipo cuyos miembros juntos proporcionan 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo,
 que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
-| <div style="width:100px">Criterio específico</div> | <div align="center" style="width:250px">Acciones Realizadas</div> | <div align="center" style="width:250px">Conclusiones</div> |
-|:-------------------:|-------------------|------------|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta| **- Mathias Aspajo** <br> **TB1:** En esta entrega me encargué de comunicarle a mi equipo cuál sería la metodología de trabajo. Además, participé activamente en la revisión retroactiva de los avances de mis compañeros. También apoyé en la preparación del material de presentación para nuestras reuniones internas.<br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Anyelo  Alejos** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Mendoza** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jack Roque** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Torres** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br>| **TB1:** Todos los integrantes cumplieron con sus responsabilidades asignadas, manteniendo una comunicación constante y efectiva, lo que reforzó la confianza entre ellos. Esto contribuyó significativamente a fortalecer el trabajo en equipo, un aspecto esencial en proyectos colaborativos. |
-|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos| **- Mathias Aspajo** <br> **TB1:** Colabore con la elaboración de las pautas y alineamientos que nuestro equipo seguiría durante el proceso de desarrollo de software. Asimismo, me encargue de elaborar el Capitulo 2 y 3.<br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Anyelo Alejos** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Mendoza** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jack Roque** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Torres** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos |
+| <div style="width:100px">Criterio específico</div> | <div align="center" style="width:250px">Acciones Realizadas</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | <div align="center" style="width:250px">Conclusiones</div> |
+|:-------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta| **- Mathias Aspajo** <br> **TB1:** En esta entrega me encargué de comunicarle a mi equipo cuál sería la metodología de trabajo. Además, participé activamente en la revisión retroactiva de los avances de mis compañeros. También apoyé en la preparación del material de presentación para nuestras reuniones internas.<br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Anyelo  Alejos** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Mendoza** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jack Roque** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Torres** <br> **TB1:** En  el proyecto, participé en las tareas asignadas, realice encustas para los segmentos lo cual me llevo a entender mas el el producto de la aplicacion. También realice la estructura de los diagramas de Domain-Driven Design, mantuve una comunicación lo más activo posible para generar confianza. <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> | **TB1:** Todos los integrantes cumplieron con sus responsabilidades asignadas, manteniendo una comunicación constante y efectiva, lo que reforzó la confianza entre ellos. Esto contribuyó significativamente a fortalecer el trabajo en equipo, un aspecto esencial en proyectos colaborativos. |
+|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos| **- Mathias Aspajo** <br> **TB1:** Colabore con la elaboración de las pautas y alineamientos que nuestro equipo seguiría durante el proceso de desarrollo de software. Asimismo, me encargue de elaborar el Capitulo 2 y 3.<br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Anyelo Alejos** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Mendoza** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jack Roque** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Torres** <br> **TB1:** Me encargué de una parte del desarrollo del capítlo II, ademas de realizar los diagramas de context, container y component en modelo C4 que por estos me ayudarian a hacer la base de datos.<br> **TP:** <br> **TB2:** <br> **TF:** <br> <br>                                                                                                                                                                                                            | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos |
 
 <hr>
 
@@ -879,9 +879,29 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 
 #### 4.6.1. Software Architecture Context Diagrams
 
+<img src="assets/content-diagram/Content%20diagram.png" width=650px >
+
 #### 4.6.2. Software Architecture Container Diagrams
 
+<img src="assets/content-diagram/structurizr-77431-Contenedor.png" width=650px >
+
 #### 4.6.3. Software Architecture Components Diagrams
+
+**Bounded context User & Account Service**
+
+<img src="assets/content-diagram/Component%20diagram%20User.png" width=650px >
+
+**Bounded context Payment Services**
+
+<img src="assets/content-diagram/Component%20diagram%20payment.png" width=650px >
+
+**Bounded context IoT Device Manager**
+
+<img src="assets/content-diagram/Component%20diagram%20IoT%20Device.png" width=650px >
+
+**Bounded context Analytics & Alert Engine**
+
+<img src="assets/content-diagram/Component%20diagram%20Analytics.png" width=650px >
 
 ### 4.7. Software Object-Oriented Design
 
