@@ -910,12 +910,70 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 
 #### 4.7.1. Class Diagrams
 
+<img src="assets/database/Class%20Diagrams.png" width=650px >
+
 #### 4.7.2. Class Dictionary
+
+| **Clase**       | **Nombre de Atributo** | **Descripción**                             | **Tipo de Dato** |
+|-----------------|------------------------|---------------------------------------------|------------------|
+| User            | id                     | Identificador único                         | UUID             |
+| User            | email                  | Correo electrónico del usuario              | String           |
+| User            | password_hash          | Contraseña encriptada                       | String           |
+| User            | role                   | Rol del usuario (admin, company, technician)| UserRole         |
+| User            | createdAt              | Fecha de creación                           | Date             |
+| User            | login                  | Verifica las credenciales de acceso         | Boolean          |
+| User            | updateProfile          | Permite actualizar datos del perfil         | void             |
+| Companies       | name                   | Nombre de la empresa                        | String           |
+| Companies       | ruc                    | RUC o identificación tributaria             | String           |
+| Companies       | address                | Dirección física                            | String           |
+| Companies       | userId                 | Usuario asociado                            | UUID             |
+| Technician      | fullName               | Nombre completo                             | String           |
+| Technician      | certifications         | Certificaciones técnicas                    | List             |
+| Technician      | userId                 | Usuario al que pertenece                    | UUID             |
+| Device          | id                     | Identificador del dispositivo               | UUID             |
+| Device          | serialNumber           | Número de serie único                       | String           |
+| Device          | location               | Ubicación del dispositivo                   | String           |
+| Device          | status                 | Estado del dispositivo                      | DeviceStatus     |
+| Device          | installedAt            | Fecha de instalación                        | DateTime         |
+| Device          | companyId              | Empresa a la que pertenece                  | UUID             |
+| Device          | amosendData            | Envía datos al servidor                     | void             |
+| Device          | restart                | Reinicia el dispositivo                     | Boolean          |
+| ConsumptionData | timestamp              | Fecha y hora del dato                       | DateTime         |
+| ConsumptionData | voltage                | Voltaje                                     | Float            |
+| ConsumptionData | current                | Corriente                                   | Float            |
+| ConsumptionData | power                  | Potencia                                    | Float            |
+| ConsumptionData | frequency              | Frecuencia                                  | Float            |
+| ConsumptionData | deviceId               | Dispositivo que generó el dato              | UUID             |
+| Alert           | id                     | Identificador único                         | UUID             |
+| Alert           | type                   | Tipo de alerta                              | AlertType        |
+| Alert           | description            | Descripción de la alerta                    | String           |
+| Alert           | triggeredAt            | Momento en que se generó                    | DateTime         |
+| Alert           | resolved               | Estado de resolución                        | Boolean          |
+| Alert           | deviceId               | Dispositivo relacionado                     | UUID             |
+| Alert           | markResolved           | Marca la alerta como resuelta               | void             |
+| Invoices        | amount                 | Monto facturado                             | Float            |
+| Invoices        | issuedAt               | Fecha de emisión                            | DateTime         |
+| Invoices        | paid                   | Estado de pago                              | Boolean          |
+| Invoices        | pdfUrl                 | Enlace al documento                         | String           |
+| Invoices        | subscriptionId         | Relación con la suscripción correspondiente | UUID             |
+| Subscription    | planType               | Tipo de plan                                | String           |
+| Subscription    | status                 | Estado                                      | String           |
+| Subscription    | startedAt              | Fecha de inicio                             | DateTime         |
+| Subscription    | endsAt                 | Fecha de finalización                       | DateTime         |
+| Subscription    | paymentProviderId      | ID de pago externo                          | String           |
+| Subscription    | userId                 | Usuario suscrito                            | UUID             |
+| Report          | fileUrl                | Enlace al archivo exportado                 | String           |
+| Report          | generatedAt            | Fecha de generación                         | DateTime         |
+| Report          | type                   | Tipo de reporte                             | ReportType       |
+| Report          | companyId              | Empresa que solicitó el reporte             | UUID             |
+
+
 
 ### 4.8. Database Design
 
 #### 4.8.1. Database Diagram
 
+<img src="assets/database/Database%20Diagram.png" width=650px >
 <hr>
 
 ## Capítulo V: Product Implementation, Validation & Deployment
