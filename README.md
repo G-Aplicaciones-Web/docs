@@ -844,25 +844,143 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 
 ### 4.1. Style Guidelines
 
-#### 4.1.1. General Style Guidelines
+**Branding**:
+
+Nuestro proyecto se llama EcoVolt, el cual busca mostrar la idea principal del producto, el cual es el ahorro de electricidad. Esto se muestra en la combinación de palabras Eco, prefijo de la palabra ecológico, y Volt, que se refiere a la unidad que se usa para la electricidad en inglés. El logo muestra un símbolo de una hoja y un rayo que envuelve la idea de electricidad ecológica.
+
+<img src="./images/EcoVolt.png" alt="Canvas" width="400"/>
+
+**Typography**:
+
+La tipografía elegida es “OpenSans”, pues es un tipo de letra clara, concisa y formal, que busca brindar una experiencia agradable y con una lectura fácil y llamativa.
+
+**Colors**:
+
+La paleta de colores usadas está principalmente integrada por los colores verde, crema y negro, que buscan transmitir la idea de una página seria y al mismo tiempo moderna y llamativa.
+
+<img src="./images/color-palette.png" alt="Canvas" width="400"/>
+
+**Spacing**:
+
+El spacing utilizado es el 8x, para de esta manera tener una alineación constante y adecuada para la lectura de los usuarios
+
+**Tono de comunicación y lenguaje aplicado**:
+
+EcoVolt tiene un tono respetuoso, formal, sereno y serio, debido a que está enfocada principalmente a empresas y profesionales que buscan un servicio competente, lo suficientemente confiable y que se adapte a ese entorno
+
 
 #### 4.1.2. Web Style Guidelines
+
+**1.	Diseño**: EL diseño en el que se basa el sitio web es claro, sencillo y llamativo para resaltar en todos los usuarios
+
+<img src="./images/Diseño_aw.png" alt="Canvas" width="400"/>
+
+**2.	Botones**: Los botones son intuitivos y fáciles de comprender para seleccionar funciones
+
+<img src="./images/Botones_aw.png" alt="Canvas" width="400"/>
+
+**3.	Logo**: El logo es fresco y refleja la idea principal del producto
+
+<img src="./images/Logo_aw.png" alt="Canvas" width="400"/>
+
 
 ### 4.2. Information Architecture
 
 #### 4.2.1. Organization Systems
 
+Para la landing page de EcoVolt, se usará una organización de forma jerárquica, en la que se ordenará la información en distintas secciones de una forma clara, ordenada e intuitiva para nuestros segmentos objetivo, por lo que tanto las empresas como los electricistas tendrán acceso a este, como :
+
+**Board sobre consumo de energía**: Permite al usuario observar un historial de consumo de energía, además de generar alertas ante excesos.
+
+**Monitoreo y Diagnóstico en tiempo real (IoT)**: Usando un modelo IoT, permite hacer un diagnóstico sobre el consumo eléctrico a tiempo real y muestra posibles anomalías
+
+**Sistema de Alertas y Seguimiento**: Se encarga de la organización y mantenimiento de los artefactos, con recordatorios automáticos, además de poder agregar otros eventos por los usuarios como fechas de auditorías.
+
+**Comparación entre distintos artefactos**: Permite comparar el gasto eléctrico de dos artefactos distintos pero que pertenecen al mismo usuario.
+
+
 #### 4.2.2. Labeling Systems
+
+Las etiquetas en la landing page son simples y fáciles de entender para no generar confusión en los usuarios, cuentan con información y títulos claros que ayudan a encontrar cada funcion por sí mismos. Esto debido a que se omite tecnicismos y muchas palabras para optar por la simpleza.
+
+**Board**: Esta sección muestra el historial de consumo de energía.
+
+**Monitoreo**: Esta sección hace un diagnóstico sobre el consumo eléctrico a tiempo real.
+
+**Seguimiento**: Esta sección hace la organización y mantenimiento de los artefactos. Se pueden agregar otros eventos.
+
+**Artefactos**: Esta sección permite comparar el gasto eléctrico de dos artefactos distintos del mismo usuario.
+
 
 #### 4.2.3. SEO Tags and Meta Tags
 
+Se utilizaron diversas meta tags que mejoran la visibilidad del sitio web en los motores de búsqueda. 
+
+**1. Landing Page**:
+
+**• Title**: EcoVolt: Plataforma para la gestión y ahorro de energía
+
+**•Meta Description**:EcoVolt es una plataforma web diseñada para la gestión y el ahorro de energía usando distintas funciones y enfocándose en las empresas y electricistas.
+
+**•Keywords**:Ahorro de energía, gestión de recursos, 
+administración de artefactos, productividad de empresas
+
+**•Author**: EcoVolt Team
+
+**2. Board**:
+
+**•Title**: Historial de Consumo
+
+**•Meta Description**: Muestra el historial de consumo de energía y genera alertas ante ello
+
+**•Keywords**: Consumo de energía, historial, gestión de energía, alertas
+
+**•Author**: EcoVolt Team
+
+**3. Monitoreo**:
+
+**•Title**: Diagnóstico de Consumo
+
+**•Meta Description**: Genera un diagnóstico a tiempo real del consumo de energía y muestra posibles anomalías
+
+**•Keywords**: anomalías, tiempo real, tecnología IoT
+
+**•Author**: EcoVolt Team
+
+**4. Seguimiento**:
+
+**•Title**: Mantenimiento de Artefactos
+
+**•Meta Description**: Se encarga de la organización y mantenimiento de los artefactos
+
+**•Keywords**: gestión de alertas, futuros eventos, auditorías
+
+**•Author**: EcoVolt Team
+
+**5. Artefactos**:
+
+**•Title**: Comparación de Artefactos
+
+**•Meta Description**: Se encarga de comparar el gasto eléctrico de artefactos distintos de un mismo usuario
+
+**•Keywords**: comparación, gestión de artefactos, relación gasto-ganancia
+
+**•Author**: EcoVolt Team
+
+
 #### 4.2.4. Searching Systems
 
+La aplicación cuenta con una barra de búsqueda para que los usuarios puedan ingresar a la información que buscan.. Se optó por un sistema de búsqueda sencillo y eficaz, para que el usuario no se pierda entre tantas opciones y encuentre sus búsquedas rápido.
+
+
 #### 4.2.5. Navigation Systems
+
+El sistema principal de navegación es intuitivo y claro. Este se muestra principalmente en una barra de búsqueda que cuenta con todas las funciones de la aplicación, con las que podremos interactuar y nos dirigirá a cada función buscada.
 
 ### 4.3. Landing Page UI Design
 
 #### 4.3.1. Landing Page Wireframe
+
 
 #### 4.3.2. Landing Page Mock-up
 
