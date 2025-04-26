@@ -275,7 +275,7 @@ Mi nombre es Mathias Aspajo, tengo 19 años y actualmente me encuentro en el 5to
 - Jack Roque Tello - u20221C448 (Ingeniería de Software)
 
 <p align="center">
-    <img src="assets/fotos/jackfoto.png" alt="foto-jack" width="170px"/>
+    <img src="assets/fotos/jackphoto.png" alt="foto-jack" width="170px"/>
 </p>
 
 Soy estudiante de Ingeniería de Software, actualmente cursando el quinto ciclo de la carrera en la UPC. Cuento con experiencia en lenguajes como JavaScript, C++, Java y Ruby, además de una sólida base en algoritmos, estructuras de datos y desarrollo web. Me considero una persona proactiva, responsable y con habilidades interpersonales que me permiten trabajar en equipo de forma efectiva. Estoy muy entusiasmado por formar parte de este proyecto, el cual representa una oportunidad única para aplicar mis conocimientos y seguir creciendo profesionalmente. Me comprometo a dar lo mejor de mí en cada etapa, aportando con mi capacidad técnica, pensamiento crítico y comunicación constante para lograr un ambiente colaborativo, motivado y enfocado en cumplir los objetivos que nos hemos propuesto como equipo. Estoy convencido de que, con esfuerzo y trabajo en conjunto, lograremos construir un producto de alto impacto social y tecnológico. 
