@@ -922,7 +922,11 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 
 ### 5.1. Software Configuration Management.
 
+Con el objetivo de garantizar la consistencia, trazabilidad y calidad del producto digital EcoVolt a lo largo de todo su ciclo de vida, el equipo ha establecido una estrategia de gestión de configuración de software. Esta estrategia abarca la configuración de los entornos de desarrollo, la administración del código fuente, las normas de codificación y la preparación para el despliegue de los productos. Todo el enfoque está alineado con buenas prácticas de ingeniería de software y principios de metodologías ágiles.
+
 #### 5.1.1. Software Development Environment Configuration.
+
+
 
 #### 5.1.2. Source Code Management
 
