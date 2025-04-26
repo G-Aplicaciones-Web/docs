@@ -926,7 +926,16 @@ Con el objetivo de garantizar la consistencia, trazabilidad y calidad del produc
 
 #### 5.1.1. Software Development Environment Configuration.
 
-
+| Categoría | Herramienta | Propósito | Tipo de acceso/enlace |
+|:----:|:----:|:----:|:----:|
+| Project Management | Trello | Gestión del backlog y tareas del equipo mediante tableros Kanban. | https://trello.com |
+| Requirements Management | UXPressia | Creación y documentación de User Personas y customer journeys. | https://uxpressia.com |
+| Product UX/UI Design | Figma | Creación de wireframes y mockups de la interfaz de usuario. | https://figma.com |
+| Modelado de Software | Visual Paradigm | Modelado de arquitectura de software: diagramas de contexto, Bounded Contexts, etc. | https://visual-paradigm.com |
+| Frontend Development | Visual Studio Code | Editor de código para el desarrollo del Landing Page y Frontend (Angular). | https://code.visualstudio.com |
+| Backend Development | IntelliJ IDEA | Entorno de desarrollo para el backend en Java con Spring Boot. | https://www.jetbrains.com/idea/ |
+| Version Control | GitHub | Repositorio de control de versiones para todos los productos digitales. | https://github.com |
+| Software Documentation | Markdown | Redacción de documentación técnica del proyecto. | Compatible con GitHub / editores de texto |
 
 #### 5.1.2. Source Code Management
 
