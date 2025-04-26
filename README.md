@@ -481,8 +481,12 @@ El sistema principal de navegación es intuitivo y claro. Este se muestra princi
 ### 4.3. Landing Page UI Design
 
 #### 4.3.1. Landing Page Wireframe
+<img src="./images/Landing page.png" alt="Canvas" width="400"/>
+<img src="./images/Registro.png" alt="Canvas" width="400"/>
+<img src="./images/Loginh.png" alt="Canvas" width="400"/>
 
-#### 4.3.2. Landing Page Mock-up
+### 4.3.2. Landing Page Mock-up
+
 
 ### 4.4. Web Applications UX/UI Design
 
