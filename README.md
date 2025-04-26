@@ -491,6 +491,11 @@ El sistema principal de navegación es intuitivo y claro. Este se muestra princi
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes.
+<img src="./images/Perfil.png" alt="Canvas" width="400"/>
+<img src="./images/Board.png" alt="Canvas" width="400"/>
+<img src="./images/Monitoreo.png" alt="Canvas" width="400"/>
+<img src="./images/Seguimiento.png" alt="Canvas" width="400"/>
+<img src="./images/Artefactos.png" alt="Canvas" width="400"/>
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 
