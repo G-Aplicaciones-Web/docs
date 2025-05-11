@@ -11,7 +11,7 @@ Carrera: Ingeniería de Software
         <br> <br>
 Curso: 1ASI0730 - Aplicaciones Web
     <br> <br>
-Sección: 4328
+Sección: 4378
     <br> <br>
 Profesor: Angel Augusto Velasquez Nuñez
     <br> <br>
