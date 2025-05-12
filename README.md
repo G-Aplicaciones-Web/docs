@@ -212,6 +212,8 @@ Además, hemos establecido una estructura de ramas utilizando el siguiente esque
 - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
 - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
 - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+- [5.2.2. Sprint 2](#521-sprint-2)
+- [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
 
 [Conclusiones](#conclusiones)
 
@@ -1373,6 +1375,70 @@ Durante este Sprint, el equipo trabajó de manera colaborativa en la construcci�
     </p>  
 
 <hr>
+
+
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 1
+
+<table>
+  <tr>
+    <th> Sprint # </th>
+    <th> Sprint 2 </th>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="2"> Sprint Planning Background </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Date </td>
+    <td> 12/05/2025 </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Time </td>
+    <td> 16:00 horas (GMT-5) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Location </td>
+    <td> Virtual (Zoom) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Prepared By </td>
+    <td> Aspajo Alvarez, Mathias </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+    <td>
+      Alejos Jesus, Anyelo<br>
+      Mendoza Vergara, Alejandro<br>
+      Aspajo Alvarez, Mathias<br>
+      Roque Tello, Jack<br>
+      Torres Alva, Alejandro	
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 2 Review Summary </td>
+    <td> Durante este ciclo de trabajo, nos concentramos en la construcción del front-end y la implementación inicial de la aplicación web de EcoVolt. Logramos completar las funcionalidades principales de la landing page, brindando a los usuarios la capacidad de explorar y conocer nuestro servicio. El equipo alcanzó satisfactoriamente los objetivos de entrega mientras consolidaba las bases de la interfaz gráfica. </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 2 Retrospective Summary </td>
+    <td> Aunque el sprint fue productivo, identificamos oportunidades para optimizar nuestro flujo de trabajo. Los principales aprendizajes incluyen la necesidad de ajustar la duración de las reuniones sincrónicas, oportunidad para mejorar la asignación de tareas según habilidades e importancia de una planificación individual más detallada</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="2"> Sprint Goal & User Stories </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 2 Goal </td>
+    <td> Nuestro enfoque principal fue implementar una interfaz intuitiva que permita a los usuarios descubrir las características de EcoVolt, desarrollar una landing page funcional que comunique efectivamente los beneficios del servicio y establecer las bases para futuras iteraciones del producto</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 2 Velocity </td>
+    <td> <strong>10</strong><br> Basándonos en la complejidad técnica y los recursos disponibles, asignamos 10 Story Points para este sprint. Esta estimación considera el desarrollo de componentes UI esenciales, integración con sistemas mock y pruebas de usabilidad básicas</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sum of Story Points </td>
+    <td> 10 </td>
+  </tr>
+</table>
 
 ## Conclusiones
 
