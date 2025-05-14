@@ -590,6 +590,12 @@ URL: https://youtu.be/EwcnpYQ2LJA
 
 ##### Entrevista #2
 
+Nombre y apellido: Alejandro Alcala
+
+<img src="assets/interview/2.png" width=650px >
+
+URL: https://www.youtube.com/watch?v=2ovy4rYQDPg
+
 ##### Entrevista #3
 
 Nombre y apellido: Jesus Gutierrez Pietro
@@ -600,6 +606,12 @@ URL: https://youtu.be/9Ox8EdYepqY
 
 ##### Entrevista #4
 
+Nombre y apellido: Marcelo Valverde Carbajal
+
+<img src="assets/interview/4.png" width=650px >
+
+URL: https://youtu.be/QiTkn4epHLs 
+
 ##### Entrevista #5
 
 Nombre y apellido: Higinio Fuertes Vilcapoma
@@ -607,6 +619,14 @@ Nombre y apellido: Higinio Fuertes Vilcapoma
 <img src="assets/interview/Empresa2.png" width=650px >
 
 URL: https://youtu.be/QiTkn4epHLs
+
+##### Entrevista #6
+
+Nombre y apellido: Guillermo Montenegro Casas
+
+<img src="assets/interview/6.png" width=650px >
+
+URL: https://youtu.be/QiTkn4epHLs 
 
 #### 2.2.3. Análisis de entrevistas
 
@@ -620,7 +640,16 @@ Además, considera importante contar con reportes periódicos ni bien semanales 
 También expresó su interés en que los reportes incluyen tanto el consumo de energía activa como de energía reactiva. Esto les permitiría optimizar el consumo energético y evitar el uso ineficiente de electricidad, que podría traducirse en costos adicionales innecesarios.
 Finalmente, mencionó que el exceso en el consumo eléctrico representa un gasto considerable para la empresa. Por ello, siempre están buscando formas de reducirlo al mínimo sin afectar la producción.
 
-##### Entrevista 2:
+##### Entrevista 2: Alejandro Alcala
+
+Análisis de la entrevista: 
+
+La entrevista fue realizada a Alejandro Alcalá, quien actualmente trabaja en una empresa del sector eléctrico. Alejandro explicó que, en su organización, el monitoreo del consumo de energía se lleva a cabo de manera manual: cada máquina cuenta con un tablero propio, y un responsable se encarga diariamente de registrar los valores que estos arrojan. Sin embargo, dejó en claro que no cuentan con una solución tecnológica automatizada que centralice la información ni permita análisis más profundos.
+Ante la pregunta sobre estrategias para optimizar el uso de la energía, comentó que, si bien han intentado trasladar procesos a horarios de menor costo eléctrico, aún no tienen un sistema estructurado ni automatizado que les facilite estas decisiones. Uno de los principales retos que enfrenta es la incapacidad de detectar a tiempo aumentos en el consumo, pues suelen darse cuenta únicamente cuando reciben la factura, lo que dificulta identificar la causa del problema de manera oportuna.
+Además, señaló que la relación con los técnicos o electricistas suele depender de la disponibilidad de estos, lo que retrasa la solución de fallos eléctricos cuando surgen. Alejandro manifestó que considera sumamente importante poder comparar consumos de manera semanal y mensual para tener una visión clara de las variaciones, identificar oportunidades de ahorro y justificar inversiones en eficiencia energética.
+Respecto a los reportes que considera útiles, mencionó que le gustaría tener un resumen de consumos totales, comparativas respecto a periodos anteriores, alertas por variaciones inusuales y recomendaciones prácticas para optimizar el consumo. Finalmente, recalcó que, aunque el exceso de consumo eléctrico no parezca impactante en cada factura individual, acumulado a lo largo del año sí representa un gasto considerable para la empresa.
+
+
 
 ##### Entrevista 3: Jesus Gutierrez Pietro
 
@@ -633,7 +662,13 @@ En cuanto a los reportes, explica que la mayoría de empresas solicitan document
 Respecto a los informes automatizados, opina que sí podrían ser eficaces. Sin embargo, sugiere complementarlos con una cartilla de diagnóstico, que permita identificar de manera rápida si las máquinas presentan alguna alarma o falla. Esto evitaría tener que hacer revisiones presenciales constantemente, lo que podría ahorrar tiempo en los procesos de mantenimiento.
 
 
-##### Entrevista 4:
+##### Entrevista 4: Marcelo Valverde Carbajal
+
+La entrevista fue realizada a Marcelo Valverde Carvajal, joven electricista de 20 años con experiencia en instalaciones tanto industriales como residenciales. Marcelo comentó que, para el diagnóstico de consumos eléctricos, suele utilizar herramientas básicas como el multímetro y la pinza amperimétrica, y que, en casos más exigentes, recurre a analizadores de redes. También mencionó que algunos de sus equipos cuentan con aplicaciones móviles, aunque no siempre son tan completas o fáciles de utilizar.
+Respecto a la implementación de tecnologías IoT, explicó que ha trabajado instalando medidores inteligentes, contactores Wi-Fi, termostatos conectados, y sistemas de monitoreo remoto de energía, tanto para empresas como para hogares. Sin embargo, advirtió que una de las principales dificultades en estas instalaciones suele estar relacionada con la conexión Wi-Fi y la configuración de las apps, que muchas veces no son intuitivas, generando pérdida de tiempo.
+Marcelo destacó que sería de gran utilidad que las aplicaciones ofrecieran un "modo técnico", donde se pueda acceder a información más detallada como consumos en tiempo real, voltajes por fase, historial de eventos, entre otros datos que son relevantes para mantenimiento o calibraciones. También explicó que, en su experiencia, las empresas suelen solicitar reportes de consumo, detección de picos de demanda, registros de fallas eléctricas, y comparativas entre sectores o equipos, tareas que, cuando son realizadas de forma manual, pueden tomarle entre dos y cuatro horas de trabajo.
+Finalmente, expresó que una aplicación capaz de generar informes automáticos con gráficos y resúmenes ordenados sería de gran ayuda, ya que reduciría significativamente su carga laboral. Agregó que también valoraría funciones adicionales como alertas configurables, historial de consumos, la posibilidad de gestionar varios sitios desde una misma plataforma, integración con hojas de cálculo como Excel o Google Sheets, y la posibilidad de establecer diferentes niveles de acceso para técnicos y clientes.
+
 
 ##### Entrevista 5: Higinio Fuertes Vilcapoma
 
@@ -652,6 +687,22 @@ E indica que lo ideal sería contar con un sistema que permita medir y comparar 
 Además, menciona que le gustaría recibir informes diarios con información detallada de todas las máquinas, ya que existen horas punta —entre las 6:00 p.m. y las 10:00 p.m.— en las que el costo de la electricidad es más alto.
 
 Finalmente, señala que el consumo eléctrico es uno de los factores que más impacta en los costos operativos de su empresa. Por esta razón, considera fundamental implementar nuevas tecnologías, como motores más modernos y eficientes, así como establecer un sistema de monitoreo diario y preciso que les brinde información confiable para la toma de decisiones.
+
+
+##### Entrevista 6: Guillermo Montenegro Casas
+
+Análisis de la entrevista:
+
+La entrevista fue realizada a Guillermo Montenegro Casas, electricista con experiencia en instalación, diagnóstico y mantenimiento de sistemas eléctricos. Utiliza herramientas como el multímetro digital y la pinza amperimétrica como sus instrumentos principales, y un analizador de redes para reportes más complejos.
+Ha trabajado con dispositivos IoT como medidores inteligentes, contactores y sensores conectados por Wi-Fi o red local. Indica que estos dispositivos son útiles porque los clientes buscan monitorear desde el celular o la computadora, aunque a veces presentan complicaciones en su instalación.
+Entre los problemas frecuentes menciona conexiones Wi-Fi inestables, desconocimiento de contraseñas por parte del cliente, y aplicaciones poco intuitivas o mal traducidas. Además, muchas veces debe recurrir al método de prueba y error debido a la falta de manuales claros.
+Guillermo expresó que sería muy útil contar con un modo técnico en las apps, que permita ver datos más detallados como voltajes por fases, eventos históricos y patrones de consumo. Esto facilitaría calibraciones y mantenimiento.
+Señaló que las empresas le solicitan reportes técnicos con consumo por zonas, comparaciones entre equipos, sobrecargas o fallas, los cuales deben ser claros, detallados y con cifras precisas para auditorías. Preparar estos informes manualmente puede tomar desde una hora y media hasta una tarde entera.
+Finalmente, afirmó que le encantaría que la aplicación le permita generar informes en PDF bien presentados, con logotipo y partes personalizables, listos para enviar. También valoraría funcionalidades como la gestión de múltiples ubicaciones desde una sola cuenta, acceso al historial de consumos, registro de mantenimientos y la posibilidad de firmar digitalmente, lo cual reduciría el uso de papel y mejoraría su eficiencia.
+
+
+
+
 
 ### 2.3. Needfinding
 
