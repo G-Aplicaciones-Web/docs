@@ -32,7 +32,6 @@ Producto: EcoVolt
 |         Alejos Jesus, Anyelo          |              u20231d149               |
 |        Mendoza Vergara, Alejandro     |              u202312343               |
 |         Roque Tello, Jack             |              u20221C448               |
-|        Torres Alva, Alejandro         |              u202022018               |
 
 </div>
 
@@ -44,7 +43,8 @@ Producto: EcoVolt
 
 | Versión | Fecha | <div style="width:250px">Autor(es) </div> | <div align="center" style="width:400px">Descripción de la modificación</div> |
 |:-------:|:-----:|:-----------------------------------------:|-------------------------------------------------------------|
-| TB1 | 24/04/2025 | - Aspajo Alvarez, Mathias<br>- Alejos Jesus, Anyelo<br>- Mendoza Vergara, Alejandro<br>- Roque Tello, Jack<br>- Torres Alva, Alejandro | Para esta entrega se han desarrollado los siguientes capítulos: <br>- Carátula<br>- Registro de Versiones del Informe<br>- Project Report Collaboration Insights<br>- Contenido<br>- Student Outcome<br>- Capítulo I: Introducción<br>- Capítulo II: Requirements Elicitation & Analysis<br>- Capítulo III: Requirements Specification<br>- Capítulo IV: Product Design<br>- Capítulo V: Product Implementation, Validation & Deployment<br>- 5.1. Software Configuration Management<br>- 5.1.1. Software Development Environment Configuration<br>- 5.1.2. Source Code Management<br>- 5.1.3. Source Code Style Guide & Conventions<br>- 5.1.4. Software Deployment Configuration<br>- 5.2. Landing Page, Services & Applications Implementation<br>- 5.2.1. Sprint 1<br>- 5.2.1.1. Sprint Planning 1<br>- 5.2.1.2. Aspect Leaders and Collaborators<br>- 5.2.1.3. Sprint Backlog 1<br>- 5.2.1.4. Development Evidence for Sprint Review<br>- 5.2.1.5. Execution Evidence for Sprint Review<br>- 5.2.1.6. Services Documentation Evidence for Sprint Review<br>- 5.2.1.7. Software Deployment Evidence for Sprint Review<br>- 5.2.1.8. Team Collaboration Insights during Sprint<br>- Avance de Conclusiones, Bibliografía y Anexos |
+| TB1 | 24/04/2025 | - Aspajo Alvarez, Mathias<br>- Alejos Jesus, Anyelo<br>- Mendoza Vergara, Alejandro<br>- Roque Tello, Jack | Para esta entrega se han desarrollado los siguientes capítulos: <br>- Carátula<br>- Registro de Versiones del Informe<br>- Project Report Collaboration Insights<br>- Contenido<br>- Student Outcome<br>- Capítulo I: Introducción<br>- Capítulo II: Requirements Elicitation & Analysis<br>- Capítulo III: Requirements Specification<br>- Capítulo IV: Product Design<br>- Capítulo V: Product Implementation, Validation & Deployment<br>- 5.1. Software Configuration Management<br>- 5.1.1. Software Development Environment Configuration<br>- 5.1.2. Source Code Management<br>- 5.1.3. Source Code Style Guide & Conventions<br>- 5.1.4. Software Deployment Configuration<br>- 5.2. Landing Page, Services & Applications Implementation<br>- 5.2.1. Sprint 1<br>- 5.2.1.1. Sprint Planning 1<br>- 5.2.1.2. Aspect Leaders and Collaborators<br>- 5.2.1.3. Sprint Backlog 1<br>- 5.2.1.4. Development Evidence for Sprint Review<br>- 5.2.1.5. Execution Evidence for Sprint Review<br>- 5.2.1.6. Services Documentation Evidence for Sprint Review<br>- 5.2.1.7. Software Deployment Evidence for Sprint Review<br>- 5.2.1.8. Team Collaboration Insights during Sprint<br>- Avance de Conclusiones, Bibliografía y Anexos |
+| TP1 | 15/05/2025 | - Aspajo Alvarez, Mathias<br>- Alejos Jesus, Anyelo<br>- Mendoza Vergara, Alejandro<br>- Roque Tello, Jack | Para esta entrega se han desarrollado los siguientes capítulos: <br>- 5.2.2. Sprint 2<br>- 5.2.2.1.Sprint Planning 2<br>- 5.2.2.2. Aspect Leaders and Collaborators<br>- 5.2.2.3.Sprint Backlog 2<br>- 5.2.2.4.Development Evidence for Sprint Review<br>- 5.2.2.5.Execution Evidence for Sprint Review<br>- 5.2.2.6.Services Documentation Evidence for Sprint Review<br>- 5.2.2.7.Software Deployment Evidence for Sprint Review<br>- 5.2.2.8.Team Collaboration Insights during Sprint<br>- Avance de Conclusiones, Bibliografía y Anexos |
 
 
 <hr>
@@ -72,49 +72,33 @@ Además, hemos establecido una estructura de ramas utilizando el siguiente esque
 - **TB1:**
   Para la primera entrega del proyecto (TB1), cada miembro del equipo contribuyó activamente en la redacción de las secciones asignadas. La coordinación se llevó a cabo mediante un enfoque flexible que combinó trabajo asíncrono a través de GitHub con reuniones virtuales periódicas para alinear estilos de redacción, criterios de contenido y estructura del documento.
 
-    - Asignación de secciones por miembro:
-        - Aspajo Alvarez, Mathias (AdeXzz): Capitulo 2 (repartido), Capitulo 3, Capitulo 4 (repartido)
-        - Roque Tello, Jack	(UPC-Skylar): Capitulo 1 (repartido)
-        - Alejos Jesus, Anyelo (Everkoe): Capitulo 1, Capitulo 4 (repartido)
-        - Mendoza Vergara, Alejandro	(AlexBoo1): Capitulo 2 (repartido)
-        - Torres Alva, Alejandro (Alemjas): Capitulo 4 (repartido)
-        - Todos: Capitulo 5
-
-        - En las siguientes imágenes se documenta el proceso colaborativo:
-        - Miembros del equipo en el repositorio:
-        <p align="center">
-            <img src="assets/evidencias/repo-members.png" alt="repo-members" width=60% >
-        </p>
-        - Creación de ramas por cada capítulo:
+    - Creación de ramas por cada capítulo:
         <p align="center">
             <img src="assets/evidencias/repo-branches.png" alt="repo-branches" width=60% >
         </p>
-        - Commits realizados en las ramas individuales:
-        <p align="center">
-            <img src="assets/evidencias/cap1-branch-commits.png" alt="cap1-branch-commits" width=60% >
-        </p>
-        <p align="center">
-            <img src="assets/evidencias/cap2-branch-commits.png" alt="cap2-branch-commits" width=60% >
-        </p>
-        <p align="center">
-            <img src="assets/evidencias/cap3-branch-commits.png" alt="cap3-branch-commits" width=60% >
-        </p>
-        <p align="center">
-            <img src="assets/evidencias/" alt="cap4-branch-commits" width=60% >
-        </p>
-        <p align="center">
-            <img src="assets/evidencias/" alt="cap5-branch-commits" width=60% >
-        </p>
         - Pull Requests y merges a la rama principal (master):
         <p align="center">
-            <img src="assets/evidencias/" alt="master-merges" width=60% >
+            <img src="assets/evidencias/commit_master.png" alt="master-merges" width=60% >
         </p>
         - Analítica del repositorio con participación de todos los miembros:
         <p align="center">
             <img src="assets/evidencias/repo-members.png" alt="repo-analytics" width=60% >
         </p>
 
+- **TP:**
+  El TP ha sido completado y documentado en su totalidad. Cada integrante cumplió con su parte, redactando y diagramando los contenidos asignados en formato Markdown, respaldado por commits frecuentes en el repositorio para garantizar un seguimiento detallado del avance. Se generaron todos los artefactos requeridos utilizando las herramientas indicadas, y se realizaron reuniones de coordinación periódicas para alinear el desarrollo del informe y comunicar los avances del Sprint 2, enfocado en la construcción de la aplicación web.
+
+    - Pull Requests y merges a la rama principal (master):
+        <p align="center">
+            <img src="assets/evidencias/commit_master.png" alt="master-merges2" width=60% >
+        </p>
+    - Analítica del repositorio con participación de todos los miembros:
+        <p align="center">
+            <img src="assets/evidencias/repo-members.png" alt="repo-analytics2" width=60% >
+        </p>
+
 <hr>
+
 
 ## Tabla de Contenidos
 
@@ -128,92 +112,99 @@ Además, hemos establecido una estructura de ramas utilizando el siguiente esque
 
 [Capítulo I: Introducción](#capítulo-i-introducción)
 - [1.1. Startup Profile](#11-startup-profile)
-- [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-- [1.1.2. Perfiles de Integrantes del Equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de Integrantes del Equipo](#112-perfiles-de-integrantes-del-equipo)
 - [1.2. Solution Profile](#12-solution-profile)
-- [1.2.1. Antecedentes y Problemática](#121-antecedentes-y-problemática)
-- [1.2.2. Lean UX Process](#122-lean-ux-process)
-- [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-- [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-- [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-- [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.2.1. Antecedentes y Problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
 - [1.3. Segmentos Objetivos](#13-segmentos-objetivos)
 
 [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
 - [2.1. Competidores](#21-competidores)
-- [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-- [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
 - [2.2. Entrevistas](#22-entrevistas)
-- [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-- [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-- [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
 - [2.3. Needfinding](#23-needfinding)
-- [2.3.1. User Personas](#231-user-personas)
-- [2.3.2. User Task Matrix](#232-user-task-matrix)
-- [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-- [2.3.4. Empathy Mapping](#234-empathy-mapping)
-- [2.3.4.1. Empathy Mapping Empresa consumidora](#2341-empathy-mapping-empresa-consumidora)
-- [2.3.4.2. Empathy Mapping Electricistas](#2342-empathy-mapping-electricistas)
-- [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-- [2.3.5.1. As-is Scenario Mapping Empresa consumidora](#2351-as-is-scenario-mapping-empresa-consumidora)
-- [2.3.5.2. As-is Scenario Mapping Electricistas](#2352-as-is-scenario-mapping-electricistas) 
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+        - [2.3.4.1. Empathy Mapping Empresa consumidora](#2341-empathy-mapping-empresa-consumidora)
+        - [2.3.4.2. Empathy Mapping Electricistas](#2342-empathy-mapping-electricistas)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+        - [2.3.5.1. As-is Scenario Mapping Empresa consumidora](#2351-as-is-scenario-mapping-empresa-consumidora)
+        - [2.3.5.2. As-is Scenario Mapping Electricistas](#2352-as-is-scenario-mapping-electricistas) 
 - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
 - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.1.1. To-Be Scenario Mapping Empresa consumidora](#311-to-be-scenario-mapping-empresa-consumidora)
-- [3.1.2. To-Be Scenario Mapping Electricistas](#312-to-be-scenario-mapping-electricistas)
+    - [3.1.1. To-Be Scenario Mapping Empresa consumidora](#311-to-be-scenario-mapping-empresa-consumidora)
+    - [3.1.2. To-Be Scenario Mapping Electricistas](#312-to-be-scenario-mapping-electricistas)
 - [3.2. User Stories](#32-user-stories)
 - [3.3. Impact Mapping](#33-impact-mapping)
 - [3.4. Product Backlog](#34-product-backlog)
 
 [Capítulo IV: Product Design](#capítulo-iv-product-design)
 - [4.1. Style Guidelines](#41-style-guidelines)
-- [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-- [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
 - [4.2. Information Architecture](#42-information-architecture)
-- [4.2.1. Organization Systems](#421-organization-systems)
-- [4.2.2. Labeling Systems](#422-labeling-systems)
-- [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-- [4.2.4. Searching Systems](#424-searching-systems)
-- [4.2.5. Navigation Systems](#425-navigation-systems)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
 - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-- [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-- [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
 - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-- [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-- [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-- [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-- [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
 - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
 - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-- [4.6.1. Software Architecture Context Diagrams](#461-software-architecture-context-diagrams)
-- [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-- [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+    - [4.6.1. Software Architecture Context Diagrams](#461-software-architecture-context-diagrams)
+    - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
+    - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
 - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-- [4.7.1. Class Diagrams](#471-class-diagrams)
-- [4.7.2. Class Dictionary](#472-class-dictionary)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+    - [4.7.2. Class Dictionary](#472-class-dictionary)
 - [4.8. Database Design](#48-database-design)
-- [4.8.1. Database Diagram](#481-database-diagram)
+    - [4.8.1. Database Diagram](#481-database-diagram)
 
 [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
 - [5.1. Software Configuration Management](#51-software-configuration-management)
-- [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-- [5.1.2. Source Code Management](#512-source-code-management)
-- [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-conventions)
-- [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
 - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-- [5.2.1. Sprint 1](#521-sprint-1)
-- [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-- [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-- [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-- [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-- [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-- [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-- [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-- [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-- [5.2.2. Sprint 2](#521-sprint-2)
-- [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+        - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+        - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+        - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+        - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+        - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+        - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+        - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+        - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+        - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+        - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+        - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+        - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+        - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 
 [Conclusiones](#conclusiones)
 
@@ -235,8 +226,8 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 
 | <div style="width:100px">Criterio específico</div> | <div align="center" style="width:250px">Acciones Realizadas</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | <div align="center" style="width:250px">Conclusiones</div> |
 |:-------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta| **- Mathias Aspajo** <br> **TB1:** En esta entrega me encargué de comunicarle a mi equipo cuál sería la metodología de trabajo. Además, participé activamente en la revisión retroactiva de los avances de mis compañeros. También apoyé en la preparación del material de presentación para nuestras reuniones internas.<br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Anyelo  Alejos** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Mendoza** <br> **TB1:** En esta entrega me encargué del diseño que tendría nuestra aplicación web, por lo que tuve que trabajar en equipo para poder avanzar de manera satisfactoria y que haya liderazgo de forma conjunta <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jack Roque** <br> **TB1: En este proyecto, me encargué de comunicar de manera continua los avances y las partes que realicé. Además, diseñé una encuesta dirigida a mis compañeros para definir el diseño del logo, promoviendo así la participación activa de todos. A lo largo del desarrollo de esta TB1, mantuvimos una comunicación constante y efectiva, lo que permitió coordinar mejor nuestras tareas y asegurar un trabajo colaborativo y organizado.** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Torres** <br> **TB1:** En  el proyecto, participé en las tareas asignadas, realice encustas para los segmentos lo cual me llevo a entender mas el el producto de la aplicacion. También realice la estructura de los diagramas de Domain-Driven Design, mantuve una comunicación lo más activo posible para generar confianza. <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> | **TB1:** Todos los integrantes cumplieron con sus responsabilidades asignadas, manteniendo una comunicación constante y efectiva, lo que reforzó la confianza entre ellos. Esto contribuyó significativamente a fortalecer el trabajo en equipo, un aspecto esencial en proyectos colaborativos. |
-|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos| **- Mathias Aspajo** <br> **TB1:** Colabore con la elaboración de las pautas y alineamientos que nuestro equipo seguiría durante el proceso de desarrollo de software. Asimismo, me encargue de elaborar el Capitulo 2 y 3.<br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Anyelo Alejos** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Mendoza** <br> **TB1:** Colabore con las metas que nos dabamos como equipo, por lo que se tuvo que planificar y cumplir tareas. Además trabaje principalmente en el capitulo 4<br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jack Roque** <br> **TB1:** Desarrollé los capítulos 1 y 2 de nuestro proyecto, y también colaboré en el apartado 5.1 “Software Configuration Management” y en el subapartado 5.1.1 “Software Development Environment Configuration”. Además, participé en el diseño de la landing page, elaborando tanto el diseño de la página principal como del login. Asimismo, me encargué de la selección de las imágenes que utilizaremos en el proyecto, las cuales se encuentran en la carpeta assets. Para la elaboración de los diseños, utilicé parcialmente el preprocesador SASS, lo que permitió optimizar y mejorar la estructura del código CSS. <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Torres** <br> **TB1:** Me encargué de una parte del desarrollo del capítlo II, ademas de realizar los diagramas de context, container y component en modelo C4 que por estos me ayudarian a hacer la base de datos.<br> **TP:** <br> **TB2:** <br> **TF:** <br> <br>                                                                                                                                                                                                            | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos |
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta| **- Mathias Aspajo** <br> **TB1:** En esta entrega me encargué de comunicarle a mi equipo cuál sería la metodología de trabajo. Además, participé activamente en la revisión retroactiva de los avances de mis compañeros. También apoyé en la preparación del material de presentación para nuestras reuniones internas.<br> **TP:** Lideré el desarrollo del módulo de productos eléctricos. Durante la presentación, contextualicé el impacto de esta funcionalidad en el ecosistema del sistema, apoyándome en casos de uso concretos y adaptando mi explicación para asegurar claridad, tanto para el equipo técnico como para stakeholders externos. <br> **TB2:** <br> **TF:** <br> <br> **- Anyelo  Alejos** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Mendoza** <br> **TB1:** En esta entrega me encargué del diseño que tendría nuestra aplicación web, por lo que tuve que trabajar en equipo para poder avanzar de manera satisfactoria y que haya liderazgo de forma conjunta <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jack Roque** <br> **TB1:** En este proyecto, me encargué de comunicar de manera continua los avances y las partes que realicé. Además, diseñé una encuesta dirigida a mis compañeros para definir el diseño del logo, promoviendo así la participación activa de todos. A lo largo del desarrollo de esta TB1, mantuvimos una comunicación constante y efectiva, lo que permitió coordinar mejor nuestras tareas y asegurar un trabajo colaborativo y organizado. <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> | **TB1:** Todos los integrantes cumplieron con sus responsabilidades asignadas, manteniendo una comunicación constante y efectiva, lo que reforzó la confianza entre ellos. Esto contribuyó significativamente a fortalecer el trabajo en equipo, un aspecto esencial en proyectos colaborativos. <br> **TP:** El equipo demostró un alto nivel de compromiso, donde cada miembro cumplió a cabalidad con sus tareas asignadas mientras mantenía una comunicación fluida y productiva. Esta dinámica no solo consolidó la confianza mutua entre los participantes, sino que también potenció la sinergia del grupo, factor determinante para el éxito en proyectos de colaboración conjunta.|
+|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos| **- Mathias Aspajo** <br> **TB1:** Colabore con la elaboración de las pautas y alineamientos que nuestro equipo seguiría durante el proceso de desarrollo de software. Asimismo, me encargue de elaborar el Capitulo 2 y 3.<br> **TP:** Como líder del equipo, desarrollé la documentación técnica para la implementación del módulo de productos eléctricos. Organicé la información en Markdown para garantizar claridad y fácil acceso, cubriendo tanto los aspectos técnicos como los requisitos funcionales. <br> **TB2:** <br> **TF:** <br> <br> **- Anyelo Alejos** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Alejandro Mendoza** <br> **TB1:** Colabore con las metas que nos dabamos como equipo, por lo que se tuvo que planificar y cumplir tareas. Además trabaje principalmente en el capitulo 4<br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jack Roque** <br> **TB1:** Desarrollé los capítulos 1 y 2 de nuestro proyecto, y también colaboré en el apartado 5.1 “Software Configuration Management” y en el subapartado 5.1.1 “Software Development Environment Configuration”. Además, participé en el diseño de la landing page, elaborando tanto el diseño de la página principal como del login. Asimismo, me encargué de la selección de las imágenes que utilizaremos en el proyecto, las cuales se encuentran en la carpeta assets. Para la elaboración de los diseños, utilicé parcialmente el preprocesador SASS, lo que permitió optimizar y mejorar la estructura del código CSS. <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br>  | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos <br> **TP:** El equipo funcionó como una unidad, donde todos los integrantes asumieron con responsabilidad sus roles y mantuvieron un diálogo constante y productivo. Esta comunicación fluida no solo consolidó la confianza entre los miembros, sino que también elevó la eficiencia del trabajo en equipo, demostrando su importancia clave en iniciativas colaborativas.|
 
 <hr>
 
@@ -583,180 +574,166 @@ EnergyCAP es una plataforma líder en gestión de energía y sostenibilidad para
 ##### Entrevista #1
 
 Nombre y apellido: Edgar Torres Mallma
----
-Entrevista N°1:
-
-**Entrevistado:** Sebastián Silva<br>
-**Sexo:** Masculino<br>
-**Edad:** 70 años<br>
-**Domicilio:** Los Olivos <br>
-**Inicio de la Entrevista:** 0:00<br>
-**Duración de la Entrevista:** 6:15<br>
 
 <img src="assets/interview/Empresa1.png" width=650px >
 
 URL: https://youtu.be/EwcnpYQ2LJA
 
-**Resumen de la Entrevista**: Edgar Torres Mallma, director de una empresa de fabricación de botellas y vasos, señaló que actualmente monitorean el consumo eléctrico por máquina mediante tableros individuales, pero carecen de una herramienta centralizada para visualizar el consumo total. Esto exige una supervisión constante para detectar anomalías.
- Destacó la importancia de mantener una comunicación fluida con producción y la necesidad de reportes periódicos (semanales o mensuales) que incluyan energía activa y reactiva, con el fin de identificar patrones de uso y optimizar el consumo. Reducir el exceso de consumo eléctrico es clave, ya que representa un gasto significativo para la empresa.
+**Resumen:**
+Edgar Torres Mallma, director de una empresa de fabricación de botellas y vasos, señaló que actualmente monitorean el consumo eléctrico por máquina mediante tableros individuales, pero carecen de una herramienta centralizada para visualizar el consumo total. Esto exige una supervisión constante para detectar anomalías. Destacó la importancia de mantener una comunicación fluida con producción y la necesidad de reportes periódicos (semanales o mensuales) que incluyan energía activa y reactiva, con el fin de identificar patrones de uso y optimizar el consumo. Reducir el exceso de consumo eléctrico es clave, ya que representa un gasto significativo para la empresa.
 
 
----
+##### Entrevista #2
 
-Entrevista N°2:
-
-**Entrevistado:** Alejandro Alcala<br>
-**Sexo:** Masculino<br>
-**Edad:** 25 años<br>
-**Domicilio:** Callao<br>
-**Inicio de la Entrevista:** 0:00<br>
-**Duración de la Entrevista:** 5:33<br>
+Nombre y apellido: Alejandro Alcala
 
 <img src="assets/interview/2.png" width=650px >
 
 URL: https://www.youtube.com/watch?v=2ovy4rYQDPg
 
-**Resumen de la Entrevista**: Alejandro Alcalá, trabajador de una empresa del sector eléctrico, indicó que el monitoreo del consumo energético se realiza manualmente, registrando diariamente los datos de cada máquina desde tableros individuales. No cuentan con una solución automatizada ni centralizada que facilite el análisis o la toma de decisiones. Aunque han intentado operar en horarios de menor costo, no disponen de un sistema estructurado para optimizar el uso de energía. 
+**Resumen:**
+Alejandro Alcalá, trabajador de una empresa del sector eléctrico, indicó que el monitoreo del consumo energético se realiza manualmente, registrando diariamente los datos de cada máquina desde tableros individuales. No cuentan con una solución automatizada ni centralizada que facilite el análisis o la toma de decisiones. Aunque han intentado operar en horarios de menor costo, no disponen de un sistema estructurado para optimizar el uso de energía. 
 Un problema clave es la detección tardía de incrementos en el consumo, que solo se identifican al recibir la factura. También mencionó la falta de disponibilidad inmediata de técnicos para resolver fallas eléctricas. Considera crucial contar con reportes semanales y mensuales que incluyan comparativas, alertas por variaciones inusuales y recomendaciones prácticas. Subrayó que, aunque el impacto por factura no sea alto, el gasto acumulado anual es significativo.
-
-
----
-
-Entrevista N°3:
-
-**Entrevistado:** Jesus Gutierrez Pietro<br>
-**Sexo:** Masculino<br>
-**Edad:** 58 años<br>
-**Domicilio:** San Martín de Porres<br>
-**Inicio de la Entrevista:** 0:02<br>
-**Duración de la Entrevista:** 20:56<br>
 
 ##### Entrevista #3
 
 Nombre y apellido: Jesus Gutierrez Pietro
 
+URL: https://youtu.be/9Ox8EdYepqY
+
+**Resumen:**
+Jesús Gutiérrez, ingeniero electricista, explicó que realiza diagnósticos eléctricos utilizando instrumentos para medir el nivel de aislamiento y multímetros de redes que ofrecen datos como consumo, tensión y desfase. Señaló que las fallas más comunes están relacionadas con la red o la señal de internet, que debe ser estable. Considera útil contar con herramientas que notifiquen problemas en tiempo real. En cuanto a los reportes, mencionó que muchas empresas requieren documentos que cumplan con normativas para inspecciones (como las de INDECI), los cuales deben ser firmados por personal autorizado. Aunque los informes manuales pueden hacerse en un día, sugiere complementarlos con una cartilla de diagnóstico para identificar rápidamente fallas sin necesidad de revisiones presenciales constantes.
+
+
 <img src="assets/interview/Electricista1.png" width=650px >
 
-URL: https://www.youtube.com/watch?v=9Ox8EdYepqY
+##### Entrevista #4
 
-**Resumen de la Entrevista**: Jesús Gutiérrez, ingeniero electricista, explicó que realiza diagnósticos eléctricos utilizando instrumentos para medir el nivel de aislamiento y multímetros de redes que ofrecen datos como consumo, tensión y desfase. Señaló que las fallas más comunes están relacionadas con la red o la señal de internet, que debe ser estable. Considera útil contar con herramientas que notifiquen problemas en tiempo real.
-
- En cuanto a los reportes, mencionó que muchas empresas requieren documentos que cumplan con normativas para inspecciones (como las de INDECI), los cuales deben ser firmados por personal autorizado. Aunque los informes manuales pueden hacerse en un día, sugiere complementarlos con una cartilla de diagnóstico para identificar rápidamente fallas sin necesidad de revisiones presenciales constantes.
-
-
----
-
-Entrevista N°4:
-
-**Entrevistado:** Marcelo Valverde Carbajal<br>
-**Sexo:** Masculino<br>
-**Edad:** 20 años<br>
-**Domicilio:** Comas<br>
-**Inicio de la Entrevista:** 0:00<br>
-**Duración de la Entrevista:** 5:18<br>
-
+Nombre y apellido: Marcelo Valverde Carbajal
 
 <img src="assets/interview/4.png" width=650px >
 
-URL: https://www.youtube.com/watch?v=Ax82uPqDdtM
+URL: https://youtu.be/QiTkn4epHLs 
 
-**Resumen de la Entrevista**: Marcelo Valverde, electricista joven con experiencia industrial y residencial, indicó que utiliza herramientas como el multímetro, pinza amperimétrica y, en casos complejos, analizadores de redes. Ha trabajado con tecnologías IoT como medidores inteligentes y sistemas de monitoreo remoto, pero señaló dificultades en la conexión Wi-Fi y en la usabilidad de las aplicaciones.
-Sugiere que las apps incluyan un "modo técnico" con datos detallados como consumos en tiempo real y voltajes por fase. Las empresas le solicitan reportes que pueden tomar entre dos y cuatro horas si se hacen manualmente. Considera valioso que una app permita generar informes automáticos con gráficos, alertas configurables, historial de consumo, integración con Excel y gestión de múltiples sitios, con distintos niveles de acceso para técnicos y clientes.
+**Resumen:**
+Marcelo Valverde, electricista joven con experiencia industrial y residencial, indicó que utiliza herramientas como el multímetro, pinza amperimétrica y, en casos complejos, analizadores de redes. Ha trabajado con tecnologías IoT como medidores inteligentes y sistemas de monitoreo remoto, pero señaló dificultades en la conexión Wi-Fi y en la usabilidad de las aplicaciones. Sugiere que las apps incluyan un "modo técnico" con datos detallados como consumos en tiempo real y voltajes por fase. Las empresas le solicitan reportes que pueden tomar entre dos y cuatro horas si se hacen manualmente. Considera valioso que una app permita generar informes automáticos con gráficos, alertas configurables, historial de consumo, integración con Excel y gestión de múltiples sitios, con distintos niveles de acceso para técnicos y clientes.
 
----
+##### Entrevista #5
 
-Entrevista N°5:
-
-**Entrevistado:** Higinio Fuertes Vilcapoma<br>
-**Sexo:** Masculino<br>
-**Edad:** 54 años<br>
-**Domicilio:** Comas<br>
-**Inicio de la Entrevista:** 0:00<br>
-**Duración de la Entrevista:** 15:55<br>
+Nombre y apellido: Higinio Fuertes Vilcapoma
 
 <img src="assets/interview/Empresa2.png" width=650px >
 
 URL: https://youtu.be/QiTkn4epHLs
 
-**Resumen de la Entrevista**: Higinio Fuertes, ingeniero y empresario de ViplasticPerú, indicó que el monitoreo eléctrico se hace mensualmente mediante los recibos de la empresa Pluz. El principal problema es el control de la energía reactiva, cuya acumulación puede generar penalidades. Para ello, usan bancos de condensadores.
-Los equipos de mayor consumo, como motores de 200 a 300 kW, representan un gran reto, especialmente durante el arranque. Cada máquina tiene su tabla de control, y el historial se actualiza semestralmente. Higinio considera ideal un sistema en tiempo real para detectar problemas con mayor eficiencia.
+**Resumen:**
+Higinio Fuertes, ingeniero y empresario de ViplasticPerú, indicó que el monitoreo eléctrico se hace mensualmente mediante los recibos de la empresa Pluz. El principal problema es el control de la energía reactiva, cuya acumulación puede generar penalidades. Para ello, usan bancos de condensadores. Los equipos de mayor consumo, como motores de 200 a 300 kW, representan un gran reto, especialmente durante el arranque. Cada máquina tiene su tabla de control, y el historial se actualiza semestralmente. Higinio considera ideal un sistema en tiempo real para detectar problemas con mayor eficiencia.
 Le gustaría recibir informes diarios, especialmente para controlar el consumo en horas punta (6 p.m. a 10 p.m.), ya que el consumo eléctrico es uno de los mayores costos operativos. Cree fundamental adoptar nuevas tecnologías y sistemas de monitoreo diario para optimizar la toma de decisiones.
 
 
-Entrevista N°6:
+##### Entrevista #6
 
-**Entrevistado:** Guillermo Montenegro Casas<br>
-**Sexo:** Masculino<br>
-**Edad:** 32 años<br>
-**Domicilio:** Callao<br>
-**Inicio de la Entrevista:** 0:00<br>
-**Duración de la Entrevista:** 5:45<br>
-
+Nombre y apellido: Guillermo Montenegro Casas
 
 <img src="assets/interview/6.png" width=650px >
 
-URL: https://youtu.be/WCa7dELSskw
+URL: https://youtu.be/QiTkn4epHLs 
 
-**Resumen de la Entrevista**: Guillermo Montenegro, electricista con experiencia en instalación y mantenimiento, usa herramientas como el multímetro digital, pinza amperimétrica y analizador de redes. Ha trabajado con dispositivos IoT, como medidores y sensores conectados por Wi-Fi, que permiten el monitoreo desde celular o PC.
-Entre los problemas comunes, menciona dificultades con la conexión Wi-Fi, falta de contraseñas, y apps poco intuitivas. Propone que las aplicaciones cuenten con un "modo técnico" que muestre voltajes por fase, eventos históricos y patrones de consumo, lo cual facilitaría el mantenimiento.
-Las empresas le solicitan reportes detallados con datos por zonas, equipos, sobrecargas o fallas, que pueden tardar entre una hora y media y una tarde entera si se hacen manualmente. Valora que una app permita generar informes en PDF con logotipo, gestionar múltiples ubicaciones, firmar digitalmente, y acceder al historial y registros de mantenimiento para aumentar su eficiencia.
-
+**Resumen:**
+Guillermo Montenegro, electricista con experiencia en instalación y mantenimiento, usa herramientas como el multímetro digital, pinza amperimétrica y analizador de redes. Ha trabajado con dispositivos IoT, como medidores y sensores conectados por Wi-Fi, que permiten el monitoreo desde celular o PC. Entre los problemas comunes, menciona dificultades con la conexión Wi-Fi, falta de contraseñas, y apps poco intuitivas. Propone que las aplicaciones cuenten con un "modo técnico" que muestre voltajes por fase, eventos históricos y patrones de consumo, lo cual facilitaría el mantenimiento. Las empresas le solicitan reportes detallados con datos por zonas, equipos, sobrecargas o fallas, que pueden tardar entre una hora y media y una tarde entera si se hacen manualmente. Valora que una app permita generar informes en PDF con logotipo, gestionar múltiples ubicaciones, firmar digitalmente, y acceder al historial y registros de mantenimiento para aumentar su eficiencia.
 
 #### 2.2.3. Análisis de entrevistas
 
+Análisis de la entrevista:
 
-***Segmento 1: Empresas consumidoras de energía***
+- **Segmento 1: Empresas consumidoras de energía**
 
-- El 100% de las empresas entrevistadas (3 de 3) no utilizan una plataforma digital unificada para monitorear su consumo energético. En todos los casos, el control se realiza de forma manual o mediante tableros individuales instalados por máquina. 
-- Dos de los entrevistados (66.7%) manifestaron que no cuentan con un sistema para detectar aumentos de consumo en tiempo real. Solo logran identificar excesos una vez recibida la factura eléctrica, lo cual impide tomar acciones correctivas oportunas.
-- La totalidad de los entrevistados coincidió en la necesidad de contar con reportes periódicos. Uno de ellos indicó que un informe mensual ya no es suficiente, y que recibir datos diarios ayudaría a tomar decisiones más eficientes, sobre todo durante las horas de mayor demanda energética (6:00 p.m. – 10:00 p.m.).
+El 100% de las empresas entrevistadas (3 de 3) no utilizan una plataforma digital unificada para monitorear su consumo energético. En todos los casos, el control se realiza de forma manual o mediante tableros individuales instalados por máquina. 
+Dos de los entrevistados (66.7%) manifestaron que no cuentan con un sistema para detectar aumentos de consumo en tiempo real. Solo logran identificar excesos una vez recibida la factura eléctrica, lo cual impide tomar acciones correctivas oportunas.
+La totalidad de los entrevistados coincidió en la necesidad de contar con reportes periódicos. Uno de ellos indicó que un informe mensual ya no es suficiente, y que recibir datos diarios ayudaría a tomar decisiones más eficientes, sobre todo durante las horas de mayor demanda energética (6:00 p.m. – 10:00 p.m.).
+El 66.7% de los participantes resaltó que la energía reactiva representa un problema concreto, ya que un mal manejo puede derivar en penalidades económicas. En estos casos, han optado por instalar bancos de condensadores para controlar dicho componente, aunque recalcan la necesidad de mayor visibilidad.
+En cuanto a la relación con el personal técnico, el 100% mencionó que se realiza de forma directa, pero señalaron que sería valioso contar con herramientas que les permitan dar seguimiento continuo al estado de los equipos, sin depender exclusivamente del contacto presencial o de informes semestrales.
+Finalmente, el 100% afirmó que el consumo eléctrico es uno de los principales factores que impactan en los costos operativos de sus empresas, y que una mejora en la gestión energética permitiría optimizar recursos sin afectar la producción.
 
-- El 66.7% de los participantes resaltó que la energía reactiva representa un problema concreto, ya que un mal manejo puede derivar en penalidades económicas. En estos casos, han optado por instalar bancos de condensadores para controlar dicho componente, aunque recalcan la necesidad de mayor visibilidad.
+<p align="center">
+    <img src="assets/recursos/grafico_segmento1.png" alt="grafico-segmento1"/>
+</p>
 
-- En cuanto a la relación con el personal técnico, el 100% mencionó que se realiza de forma directa, pero señalaron que sería valioso contar con herramientas que les permitan dar seguimiento continuo al estado de los equipos, sin depender exclusivamente del contacto presencial o de informes semestrales.
+- **Segmento 2: Electricistas**
 
-- Finalmente, el 100% afirmó que el consumo eléctrico es uno de los principales factores que impactan en los costos operativos de sus empresas, y que una mejora en la gestión energética permitiría optimizar recursos sin afectar la producción.
+Todos los entrevistados (3 de 3) indicaron que actualmente utilizan herramientas como multímetros digitales, pinzas amperimétricas y analizadores de redes para sus labores de diagnóstico y medición. Sin embargo, reconocen que estos métodos, aunque efectivos, implican tiempos prolongados para la generación de reportes completos.
+El 66.7% ha trabajado con dispositivos IoT como medidores inteligentes, contactores Wi-Fi y sensores conectados. No obstante, todos señalaron que enfrentan problemas recurrentes al momento de configurar estos equipos, especialmente por las limitaciones de conectividad Wi-Fi o la complejidad de las aplicaciones asociadas.
+El 100% de los entrevistados expresó que sería útil que las plataformas digitales incluyeran un “modo técnico”, orientado a profesionales del sector. Este debería ofrecer información avanzada como consumos en tiempo real, análisis trifásico, historial de eventos eléctricos y alarmas por fallas.
+Respecto a la elaboración de informes, todos indicaron que se trata de una tarea constante, solicitada por sus clientes empresariales. Dos de ellos afirmaron que preparar un reporte manual puede tomar entre dos y cuatro horas, dependiendo de la complejidad del sitio. Por eso, valoran la posibilidad de generar informes automáticos en formatos editables y exportables (PDF, Excel).
+Uno de los entrevistados (33.3%) señaló que las empresas requieren cumplir con normativas de inspección (como las de INDECI), lo que implica presentar documentación técnica debidamente firmada y estructurada. La posibilidad de emitir estos reportes desde una app sería un diferencial importante.
+Asimismo, todos coincidieron en que la aplicación ideal debería permitir la gestión de múltiples ubicaciones, brindar acceso al historial de mantenimientos, permitir firmas digitales y establecer niveles de acceso diferenciados para clientes y técnicos, mejorando así la eficiencia y profesionalismo de su trabajo.
 
-
-***Segmento 2: Electricistas y técnicos***
-
-- Todos los entrevistados (3 de 3) indicaron que actualmente utilizan herramientas como multímetros digitales, pinzas amperimétricas y analizadores de redes para sus labores de diagnóstico y medición. Sin embargo, reconocen que estos métodos, aunque efectivos, implican tiempos prolongados para la generación de reportes completos.
-
-- El 66.7% ha trabajado con dispositivos IoT como medidores inteligentes, contactores Wi-Fi y sensores conectados. No obstante, todos señalaron que enfrentan problemas recurrentes al momento de configurar estos equipos, especialmente por las limitaciones de conectividad Wi-Fi o la complejidad de las aplicaciones asociadas.
-
-- El 100% de los entrevistados expresó que sería útil que las plataformas digitales incluyeran un “modo técnico”, orientado a profesionales del sector. Este debería ofrecer información avanzada como consumos en tiempo real, análisis trifásico, historial de eventos eléctricos y alarmas por fallas.
-
-- Respecto a la elaboración de informes, todos indicaron que se trata de una tarea constante, solicitada por sus clientes empresariales. Dos de ellos afirmaron que preparar un reporte manual puede tomar entre dos y cuatro horas, dependiendo de la complejidad del sitio. Por eso, valoran la posibilidad de generar informes automáticos en formatos editables y exportables (PDF, Excel).
-
+<p align="center">
+    <img src="assets/recursos/grafico_segmento2.png" alt="grafico-segmento2"/>
+</p>
 
 ### 2.3. Needfinding
+
+El Needfinding es un enfoque de investigación cualitativa que busca entender profundamente las perspectivas y emociones de los usuarios. Como su nombre indica, permite detectar, examinar, evaluar y priorizar necesidades clave que guían el desarrollo de proyectos innovadores.
+
+Para este trabajo, recopilamos insights valiosos mediante entrevistas personalizadas y encuestas estructuradas con usuarios potenciales. Los siguientes documentos presentan los hallazgos clave y análisis derivados de este proceso de investigación.
 
 #### 2.3.1. User Personas
 
 Basándonos en los datos recopilados a través de las entrevistas y el posterior análisis, hemos identificado los rasgos fundamentales de cada grupo objetivo estudiado. Esta información nos permitió crear User Personas detallados para cada segmento, con el objetivo de comprender a profundidad su contexto actual, metas principales, impulsos clave, puntos de dolor y características demográficas. Para el desarrollo de estos User Personas, empleamos la plataforma UXPressia en un entorno de trabajo colaborativo.
 
+- Segmento Objetivo 1 - Empresa consumidora
 <p align="center">
-    <img src="assets/recursos/User_Persona_edgard.jpg" alt="User-Persona-edgard"/>
+    <img src="assets/recursos/User_Persona_edgard1.png" alt="User-Persona-edgard"/>
 </p>
-
+- Segmento Objetivo 2 - Electricistas
 <p align="center">
-    <img src="assets/recursos/User_Persona_Jesus.jpg" alt="User-Persona-Jesus"/>
+    <img src="assets/recursos/User_Persona_Jesus1.png" alt="User-Persona-Jesus"/>
 </p>
 
 #### 2.3.2. User Task Matrix
 
-<p align="center">
-    <img src="assets/recursos/Task_Matrix_empresas.jpg" alt="Task-Matrix-empresas"/>
-</p>
+- Segmento Objetivo 1 - Empresa consumidora
 
-<p align="center">
-    <img src="assets/recursos/Task_Matrix_elec.jpg" alt="Task-Matrix-electricistas"/>
-</p>
+|Edgar Torres|||
+| :-: | :-: | :-: |
+|Actividades|Frecuencia|Importancia|
+|Supervisar los gastos de electricidad mensualmente|Alta|Alta|
+|Coordinar con técnicos para revisar instalaciones eléctricas|Media|Alta|
+|Presentar informes de consumo energético a la gerencia|Media|Alta|
+|Evaluar oportunidades de reducción de costos energéticos|Media|Alta|
+|Planificar presupuestos operativos considerando el consumo eléctrico|Alta|Alta|
+|Solicitar cotizaciones para equipos de eficiencia energética|Baja|Media|
+|Revisar facturas de electricidad y verificar consumos|Alta|Alta|
+|Contactar proveedores o electricistas ante fallas|Media|Alta|
+
+- Segmento Objetivo 2 - Electricistas
+
+|Jesus Gutierrez|||
+| :-: | :-: | :-: |
+|Actividades|Frecuencia|Importancia|
+|Visitar instalaciones de clientes para inspección|Alta|Alta|
+|Identificar fallas o anomalías en circuitos eléctricos|Alta|Alta|
+|Comunicar al cliente posibles soluciones y mejoras|Alta|Alta|
+|Realizar mantenimientos preventivos o correctivos|Media|Alta|
+|Preparar presupuestos para servicios eléctricos|Media|Media|
+|Instalar nuevos dispositivos eléctricos|Alta|Alta|
+|Asesorar a clientes sobre eficiencia energética|Media|Media|
+|Leer planos eléctricos y adaptar diseños según necesidad|Baja|Media|
+
 
 #### 2.3.3. User Journey Mapping
 
+- Segmento Objetivo 1 - Empresa consumidora
+
 <p align="center">
-    <img src="assets/recursos/User_Journey_Mapping.jpg" alt="User-Journey-Mapping"/>
+    <img src="assets/recursos/User_Journey_Mapping1.png" alt="User-Journey-Mapping"/>
+</p>
+
+- Segmento Objetivo 2 - Electricistas
+
+<p align="center">
+    <img src="assets/recursos/User_Journey_Mapping2.png" alt="User-Journey-Mapping"/>
 </p>
 
 #### 2.3.4. Empathy Mapping
@@ -807,6 +784,10 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 | **Target Industry**        | Industria objetivo         | Sector económico al que pertenece la empresa cliente para una mejor personalización del servicio. |
 
 <hr>
+
+
+
+
 
 ## Capítulo III: Requirements Specification
 
