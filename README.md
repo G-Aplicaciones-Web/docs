@@ -499,6 +499,13 @@ El sistema principal de navegación es intuitivo y claro. Este se muestra princi
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 
+<img src="./images/Wireframe_Wireflow1.png" alt="Canvas" width="400"/>
+<img src="./images/Wireframe_Wireflow2.png" alt="Canvas" width="400"/>
+<img src="./images/Wireframe_Wireflow3.png" alt="Canvas" width="400"/>
+<img src="./images/Wireframe_Wireflow4.png" alt="Canvas" width="400"/>
+<img src="./images/Wireframe_Wireflow5.png" alt="Canvas" width="400"/>
+
+
 #### 4.4.3. Web Applications Mock-ups
 
 #### 4.4.4. Web Applications User Flow Diagrams
