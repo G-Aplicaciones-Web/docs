@@ -878,7 +878,9 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 
 Nuestro proyecto se llama EcoVolt, el cual busca mostrar la idea principal del producto, el cual es el ahorro de electricidad. Esto se muestra en la combinación de palabras Eco, prefijo de la palabra ecológico, y Volt, que se refiere a la unidad que se usa para la electricidad en inglés. El logo muestra un símbolo de una hoja y un rayo que envuelve la idea de electricidad ecológica.
 
-<img src="./images/EcoVolt.png" alt="Canvas" width="400"/>
+<p align="center">
+    <img src="assets/logos/ecovolt.png" alt="ecovolt" width="400"/>
+</p>
 
 **Typography**:
 
@@ -888,7 +890,9 @@ La tipografía elegida es “OpenSans”, pues es un tipo de letra clara, concis
 
 La paleta de colores usadas está principalmente integrada por los colores verde, crema y negro, que buscan transmitir la idea de una página seria y al mismo tiempo moderna y llamativa.
 
-<img src="./images/color-palette.png" alt="Canvas" width="400"/>
+<p align="center">
+    <img src="assets/recursos/colo.png" alt="colo" width="400"/>
+</p>
 
 **Spacing**:
 
@@ -903,16 +907,21 @@ EcoVolt tiene un tono respetuoso, formal, sereno y serio, debido a que está enf
 
 **1.	Diseño**: EL diseño en el que se basa el sitio web es claro, sencillo y llamativo para resaltar en todos los usuarios
 
-<img src="./images/Diseño_aw.png" alt="Canvas" width="400"/>
+<p align="center">
+    <img src="assets/recursos/bot1.png" alt="Canvas" width="400"/>
+</p>
 
 **2.	Botones**: Los botones son intuitivos y fáciles de comprender para seleccionar funciones
 
-<img src="./images/Botones_aw.png" alt="Canvas" width="400"/>
+<p align="center">
+    <img src="assets/recursos/bot2.png" alt="Canvas" width="400"/>
+</p>
 
 **3.	Logo**: El logo es fresco y refleja la idea principal del producto
 
-<img src="./images/Logo_aw.png" alt="Canvas" width="400"/>
-
+<p align="center">
+    <img src="assets/logos/Logo_aw.png" alt="Logo" width="400"/>
+</p>
 
 ### 4.2. Information Architecture
 
@@ -1011,6 +1020,17 @@ El sistema principal de navegación es intuitivo y claro. Este se muestra princi
 
 #### 4.3.1. Landing Page Wireframe
 
+<p align="center">
+    <img src="assets/recursos/Landing_page.png" alt="landing" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Registro.png" alt="Registro" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Loginh.png" alt="Login" width="400"/>
+</p>
 
 #### 4.3.2. Landing Page Mock-up
 
@@ -1018,11 +1038,111 @@ El sistema principal de navegación es intuitivo y claro. Este se muestra princi
 
 #### 4.4.1. Web Applications Wireframes.
 
+<p align="center">
+    <img src="assets/recursos/Perfil.png" alt="Perfil" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Board.png" alt="Board" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Monitoreo.png" alt="Monitoreo" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Seguimiento.png" alt="Seguimiento" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Artefactos.png" alt="Artefactos" width="400"/>
+</p>
+
 #### 4.4.2. Web Applications Wireflow Diagrams
+
+<p align="center">
+    <img src="assets/recursos/Wireframe_Wireflow1.png" alt="Wireframe-Wireflow1" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Wireframe_Wireflow2.png" alt="Wireframe-Wireflow2" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Wireframe_Wireflow3.png" alt="Wireframe-Wireflow3" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Wireframe_Wireflow4.png" alt="Wireframe-Wireflow4" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Wireframe_Wireflow5.png" alt="Wireframe-Wireflow5" width="400"/>
+</p>
 
 #### 4.4.3. Web Applications Mock-ups
 
+<p align="center">
+    <img src="assets/recursos/Registro_aw_en.png" alt="Registro" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Login_aw_en.png" alt="Login" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Registro_aw_falso_en.png" alt="Registro" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Login_aw_falso_en.png" alt="Login" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Perfil_aw.png" alt="Perfil" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Board_aw.png" alt="Board" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Monitoreo_aw.png" alt="Monitoreo" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Seguimiento_aw.png" alt="Seguimiento" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/Artefactos_aw.png" alt="Artefactos" width="400"/>
+</p>
+
 #### 4.4.4. Web Applications User Flow Diagrams
+
+<p align="center">
+    <img src="assets/recursos/MockUp_UserFlow1.png" alt="MockUp-UserFlow" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/MockUp_UserFlow2.png" alt="MockUp-UserFlow" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/MockUp_UserFlow3.png" alt="MockUp-UserFlow" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/MockUp_UserFlow4.png" alt="MockUp-UserFlow" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/MockUp_UserFlow5.png" alt="MockUp-UserFlow" width="400"/>
+</p>
+
+<p align="center">
+    <img src="assets/recursos/MockUp_UserFlow6.png" alt="MockUp-UserFlow" width="400"/>
+</p>
 
 ### 4.5. Web Applications Prototyping
 
@@ -1058,70 +1178,72 @@ El sistema principal de navegación es intuitivo y claro. Este se muestra princi
 
 #### 4.7.1. Class Diagrams
 
-<img src="assets/database/Class%20Diagrams.png" width=650px >
+<p align="center">
+    <img src="assets/database/Class_Diagrams1.jpeg" alt="Class-Diagrams" width="650"/>
+</p>
 
 #### 4.7.2. Class Dictionary
 
 | **Clase**       | **Nombre de Atributo** | **Descripción**                             | **Tipo de Dato** |
 |-----------------|------------------------|---------------------------------------------|------------------|
-| User            | id                     | Identificador único                         | UUID             |
-| User            | email                  | Correo electrónico del usuario              | String           |
-| User            | password_hash          | Contraseña encriptada                       | String           |
-| User            | role                   | Rol del usuario (admin, company, technician)| UserRole         |
-| User            | createdAt              | Fecha de creación                           | Date             |
-| User            | login                  | Verifica las credenciales de acceso         | Boolean          |
-| User            | updateProfile          | Permite actualizar datos del perfil         | void             |
-| Companies       | name                   | Nombre de la empresa                        | String           |
-| Companies       | ruc                    | RUC o identificación tributaria             | String           |
-| Companies       | address                | Dirección física                            | String           |
-| Companies       | userId                 | Usuario asociado                            | UUID             |
-| Technician      | fullName               | Nombre completo                             | String           |
-| Technician      | certifications         | Certificaciones técnicas                    | List             |
-| Technician      | userId                 | Usuario al que pertenece                    | UUID             |
-| Device          | id                     | Identificador del dispositivo               | UUID             |
-| Device          | serialNumber           | Número de serie único                       | String           |
-| Device          | location               | Ubicación del dispositivo                   | String           |
-| Device          | status                 | Estado del dispositivo                      | DeviceStatus     |
-| Device          | installedAt            | Fecha de instalación                        | DateTime         |
-| Device          | companyId              | Empresa a la que pertenece                  | UUID             |
-| Device          | amosendData            | Envía datos al servidor                     | void             |
-| Device          | restart                | Reinicia el dispositivo                     | Boolean          |
-| ConsumptionData | timestamp              | Fecha y hora del dato                       | DateTime         |
-| ConsumptionData | voltage                | Voltaje                                     | Float            |
-| ConsumptionData | current                | Corriente                                   | Float            |
-| ConsumptionData | power                  | Potencia                                    | Float            |
-| ConsumptionData | frequency              | Frecuencia                                  | Float            |
-| ConsumptionData | deviceId               | Dispositivo que generó el dato              | UUID             |
-| Alert           | id                     | Identificador único                         | UUID             |
-| Alert           | type                   | Tipo de alerta                              | AlertType        |
-| Alert           | description            | Descripción de la alerta                    | String           |
-| Alert           | triggeredAt            | Momento en que se generó                    | DateTime         |
-| Alert           | resolved               | Estado de resolución                        | Boolean          |
-| Alert           | deviceId               | Dispositivo relacionado                     | UUID             |
-| Alert           | markResolved           | Marca la alerta como resuelta               | void             |
-| Invoices        | amount                 | Monto facturado                             | Float            |
-| Invoices        | issuedAt               | Fecha de emisión                            | DateTime         |
-| Invoices        | paid                   | Estado de pago                              | Boolean          |
-| Invoices        | pdfUrl                 | Enlace al documento                         | String           |
-| Invoices        | subscriptionId         | Relación con la suscripción correspondiente | UUID             |
-| Subscription    | planType               | Tipo de plan                                | String           |
-| Subscription    | status                 | Estado                                      | String           |
-| Subscription    | startedAt              | Fecha de inicio                             | DateTime         |
-| Subscription    | endsAt                 | Fecha de finalización                       | DateTime         |
-| Subscription    | paymentProviderId      | ID de pago externo                          | String           |
-| Subscription    | userId                 | Usuario suscrito                            | UUID             |
-| Report          | fileUrl                | Enlace al archivo exportado                 | String           |
-| Report          | generatedAt            | Fecha de generación                         | DateTime         |
-| Report          | type                   | Tipo de reporte                             | ReportType       |
-| Report          | companyId              | Empresa que solicitó el reporte             | UUID             |
-
+| User            | id                     | Identificador único del usuario                         | int             |
+| User            | email                     | Correo electrónico para autenticación                         | String             |
+| User            | password                     | Contraseña encriptada del usuario                         | String             |
+| User            | role                     | Define el tipo de usuario                         | String             |
+| Subscription            | id                     | 	Identificador único de la suscripción                         | int             |
+| Subscription            | planType                     | 	Tipo de plan contratado                         | String             |
+| Subscription            | status                     | Estado actual de la suscripción                         | String             |
+| Subscription            | startDate                     | Fecha de inicio de la suscripción                         | Date             |
+| Subscription            | endDate                     | Fecha de finalización de la suscripción                         | Date             |
+| Invoice            | id                     | Identificador único de la factura                         | int             |
+| Invoice            | amount                     | Monto total a pagar                         | Float             |
+| Invoice            | issueDate                     | 	Fecha de emisión de la factura                         | Date             |
+| Invoice            | paid                     | Indica si la factura ha sido pagada                         | Boolean             |
+| CompanyReview            | id                     | Identificador único de la reseña                         | int             |
+| CompanyReview            | companyName                     | Nombre de la empresa evaluada                         | String             |
+| CompanyReview            | comment                     | Opinión escrita por el usuario                         | String             |
+| CompanyReview            | createdDate                     | Fecha de creación de la reseña                         | Date             |
+| Company            | id                     | Identificador único de la empresa                         | int             |
+| Company            | name                     | Nombre legal de la empresa                         | String             |
+| Company            | ruc                     | RUC de la empresa                         | String             |
+| Company            | address                     | Dirección física de la empresa                         | String             |
+| Electrician            | id                     | Identificador único del electricista                         | int             |
+| Electrician            | fullName                     | Nombre completo del electricista                         | String             |
+| ElectricianReview            | id                     | Identificador único de la reseña                         | int             |
+| ElectricianReview            | electricianName                     | Nombre del electricista evaluado                         | String             |
+| ElectricianReview            | comment                     | Opinión sobre el servicio del electricista                         | String             |
+| ElectricianReview            | createdDate                     | Fecha de creación de la reseña                         | Date             |
+| Report            | id                     | Identificador único del informe                         | int             |
+| Report            | generatedDate                     | Fecha de generación del informe                         | Date             |
+| Report            | reportType                     | Tipo de informe                         | String             |
+| Report            | description                     | Detalles o conclusiones del informe                         | String             |
+| Device            | id                     | Identificador único del dispositivo IoT                         | int             |
+| Device            | serialNumber                     | Número de serie del dispositivo                         | String             |
+| Device            | location                     | Ubicación física del dispositivo en las instalaciones                         | String             |
+| Device            | status	                     | Estado operativo                         | String             |
+| ConsumptionData            | ConsumptionData	                     | 	Identificador único del registro de consumo                         | int             |
+| ConsumptionData            | timestamp	                     | Fecha exacta de la medición                         | Date             |
+| ConsumptionData            | voltage	                     | Voltaje registrado                         | Float             |
+| ConsumptionData            | power	                     | Potencia consumida                         | Float             |
+| ConsumptionData            | frequency	                     | Frecuencia eléctrica                         | Float             |
+| Alert	            | id	                     | Identificador único de la alerta                         | int             |
+| Alert	            | alertType	                     | Tipo de alerta                         | String             |
+| Alert	            | description	                     | Detalles técnicos de la alerta                         | String             |
+| Alert	            | activatedDate	                     | 	Fecha de activación de la alerta                         | Date             |
+| Alert	            | resolved	                     | Indica si la alerta ha sido solucionada                         | Boolean             |
+| ElectricProduct	            | id	                     | 	Identificador único del producto eléctrico                         | int             |
+| ElectricProduct	            | name	                     | 	Nombre comercial del producto                         | String             |
+| ElectricProduct	            | brand	                     | 	Marca fabricante                         | String             |
+| ElectricProduct	            | description	                     | Características técnicas y compatibilidad                         | String             |
 
 
 ### 4.8. Database Design
 
 #### 4.8.1. Database Diagram
 
-<img src="assets/database/Database%20Diagram.png" width=650px >
+<p align="center">
+    <img src="assets/database/Database_Diagram.png" alt="Database-Diagram" width="650"/>
+</p>
 <hr>
 
 ## Capítulo V: Product Implementation, Validation & Deployment
