@@ -583,125 +583,150 @@ EnergyCAP es una plataforma líder en gestión de energía y sostenibilidad para
 ##### Entrevista #1
 
 Nombre y apellido: Edgar Torres Mallma
+---
+Entrevista N°1:
+
+**Entrevistado:** Sebastián Silva<br>
+**Sexo:** Masculino<br>
+**Edad:** 70 años<br>
+**Domicilio:** Los Olivos <br>
+**Inicio de la Entrevista:** 0:00<br>
+**Duración de la Entrevista:** 6:15<br>
 
 <img src="assets/interview/Empresa1.png" width=650px >
 
 URL: https://youtu.be/EwcnpYQ2LJA
 
-##### Entrevista #2
+**Resumen de la Entrevista**: Edgar Torres Mallma, director de una empresa de fabricación de botellas y vasos, señaló que actualmente monitorean el consumo eléctrico por máquina mediante tableros individuales, pero carecen de una herramienta centralizada para visualizar el consumo total. Esto exige una supervisión constante para detectar anomalías.
+ Destacó la importancia de mantener una comunicación fluida con producción y la necesidad de reportes periódicos (semanales o mensuales) que incluyan energía activa y reactiva, con el fin de identificar patrones de uso y optimizar el consumo. Reducir el exceso de consumo eléctrico es clave, ya que representa un gasto significativo para la empresa.
 
-Nombre y apellido: Alejandro Alcala
+
+---
+
+Entrevista N°2:
+
+**Entrevistado:** Alejandro Alcala<br>
+**Sexo:** Masculino<br>
+**Edad:** 25 años<br>
+**Domicilio:** Callao<br>
+**Inicio de la Entrevista:** 0:00<br>
+**Duración de la Entrevista:** 5:33<br>
 
 <img src="assets/interview/2.png" width=650px >
 
 URL: https://www.youtube.com/watch?v=2ovy4rYQDPg
 
+**Resumen de la Entrevista**: Alejandro Alcalá, trabajador de una empresa del sector eléctrico, indicó que el monitoreo del consumo energético se realiza manualmente, registrando diariamente los datos de cada máquina desde tableros individuales. No cuentan con una solución automatizada ni centralizada que facilite el análisis o la toma de decisiones. Aunque han intentado operar en horarios de menor costo, no disponen de un sistema estructurado para optimizar el uso de energía. 
+Un problema clave es la detección tardía de incrementos en el consumo, que solo se identifican al recibir la factura. También mencionó la falta de disponibilidad inmediata de técnicos para resolver fallas eléctricas. Considera crucial contar con reportes semanales y mensuales que incluyan comparativas, alertas por variaciones inusuales y recomendaciones prácticas. Subrayó que, aunque el impacto por factura no sea alto, el gasto acumulado anual es significativo.
+
+
+---
+
+Entrevista N°3:
+
+**Entrevistado:** Jesus Gutierrez Pietro<br>
+**Sexo:** Masculino<br>
+**Edad:** 58 años<br>
+**Domicilio:** San Martín de Porres<br>
+**Inicio de la Entrevista:** 0:02<br>
+**Duración de la Entrevista:** 20:56<br>
+
 ##### Entrevista #3
 
 Nombre y apellido: Jesus Gutierrez Pietro
 
-URL: https://youtu.be/9Ox8EdYepqY
-
 <img src="assets/interview/Electricista1.png" width=650px >
 
-##### Entrevista #4
+URL: https://www.youtube.com/watch?v=9Ox8EdYepqY
 
-Nombre y apellido: Marcelo Valverde Carbajal
+**Resumen de la Entrevista**: Jesús Gutiérrez, ingeniero electricista, explicó que realiza diagnósticos eléctricos utilizando instrumentos para medir el nivel de aislamiento y multímetros de redes que ofrecen datos como consumo, tensión y desfase. Señaló que las fallas más comunes están relacionadas con la red o la señal de internet, que debe ser estable. Considera útil contar con herramientas que notifiquen problemas en tiempo real.
+
+ En cuanto a los reportes, mencionó que muchas empresas requieren documentos que cumplan con normativas para inspecciones (como las de INDECI), los cuales deben ser firmados por personal autorizado. Aunque los informes manuales pueden hacerse en un día, sugiere complementarlos con una cartilla de diagnóstico para identificar rápidamente fallas sin necesidad de revisiones presenciales constantes.
+
+
+---
+
+Entrevista N°4:
+
+**Entrevistado:** Marcelo Valverde Carbajal<br>
+**Sexo:** Masculino<br>
+**Edad:** 20 años<br>
+**Domicilio:** Comas<br>
+**Inicio de la Entrevista:** 0:00<br>
+**Duración de la Entrevista:** 5:18<br>
+
 
 <img src="assets/interview/4.png" width=650px >
 
-URL: https://youtu.be/QiTkn4epHLs 
+URL: https://www.youtube.com/watch?v=Ax82uPqDdtM
 
-##### Entrevista #5
+**Resumen de la Entrevista**: Marcelo Valverde, electricista joven con experiencia industrial y residencial, indicó que utiliza herramientas como el multímetro, pinza amperimétrica y, en casos complejos, analizadores de redes. Ha trabajado con tecnologías IoT como medidores inteligentes y sistemas de monitoreo remoto, pero señaló dificultades en la conexión Wi-Fi y en la usabilidad de las aplicaciones.
+Sugiere que las apps incluyan un "modo técnico" con datos detallados como consumos en tiempo real y voltajes por fase. Las empresas le solicitan reportes que pueden tomar entre dos y cuatro horas si se hacen manualmente. Considera valioso que una app permita generar informes automáticos con gráficos, alertas configurables, historial de consumo, integración con Excel y gestión de múltiples sitios, con distintos niveles de acceso para técnicos y clientes.
 
-Nombre y apellido: Higinio Fuertes Vilcapoma
+---
+
+Entrevista N°5:
+
+**Entrevistado:** Higinio Fuertes Vilcapoma<br>
+**Sexo:** Masculino<br>
+**Edad:** 54 años<br>
+**Domicilio:** Comas<br>
+**Inicio de la Entrevista:** 0:00<br>
+**Duración de la Entrevista:** 15:55<br>
 
 <img src="assets/interview/Empresa2.png" width=650px >
 
 URL: https://youtu.be/QiTkn4epHLs
 
-##### Entrevista #6
+**Resumen de la Entrevista**: Higinio Fuertes, ingeniero y empresario de ViplasticPerú, indicó que el monitoreo eléctrico se hace mensualmente mediante los recibos de la empresa Pluz. El principal problema es el control de la energía reactiva, cuya acumulación puede generar penalidades. Para ello, usan bancos de condensadores.
+Los equipos de mayor consumo, como motores de 200 a 300 kW, representan un gran reto, especialmente durante el arranque. Cada máquina tiene su tabla de control, y el historial se actualiza semestralmente. Higinio considera ideal un sistema en tiempo real para detectar problemas con mayor eficiencia.
+Le gustaría recibir informes diarios, especialmente para controlar el consumo en horas punta (6 p.m. a 10 p.m.), ya que el consumo eléctrico es uno de los mayores costos operativos. Cree fundamental adoptar nuevas tecnologías y sistemas de monitoreo diario para optimizar la toma de decisiones.
 
-Nombre y apellido: Guillermo Montenegro Casas
+
+Entrevista N°6:
+
+**Entrevistado:** Guillermo Montenegro Casas<br>
+**Sexo:** Masculino<br>
+**Edad:** 32 años<br>
+**Domicilio:** Callao<br>
+**Inicio de la Entrevista:** 0:00<br>
+**Duración de la Entrevista:** 5:45<br>
+
 
 <img src="assets/interview/6.png" width=650px >
 
-URL: https://youtu.be/QiTkn4epHLs 
+URL: https://youtu.be/WCa7dELSskw
+
+**Resumen de la Entrevista**: Guillermo Montenegro, electricista con experiencia en instalación y mantenimiento, usa herramientas como el multímetro digital, pinza amperimétrica y analizador de redes. Ha trabajado con dispositivos IoT, como medidores y sensores conectados por Wi-Fi, que permiten el monitoreo desde celular o PC.
+Entre los problemas comunes, menciona dificultades con la conexión Wi-Fi, falta de contraseñas, y apps poco intuitivas. Propone que las aplicaciones cuenten con un "modo técnico" que muestre voltajes por fase, eventos históricos y patrones de consumo, lo cual facilitaría el mantenimiento.
+Las empresas le solicitan reportes detallados con datos por zonas, equipos, sobrecargas o fallas, que pueden tardar entre una hora y media y una tarde entera si se hacen manualmente. Valora que una app permita generar informes en PDF con logotipo, gestionar múltiples ubicaciones, firmar digitalmente, y acceder al historial y registros de mantenimiento para aumentar su eficiencia.
+
 
 #### 2.2.3. Análisis de entrevistas
 
-##### Entrevista 1: Edgar Torres Mallma
 
-Análisis de la entrevista:
+***Segmento 1: Empresas consumidoras de energía***
 
-La entrevista fue realizada a Edgar Torres Mallma, quien dirige una empresa dedicada a la fabricación de botellas y vasos. Nos comentó que actualmente monitorean el consumo eléctrico de forma individual, máquina por máquina, a través de tableros que indican el consumo específico de cada una. Sin embargo, no cuentan con una herramienta centralizada que les permita visualizar el consumo total de todas las máquinas en conjunto.
-Como solución, están constantemente atentos a cualquier anomalía que pueda presentarse en los tableros, lo que requiere una supervisión continua. Uno de sus principales retos es mantener una comunicación constante con el área de producción para asegurar un uso eficiente de las máquinas.
-Además, considera importante contar con reportes periódicos ni bien semanales o mensuales que les permitan comparar el consumo eléctrico de cada máquina en distintos periodos de tiempo. Esto les ayudaría a identificar patrones de uso y oportunidades de mejora.
-También expresó su interés en que los reportes incluyen tanto el consumo de energía activa como de energía reactiva. Esto les permitiría optimizar el consumo energético y evitar el uso ineficiente de electricidad, que podría traducirse en costos adicionales innecesarios.
-Finalmente, mencionó que el exceso en el consumo eléctrico representa un gasto considerable para la empresa. Por ello, siempre están buscando formas de reducirlo al mínimo sin afectar la producción.
+- El 100% de las empresas entrevistadas (3 de 3) no utilizan una plataforma digital unificada para monitorear su consumo energético. En todos los casos, el control se realiza de forma manual o mediante tableros individuales instalados por máquina. 
+- Dos de los entrevistados (66.7%) manifestaron que no cuentan con un sistema para detectar aumentos de consumo en tiempo real. Solo logran identificar excesos una vez recibida la factura eléctrica, lo cual impide tomar acciones correctivas oportunas.
+- La totalidad de los entrevistados coincidió en la necesidad de contar con reportes periódicos. Uno de ellos indicó que un informe mensual ya no es suficiente, y que recibir datos diarios ayudaría a tomar decisiones más eficientes, sobre todo durante las horas de mayor demanda energética (6:00 p.m. – 10:00 p.m.).
 
-##### Entrevista 2: Alejandro Alcala
+- El 66.7% de los participantes resaltó que la energía reactiva representa un problema concreto, ya que un mal manejo puede derivar en penalidades económicas. En estos casos, han optado por instalar bancos de condensadores para controlar dicho componente, aunque recalcan la necesidad de mayor visibilidad.
 
-Análisis de la entrevista: 
+- En cuanto a la relación con el personal técnico, el 100% mencionó que se realiza de forma directa, pero señalaron que sería valioso contar con herramientas que les permitan dar seguimiento continuo al estado de los equipos, sin depender exclusivamente del contacto presencial o de informes semestrales.
 
-La entrevista fue realizada a Alejandro Alcalá, quien actualmente trabaja en una empresa del sector eléctrico. Alejandro explicó que, en su organización, el monitoreo del consumo de energía se lleva a cabo de manera manual: cada máquina cuenta con un tablero propio, y un responsable se encarga diariamente de registrar los valores que estos arrojan. Sin embargo, dejó en claro que no cuentan con una solución tecnológica automatizada que centralice la información ni permita análisis más profundos.
-Ante la pregunta sobre estrategias para optimizar el uso de la energía, comentó que, si bien han intentado trasladar procesos a horarios de menor costo eléctrico, aún no tienen un sistema estructurado ni automatizado que les facilite estas decisiones. Uno de los principales retos que enfrenta es la incapacidad de detectar a tiempo aumentos en el consumo, pues suelen darse cuenta únicamente cuando reciben la factura, lo que dificulta identificar la causa del problema de manera oportuna.
-Además, señaló que la relación con los técnicos o electricistas suele depender de la disponibilidad de estos, lo que retrasa la solución de fallos eléctricos cuando surgen. Alejandro manifestó que considera sumamente importante poder comparar consumos de manera semanal y mensual para tener una visión clara de las variaciones, identificar oportunidades de ahorro y justificar inversiones en eficiencia energética.
-Respecto a los reportes que considera útiles, mencionó que le gustaría tener un resumen de consumos totales, comparativas respecto a periodos anteriores, alertas por variaciones inusuales y recomendaciones prácticas para optimizar el consumo. Finalmente, recalcó que, aunque el exceso de consumo eléctrico no parezca impactante en cada factura individual, acumulado a lo largo del año sí representa un gasto considerable para la empresa.
+- Finalmente, el 100% afirmó que el consumo eléctrico es uno de los principales factores que impactan en los costos operativos de sus empresas, y que una mejora en la gestión energética permitiría optimizar recursos sin afectar la producción.
 
 
+***Segmento 2: Electricistas y técnicos***
 
-##### Entrevista 3: Jesus Gutierrez Pietro
+- Todos los entrevistados (3 de 3) indicaron que actualmente utilizan herramientas como multímetros digitales, pinzas amperimétricas y analizadores de redes para sus labores de diagnóstico y medición. Sin embargo, reconocen que estos métodos, aunque efectivos, implican tiempos prolongados para la generación de reportes completos.
 
-Análisis de la entrevista:
+- El 66.7% ha trabajado con dispositivos IoT como medidores inteligentes, contactores Wi-Fi y sensores conectados. No obstante, todos señalaron que enfrentan problemas recurrentes al momento de configurar estos equipos, especialmente por las limitaciones de conectividad Wi-Fi o la complejidad de las aplicaciones asociadas.
 
-La entrevista fue realizada al ingeniero electricista Jesus Gutierrez Pietro. Nos comenta que, tras revisar las instalaciones eléctricas, colocan un instrumento para medir el nivel de aislamiento, el cual se conecta a la entrada de la instalación, ya sea en el tablero principal o en el circuito donde convergen todos los cables eléctricos. Luego, utilizan un multímetro de redes que proporciona un diagnóstico completo del estado eléctrico, incluyendo datos como el consumo, la tensión y el desfase.
-También menciona que suelen presentarse problemas, y estos generalmente están relacionados con la red o con la antena de recepción, que corresponde a la señal de internet. Esta señal debe estar bien definida para evitar fallas en el sistema.
-El ingeniero indica que este tipo de opciones ya se encuentran en muchas aplicaciones similares, las cuales informan sobre cualquier inconveniente, y considera que sería útil contar con una herramienta que permita estar siempre al tanto de los problemas.
-En cuanto a los reportes, explica que la mayoría de empresas solicitan documentos que permitan pasar inspecciones de entidades como INDECI, cumpliendo con todas las normas eléctricas establecidas. Agrega que elaborar un reporte manual puede tomar, como máximo, un día, aunque lo esencial es verificar que esté firmado por la persona autorizada que ejecutó la evaluación.
-Respecto a los informes automatizados, opina que sí podrían ser eficaces. Sin embargo, sugiere complementarlos con una cartilla de diagnóstico, que permita identificar de manera rápida si las máquinas presentan alguna alarma o falla. Esto evitaría tener que hacer revisiones presenciales constantemente, lo que podría ahorrar tiempo en los procesos de mantenimiento.
+- El 100% de los entrevistados expresó que sería útil que las plataformas digitales incluyeran un “modo técnico”, orientado a profesionales del sector. Este debería ofrecer información avanzada como consumos en tiempo real, análisis trifásico, historial de eventos eléctricos y alarmas por fallas.
 
-
-##### Entrevista 4: Marcelo Valverde Carbajal
-
-La entrevista fue realizada a Marcelo Valverde Carvajal, joven electricista de 20 años con experiencia en instalaciones tanto industriales como residenciales. Marcelo comentó que, para el diagnóstico de consumos eléctricos, suele utilizar herramientas básicas como el multímetro y la pinza amperimétrica, y que, en casos más exigentes, recurre a analizadores de redes. También mencionó que algunos de sus equipos cuentan con aplicaciones móviles, aunque no siempre son tan completas o fáciles de utilizar.
-Respecto a la implementación de tecnologías IoT, explicó que ha trabajado instalando medidores inteligentes, contactores Wi-Fi, termostatos conectados, y sistemas de monitoreo remoto de energía, tanto para empresas como para hogares. Sin embargo, advirtió que una de las principales dificultades en estas instalaciones suele estar relacionada con la conexión Wi-Fi y la configuración de las apps, que muchas veces no son intuitivas, generando pérdida de tiempo.
-Marcelo destacó que sería de gran utilidad que las aplicaciones ofrecieran un "modo técnico", donde se pueda acceder a información más detallada como consumos en tiempo real, voltajes por fase, historial de eventos, entre otros datos que son relevantes para mantenimiento o calibraciones. También explicó que, en su experiencia, las empresas suelen solicitar reportes de consumo, detección de picos de demanda, registros de fallas eléctricas, y comparativas entre sectores o equipos, tareas que, cuando son realizadas de forma manual, pueden tomarle entre dos y cuatro horas de trabajo.
-Finalmente, expresó que una aplicación capaz de generar informes automáticos con gráficos y resúmenes ordenados sería de gran ayuda, ya que reduciría significativamente su carga laboral. Agregó que también valoraría funciones adicionales como alertas configurables, historial de consumos, la posibilidad de gestionar varios sitios desde una misma plataforma, integración con hojas de cálculo como Excel o Google Sheets, y la posibilidad de establecer diferentes niveles de acceso para técnicos y clientes.
-
-
-##### Entrevista 5: Higinio Fuertes Vilcapoma
-
-Análisis de la entrevista:
-
-La entrevista fue realizada al empresario e Ingeniero Higinio Fuertes Vilcapoma, quien dirige una empresa llamada ViplasticPeru. Nos comenta que el monitoreo del consumo eléctrico se realiza mensualmente a través de los recibos emitidos por la empresa proveedora de energía, llamada Pluz.
-
-Uno de los principales problemas que enfrentan es la dificultad para optimizar el uso de energía debido a la presencia de energía reactiva, la cual deben controlar estrictamente, ya que su exceso podría generar penalidades económicas. Para mitigar estas pérdidas, utilizan bancos de condensadores instalados en la subestación eléctrica.
-
-Su principal reto es el consumo elevado de ciertos equipos de gran potencia. Algunos motores funcionan con corriente alterna y requieren entre 200 y 300 kW. Durante el arranque, el consumo puede multiplicarse hasta cinco veces, lo cual representa una carga significativa para el sistema.
-
-En la planta cuentan con una tabla de control para cada equipo, lo que les permite identificar cuáles consumen mayor energía y darles un seguimiento especial. La relación con los técnicos es directa; se reúnen con ellos para coordinar trabajos y solicitar el historial de cada motor, el cual se actualiza cada seis meses, considerando que las máquinas requieren mantenimiento semestral o anual.
-
-E indica que lo ideal sería contar con un sistema que permita medir y comparar el consumo eléctrico en tiempo real, lo que ayudaría a detectar problemas de manera más eficiente. Actualmente, el seguimiento del consumo se realiza de forma semanal para mantener un control adecuado de las máquinas.
-
-Además, menciona que le gustaría recibir informes diarios con información detallada de todas las máquinas, ya que existen horas punta —entre las 6:00 p.m. y las 10:00 p.m.— en las que el costo de la electricidad es más alto.
-
-Finalmente, señala que el consumo eléctrico es uno de los factores que más impacta en los costos operativos de su empresa. Por esta razón, considera fundamental implementar nuevas tecnologías, como motores más modernos y eficientes, así como establecer un sistema de monitoreo diario y preciso que les brinde información confiable para la toma de decisiones.
-
-
-##### Entrevista 6: Guillermo Montenegro Casas
-
-Análisis de la entrevista:
-
-La entrevista fue realizada a Guillermo Montenegro Casas, electricista con experiencia en instalación, diagnóstico y mantenimiento de sistemas eléctricos. Utiliza herramientas como el multímetro digital y la pinza amperimétrica como sus instrumentos principales, y un analizador de redes para reportes más complejos.
-Ha trabajado con dispositivos IoT como medidores inteligentes, contactores y sensores conectados por Wi-Fi o red local. Indica que estos dispositivos son útiles porque los clientes buscan monitorear desde el celular o la computadora, aunque a veces presentan complicaciones en su instalación.
-Entre los problemas frecuentes menciona conexiones Wi-Fi inestables, desconocimiento de contraseñas por parte del cliente, y aplicaciones poco intuitivas o mal traducidas. Además, muchas veces debe recurrir al método de prueba y error debido a la falta de manuales claros.
-Guillermo expresó que sería muy útil contar con un modo técnico en las apps, que permita ver datos más detallados como voltajes por fases, eventos históricos y patrones de consumo. Esto facilitaría calibraciones y mantenimiento.
-Señaló que las empresas le solicitan reportes técnicos con consumo por zonas, comparaciones entre equipos, sobrecargas o fallas, los cuales deben ser claros, detallados y con cifras precisas para auditorías. Preparar estos informes manualmente puede tomar desde una hora y media hasta una tarde entera.
-Finalmente, afirmó que le encantaría que la aplicación le permita generar informes en PDF bien presentados, con logotipo y partes personalizables, listos para enviar. También valoraría funcionalidades como la gestión de múltiples ubicaciones desde una sola cuenta, acceso al historial de consumos, registro de mantenimientos y la posibilidad de firmar digitalmente, lo cual reduciría el uso de papel y mejoraría su eficiencia.
-
-
-
+- Respecto a la elaboración de informes, todos indicaron que se trata de una tarea constante, solicitada por sus clientes empresariales. Dos de ellos afirmaron que preparar un reporte manual puede tomar entre dos y cuatro horas, dependiendo de la complejidad del sitio. Por eso, valoran la posibilidad de generar informes automáticos en formatos editables y exportables (PDF, Excel).
 
 
 ### 2.3. Needfinding
