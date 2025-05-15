@@ -520,6 +520,14 @@ El sistema principal de navegación es intuitivo y claro. Este se muestra princi
 
 #### 4.4.4. Web Applications User Flow Diagrams
 
+<img src="./images/MockUp_Userflow1.png" alt="Canvas" width="400"/>
+<img src="./images/MockUp_Userflow4.png" alt="Canvas" width="400"/>
+<img src="./images/MockUp_Userflow5.png" alt="Canvas" width="400"/>
+<img src="./images/MockUp_Userflow2.png" alt="Canvas" width="400"/>
+<img src="./images/MockUp_Userflow6.png" alt="Canvas" width="400"/>
+<img src="./images/MockUp_Userflow3.png" alt="Canvas" width="400"/>
+
+
 ### 4.5. Web Applications Prototyping
 
 ### 4.6. Domain-Driven Software Architecture
