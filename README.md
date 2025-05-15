@@ -508,6 +508,16 @@ El sistema principal de navegación es intuitivo y claro. Este se muestra princi
 
 #### 4.4.3. Web Applications Mock-ups
 
+<img src="./images/Login_aw_en.png" alt="Canvas" width="400"/>
+<img src="./images/Registro_aw_en.png" alt="Canvas" width="400"/>
+<img src="./images/Login_aw_falso_en.png" alt="Canvas" width="400"/>
+<img src="./images/Registro_aw_falso_en.png" alt="Canvas" width="400"/>
+<img src="./images/Perfil_aw.png" alt="Canvas" width="400"/>
+<img src="./images/Board_aw.png" alt="Canvas" width="400"/>
+<img src="./images/Monitoreo_aw.png" alt="Canvas" width="400"/>
+<img src="./images/Seguimiento_aw.png" alt="Canvas" width="400"/>
+<img src="./images/Artefactos_aw.png" alt="Canvas" width="400"/>
+
 #### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping
