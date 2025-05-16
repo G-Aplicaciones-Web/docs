@@ -530,6 +530,13 @@ El sistema principal de navegación es intuitivo y claro. Este se muestra princi
 
 ### 4.5. Web Applications Prototyping
 
+En esta sección se realiza una muestra de una navegación interactiva de la aplicación web, dando a conocer cómo es su funcionamiento
+
+<img src="./images/Prototype_Inicio.png" alt="Canvas" width="400"/>
+
+Url del vídeo: https://drive.google.com/file/d/1Q6ayIjy0mkNyJbGn1AF7HG8hGP4nTBx5/view?usp=sharing
+
+
 ### 4.6. Domain-Driven Software Architecture
 
 #### 4.6.1. Software Architecture Context Diagrams
