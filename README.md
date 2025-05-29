@@ -819,6 +819,7 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 |US32|Ver beneficios clave|Como visitante, quiero conocer ventajas de EcoVolt, para evaluar su utilidad.|<p>Scenario 1: Beneficios clave</p><p>Dado que leo la sección de beneficios, cuando el sistema la presenta, entonces identifico al menos tres ventajas.</p><p></p><p>Scenario 2: Tecnología usada</p><p>Dado que consulto otra sección, cuando el sistema muestra los íconos, entonces entiendo la tecnología aplicada. </p>|EP04|
 |US33|Visualización de casos de uso|Como visitante, quiero ver ejemplos reales, para confiar en EcoVolt.|<p>Scenario 1: Visualización de casos</p><p>Dado que accedo a casos de uso, cuando el sistema los muestra, entonces entiendo cómo otras empresas usan la app.</p><p></p><p>Scenario 2: Error al visualizar casos</p><p>Dado que consulto un caso sin sector, cuando el sistema detecta falta de datos, entonces informa “Caso no disponible en este sector”.</p>|EP04|
 |US34|Contacto con soporte desde landing|Como visitante, quiero solicitar información desde la landing, para aclarar dudas antes de registrarme.|<p>Scenario 1: Solicitud enviada</p><p>Dado que envío una solicitud, cuando el sistema la recibe, entonces genera un ticket de contacto.</p><p></p><p>Scenario 2: Error al enviar solicitud</p><p>Dado que no proporciono email, cuando el sistema verifica el formulario, entonces informa “Email obligatorio”.</p>|EP04|
+|US35|Gestión de dispositivos conectados|Como usuario quiero visualizar un listado de dispositivos IoT asociados a mi cuenta para ver cuáles están conectados o desconectados y poder cambiar su estado de forma interactiva.|<p>Scenario 1: Visualización correcta de la lista de dispositivos</p><p>Cuando el usuario accede al apartado “Dispositivos”, entonces debe visualizar una lista con todos los dispositivos asociados a su cuenta Y cada dispositivo debe mostrar su nombre, tipo y estado actual (conectado o desconectado).</p><p></p><p>Scenario 2: Conectar un dispositivo desconectado</p><p>Cuando el usuario selecciona un dispositivo que está desconectado Y presiona el botón “Conectar”, entonces el dispositivo cambia su estado a conectado y la lista se actualiza mostrando el nuevo estado en tiempo real y se recibe una notificación de éxito.</p>|EP04|
 
 <hr>
 
@@ -867,6 +868,7 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 |32|US29|Guías visuales de instalación|Como electricista, quiero acceder a guías paso a paso, para reducir errores en la instalación.|5|
 |33|US30|Soporte técnico prioritario|Como electricista, quiero soporte 24/7, para resolver emergencias sin demora.|8|
 |34|US33| Visualización de casos de uso|Como visitante, quiero ver ejemplos reales, para confiar en EcoVolt. |3|
+|35|US35| Gestión de dispositivos conectados|Como usuario quiero visualizar un listado de dispositivos IoT asociados a mi cuenta para ver cuáles están conectados o desconectados y poder cambiar su estado de forma interactiva. |5|
 
 <hr>
 
@@ -1032,8 +1034,6 @@ El sistema principal de navegación es intuitivo y claro. Este se muestra princi
     <img src="assets/recursos/Loginh.png" alt="Login" width="400"/>
 </p>
 
-#### 4.3.2. Landing Page Mock-up
-
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes.
@@ -1146,6 +1146,14 @@ El sistema principal de navegación es intuitivo y claro. Este se muestra princi
 
 ### 4.5. Web Applications Prototyping
 
+En esta sección se realiza una muestra de una navegación interactiva de la aplicación web, dando a conocer cómo es su funcionamiento
+
+<p align="center">
+    <img src="assets/recursos/Prototype_Inicio.png" alt="MockUp-UserFlow" width="400"/>
+</p>
+
+Url del vídeo: https://drive.google.com/file/d/1Q6ayIjy0mkNyJbGn1AF7HG8hGP4nTBx5/view?usp=sharing
+
 ### 4.6. Domain-Driven Software Architecture
 
 #### 4.6.1. Software Architecture Context Diagrams
@@ -1248,178 +1256,197 @@ El sistema principal de navegación es intuitivo y claro. Este se muestra princi
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 
-### 5.1. Software Configuration Management.
-
+## <a name="_i1mxz8467nik"></a>**5.1. Software Configuration Management**
 Con el objetivo de garantizar la consistencia, trazabilidad y calidad del producto digital EcoVolt a lo largo de todo su ciclo de vida, el equipo ha establecido una estrategia de gestión de configuración de software. Esta estrategia abarca la configuración de los entornos de desarrollo, la administración del código fuente, las normas de codificación y la preparación para el despliegue de los productos. Todo el enfoque está alineado con buenas prácticas de ingeniería de software y principios de metodologías ágiles.
+### <a name="_rtxrulgbibqs"></a>**5.1.1. Software Development Environment Configuration**
 
-#### 5.1.1. Software Development Environment Configuration.
-
-| Categoría | Herramienta | Propósito | Tipo de acceso/enlace |
-|:----:|:----:|:----:|:----:|
-| Project Management | Trello | Gestión del backlog y tareas del equipo mediante tableros Kanban. | https://trello.com |
-| Requirements Management | UXPressia | Creación y documentación de User Personas y customer journeys. | https://uxpressia.com |
-| Product UX/UI Design | Figma | Creación de wireframes y mockups de la interfaz de usuario. | https://figma.com |
-| Modelado de Software | Visual Paradigm | Modelado de arquitectura de software: diagramas de contexto, Bounded Contexts, etc. | https://visual-paradigm.com |
-| Frontend Development | WebStorm | Editor de código para el desarrollo de la Landing Page y Frontend (Vue) | https://www.jetbrains.com/es-es/webstorm/ |
-| Backend Development | Rider | Entorno de desarrollo para el backend en C# con .NET. | https://www.jetbrains.com/es-es/rider/ |
-| Version Control | GitHub | Repositorio de control de versiones para todos los productos digitales. | https://github.com |
-| Software Documentation | Markdown | Redacción de documentación técnica del proyecto. | Compatible con GitHub / editores de texto |
-
-#### 5.1.2. Source Code Management
-
+|**Categoría**|**Herramienta**|**Propósito**|**Tipo de acceso/enlace**|
+| :-: | :-: | :-: | :-: |
+|Project Management|Trello|Gestión del backlog y tareas del equipo mediante tableros Kanban.|<https://trello.com>|
+|Requirements Management|UXPressia|Creación y documentación de User Personas y customer journeys|<https://uxpressia.com>|
+|Product UX/UI Design|Figma|Creación de wireframes y mockups de la interfaz de usuario|<https://figma.com>|
+|Modelado de Software|Visual Paradigm|Modelado de arquitectura de software: diagramas de contexto, Bounded Contexts, etc|<https://www.visual-paradigm.com/>|
+|Frontend Development|WebStorm|Editor de código para el desarrollo de la Landing Page y Frontend (Vue)|<https://www.jetbrains.com/es-es/webstorm/>|
+|Backend Development|Rider |Entorno de desarrollo para el backend en C# con .NET|<https://www.jetbrains.com/es-es/rider/>|
+|Version Control|GitHub|Repositorio de control de versiones para todos los productos digitales|<https://github.com>|
+|Software Documentation|Markdown|Redacción de documentación técnica del proyecto|Compatible con GitHub / editores de texto|
+### <a name="_o1e75oknnqx"></a>**5.1.2. Source Code Management**
 El equipo de EcoVolt emplea Git como herramienta de control de versiones y GitHub como plataforma para alojar y colaborar en el desarrollo de los distintos productos digitales que integran la solución. Esta estrategia permite llevar un control eficiente de los cambios en el código fuente, fomentar la colaboración entre los integrantes del equipo y mantener un registro claro de las decisiones tomadas a lo largo del proceso de desarrollo.
 
 A continuación, se detallan los repositorios utilizados para la implementación del código fuente:
 
-<div align="center">
-
-| Producto Digital | URL del Repositorio | 
-|:----------------:|:-------------------:|
-| Landing Page | [https://github.com/G-Aplicaciones-Web/landing-page](https://github.com/G-Aplicaciones-Web/landing-page) | 
-| Web Services (Backend API) | [https://github.com/G-Aplicaciones-Web/backend](https://github.com/G-Aplicaciones-Web/backend)|
-| Frontend Web Application | [https://github.com/G-Aplicaciones-Web/frontend](https://github.com/G-Aplicaciones-Web/frontend) |
-
-</div>
+|**Producto Digital**|**URL del Repositorio**|
+| :-: | :-: |
+|Landing Page|<https://github.com/G-Aplicaciones-Web/landing-page>|
+|Web Services (Backend API)|<https://github.com/G-Aplicaciones-Web/backend>|
+|Frontend Web Application|<https://github.com/G-Aplicaciones-Web/frontend>|
 
 **Modelos de Ramificación**
 
 El equipo decidió aplicar diferentes esquemas de ramificación dependiendo del tipo de repositorio, con el objetivo de adaptarse a las particularidades de colaboración y gestión de versiones que cada uno requiere:
 
-- **Repositorio de Documentación General del Proyecto (docs):**
+- Repositorio de Documentación General del Proyecto (docs):
+  Para gestionar el repositorio destinado a la documentación (incluyendo el archivo README.md y las secciones del informe final), se optó por utilizar el modelo GitHub Flow. Este enfoque, enfocado en la integración continua y la simplicidad, ha permitido:
+  - Crear ramas específicas para cada capítulo, asignadas a los respectivos responsables.
+  - Abrir pull requests para revisión antes de fusionar contenido con la rama principal.
+  - Intercambiar comentarios y sugerencias a través de los commits y PRs, favoreciendo la mejora continua del contenido.
+  - Asegurar una integración progresiva, estructurada y libre de conflictos.
+  - Convención para nombres de ramas: Se utiliza el formato cap[numero] (por ejemplo, cap4), lo cual permite identificar fácilmente a qué sección corresponde.
+  - Mensajes de commits: Se emplea la convención Conventional Commits, garantizando claridad en el historial de cambios y facilitando la generación automática de registros de versiones (changelogs).
 
-    Para gestionar el repositorio destinado a la documentación (incluyendo el archivo README.md y las secciones del informe final), se optó por utilizar el modelo GitHub Flow. Este enfoque, enfocado en la integración continua y la simplicidad, ha permitido:
+- Repositorios con Código Fuente (Landing Page, Frontend, Backend):
+  Para estos repositorios, se implementará GitFlow, un modelo de ramificación más organizado que facilita la separación clara de las etapas de desarrollo, pruebas, liberación y mantenimiento. La elección de GitFlow se debe a que GitHub Flow requiere de pruebas automatizadas para validar los cambios antes de fusionarlos con la rama principal, y dado que en este curso no se contempla la integración continua ni un pipeline de pruebas automatizadas, GitFlow es una opción más adecuada para asegurar la estabilidad del código sin depender de estas herramientas externas.
+  La estructura de ramas en GitFlow será:
+  - *Main*: Contiene el código en estado estable y listo para producción.
+  - *Develop*: Rama de integración para desarrollo activo.
+  - *Feature branches*: Para nuevas funcionalidades.
+    - Convención: feature/nombre-descriptivo
+    - Ejemplo: feature/US05-business
+  - *Release branches*: Para preparar versiones antes de pasar a producción.
+    - Convención: release/X.Y.Z
+    - Ejemplo: release/1.0.0
+  - *Hotfix branches*: Para correcciones urgentes.
+    - Convención: hotfix/X.Y.Z
+    - Ejemplo: hotfix/1.0.2
+- Versionado Semántico (Semantic Versioning)
+  - Se utiliza Semantic Versioning 2.0.0, con el esquema MAJOR.MINOR.PATCH:
+    - MAJOR: Cambios incompatibles.
+    - MINOR: Funcionalidades nuevas retrocompatibles.
+    - PATCH: Correcciones retrocompatibles.
+  - Ejemplos de versiones:
+    v1.0.0, v1.1.0, v1.1.1.
 
-    - Crear ramas específicas para cada capítulo, asignadas a los respectivos responsables.
-    - Abrir pull requests para revisión antes de fusionar contenido con la rama principal.
-    - Intercambiar comentarios y sugerencias a través de los commits y PRs, favoreciendo la mejora continua del contenido.
-    - Asegurar una integración progresiva, estructurada y libre de conflictos.
-    - **Convención para nombres de ramas:**  Se utiliza el formato `cap[numero]` (por ejemplo, `cap4`), lo cual permite identificar fácilmente a qué sección corresponde.  
-    - **Mensajes de commits:**  Se emplea la convención **Conventional Commits**, garantizando claridad en el historial de cambios y facilitando la generación automática de registros de versiones (changelogs).
+- Convenciones para Commits
+  El equipo adopta el estándar de Conventional Commits para los mensajes de commit, lo que garantiza un historial claro y facilita la creación automática de changelogs.
+  <type>[optional scope]: <description>
+  Tipos comunes:
+  - feat: Nueva funcionalidad.
+  - fix: Corrección de errores.
+  - docs: Cambios en documentación.
+  - style: Cambios de formato sin impacto funcional.
+  - refactor: Reestructuración del código.
+  - test: Relacionados con pruebas.
+  - chore: Tareas de mantenimiento.
+- Ejemplo:
 
-- **Repositorios con Código Fuente (Landing Page, Frontend, Backend):**
+  feat(auth): implement login via OAuth
 
-    Para estos repositorios, se implementará GitFlow, un modelo de ramificación más organizado que facilita la separación clara de las etapas de desarrollo, pruebas, liberación y mantenimiento. La elección de GitFlow se debe a que GitHub Flow requiere de pruebas automatizadas para validar los cambios antes de fusionarlos con la rama principal, y dado que en este curso no se contempla la integración continua ni un pipeline de pruebas automatizadas, GitFlow es una opción más adecuada para asegurar la estabilidad del código sin depender de estas herramientas externas.
-
-    **La estructura de ramas en GitFlow será:**
-
-    - _Main_: Contiene el código en estado estable y listo para producción.
-    - _Develop_: Rama de integración para desarrollo activo.
-    - _Feature branches_: Para nuevas funcionalidades.
-        - Convención: `feature/nombre-descriptivo`  
-        - Ejemplo: `feature/US05-business`
-    - _Release branches_: Para preparar versiones antes de pasar a producción.
-        - Convención: `release/X.Y.Z`  
-        - Ejemplo: `release/1.0.0`
-    - _Hotfix branches_: Para correcciones urgentes.
-        - Convención: `hotfix/X.Y.Z`  
-        - Ejemplo: `hotfix/1.0.2`     
-
-    **Versionado Semántico (Semantic Versioning)**
-
-    - Se utiliza Semantic Versioning 2.0.0, con el esquema MAJOR.MINOR.PATCH:
-
-        - **MAJOR:** Cambios incompatibles.
-        - **MINOR:** Funcionalidades nuevas retrocompatibles.
-        - **PATCH:** Correcciones retrocompatibles.
-
-        **Ejemplos de versiones:**  
-        `v1.0.0`, `v1.1.0`, `v1.1.1`.
-
-    **Convenciones para Commits**
-
-    El equipo adopta el estándar de Conventional Commits para los mensajes de commit, lo que garantiza un historial claro y facilita la creación automática de changelogs.
-
-    `<type>[optional scope]: <description>`
-
-    Tipos comunes:
-
-    - `feat`: Nueva funcionalidad.
-    - `fix`: Corrección de errores.
-    - `docs`: Cambios en documentación.
-    - `style`: Cambios de formato sin impacto funcional.
-    - `refactor`: Reestructuración del código.
-    - `test`: Relacionados con pruebas.
-    - `chore`: Tareas de mantenimiento.
-
-    Ejemplo:
-    ```plaintext
-    feat(auth): implement login via OAuth
-    fix(api): handle null user tokens
+  fix(api): handle null user tokens
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
-#### 5.1.4. Software Deployment Configuration
+### <a name="_9pi9pa5bcn56"></a>En EcoVolt, hemos establecido pautas claras para garantizar uniformidad y legibilidad en el código, aplicables a múltiples lenguajes y tecnologías:
+HTML y CSS
 
-### 5.2. Landing Page, Services & Applications Implementation
+1. Todo archivo HTML inicia con <!DOCTYPE html>.
+1. Inclusión obligatoria de metas tags esenciales .
+1. La etiqueta "title" se define dentro de "head".
+1. Indentación de 2 espacios para anidar elementos.
+1. Elementos, atributos y selectores en minúsculas.
+1. Valores de atributos entre comillas dobles 
+1. Etiquetas de cierre siempre presentes 
+1. Líneas de código breves 
+1. Imágenes con atributos width, height y alt descriptivo.
 
-#### 5.2.1. Sprint 1
+JavaScript
 
-##### 5.2.1.1. Sprint Planning 1
+1. Uso obligatorio de punto y coma al final de cada instrucción.
+1. Variables y funciones en camelCase 
+1. Preferencia por const y let sobre var.
+1. Strings delimitados con comillas simples
+1. Indentación de 2 espacios para bloques y funciones.
+1. Líneas en blanco para separar secciones lógicas.
+1. Pasos definidos con Given, When, Then, And.
+1. Indentación de 4 espacios para continuaciones.
+1. Parámetros entre comillas simples
+1. Escenarios separados por 2 líneas en blanco y comentarios descriptivos.
 
-|**Sprint #**|` `Sprint 1|
-| :- | :- |
-|` `**Date**|2025-04-25|
-|**Time**|` `12:30 PM|
-|**Location**|` `Virtual - Meet|
-|**Prepared By**|Mathias Aspajo|
-|` `**Attendees (to planning meeting)**|Anyelo Alejos, Mathias Aspajo, Alejandro Mendoza, Jack Roque, Alejandro Torres|
-|` `**Sprint n - 1 Review Summary**|Este es el primer Sprint, por lo que este campo no aplica|
-|` `**Sprint n - 1 Retrospective Summary**|Este es el primer Sprint, por lo que este campo no aplica|
-|**Sprint 1 Goal**|Durante este sprint, nos centraremos en la creación de la landing page de nuestra aplicación, ya que la consideramos fundamental para brindar una presentación llamativa y efectiva del producto a los usuarios potenciales. El éxito de esta tarea se medirá al alcanzar un número de visitas que hemos definido como objetivo previamente.|
-|` `**Sprint 1 Velocity**|Nuestro equipo puede aceptar hasta 25 story points|
-|` `**Sum of Story Points**|La suma de Story Points atendidos es de 22 story points|
+### <a name="_kvuze3mci869"></a>**5.1.4. Software Deployment Configuration**
+En esta sección, detallamos el proceso para publicar la Landing Page de EcoVolt utilizando GitHub Pages, garantizando su accesibilidad pública. A continuación, se describen los pasos clave:
 
-##### 5.2.1.2. Aspect Leaders and Collaborators
+1. Asegurar que el repositorio de GitHub contenga todos los archivos de la Landing Page
+1. Acceder al repositorio en GitHub Pages.
+1. Tras guardar la configuración, GitHub Pages proporciona automáticamente una URL
 
-##### 5.2.1.3. Sprint Backlog 1
+## <a name="_wtlr19hboaei"></a>**5.2. Landing Page, Services & Applications Implementation**
+### <a name="_pcwwycymc40i"></a>**5.2.1. Sprint 1**
+#### <a name="_hj1cv2f5ch77"></a>**5.2.1.1. Sprint Planning 1**
 
-Durante la primera iteración del desarrollo, se construyeron los elementos fundamentales de la página principal, incluyendo los componentes de la interfaz y el sistema de navegación.
+|**Sprint #**|**Sprint 1**|
+| :-: | :-: |
+|Date|2025-04-25|
+|Time|12:30 PM|
+|Location|Virtual - Meet|
+|Prepared By|Mathias Aspajo|
+|Attendees (to planning meeting)|Anyelo Alejos, Mathias Aspajo, Alejandro Mendoza, Jack Roque, Alejandro Torres|
+|Sprint n - 1 Review Summary|Este es el primer Sprint, por lo que este campo no aplica|
+|Sprint n - 1 Retrospective Summary|Este es el primer Sprint, por lo que este campo no aplica|
+|Sprint 1 Goal|Durante este sprint, nos centraremos en la creación de la landing page de nuestra aplicación, ya que la consideramos fundamental para brindar una presentación llamativa y efectiva del producto a los usuarios potenciales. El éxito de esta tarea se medirá al alcanzar un número de visitas que hemos definido como objetivo previamente.|
+|Sprint 1 Velocity|Nuestro equipo puede aceptar hasta 25 story points|
+|Sum of Story Points|La suma de Story Points atendidos es de 22 story points|
+
+#### <a name="_w3aib2uruk5u"></a>**5.2.1.2. Aspect Leaders and Collaborators**
+
+|Member (Last Name, First Name)|GitHub Username|Navbar (Barra de navegación)|Hero Section|Footer|<p>About </p><p>Us </p><p>Section</p>|Information Section|Benefits Section|Contact Us Section|Responsive Design (Multi-device)|Documentación del Sprint|
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|Roque Tello, Jack Eddie|UPC-Skylar|L|L|L|L|L|L|L|L|C|
+|Aspajo Alvarez, Mathias Joaquin|<p>[](https://github.com/AdeXzz)</p><p>[](https://github.com/AdeXzz)AdeXzz</p><p></p>|C|C|C|C|C|C|C|C|L|
+|Alejos Jesús, Anyelo Bill||C|C|C|C|C|C|C|C|C|
+|Mendoza Vergara, Alejandro Franklin|AlexBoo1|C|C|C|C|C|C|C|C|C|
+|Torres Alva, Alejandro|MauricioMVilcapoma|C|C|C|C|C|C|C|C|C|
+
+#### <a name="_ou2rpzc79qrv"></a>**5.2.1.3. Sprint Backlog 1**
+En el primer sprint backlog, el equipo se propuso iniciar y completar el desarrollo de la landing page. Para coordinar y gestionar al equipo, se utilizó Trello, una herramienta que facilitó la división de las user stories en tareas más pequeñas y su asignación según las habilidades de cada miembro. El objetivo principal del sprint era desarrollar la landing page de manera completa, garantizando que fuera atractiva y funcional.
+
+|**Sprint #**|**Sprint 1**|||||||||
+| :-: | :-: | :- | :- | :- | :- | :- | :- | :- | :- |
+|**User Story**|**Work-Item / Task**|||||||||
+|**Id**|**Title**|**Id**|**Title**|**Description**|**Estimation (Hours)**|**Assigned To**|**Status (To-do / In-Process / To-Review / Done)**|||
+|US01|Barra de navegación en la Landing Page|UT01|Creación de la barra de navegación.|Implementar el menú de navegación de la landing page de FitWise, garantizando que las opciones sean claras y fáciles de usar para los usuarios.|1|Diego Acuña|Done|||
+|US01|Barra de navegación en la Landing Page|UT02|Optimización de la barra de navegación.|Mejorar la experiencia del usuario con la barra de navegación incorporando animaciones o transiciones suaves.|3|Diego Acuña|Done|||
+|US02|Sección Hero en la Landing Page|UT03|Creación de la sección Hero.|Diseñar una sección principal en la landing page que incluya una imagen llamativa y un título que capte la atención.|3|Diego Acuña|Done|||
+|US02|Sección Hero en la Landing Page|UT04|Modificaciones en la sección Hero.|Ajustar la sección Hero para garantizar un diseño responsive que se visualice adecuadamente en todo tipo de dispositivos y resoluciones de pantalla.|2|Diego Acuña|Done|||
+|US03|Sección Footer en la Landing Page|UT05|Creación de la sección de footer.|Crear la sección de footer con enlaces a la información sobre el equipo y los términos y condiciones de uso.|1|Diego Acuña|Done|||
+|US04|Sección "About Us" en la Landing Page|UT06|Crear una sección que describa nuestra startup.|Desarrollar la sección "Sobre nosotros" para proporcionar información acerca del equipo y la misión de la empresa.|2|Diego Acuña|Done|||
+|US04|Sección "About Us" en la Landing Page|UT07|Describir nuestra empresa y a los miembros del equipo.|Incluir información detallada sobre la historia y los miembros del equipo en la sección "Sobre nosotros".|2|Diego Acuña|Done|||
+|US05|Sección "Information" en la Landing Page|UT08|Describir en detalle nuestro producto.|Crear una sección que explique de manera detallada nuestro producto.|2|Diego Acuña|Done|||
+|US05|Sección "Information" en la Landing Page|UT09|Modificación de la sección "Information".|Agregar información detallada sobre nuestro producto, junto con una frase atractiva y una imagen representativa del mismo.|2|Diego Acuña|Done|||
+|US06|Sección "Benefits" en la Landing Page|UT10|Explicar los beneficios de nuestro producto.|CCrear una sección destacada que explique los principales beneficios de nuestra aplicación en comparación con otras.|2|Diego Acuña|Done|||
+|US06|Sección "Benefits" en la Landing Page|UT11|Modificación de la sección "Benefits".|Explicar los beneficios de manera atractiva, mostrando imágenes cautivadoras con animaciones al pasar el mouse, acompañadas de texto explicativo sobre cada beneficio.|2|Diego Acuña|Done|||
+|US07|Sección "Contact us" en la Landing Page|UT12|Creación de la sección de contacto.|Incluir la información de contacto del equipo para facilitar la interacción con los usuarios.|2|Diego Acuña|Done|||
+|US07|Sección "Contact us" en la Landing Page|UT13|Desarrollar el formulario de contacto.|Desarrollar un formulario de contacto operativo en la sección correspondiente.|1|Diego Acuña|Done|||
+|US08|Landing Page Responsive con diferentes dispositivos|UT14|Ajustar cada elemento de la página web para que se adapte a diferentes dispositivos.|Garantizar que la landing page funcione correctamente y tenga un diseño visualmente adecuado en diversos dispositivos y tamaños de pantalla.|6|Diego Acuña|Done|||
+|US08|Landing Page Responsive con diferentes dispositivos|UT15|Adaptación para dispositivos móviles.|Mejorar el diseño de la página para ofrecer una experiencia más fluida en dispositivos móviles.|2|Diego Acuña|Done|||
 
 
-|Sprint #|Sprint 1|||||||
-| :- | :- | :- | :- | :- | :- | :- | :- |
-|User Story|Work-Item / Task|||||||
-|Id|Title|Id|Title|Description|<p>Estimation</p><p>(Hours)</p>|Assigned To|<p>Status</p><p>(To-do /</p><p>InProcess /</p><p>ToReview /</p><p>Done)</p>|
-|` `US-01|Registro empresas|T01|Desarrollar un sistema de registro de empresas.|La página web debe incluir una funcionalidad que permita a las empresas registrarse o crear una cuenta.|1|Jack Roque|Done|
-|` `US-02|Registro electricistas|T02|Desarrollar un sistema de registro de electricistas.|La página web debe incluir una funcionalidad que permita a los electricistas registrarse o crear una cuenta.|1|Jack Roque|Done|
-|` `US-03|Inicio de sesión|T03|Desarrollo del módulo de inicio de sesión|Es necesario desarrollar un sistema que permita a los usuarios ya registrados ingresar sus credenciales para acceder a su perfil personal.|1|Mathias Aspajo|Done|
-|` `US-31|Navegación por la landing page|T04|Construcción de la plataforma web|Se debe desarrollar la estructura base del sitio web, garantizando su correcta navegación y funcionamiento, como punto de partida para implementar la landing page.|0\.5|Alejandro Torres|Done|
-|` `US-32|Ver información del proyecto|T05|Presentación del trabajo|Incluir una sección dedicada a mostrar información del proyecto|0\.5|Anyelo Alejos|Done|
-|` `US-33|Conocer la misión|T06|Información de la misión de la Startup|Agregar un apartado que exponga claramente la misión de la startup.|0\.5|Jack Roque, Alejandro Mendoza|Done|
-|` `US-34|Recomendaciones de usuarios|T07|Presentar recomendaciones de otros usuarios|Incorporar un apartado dentro de la landing page que permita a los usuarios ver recomendaciones de otros usuarios.|2|Jack Roque|Done|
 
-##### 5.2.1.4. Development Evidence for Sprint Review
+#### <a name="_y7lh8f625o14"></a>**5.2.1.4. Development Evidence for Sprint Review**
+En estos commits se puede observar los últimos updates a la rama main que se hizo en el repositorio de la Landing Page.
 
-En esta sección, se describe el enfoque utilizado para crear y mantener actualizada la landing page de manera continua.
-
-|**Repository**|**Branch**|**Commit ID**|**Commit Message**|<p>**Commit Message**</p><p>` `**Body**</p>|**Commited on (Date)**|
-| :- | :- | :- | :- | :- | :- |
+|**Repository**|**Branch**|**Commit ID**|**Commit Message**|<p>**Commit Message**</p><p>**Body**</p>|**Commited on (Date)**|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 |G-Aplicaciones-Web/landing-page|develop|1d90b11|feat: added index.html and manifest.json||24/04/2025|
 |G-Aplicaciones-Web/landing-page|develop|1d50ca0|feat: add landing page structure and styles||24/04/2025|
 |G-Aplicaciones-Web/landing-page|develop|4623b36|feat add login and new asset images||24/04/2025|
 
-##### 5.2.1.5. Execution Evidence for Sprint Review
 
-|Epic / Story ID|Título|Criterios de Aceptación|
-| :- | :- | :- |
-|` `US03|Inicio de sesión|Dado que me encuentro en la página inicial, cuando hago clic en "Acceder", entonces se abre un formulario donde puedes ingresar tu correo electrónico y tu contraseña.|
-|` `US31|Navegación por el landing page|Dado que el usuario se encuentra en la página de inicio, cuando selecciona un elemento del menú, entonces es dirigido a la sección correspondiente dentro de la misma página.|
-|` `US32|Ver información del proyecto|Dado que leo "Cómo funciona", cuando reviso los íconos, entonces identifico 4 ventajas principales.|
-|` `US34|Contactar al equipo de soporte|Dado que completo el formulario, cuando hago clic en "Enviar", entonces recibo un email de confirmación.|
+#### <a name="_qx22u5evz35s"></a>**5.2.1.5. Execution Evidence for Sprint Review**
 
-Demo del Landing Page:
+|**Epic / Story ID**|**Título**|**Criterios de Aceptación**|
+| :-: | :-: | :-: |
+|US03|Inicio de sesión|Dado que me encuentro en la página inicial, cuando hago clic en "Acceder", entonces se abre un formulario donde puedes ingresar tu correo electrónico y tu contraseña.|
+|US31|Navegación por el landing page|Dado que el usuario se encuentra en la página de inicio, cuando selecciona un elemento del menú, entonces es dirigido a la sección correspondiente dentro de la misma página.|
+|US32|Ver información del proyecto|Dado que leo "Cómo funciona", cuando reviso los íconos, entonces identificó 4 ventajas principales.|
+|US34|Contactar al equipo de soporte|Dado que completo el formulario, cuando hago clic en "Enviar", entonces recibo un email de confirmación.|
 
-##### 5.2.1.6. Services Documentation Evidence for Sprint Review
-
-Durante este Sprint, el enfoque se centró únicamente en la creación del frontend estático (Landing Page) del proyecto TravelMatch. Por ello, no se abordaron endpoints ni funcionalidades vinculadas a servicios web o APIs RESTful.
+#### <a name="_sbbcjfucpj9k"></a>**5.2.1.6. Services Documentation Evidence for Sprint Review**
+Durante este Sprint, el enfoque se centró únicamente en la creación del frontend estático (Landing Page) del proyecto EcoVolt. Por ello, no se abordaron endpoints ni funcionalidades vinculadas a servicios web o APIs RESTful.
 
 La elaboración de la documentación de Web Services mediante OpenAPI/Swagger se planifica para próximos Sprints, cuando comience el desarrollo del backend del sistema.
-
-##### 5.2.1.7. Software Deployment Evidence for Sprint Review
-
+##### <a name="_9padx695gxgh"></a>**5.2.1.7. Software Deployment Evidence for Sprint Review**
 En este Sprint, se realizó el despliegue inicial de la landing page del proyecto EcoVolt, marcando el comienzo del proceso de publicación gradual de los componentes del sistema. Esta acción tuvo como propósito principal validar visualmente los avances en diseño e interacción, tanto con el cliente como con el equipo docente.
 
-**Actividades Realizadas**
+Actividades Realizadas
 
 - Se configuró el repositorio en GitHub y se estableció una estructura base de carpetas para el proyecto.
 - Se implementó el flujo de trabajo utilizando Git Flow, gestionando los cambios en la rama develop.
@@ -1427,65 +1454,51 @@ En este Sprint, se realizó el despliegue inicial de la landing page del proyect
 - Se habilitó GitHub Pages como plataforma de despliegue estático, vinculando su contenido a la rama main.
 - La landing page fue publicada correctamente y quedó disponible a través de una URL pública.
 
-**URL de la landing page desplegada:** https://g-aplicaciones-web.github.io/landing-page/
+URL de la landing page desplegada: <https://g-aplicaciones-web.github.io/landing-page/>
 
 **Evidencias visuales**
 
 - Configuración del repositorio GitHub y estructura inicial de carpetas.
+  - Se creó un repositorio destinado a la landing page dentro de la organización y se configuró con visibilidad pública
 
-    - Se creó un repositorio destinado a la landing page dentro de la organización y se configuró con visibilidad pública
-    <p align="center">
-        <img src="assets/evidencias/repo-config.png" alt="repo-config"/>
-    </p>
+- Una vez dentro del repositorio, copiamos la URL HTTPS y procedimos a clonarlo en nuestro entorno local utilizando el comando **git clone**. Luego, organizamos una estructura de carpetas en nuestra máquina con una disposición similar a la siguiente:
 
-    - Una vez dentro del repositorio, copiamos la URL HTTPS y procedimos a clonarlo en nuestro entorno local utilizando el comando `git clone`. Luego, organizamos una estructura de carpetas en nuestra máquina con una disposición similar a la siguiente.:
-    <p align="center">
-        <img src="assets/evidencias/folders-struct.png" alt="folders-struct"/>
-    </p>
 
-- Se implementó el flujo de trabajo Git Flow, manteniendo el desarrollo activo en la rama `develop`.
-    - Inicialmente, desde la consola, se realizó un push a la rama remota `main` utilizando el comando `git push origin main`, acompañado de un mensaje de commit descriptivo.
-    <p align="center">
-        <img src="assets/evidencias/initial-commit-landing.png" alt="initial-commit-landing"/>
-    </p>
+Se implementó el flujo de trabajo Git Flow, manteniendo el desarrollo activo en la rama develop.
 
-    - Posteriormente, se creó la rama local `develop` con el comando `git checkout -b develop`, la cual fue subida al repositorio remoto mediante `git push origin develop`. Las ramas `feature/*` se generaron de forma similar, asegurándose siempre de partir desde `develop`. Para ello, se utilizó previamente el comando `git checkout develop` para confirmar que se trabajaba sobre la rama correcta. Este proceso derivó en:
-    <p align="center">
-        <img src="assets/evidencias/landing-repo-branches.png" alt="landing-repo-branches"/>
-    </p>
+- Inicialmente, desde la consola, se realizó un push a la rama remota main utilizando el comando git push origin main, acompañado de un mensaje de commit descriptivo.
 
-- La integración de cambios mediante un merge desde `develop` hacia `main`, cumpliendo con las normas descritas en la sección 5.1.2.
-    - Antes de fusionar las ramas, se creó un pull request en GitHub para revisar los cambios, garantizar que no existieran conflictos y validar que el código respetara los estándares acordados.        
-    - Se efectuaron pruebas manuales con la extensión Live Server, lo que permitió verificar la funcionalidad de la landing page antes de proceder con la fusión.    
 
-- Luego, se activó GitHub Pages como herramienta de despliegue estático, apuntando al contenido de la rama `main`.
-    - Desde la sección "Settings" > "Pages" del repositorio, se eligió la rama `main` como fuente para la publicación.    
-    - Finalmente, se comprobó que la URL generada por GitHub Pages estuviera activa y desplegara correctamente la landing page, logrando así una publicación exitosa accesible desde una dirección pública.
-    <p align="center">
-        <img src="assets/evidencias/landing-page-deploy-config.png" alt="landing-deploy-config"/>
-    </p>
+
+- Posteriormente, se creó la rama local develop con el comando git checkout -b develop, la cual fue subida al repositorio remoto mediante git push origin develop. Las ramas feature/\* se generaron de forma similar, asegurándose siempre de partir desde develop. Para ello, se utilizó previamente el comando git checkout develop para confirmar que se trabajaba sobre la rama correcta. Este proceso derivó en:
+
+
+
+- La integración de cambios mediante un merge desde develop hacia main, cumpliendo con las normas descritas en la sección 5.1.2.
+  - Antes de fusionar las ramas, se creó un pull request en GitHub para revisar los cambios, garantizar que no existieran conflictos y validar que el código respetara los estándares acordados.
+  - Se efectuaron pruebas manuales con la extensión Live Server, lo que permitió verificar la funcionalidad de la landing page antes de proceder con la fusión.
+- Luego, se activó GitHub Pages como herramienta de despliegue estático, apuntando al contenido de la rama main.
+  - Desde la sección "Settings" > "Pages" del repositorio, se eligió la rama main como fuente para la publicación.
+  - Finalmente, se comprobó que la URL generada por GitHub Pages estuviera activa y desplegara correctamente la landing page, logrando así una publicación exitosa accesible desde una dirección pública.
 
 - La landing page fue publicada correctamente y se encuentra disponible a través de una dirección URL accesible públicamente.
 
-<p align="center">
-    <img src="assets/evidencias/landing-demo-index1.png" alt="landing-demo1"/>    
-</p>
 
-<p align="center">
-    <img src="assets/evidencias/landing-demo-index2.png" alt="landing-demo2"/>    
-</p>
-
-<p align="center">
-    <img src="assets/evidencias/landing-demo-signup.png" alt="landing-demo3"/>    
-</p>
-
-<p align="center">
-    <img src="assets/evidencias/landing-demo-login.png" alt="landing-demo4"/>    
-</p>
-
-##### 5.2.1.8. Team Collaboration Insights during Sprint
-
+  #### <a name="_19hdpp4kfi7i"></a>**5.2.1.8. Team Collaboration Insights during Sprint**
 Durante este Sprint, el equipo trabajó de manera colaborativa en la construcción de la landing page de EcoVolt, aplicando buenas prácticas en el uso de control de versiones con Git, organizando el flujo de trabajo bajo la metodología Git Flow y asignando tareas conforme a los roles definidos desde el inicio del proyecto, tanto en desarrollo como en diseño.
+
+**Estrategia de colaboración empleada:**
+
+- Se utilizaron ramas específicas (feature/, develop, main) para mantener un desarrollo ordenado y estructurado de las funcionalidades.
+- Se aplicaron convenciones de commits siguiendo el estándar Conventional Commits, lo que permitió una mejor trazabilidad de los cambios realizados.
+- Los pull requests fueron revisados por otros integrantes del equipo antes de ser integrados a la rama develop, asegurando calidad y coherencia en el código.
+- Se realizaron reuniones breves (dailys o sesiones semanales de seguimiento) que permitieron monitorear el progreso y resolver bloqueos de forma oportuna.
+- A continuación, se presenta la evidencia del avance individual de cada miembro del equipo:
+  - Anyelo Alejos: Commits relacionados a hojas de estilo
+  - Mathias Aspajo: Commits relacionados a la vista del login y su hoja de estilo
+  - Jack Roque: Commits relacionados a hojas de estilo y assets
+  - Alejandro Mendoza: Commits relacionados a hojas de estilo
+  - Alejandro Torres: Commits relacionados al index principal
 
 **Estrategia de colaboración empleada:**
 
@@ -1501,28 +1514,23 @@ Durante este Sprint, el equipo trabajó de manera colaborativa en la construcci�
 
     - Anyelo Alejos: Commits relacionados a hojas de estilo 
     <p align="center">
-        <img src="assets/evidencias/landin-commits-anyelo.png" alt="landing-commits-anyelo"/>    
+        <img src="assets/evidencias/commit_anyelo.png" alt="landing-commits-anyelo"/>    
     </p>
 
     - Mathias Aspajo: Commits relacionados a la vista del login y su hoja de estilo
     <p align="center">
-        <img src="assets/evidencias/landing-commits-mathias.png" alt="landing-commits-mathias"/>    
+        <img src="assets/evidencias/commit_aspajo.png" alt="landing-commits-mathias"/>    
     </p>
 
     - Jack Roque: Commits relacionados a hojas de estilo y assets
     <p align="center">
-        <img src="assets/evidencias/landing-commits-jack.png" alt="landing-commits-jack"/>    
+        <img src="assets/evidencias/commit_roque.png" alt="landing-commits-jack"/>    
     </p>
 
     - Alejandro Mendoza: Commits relacionados  a hojas de estilo
     <p align="center">
-        <img src="assets/evidencias/landing-commits-alejandrom.png" alt="landing-commits-alejandrom"/>    
+        <img src="assets/evidencias/mendoza.png" alt="landing-commits-alejandrom"/>    
     </p>   
-
-     - Alejandro Torres: Commits relacionados al index principal
-    <p align="center">
-        <img src="assets/evidencias/landingv2-commits-alejandro.png" alt="landing-commits-alejandro"/>    
-    </p>  
 
 <hr>
 
@@ -1589,6 +1597,97 @@ Durante este Sprint, el equipo trabajó de manera colaborativa en la construcci�
     <td> 10 </td>
   </tr>
 </table>
+
+
+#### <a name="_usnkbe31yipk"></a>**5.2.2.2. Aspect Leaders and Collaborators**
+
+|Member (Last Name, First Name)|GitHub Username|DashBoard Section|Alerta Section|<p>Monitor</p><p>Section</p>|Exportation section|Facturation Section|
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|Roque Tello, Jack Eddie|UPC-Skylar|C|C|C|C|L|
+|Aspajo Alvarez, Mathias Joaquin|<p>[](https://github.com/AdeXzz)</p><p>[](https://github.com/AdeXzz)AdeXzz</p><p></p>|L|C|C|C|C|
+|Alejos Jesús, Anyelo Bill||C|C|L|C|C|
+|Mendoza Vergara, Alejandro Franklin|AlexBoo1|C|L|C|C|C|
+|Torres Alva, Alejandro|MauricioMVilcapoma|C|C|C|L|C|
+
+#### <a name="_rvqlb1v7p2u0"></a>**5.2.2.3. Sprint Backlog 2**
+
+
+|Id	|Title|ID|Title|Description|Estimation (hours)	|Assigned To	|Status|
+| :- | :- | :- | :- | :- | :- | :- | :- |
+|US05|Perfil corporativo	|TS09|Componente de perfil corporativo	|Desarrollo de la sección que muestra información básica de la empresa, plan contratado y beneficios asociados.	|8|Alejandro M.	|Done|
+|US08|Eliminar cuenta|TS10|Funcionalidad de eliminación de cuenta	|Implementación de la opción para borrar cuentas, incluyendo confirmación con contraseña y cancelación.	|6|Anyelo|Done|
+|US18|Histórico comparativo	|TS11|Módulo de gráficos comparativos	|Desarrollo de gráficas de consumo histórico y manejo de períodos sin datos.	|10|Jack|Done|
+|US20|Recomendaciones de ahorro	|TS12|Sistema de recomendaciones	|Generación de sugerencias basadas en patrones de consumo y mensaje de "consumo óptimo".	|12|Mathias|Done|
+|US35|Gestión de dispositivos	|TS13|Panel de gestión IoT	|Listado interactivo de dispositivos con nombre, tipo, estado y funcionalidad para cambiar su estado.	|10|Jack|Done|
+
+
+#### <a name="_63o8yl7le5at"></a>**5.2.2.4. Development Evidence for Sprint Review**
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commit Message Body**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- | :- |
+|G-Aplicaciones-Web/landing-page|develop|9204f12|feat: add modifications chapter 4||15/05/25|
+|G-Aplicaciones-Web/landing-page|develop|b77f42b|feat:add modifications chapter 3||15/05/25|
+|G-Aplicaciones-Web/landing-page|develop|142fad2|feat: add modifications chapter 5||12/05/25|
+
+
+
+
+
+#### <a name="_po0np6kchf3p"></a>**5.2.2.5. Execution Evidence for Sprint Review**
+En este sprint, el equipo de EcoVolt cumplió en la integración del frontend con la landing page. Esto es importante para el proyecto, pues ahora nuestra aplicación web es capaz de dar una correcta interacción con el usuario en tiempo real.
+
+Se implementaron distintas funcionalidades como el inicio de sesión y el cambio de idioma. Con todo esto, se espera que el proyecto siga en buen camino a convertirse en una aplicación totalmente funcional y que cumpla los objetivos detallados en el sprint.
+
+
+Enlace de deployment del FrontEnd: <https://frontend-two-omega-72.vercel.app>
+
+Enlace de deployment de la Landing Page: <https://g-aplicaciones-web.github.io/landing-page/#companies-professionals>
+
+<a name="_vnsfwxiq5oii"></a>**5.2.2.6. Services Documentation Evidence for Sprint Review**
+
+Durante el segundo sprint, el equipo priorizó el desarrollo de la interfaz de usuario (frontend) de la aplicación web de EcoVolt. Debido a este enfoque en la capa visual y la experiencia del usuario, no se incluyó la implementación de servicios web o integraciones backend en esta fase del proyecto.
+
+#### <a name="_9gjzawjk4u08"></a>**5.2.2.7. Software Deployment Evidence for Sprint Review**
+Durante este sprint, se ha completado el desarrollo del frontend de la aplicación web. Para el despliegue, se utilizaron las siguientes herramientas y servicios:
+
+Git: Sistema de control de versiones que utilizamos para trabajar de forma colaborativa y monitorear las versiones de la aplicación web en un repositorio remoto.
+
+Gitflow: Este flujo de trabajo colaborativo nos ha permitido dividir el trabajo en ramas dentro de nuestro repositorio, lo que facilita la colaboración en el desarrollo.
+
+GitHub: La plataforma que nos proporcionó la herramienta para crear nuestro repositorio y almacenar las versiones de nuestro proyecto.
+
+my-json-server.typicode: Utilizado para crear y desplegar una Fake API que simula las interacciones del backend, permitiendo realizar pruebas del frontend con datos estructurados.
+
+
+
+
+#### <a name="_k7txxjqwolth"></a>**5.2.2.8. Team Collaboration Insights during Sprint**
+El equipo organizó el desarrollo de las funcionalidades avanzadas de monitoreo energético mediante la división del trabajo en ramas específicas del repositorio. Se siguió la convención de ramas temáticas (bounded-context) y se aplicaron buenas prácticas de GitFlow para separar las tareas de desarrollo, revisión e integración, asegurando un flujo de trabajo ordenado y colaborativo.
+
+Cada funcionalidad fue tratada como una rama independiente, lo que permitió paralelizar el desarrollo sin generar conflictos de fusión. Se realizaron múltiples *pull requests* con revisión entre pares, lo cual ayudó a mantener la calidad del código y reforzó la cohesión del equipo.
+
+A continuación, se detallan las tareas asignadas a cada miembro del equipo:
+
+
+|Alumno |Actividad|
+| :- | :- |
+|Aspajo Alvarez, Mathias Joaquin|Se encargó del desarrollo de la sección Inicio, asegurando la correcta visualización de datos iniciales y la experiencia de usuario en el dashboard principal.|
+|Alejos Jesus Anyelo Bill|Se encargó del desarrollo y diseño de la sección Mi Perfil | Empresas, gestionando la presentación de la información y la interacción para usuarios corporativos|
+|Alejandro Franklin Mendoza Vergara|Se encargó del desarrollo y diseño de la sección Mi Perfil | Técnicos, gestionando la visualización y funcionalidades específicas para los usuarios técnicos.|
+|Roque Tello, Jack Eddie|Se encargó de la implementación completa de la sección Dispositivos conforme a la US035 - Gestión de dispositivos conectados, incluyendo la internacionalización (i18n), la integración de gráficos y la distribución general del proyecto.|
+
+A continuación, se mostrará la tabla de colaboradores en el repositorio de GitHub, con el objetivo de identificar a cada miembro del equipo.
+
+Tabla de integrantes:
+
+
+|Username (Github)|Nombre|
+| :- | :- |
+|AdeXzz|Aspajo Alvarez, Mathias Joaquin|
+|Everkoe|Alejos Jesus Anyelo Bill|
+|AlexBoo1|Alejandro Franklin Mendoza Vergara|
+|UPC-Skylar|Roque Tello, Jack Eddie|
+
 
 ## Conclusiones
 
