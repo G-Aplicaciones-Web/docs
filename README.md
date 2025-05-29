@@ -1671,10 +1671,10 @@ A continuación, se detallan las tareas asignadas a cada miembro del equipo:
 
 |Alumno |Actividad|
 | :- | :- |
-|Aspajo Alvarez, Mathias Joaquin|Se encargó del desarrollo del dashboard en tiempo real, el cual permite a los usuarios visualizar el consumo energético con actualizaciones cada cinco minutos..|
-|Alejos Jesus Anyelo Bill|Se encargó de la implementación del módulo de energía reactiva, permitiendo monitorear el factor de potencia y emitir recomendaciones para evitar penalidades.|
-|Alejandro Franklin Mendoza Vergara|Se encargó de desarrollar la funcionalidad de alertas personalizadas, permitiendo configurar umbrales y recibir notificaciones automáticas ante consumos anómalos..|
-|Roque Tello, Jack Eddie|Se encargó de la integración con sistemas externos de facturación, estableciendo la conexión vía API con software contable para proyectar costos energéticos.|
+|Aspajo Alvarez, Mathias Joaquin|Se encargó del desarrollo de la sección Inicio, asegurando la correcta visualización de datos iniciales y la experiencia de usuario en el dashboard principal.|
+|Alejos Jesus Anyelo Bill|Se encargó del desarrollo y diseño de la sección Mi Perfil | Empresas, gestionando la presentación de la información y la interacción para usuarios corporativos|
+|Alejandro Franklin Mendoza Vergara|Se encargó del desarrollo y diseño de la sección Mi Perfil | Técnicos, gestionando la visualización y funcionalidades específicas para los usuarios técnicos.|
+|Roque Tello, Jack Eddie|Se encargó de la implementación completa de la sección Dispositivos conforme a la US035 - Gestión de dispositivos conectados, incluyendo la internacionalización (i18n), la integración de gráficos y la distribución general del proyecto.|
 
 A continuación, se mostrará la tabla de colaboradores en el repositorio de GitHub, con el objetivo de identificar a cada miembro del equipo.
 
