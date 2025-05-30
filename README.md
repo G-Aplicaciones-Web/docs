@@ -1645,6 +1645,7 @@ Durante este Sprint, el equipo trabaj√≥ de manera colaborativa en la construcci√
 
 #### <a name="_rvqlb1v7p2u0"></a>**5.2.2.3. Sprint Backlog 2**
 
+Link del trello: https://trello.com/invite/b/6839ae7f516f2f051442624b/ATTI8f930c14e55d21d39723d436948beba04F2256B3/ecovolt
 
 |Id	|Title|ID|Title|Description|Estimation (hours)	|Assigned To	|Status|
 | :- | :- | :- | :- | :- | :- | :- | :- |
