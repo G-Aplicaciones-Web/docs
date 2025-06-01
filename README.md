@@ -1421,13 +1421,23 @@ En esta sección, detallamos el proceso para publicar la Landing Page de EcoVolt
 
 #### <a name="_w3aib2uruk5u"></a>**5.2.1.2. Aspect Leaders and Collaborators**
 
-|Member (Last Name, First Name)|GitHub Username|Navbar (Barra de navegación)|Hero Section|Footer|<p>About </p><p>Us </p><p>Section</p>|Information Section|Benefits Section|Contact Us Section|Responsive Design (Multi-device)|Documentación del Sprint|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|Roque Tello, Jack Eddie|UPC-Skylar|L|L|L|L|L|L|L|L|C|
-|Aspajo Alvarez, Mathias Joaquin|<p>[](https://github.com/AdeXzz)</p><p>[](https://github.com/AdeXzz)AdeXzz</p><p></p>|C|C|C|C|C|C|C|C|L|
-|Alejos Jesús, Anyelo Bill||C|C|C|C|C|C|C|C|C|
-|Mendoza Vergara, Alejandro Franklin|AlexBoo1|C|C|C|C|C|C|C|C|C|
-|Torres Alva, Alejandro|MauricioMVilcapoma|C|C|C|C|C|C|C|C|C|
+
+Los aspectos clave implementados en el Sprint 1 para la Landing Page incluyen:
+
+- UI/UX Design
+- Maquetación HTML/CSS
+- Desarrollo JavaScript
+- Documentación de Servicios
+Despliegue
+
+A continuación se detalla la Matriz LACX (Liderazgo y Colaboración), donde "L" designa al líder responsable de cada área y "C" a los colaboradores participantes:
+
+|Member (Last Name, First Name)|GitHub Username|ToolBar|How it Works?|Features|Services|Real Cases|Testimonials|About Us|Contact Us|Footer|Responsive Design|
+| :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- |
+|Roque Tello, Jack Eddie|UPC-Skylar|C|||L|||||C||
+|Aspajo Alvarez, Mathias Joaquin|AdeXzz|L|L|L||L|||L|L|L|
+|Mendoza Vergara, Alejandro Franklin	|AlexBoo1|||C|||L||||C|
+|Alejos Jesús, Anyelo Bill|<p></p><p>Everkoe</p>||C|||C||L||||
 
 #### <a name="_ou2rpzc79qrv"></a>**5.2.1.3. Sprint Backlog 1**
 En el primer sprint backlog, el equipo se propuso iniciar y completar el desarrollo de la landing page. Para coordinar y gestionar al equipo, se utilizó Trello, una herramienta que facilitó la división de las user stories en tareas más pequeñas y su asignación según las habilidades de cada miembro. El objetivo principal del sprint era desarrollar la landing page de manera completa, garantizando que fuera atractiva y funcional.
@@ -1466,12 +1476,55 @@ En estos commits se puede observar los últimos updates a la rama main que se hi
 
 #### <a name="_qx22u5evz35s"></a>**5.2.1.5. Execution Evidence for Sprint Review**
 
-|**Epic / Story ID**|**Título**|**Criterios de Aceptación**|
-| :-: | :-: | :-: |
-|US03|Inicio de sesión|Dado que me encuentro en la página inicial, cuando hago clic en "Acceder", entonces se abre un formulario donde puedes ingresar tu correo electrónico y tu contraseña.|
-|US31|Navegación por el landing page|Dado que el usuario se encuentra en la página de inicio, cuando selecciona un elemento del menú, entonces es dirigido a la sección correspondiente dentro de la misma página.|
-|US32|Ver información del proyecto|Dado que leo "Cómo funciona", cuando reviso los íconos, entonces identificó 4 ventajas principales.|
-|US34|Contactar al equipo de soporte|Dado que completo el formulario, cuando hago clic en "Enviar", entonces recibo un email de confirmación.|
+El Sprint 1 culminó con la implementación exitosa de la landing page, cumpliendo todos los criterios de aceptación de las historias de usuario. El entregable un sitio web funcional, visualmente atractivo, responsive, con información del equipo y formularios de contacto representa un hito fundamental para validar el producto con usuarios reales y consolidar la presencia digital del proyecto.
+
+|Epic / Story ID|Título|Criterios de Aceptación|
+| :- | :- | :- |
+|US09|Ver comentarios de empresas|Dado que estoy en la sección de "Testimonios" de la landing page, cuando navego por el carrusel, entonces puedo ver los comentarios de al menos 3 empresas.|
+|US10|Ver comentarios de electricistas|Dado que estoy en la sección de "Testimonios" de la landing page, cuando navego por el carrusel, entonces puedo ver los comentarios de al menos 3 electricistas.|
+|US12|Navegación por landing|Dado que el usuario está en la página principal, cuando haga clic en cualquier ítem del menú de navegación, entonces es redirigido suavemente a la sección correspondiente de la landing page.|
+|US13|Responsividad en móviles (Landing Page)|Dado que el usuario accede a la landing page desde un dispositivo móvil, cuando visualiza cualquier sección de la página, entonces el contenido se adapta y se muestra de forma legible y utilizable sin scroll horizontal.|
+|US31|Envío de comentarios desde la Landing|Dado que el usuario completa el formulario de contacto con datos válidos, cuando hace clic en el botón "Enviar Mensaje", entonces la página muestra un mensaje de confirmación "¡Mensaje enviado con éxito!" y el formulario se vacía.|
+|US32|Visualización de beneficios clave y tecnología|Dado que estoy en la sección "Descubre el Poder de EcoVolt", cuando veo las tarjetas de beneficios, entonces puedo identificar claramente al menos 4 características clave de la plataforma.|
+|US33|Visualización de casos de uso reales|Dado que estoy en la sección "Casos de Éxito EcoVolt", cuando visualizo los ejemplos, entonces puedo ver al menos 2 casos reales que demuestran la aplicación y los resultados de la solución EcoVolt.|
+|US34|Solicitud de contacto desde la Landing|Dado que estoy en la sección "Contáctanos", cuando completo los campos de "Correo Electrónico", "Número de Teléfono" y "Tu Mensaje" de forma válida, entonces puedo hacer clic en el botón "Enviar Mensaje" para solicitar un contacto.|
+
+Demo del Landing Page:
+
+**Evidencias visuales**
+
+<p align="center">
+        <img src="assets/evidencias/inicio.png" alt="inicio"/>    
+    </p>
+
+<p align="center">
+        <img src="assets/evidencias/how_works.png" alt="how-works"/>    
+    </p>
+
+<p align="center">
+        <img src="assets/evidencias/features.png" alt="features"/>    
+    </p>
+
+<p align="center">
+        <img src="assets/evidencias/services.png" alt="services"/>    
+    </p>
+
+<p align="center">
+        <img src="assets/evidencias/real_cases.png" alt="real_cases"/>    
+    </p>
+
+<p align="center">
+        <img src="assets/evidencias/testimonials.png" alt="testimonials"/>    
+    </p>
+
+<p align="center">
+        <img src="assets/evidencias/about_us.png" alt="about-us"/>    
+    </p>
+
+<p align="center">
+        <img src="assets/evidencias/contact_us.png" alt="contact-us"/>    
+    </p>                            
+
 
 #### <a name="_sbbcjfucpj9k"></a>**5.2.1.6. Services Documentation Evidence for Sprint Review**
 Durante este Sprint, el enfoque se centró únicamente en la creación del frontend estático (Landing Page) del proyecto EcoVolt. Por ello, no se abordaron endpoints ni funcionalidades vinculadas a servicios web o APIs RESTful.
