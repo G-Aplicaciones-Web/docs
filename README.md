@@ -1735,31 +1735,35 @@ La principal ventaja de implementar nuestra solución mediante Vercel radica en 
 
 #### <a name="_k7txxjqwolth"></a>**5.2.2.8. Team Collaboration Insights during Sprint**
 El equipo organizó el desarrollo de las funcionalidades avanzadas de monitoreo energético mediante la división del trabajo en ramas específicas del repositorio. Se siguió la convención de ramas temáticas (bounded-context) y se aplicaron buenas prácticas de GitFlow para separar las tareas de desarrollo, revisión e integración, asegurando un flujo de trabajo ordenado y colaborativo.
-
-Cada funcionalidad fue tratada como una rama independiente, lo que permitió paralelizar el desarrollo sin generar conflictos de fusión. Se realizaron múltiples *pull requests* con revisión entre pares, lo cual ayudó a mantener la calidad del código y reforzó la cohesión del equipo.
-
+Cada funcionalidad fue tratada como una rama independiente, lo que permitió paralelizar el desarrollo sin generar conflictos de fusión. Se realizaron múltiples pull requests con revisión entre pares, lo cual ayudó a mantener la calidad del código y reforzó la cohesión del equipo.
 A continuación, se detallan las tareas asignadas a cada miembro del equipo:
 
 
-|Alumno |Actividad|
-| :- | :- |
-|Aspajo Alvarez, Mathias Joaquin|Se encargó del desarrollo de la sección Inicio, asegurando la correcta visualización de datos iniciales y la experiencia de usuario en el dashboard principal.|
-|Alejos Jesus Anyelo Bill|Se encargó del desarrollo y diseño de la sección Mi Perfil | Empresas, gestionando la presentación de la información y la interacción para usuarios corporativos|
-|Alejandro Franklin Mendoza Vergara|Se encargó del desarrollo y diseño de la sección Mi Perfil | Técnicos, gestionando la visualización y funcionalidades específicas para los usuarios técnicos.|
-|Roque Tello, Jack Eddie|Se encargó de la implementación completa de la sección Dispositivos conforme a la US035 - Gestión de dispositivos conectados, incluyendo la internacionalización (i18n), la integración de gráficos y la distribución general del proyecto.|
+| Alumno | Actividad |
+| ------ | --------- |
+| Aspajo Alvarez, Mathias Joaquin       |   Se encargó del desarrollo de la sección Inicio, asegurando la correcta visualización de datos iniciales y la experiencia de usuario en el dashboard principal.        |
+|    Alejos Jesus Anyelo Bill    |   Se encargó del desarrollo y diseño de la sección Mi Perfil / Empresas, gestionando la presentación de la información y la interacción para usuarios corporativos        |
+|   Alejandro Franklin Mendoza Vergara     |   Se encargó del desarrollo y diseño de la sección Mi Perfil / Técnicos, gestionando la visualización y funcionalidades específicas para los usuarios técnicos.        |
+| Roque Tello, Jack Eddie   | Se encargó de la implementación completa de la sección Dispositivos conforme a la US035 - Gestión de dispositivos conectados, incluyendo la internacionalización (i18n), la integración de gráficos y la distribución general del proyecto.      |
 
 A continuación, se mostrará la tabla de colaboradores en el repositorio de GitHub, con el objetivo de identificar a cada miembro del equipo.
-
 Tabla de integrantes:
 
 
-|Username (Github)|Nombre|
-| :- | :- |
-|AdeXzz|Aspajo Alvarez, Mathias Joaquin|
-|Everkoe|Alejos Jesus Anyelo Bill|
-|AlexBoo1|Alejandro Franklin Mendoza Vergara|
-|UPC-Skylar|Roque Tello, Jack Eddie|
 
+| Username (Github) | Nombre |
+| ----------------- | ------ |
+|     AdeXzz              |  Aspajo Alvarez, Mathias Joaquin      |
+|       Everkoe            |  Alejos Jesus Anyelo Bill      |
+|       AlexBoo1            |  Alejandro Franklin Mendoza Vergara      |
+| UPC-Skylar              | Roque Tello, Jack Eddi   |
+
+
+Por último, se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
+
+<img width="1428" alt="Image" src="https://github.com/user-attachments/assets/10768368-9be4-479b-80cd-66bd86270460" />
+
+<img width="1431" alt="Image" src="https://github.com/user-attachments/assets/8578128c-c786-4662-a880-0827be2a5338" />
 
 ## Conclusiones
 
