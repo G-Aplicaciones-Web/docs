@@ -1658,43 +1658,14 @@ Link del trello: https://trello.com/invite/b/6839ae7f516f2f051442624b/ATTI8f930c
 
 #### <a name="_63o8yl7le5at"></a>**5.2.2.4. Development Evidence for Sprint Review**
 
-|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commit Message Body**|**Commited on (Date)**|
-| :- | :- | :- | :- | :- | :- |
-|G-Aplicaciones-Web/landing-page|develop|9204f12|feat: add modifications chapter 4||15/05/25|
-|G-Aplicaciones-Web/landing-page|develop|b77f42b|feat:add modifications chapter 3||15/05/25|
-|G-Aplicaciones-Web/landing-page|develop|142fad2|feat: add modifications chapter 5||12/05/25|
-
-
-
 
 
 #### <a name="_po0np6kchf3p"></a>**5.2.2.5. Execution Evidence for Sprint Review**
-En este sprint, el equipo de EcoVolt cumplió en la integración del frontend con la landing page. Esto es importante para el proyecto, pues ahora nuestra aplicación web es capaz de dar una correcta interacción con el usuario en tiempo real.
 
-Se implementaron distintas funcionalidades como el inicio de sesión y el cambio de idioma. Con todo esto, se espera que el proyecto siga en buen camino a convertirse en una aplicación totalmente funcional y que cumpla los objetivos detallados en el sprint.
-
-
-Enlace de deployment del FrontEnd: <https://frontend-two-omega-72.vercel.app>
-
-Enlace de deployment de la Landing Page: <https://g-aplicaciones-web.github.io/landing-page/#companies-professionals>
 
 <a name="_vnsfwxiq5oii"></a>**5.2.2.6. Services Documentation Evidence for Sprint Review**
 
-Durante el segundo sprint, el equipo priorizó el desarrollo de la interfaz de usuario (frontend) de la aplicación web de EcoVolt. Debido a este enfoque en la capa visual y la experiencia del usuario, no se incluyó la implementación de servicios web o integraciones backend en esta fase del proyecto.
-
 #### <a name="_9gjzawjk4u08"></a>**5.2.2.7. Software Deployment Evidence for Sprint Review**
-Durante este sprint, se ha completado el desarrollo del frontend de la aplicación web. Para el despliegue, se utilizaron las siguientes herramientas y servicios:
-
-Git: Sistema de control de versiones que utilizamos para trabajar de forma colaborativa y monitorear las versiones de la aplicación web en un repositorio remoto.
-
-Gitflow: Este flujo de trabajo colaborativo nos ha permitido dividir el trabajo en ramas dentro de nuestro repositorio, lo que facilita la colaboración en el desarrollo.
-
-GitHub: La plataforma que nos proporcionó la herramienta para crear nuestro repositorio y almacenar las versiones de nuestro proyecto.
-
-my-json-server.typicode: Utilizado para crear y desplegar una Fake API que simula las interacciones del backend, permitiendo realizar pruebas del frontend con datos estructurados.
-
-
-
 
 #### <a name="_k7txxjqwolth"></a>**5.2.2.8. Team Collaboration Insights during Sprint**
 El equipo organizó el desarrollo de las funcionalidades avanzadas de monitoreo energético mediante la división del trabajo en ramas específicas del repositorio. Se siguió la convención de ramas temáticas (bounded-context) y se aplicaron buenas prácticas de GitFlow para separar las tareas de desarrollo, revisión e integración, asegurando un flujo de trabajo ordenado y colaborativo.
