@@ -1611,14 +1611,32 @@ Durante este Sprint, el equipo trabajó de manera colaborativa en la construcci�
 
 #### <a name="_rvqlb1v7p2u0"></a>**5.2.2.3. Sprint Backlog 2**
 
+Esta sección ofrece un resumen del objetivo central del sprint, resaltando las metas propuestas y las funcionalidades que se planean desarrollar. Seguidamente, se incluye una captura del tablero del sprint en la herramienta de gestión elegida, Trello, junto con su enlace público. También se presenta una tabla con las User Stories asignadas al sprint, los Work-items o tareas derivadas, y otras actividades adicionales requeridas para alcanzar los objetivos generales del sprint.
+Este es nuestro link de invitación a nuestro Trello:
 
-|Id	|Title|ID|Title|Description|Estimation (hours)	|Assigned To	|Status|
-| :- | :- | :- | :- | :- | :- | :- | :- |
-|US05|Perfil corporativo	|TS09|Componente de perfil corporativo	|Desarrollo de la sección que muestra información básica de la empresa, plan contratado y beneficios asociados.	|8|Alejandro M.	|Done|
-|US08|Eliminar cuenta|TS10|Funcionalidad de eliminación de cuenta	|Implementación de la opción para borrar cuentas, incluyendo confirmación con contraseña y cancelación.	|6|Anyelo|Done|
-|US18|Histórico comparativo	|TS11|Módulo de gráficos comparativos	|Desarrollo de gráficas de consumo histórico y manejo de períodos sin datos.	|10|Jack|Done|
-|US20|Recomendaciones de ahorro	|TS12|Sistema de recomendaciones	|Generación de sugerencias basadas en patrones de consumo y mensaje de "consumo óptimo".	|12|Mathias|Done|
-|US35|Gestión de dispositivos	|TS13|Panel de gestión IoT	|Listado interactivo de dispositivos con nombre, tipo, estado y funcionalidad para cambiar su estado.	|10|Jack|Done|
+https://trello.com/b/9qlfPKR6/ecovolt
+
+![Image](https://github.com/user-attachments/assets/c32774e9-23c0-4c90-a4d3-e2b4d69f5582)
+
+En el **Sprint Backlog 2**, el equipo se enfocó en el desarrollo de la **web frontend application** para la plataforma EcoVolt. Durante este sprint, se implementaron funcionalidades clave que permiten al usuario:
+* Visualizar gráficos comparativos de consumo eléctrico histórico y en tiempo real.
+* Consultar recomendaciones personalizadas para el ahorro energético.
+* Gestionar dispositivos IoT conectados y desconectados, con actualización dinámica y control interactivo del estado de cada dispositivo.
+* Utilizar la aplicación en múltiples idiomas gracias a la integración de la internacionalización (i18n).
+* Acceder a perfiles diferenciados tanto para empresas como para técnicos, con información relevante y opciones específicas para cada tipo de usuario.
+
+El objetivo principal del sprint fue garantizar una experiencia de usuario completa, funcional y multilingüe en la aplicación, sentando las bases para futuras integraciones y mejora.
+
+
+
+| ID  | Title | ID   | Title | Description | Estimation (hours) | Assigned To | Status |
+| --- | ----- | ---- | ----- | ----------- | ------------------ | ----------- | ------ |
+| US35    |   Gestión de dispositivos	    |  TS09    | Implementar la funcionalidad de visualización y control de dispositivos IoT conectados y desconectados    |    Desarrollar el módulo que permita a los usuarios visualizar en tiempo real un listado de dispositivos IoT asociados a su cuenta, indicando cuáles están conectados o desconectados. Implementar controles interactivos para que el usuario pueda cambiar el estado de cada dispositivo (conectar o desconectar) y reflejar estos cambios dinámicamente en la interfaz. Garantizar la integración con la internacionalización para que todos los textos relacionados sean multilingües.         |   8                 |      Jack Roque       |    Done   |
+|  US20   |   Recomendaciones de ahorro	    |   TS12   |   Sistema de recomendaciones	    |    Generación de sugerencias basadas en patrones de consumo y mensaje de "consumo óptimo".	         |            3        |Mathias	Aspajo |  Done      |
+|  US18   |   Histórico comparativo	    |  TS11    |  Módulo de gráficos comparativos	     |     Desarrollo de gráficas de consumo histórico y manejo de períodos sin datos.	        |     3               |    Mathias Aspajo	        |   Done    |
+|  US08  |   Eliminar cuenta	    |  TS10    |  Funcionalidad de eliminación de cuenta	     |     Implementación de la opción para borrar cuentas, incluyendo confirmación con contraseña y cancelación.	        |         3           |     Alejandro Mendoza        |        |
+|  US05	   | Perfil corporativo	  | TS09	 |   Componente de perfil corporativo	    |    Desarrollo de la sección que muestra información básica de la empresa, plan contratado y beneficios asociados.	         |         5          |    Anyelo Bill        |    Done    |
+
 
 
 #### <a name="_63o8yl7le5at"></a>**5.2.2.4. Development Evidence for Sprint Review**
