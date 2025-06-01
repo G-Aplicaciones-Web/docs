@@ -1398,25 +1398,29 @@ En esta sección, detallamos el proceso para publicar la Landing Page de EcoVolt
 #### <a name="_ou2rpzc79qrv"></a>**5.2.1.3. Sprint Backlog 1**
 En el primer sprint backlog, el equipo se propuso iniciar y completar el desarrollo de la landing page. Para coordinar y gestionar al equipo, se utilizó Trello, una herramienta que facilitó la división de las user stories en tareas más pequeñas y su asignación según las habilidades de cada miembro. El objetivo principal del sprint era desarrollar la landing page de manera completa, garantizando que fuera atractiva y funcional.
 
+**Objetivo del Sprint**
+
+Desarrollar una landing page completa que sea visualmente atractiva, funcional y responsive, como punto de entrada y presentación del producto EcoVolt.
+
+<p align="center">
+        <img src="assets/evidencias/Evidencia_trello.jpg" alt="Trello"/>    
+    </p>
+
+https://trello.com/invite/b/6839ae7f516f2f051442624b/ATTI8f930c14e55d21d39723d436948beba04F2256B3/ecovolt
+
 |**Sprint #**|**Sprint 1**|||||||||
 | :-: | :-: | :- | :- | :- | :- | :- | :- | :- | :- |
 |**User Story**|**Work-Item / Task**|||||||||
 |**Id**|**Title**|**Id**|**Title**|**Description**|**Estimation (Hours)**|**Assigned To**|**Status (To-do / In-Process / To-Review / Done)**|||
-|US01|Barra de navegación en la Landing Page|UT01|Creación de la barra de navegación.|Implementar el menú de navegación de la landing page de FitWise, garantizando que las opciones sean claras y fáciles de usar para los usuarios.|1|Diego Acuña|Done|||
-|US01|Barra de navegación en la Landing Page|UT02|Optimización de la barra de navegación.|Mejorar la experiencia del usuario con la barra de navegación incorporando animaciones o transiciones suaves.|3|Diego Acuña|Done|||
-|US02|Sección Hero en la Landing Page|UT03|Creación de la sección Hero.|Diseñar una sección principal en la landing page que incluya una imagen llamativa y un título que capte la atención.|3|Diego Acuña|Done|||
-|US02|Sección Hero en la Landing Page|UT04|Modificaciones en la sección Hero.|Ajustar la sección Hero para garantizar un diseño responsive que se visualice adecuadamente en todo tipo de dispositivos y resoluciones de pantalla.|2|Diego Acuña|Done|||
-|US03|Sección Footer en la Landing Page|UT05|Creación de la sección de footer.|Crear la sección de footer con enlaces a la información sobre el equipo y los términos y condiciones de uso.|1|Diego Acuña|Done|||
-|US04|Sección "About Us" en la Landing Page|UT06|Crear una sección que describa nuestra startup.|Desarrollar la sección "Sobre nosotros" para proporcionar información acerca del equipo y la misión de la empresa.|2|Diego Acuña|Done|||
-|US04|Sección "About Us" en la Landing Page|UT07|Describir nuestra empresa y a los miembros del equipo.|Incluir información detallada sobre la historia y los miembros del equipo en la sección "Sobre nosotros".|2|Diego Acuña|Done|||
-|US05|Sección "Information" en la Landing Page|UT08|Describir en detalle nuestro producto.|Crear una sección que explique de manera detallada nuestro producto.|2|Diego Acuña|Done|||
-|US05|Sección "Information" en la Landing Page|UT09|Modificación de la sección "Information".|Agregar información detallada sobre nuestro producto, junto con una frase atractiva y una imagen representativa del mismo.|2|Diego Acuña|Done|||
-|US06|Sección "Benefits" en la Landing Page|UT10|Explicar los beneficios de nuestro producto.|CCrear una sección destacada que explique los principales beneficios de nuestra aplicación en comparación con otras.|2|Diego Acuña|Done|||
-|US06|Sección "Benefits" en la Landing Page|UT11|Modificación de la sección "Benefits".|Explicar los beneficios de manera atractiva, mostrando imágenes cautivadoras con animaciones al pasar el mouse, acompañadas de texto explicativo sobre cada beneficio.|2|Diego Acuña|Done|||
-|US07|Sección "Contact us" en la Landing Page|UT12|Creación de la sección de contacto.|Incluir la información de contacto del equipo para facilitar la interacción con los usuarios.|2|Diego Acuña|Done|||
-|US07|Sección "Contact us" en la Landing Page|UT13|Desarrollar el formulario de contacto.|Desarrollar un formulario de contacto operativo en la sección correspondiente.|1|Diego Acuña|Done|||
-|US08|Landing Page Responsive con diferentes dispositivos|UT14|Ajustar cada elemento de la página web para que se adapte a diferentes dispositivos.|Garantizar que la landing page funcione correctamente y tenga un diseño visualmente adecuado en diversos dispositivos y tamaños de pantalla.|6|Diego Acuña|Done|||
-|US08|Landing Page Responsive con diferentes dispositivos|UT15|Adaptación para dispositivos móviles.|Mejorar el diseño de la página para ofrecer una experiencia más fluida en dispositivos móviles.|2|Diego Acuña|Done|||
+|US09|Ver comentarios de empresas|UT01|Diseño del componente de comentarios.|Diseñar sección donde se muestran comentarios de empresas destacadas.|2|Jack Roque|Done|||
+|US10|Ver comentarios de electricistas|UT02|Carga de comentarios.|Implementar carga de comentarios desde JSON simulado o API.|2|Jack Roque|Done|||
+|US12|Navegación por landing|UT03|Implementación del menú principal.|Construir la barra de navegación de la landing page con enlaces funcionales.|2|Anyelo Alejos|Done|||
+|US13|Responsividad en móviles(Landing Page)|UT04|Ajuste responsive del diseño.|Aplicar media queries para adaptar la landing a pantallas móviles.|2|Anyelo Alejos|Done|||
+|US31|Envío de comentarios desde la Landing|UT05|Diseño del formulario de comentarios.|Crear formulario accesible para que usuarios envíen comentarios.|2|Mathias Aspajo|Done|||
+|US32|Visualización de beneficios clave y tecnología|UT06|Diseño visual de beneficios.|Crear sección con íconos o imágenes representando los beneficios clave de la solución.información acerca del equipo y la misión de la empresa.|2|Mathias Aspajo|Done|||
+|US33|Visualización de casos de uso reales|UT07|Diseño de casos de uso reales.|Crear sección que muestre ejemplos reales del uso de EcoVolt con texto e imágenes.|2|Alejandro Mendoza|Done|||
+|US34|Solicitud de contacto desde la Landing|UT08|Diseño del formulario de contacto.|Crear sección para que usuarios envíen solicitudes de contacto.|2|Alejandro Mendoza|Done|||
+
 
 
 
@@ -1431,6 +1435,8 @@ En estos commits se puede observar los últimos updates a la rama main que se hi
 
 
 #### <a name="_qx22u5evz35s"></a>**5.2.1.5. Execution Evidence for Sprint Review**
+
+Durante el Sprint 1, se desarrollaron y validaron funcionalidades clave de la landing page de **EcoVolt**. A continuación, se listan las *User Stories* que fueron implementadas, junto con sus respectivos criterios de aceptación, los cuales se cumplieron satisfactoriamente en las pruebas realizadas.
 
 |**Epic / Story ID**|**Título**|**Criterios de Aceptación**|
 | :-: | :-: | :-: |
@@ -1538,6 +1544,12 @@ Durante este Sprint, el equipo trabajó de manera colaborativa en la construcci�
 ### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 1
+
+
+En esta sección se detalla el proceso de planificación correspondiente al segundo sprint del proyecto. El equipo definió los objetivos a alcanzar durante este ciclo de trabajo, priorizando funcionalidades clave para el desarrollo continuo de la aplicación **EcoVolt**.
+
+Asimismo, se identificaron las tareas específicas, se asignaron responsables y se estableció el *Sprint Backlog* correspondiente, con el fin de asegurar un avance ordenado y colaborativo en el cumplimiento de las metas propuestas.
+
 
 <table>
   <tr>
