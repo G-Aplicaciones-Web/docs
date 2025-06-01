@@ -1706,15 +1706,29 @@ Con estos avances, el proyecto está encaminado hacia una aplicación plenamente
 Durante el segundo sprint, el equipo priorizó el desarrollo de la interfaz de usuario (frontend) de la aplicación web de EcoVolt. Debido a este enfoque en la capa visual y la experiencia del usuario, no se incluyó la implementación de servicios web o integraciones backend en esta fase del proyecto.
 
 #### <a name="_9gjzawjk4u08"></a>**5.2.2.7. Software Deployment Evidence for Sprint Review**
-Durante este sprint, se ha completado el desarrollo del frontend de la aplicación web. Para el despliegue, se utilizaron las siguientes herramientas y servicios:
 
-Git: Sistema de control de versiones que utilizamos para trabajar de forma colaborativa y monitorear las versiones de la aplicación web en un repositorio remoto.
+Para el despligue de nuestra Frontend Web Application, nuestro equipo considero pertinente usar la plataforma de alojamiento on cloud, **Vercel**. Adicional a ello, para la gestión del código se utilizaron las siguientes herramientas y servicios:
 
-Gitflow: Este flujo de trabajo colaborativo nos ha permitido dividir el trabajo en ramas dentro de nuestro repositorio, lo que facilita la colaboración en el desarrollo.
+* **Git:** Sistema de control de versiones que permitió la colaboración entre los miembros del equipo y el seguimiento riguroso de los cambios en el código fuente a través de un repositorio remoto.
 
-GitHub: La plataforma que nos proporcionó la herramienta para crear nuestro repositorio y almacenar las versiones de nuestro proyecto.
+* **Gitflow:** Metodología utilizada para gestionar el flujo de trabajo mediante ramas específicas (feature, develop, main), facilitando la organización y coordinación del desarrollo.
 
-my-json-server.typicode: Utilizado para crear y desplegar una Fake API que simula las interacciones del backend, permitiendo realizar pruebas del frontend con datos estructurados.
+* **GitHub:** Plataforma que alojó nuestro repositorio bajo la organización G-Aplicaciones-Web, sirviendo como repositorio central para el almacenamiento, revisión y control de versiones del proyecto.
+
+En cuanto al manejo de Vercel, se importó directamente el repositorio del frontend desde GitHub, habilitando un despliegue automático y actualizado de la web frontend application.
+
+<img width="620" alt="Image" src="https://github.com/user-attachments/assets/61a11eda-6b80-4d0e-8201-43be9c7589d2" />
+
+Aqui podemos visualizar el Overview de nuestro repositorio llamado "frontend", importado de nuestra organización "G-Aplicaciones-Web" en GitHub
+
+<img width="1421" alt="Image" src="https://github.com/user-attachments/assets/965775cb-de52-49de-96f7-7c839fdd5016" />
+
+Inclusive podemos visualizar los deployment que se realizaron
+
+<img width="1282" alt="Image" src="https://github.com/user-attachments/assets/42c079b1-9f5f-4b8e-b5e5-2478a24dd407" />
+
+**Conclusión:**
+La principal ventaja de implementar nuestra solución mediante Vercel radica en su integración directa con GitHub, lo que permite optimizar significativamente los tiempos de desarrollo. Además, garantiza que cada push realizado en las ramas configuradas desencadene automáticamente un proceso de build y despliegue inmediato, facilitando así la revisión y validación continua de la aplicación en un entorno real accesible a través de una URL pública.
 
 
 
