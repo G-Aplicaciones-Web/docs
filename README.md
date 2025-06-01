@@ -1652,14 +1652,54 @@ El objetivo principal del sprint fue garantizar una experiencia de usuario compl
 
 
 #### <a name="_po0np6kchf3p"></a>**5.2.2.5. Execution Evidence for Sprint Review**
-En este sprint, el equipo de EcoVolt cumplió en la integración del frontend con la landing page. Esto es importante para el proyecto, pues ahora nuestra aplicación web es capaz de dar una correcta interacción con el usuario en tiempo real.
+En esta entrega, nuestro equipo ha desplegado con éxito la frontend web application.
 
-Se implementaron distintas funcionalidades como el inicio de sesión y el cambio de idioma. Con todo esto, se espera que el proyecto siga en buen camino a convertirse en una aplicación totalmente funcional y que cumpla los objetivos detallados en el sprint.
+**Enlace de la Frontend Web Application:** https://frontend-two-omega-72.vercel.app/
+
+1. Cuando el usuario ingrese a la web frontend application de EcoVolt se le mostrará la sección "Home" donde podrá visualizar sus analíticas de consumo energético (US-018) respecto a meses anteriores.
 
 
-Enlace de deployment del FrontEnd: <https://frontend-two-omega-72.vercel.app>
+<img width="1434" alt="Image" src="https://github.com/user-attachments/assets/cbaa062e-2112-439b-9645-1c07c2c7bbc0" />
 
-Enlace de deployment de la Landing Page: <https://g-aplicaciones-web.github.io/landing-page/#companies-professionals>
+2. También podrá visualizar recomendaciones de ahorro que le ofrecerá la aplicación (US-20) además de los dispositivos con mayor y menor consumo de energía.
+
+<img width="1424" alt="Image" src="https://github.com/user-attachments/assets/3edc134f-5450-4fa5-a033-4e35bee6df0c" />
+
+
+3. Adicional a ello, cabe resaltar que el idioma por defecto de la web frontend application es inglés, sin embargo, el usuario tiene opción a modificarlo a español si lo desea.
+
+<img width="1418" alt="Image" src="https://github.com/user-attachments/assets/053efa8b-33d1-4115-81dc-9f5073907c0c" />
+
+4. En la sección "Devices", el usuario podrá interactuar con los dispositivos conectados y desconectados, de esta manera, tiene un control total sobre su consumo energético (US-035).
+
+<img width="1427" alt="Image" src="https://github.com/user-attachments/assets/6123f421-34e2-4000-b182-5ad5195c33e7" />
+
+5. El usuario podrá visualizar su perfil corporativo a través de la aplicación en la sección "My Profile | Companies (US-05)".
+
+<img width="1416" alt="Image" src="https://github.com/user-attachments/assets/08dd0742-6976-4f94-9af7-52fe7380f264" />
+
+6. También podrá visualizar su perfil en caso sea un técnico en la sección "My Profile | Technicians".
+
+<img width="1423" alt="Image" src="https://github.com/user-attachments/assets/c296fff3-897d-4b21-b9d6-7832b49519b8" />
+
+7. El usuario tiene la opción de poder eliminar su cuenta si cree conveniente (US-08).
+
+<img width="1413" alt="Image" src="https://github.com/user-attachments/assets/c8c7a197-b824-4469-a4de-ace0a7924308" />
+
+**Resumen:**
+
+Durante este sprint, el equipo de EcoVolt logró completar con éxito la integración del frontend con la landing page, fortaleciendo la experiencia de usuario en tiempo real dentro de la aplicación web. Esta integración es un avance crucial para el proyecto, ya que permite una interacción fluida y dinámica, mejorando la usabilidad y el acceso a las funcionalidades principales.
+
+**Se implementaron funcionalidades clave como:**
+* El sistema de inicio de sesión.
+* El cambio de idioma en tiempo real mediante internacionalización (i18n).
+* La gestión de dispositivos conectados y desconectados.
+* Visualización de gráficos de consumo eléctrico.
+* Perfiles diferenciados para empresas y técnicos.
+
+**Conclusión:**
+
+Con estos avances, el proyecto está encaminado hacia una aplicación plenamente funcional que cumple con los objetivos planteados en el sprint, proporcionando valor tangible a sus usuarios.
 
 <a name="_vnsfwxiq5oii"></a>**5.2.2.6. Services Documentation Evidence for Sprint Review**
 
