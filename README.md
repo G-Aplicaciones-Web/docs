@@ -1403,7 +1403,7 @@ En el primer sprint backlog, el equipo se propuso iniciar y completar el desarro
 Desarrollar una landing page completa que sea visualmente atractiva, funcional y responsive, como punto de entrada y presentación del producto EcoVolt.
 
 <p align="center">
-        <img src="assets/evidencias/Evidencia_trello.jpg" alt="Trello"/>    
+        <img src="assets/evidencias/Evidencia_trello.jpg" alt="Evidencia_trello"/>    
     </p>
 
 https://trello.com/invite/b/6839ae7f516f2f051442624b/ATTI8f930c14e55d21d39723d436948beba04F2256B3/ecovolt
