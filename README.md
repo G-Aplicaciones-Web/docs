@@ -1436,7 +1436,7 @@ En estos commits se puede observar los últimos updates a la rama main que se hi
 
 #### <a name="_qx22u5evz35s"></a>**5.2.1.5. Execution Evidence for Sprint Review**
 
-Durante el Sprint 1, se desarrollaron y validaron funcionalidades clave de la landing page de **EcoVolt**. A continuación, se listan las *User Stories* que fueron implementadas, junto con sus respectivos criterios de aceptación, los cuales se cumplieron satisfactoriamente en las pruebas realizadas.
+Durante el Sprint 1, se desarrollaron y se validaron funcionalidades clave de la landing page de **EcoVolt**. A continuación, se listan las *User Stories* que fueron implementadas, junto con sus respectivos criterios de aceptación, los cuales se cumplieron satisfactoriamente en las pruebas realizadas.
 
 |**Epic / Story ID**|**Título**|**Criterios de Aceptación**|
 | :-: | :-: | :-: |
