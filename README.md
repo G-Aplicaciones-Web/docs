@@ -1546,7 +1546,7 @@ Durante este Sprint, el equipo trabajó de manera colaborativa en la construcci�
 #### 5.2.2.1. Sprint Planning 1
 
 
-En esta sección se detalla el proceso de planificación correspondiente al segundo sprint del proyecto. El equipo definió los objetivos a alcanzar durante este ciclo de trabajo, priorizando funcionalidades clave para el desarrollo continuo de la aplicación **EcoVolt**.
+En esta sección se detalla el proceso de planificación correspondiente al segundo sprint del proyecto. El equipo definió los objetivos a alcanzar durante este ciclo de trabajo, priorizando funcionalidades clave para el desarrollo continuo de la aplicación. **EcoVolt**.
 
 Asimismo, se identificaron las tareas específicas, se asignaron responsables y se estableció el *Sprint Backlog* correspondiente, con el fin de asegurar un avance ordenado y colaborativo en el cumplimiento de las metas propuestas.
 
