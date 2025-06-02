@@ -1412,14 +1412,14 @@ https://trello.com/invite/b/6839ae7f516f2f051442624b/ATTI8f930c14e55d21d39723d43
 | :-: | :-: | :- | :- | :- | :- | :- | :- | :- | :- |
 |**User Story**|**Work-Item / Task**|||||||||
 |**Id**|**Title**|**Id**|**Title**|**Description**|**Estimation (Hours)**|**Assigned To**|**Status (To-do / In-Process / To-Review / Done)**|||
-|US09|Ver comentarios de empresas|UT01|Diseño del componente de comentarios.|Diseñar sección donde se muestran comentarios de empresas destacadas.|2|Jack Roque|Done|||
+|US09|Ver comentarios de empresas|UT01|Diseño del componente de comentarios.|Diseñar sección donde se muestran comentarios de empresas destacadas.|2|Jack Roque|Done|
 |US10|Ver comentarios de electricistas|UT02|Carga de comentarios.|Implementar carga de comentarios desde JSON simulado o API.|2|Jack Roque|Done|||
-|US12|Navegación por landing|UT03|Implementación del menú principal.|Construir la barra de navegación de la landing page con enlaces funcionales.|2|Anyelo Alejos|Done|||
-|US13|Responsividad en móviles(Landing Page)|UT04|Ajuste responsive del diseño.|Aplicar media queries para adaptar la landing a pantallas móviles.|2|Anyelo Alejos|Done|||
-|US31|Envío de comentarios desde la Landing|UT05|Diseño del formulario de comentarios.|Crear formulario accesible para que usuarios envíen comentarios.|2|Mathias Aspajo|Done|||
-|US32|Visualización de beneficios clave y tecnología|UT06|Diseño visual de beneficios.|Crear sección con íconos o imágenes representando los beneficios clave de la solución.información acerca del equipo y la misión de la empresa.|2|Mathias Aspajo|Done|||
-|US33|Visualización de casos de uso reales|UT07|Diseño de casos de uso reales.|Crear sección que muestre ejemplos reales del uso de EcoVolt con texto e imágenes.|2|Alejandro Mendoza|Done|||
-|US34|Solicitud de contacto desde la Landing|UT08|Diseño del formulario de contacto.|Crear sección para que usuarios envíen solicitudes de contacto.|2|Alejandro Mendoza|Done|||
+|US12|Navegación por landing|UT03|Implementación del menú principal.|Construir la barra de navegación de la landing page con enlaces funcionales.|2|Anyelo Alejos|Done|
+|US13|Responsividad en móviles(Landing Page)|UT04|Ajuste responsive del diseño.|Aplicar media queries para adaptar la landing a pantallas móviles.|2|Anyelo Alejos|Done|
+|US31|Envío de comentarios desde la Landing|UT05|Diseño del formulario de comentarios.|Crear formulario accesible para que usuarios envíen comentarios.|2|Mathias Aspajo|Done|
+|US32|Visualización de beneficios clave y tecnología|UT06|Diseño visual de beneficios.|Crear sección con íconos o imágenes representando los beneficios clave de la solución.información acerca del equipo y la misión de la empresa.|2|Mathias Aspajo|Done|
+|US33|Visualización de casos de uso reales|UT07|Diseño de casos de uso reales.|Crear sección que muestre ejemplos reales del uso de EcoVolt con texto e imágenes.|2|Alejandro Mendoza|Done|
+|US34|Solicitud de contacto desde la Landing|UT08|Diseño del formulario de contacto.|Crear sección para que usuarios envíen solicitudes de contacto.|2|Alejandro Mendoza |Done|
 
 
 
