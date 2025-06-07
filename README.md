@@ -1369,7 +1369,7 @@ El equipo decidió aplicar diferentes esquemas de ramificación dependiendo del 
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
-### <a name="_9pi9pa5bcn56"></a>En EcoVolt, hemos establecido pautas claras para garantizar uniformidad y legibilidad en el código, aplicables a múltiples lenguajes y tecnologías:
+En EcoVolt, hemos establecido pautas claras para garantizar uniformidad y legibilidad en el código, aplicables a múltiples lenguajes y tecnologías:
 HTML y CSS
 
 1. Todo archivo HTML inicia con <!DOCTYPE html>.
@@ -1442,25 +1442,29 @@ A continuación se detalla la Matriz LACX (Liderazgo y Colaboración), donde "L"
 #### <a name="_ou2rpzc79qrv"></a>**5.2.1.3. Sprint Backlog 1**
 En el primer sprint backlog, el equipo se propuso iniciar y completar el desarrollo de la landing page. Para coordinar y gestionar al equipo, se utilizó Trello, una herramienta que facilitó la división de las user stories en tareas más pequeñas y su asignación según las habilidades de cada miembro. El objetivo principal del sprint era desarrollar la landing page de manera completa, garantizando que fuera atractiva y funcional.
 
+**Objetivo del Sprint**
+
+Desarrollar una landing page completa que sea visualmente atractiva, funcional y responsive, como punto de entrada y presentación del producto EcoVolt.
+
+<p align="center">
+        <img src="assets/evidencias/Evidencia_trello.jpg" alt="Evidencia_trello"/>    
+    </p>
+
+https://trello.com/invite/b/6839ae7f516f2f051442624b/ATTI8f930c14e55d21d39723d436948beba04F2256B3/ecovolt
+
 |**Sprint #**|**Sprint 1**|||||||||
 | :-: | :-: | :- | :- | :- | :- | :- | :- | :- | :- |
 |**User Story**|**Work-Item / Task**|||||||||
 |**Id**|**Title**|**Id**|**Title**|**Description**|**Estimation (Hours)**|**Assigned To**|**Status (To-do / In-Process / To-Review / Done)**|||
-|US01|Barra de navegación en la Landing Page|UT01|Creación de la barra de navegación.|Implementar el menú de navegación de la landing page de FitWise, garantizando que las opciones sean claras y fáciles de usar para los usuarios.|1|Diego Acuña|Done|||
-|US01|Barra de navegación en la Landing Page|UT02|Optimización de la barra de navegación.|Mejorar la experiencia del usuario con la barra de navegación incorporando animaciones o transiciones suaves.|3|Diego Acuña|Done|||
-|US02|Sección Hero en la Landing Page|UT03|Creación de la sección Hero.|Diseñar una sección principal en la landing page que incluya una imagen llamativa y un título que capte la atención.|3|Diego Acuña|Done|||
-|US02|Sección Hero en la Landing Page|UT04|Modificaciones en la sección Hero.|Ajustar la sección Hero para garantizar un diseño responsive que se visualice adecuadamente en todo tipo de dispositivos y resoluciones de pantalla.|2|Diego Acuña|Done|||
-|US03|Sección Footer en la Landing Page|UT05|Creación de la sección de footer.|Crear la sección de footer con enlaces a la información sobre el equipo y los términos y condiciones de uso.|1|Diego Acuña|Done|||
-|US04|Sección "About Us" en la Landing Page|UT06|Crear una sección que describa nuestra startup.|Desarrollar la sección "Sobre nosotros" para proporcionar información acerca del equipo y la misión de la empresa.|2|Diego Acuña|Done|||
-|US04|Sección "About Us" en la Landing Page|UT07|Describir nuestra empresa y a los miembros del equipo.|Incluir información detallada sobre la historia y los miembros del equipo en la sección "Sobre nosotros".|2|Diego Acuña|Done|||
-|US05|Sección "Information" en la Landing Page|UT08|Describir en detalle nuestro producto.|Crear una sección que explique de manera detallada nuestro producto.|2|Diego Acuña|Done|||
-|US05|Sección "Information" en la Landing Page|UT09|Modificación de la sección "Information".|Agregar información detallada sobre nuestro producto, junto con una frase atractiva y una imagen representativa del mismo.|2|Diego Acuña|Done|||
-|US06|Sección "Benefits" en la Landing Page|UT10|Explicar los beneficios de nuestro producto.|CCrear una sección destacada que explique los principales beneficios de nuestra aplicación en comparación con otras.|2|Diego Acuña|Done|||
-|US06|Sección "Benefits" en la Landing Page|UT11|Modificación de la sección "Benefits".|Explicar los beneficios de manera atractiva, mostrando imágenes cautivadoras con animaciones al pasar el mouse, acompañadas de texto explicativo sobre cada beneficio.|2|Diego Acuña|Done|||
-|US07|Sección "Contact us" en la Landing Page|UT12|Creación de la sección de contacto.|Incluir la información de contacto del equipo para facilitar la interacción con los usuarios.|2|Diego Acuña|Done|||
-|US07|Sección "Contact us" en la Landing Page|UT13|Desarrollar el formulario de contacto.|Desarrollar un formulario de contacto operativo en la sección correspondiente.|1|Diego Acuña|Done|||
-|US08|Landing Page Responsive con diferentes dispositivos|UT14|Ajustar cada elemento de la página web para que se adapte a diferentes dispositivos.|Garantizar que la landing page funcione correctamente y tenga un diseño visualmente adecuado en diversos dispositivos y tamaños de pantalla.|6|Diego Acuña|Done|||
-|US08|Landing Page Responsive con diferentes dispositivos|UT15|Adaptación para dispositivos móviles.|Mejorar el diseño de la página para ofrecer una experiencia más fluida en dispositivos móviles.|2|Diego Acuña|Done|||
+|US09|Ver comentarios de empresas|UT01|Diseño del componente de comentarios.|Diseñar sección donde se muestran comentarios de empresas destacadas.|2|Jack Roque|Done|
+|US10|Ver comentarios de electricistas|UT02|Carga de comentarios.|Implementar carga de comentarios desde JSON simulado o API.|2|Jack Roque|Done|||
+|US12|Navegación por landing|UT03|Implementación del menú principal.|Construir la barra de navegación de la landing page con enlaces funcionales.|2|Anyelo Alejos|Done|
+|US13|Responsividad en móviles(Landing Page)|UT04|Ajuste responsive del diseño.|Aplicar media queries para adaptar la landing a pantallas móviles.|2|Anyelo Alejos|Done|
+|US31|Envío de comentarios desde la Landing|UT05|Diseño del formulario de comentarios.|Crear formulario accesible para que usuarios envíen comentarios.|2|Mathias Aspajo|Done|
+|US32|Visualización de beneficios clave y tecnología|UT06|Diseño visual de beneficios.|Crear sección con íconos o imágenes representando los beneficios clave de la solución.información acerca del equipo y la misión de la empresa.|2|Mathias Aspajo|Done|
+|US33|Visualización de casos de uso reales|UT07|Diseño de casos de uso reales.|Crear sección que muestre ejemplos reales del uso de EcoVolt con texto e imágenes.|2|Alejandro Mendoza|Done|
+|US34|Solicitud de contacto desde la Landing|UT08|Diseño del formulario de contacto.|Crear sección para que usuarios envíen solicitudes de contacto.|2|Alejandro Mendoza |Done|
+
 
 
 
@@ -1469,12 +1473,14 @@ En estos commits se puede observar los últimos updates a la rama main que se hi
 
 |**Repository**|**Branch**|**Commit ID**|**Commit Message**|<p>**Commit Message**</p><p>**Body**</p>|**Commited on (Date)**|
 | :-: | :-: | :-: | :-: | :-: | :-: |
-|G-Aplicaciones-Web/landing-page|develop|1d90b11|feat: added index.html and manifest.json||24/04/2025|
-|G-Aplicaciones-Web/landing-page|develop|1d50ca0|feat: add landing page structure and styles||24/04/2025|
-|G-Aplicaciones-Web/landing-page|develop|4623b36|feat add login and new asset images||24/04/2025|
+|G-Aplicaciones-Web/landing-page|develop|2311927|feat: agregando modificaciones||01/06/2025|
+|G-Aplicaciones-Web/landing-page|develop|fba6b2c|feat: add landing page structure and styles||01/06/2025|
+|G-Aplicaciones-Web/landing-page|develop|aa3b2ea|feat add login and new asset images||01/06/2025|
 
 
 #### <a name="_qx22u5evz35s"></a>**5.2.1.5. Execution Evidence for Sprint Review**
+
+Durante el Sprint 1, se desarrollaron y se validaron funcionalidades clave de la landing page de **EcoVolt**. A continuación, se listan las *User Stories* que fueron implementadas, junto con sus respectivos criterios de aceptación, los cuales se cumplieron satisfactoriamente en las pruebas realizadas.
 
 El Sprint 1 culminó con la implementación exitosa de la landing page, cumpliendo todos los criterios de aceptación de las historias de usuario. El entregable un sitio web funcional, visualmente atractivo, responsive, con información del equipo y formularios de contacto representa un hito fundamental para validar el producto con usuarios reales y consolidar la presencia digital del proyecto.
 
@@ -1489,7 +1495,7 @@ El Sprint 1 culminó con la implementación exitosa de la landing page, cumplien
 |US33|Visualización de casos de uso reales|Dado que estoy en la sección "Casos de Éxito EcoVolt", cuando visualizo los ejemplos, entonces puedo ver al menos 2 casos reales que demuestran la aplicación y los resultados de la solución EcoVolt.|
 |US34|Solicitud de contacto desde la Landing|Dado que estoy en la sección "Contáctanos", cuando completo los campos de "Correo Electrónico", "Número de Teléfono" y "Tu Mensaje" de forma válida, entonces puedo hacer clic en el botón "Enviar Mensaje" para solicitar un contacto.|
 
-Demo del Landing Page:
+Demo del Landing Page: https://www.youtube.com/watch?v=G9Z4RRyqR2E
 
 **Evidencias visuales**
 
@@ -1548,28 +1554,47 @@ URL de la landing page desplegada: <https://g-aplicaciones-web.github.io/landing
 - Configuración del repositorio GitHub y estructura inicial de carpetas.
   - Se creó un repositorio destinado a la landing page dentro de la organización y se configuró con visibilidad pública
 
-- Una vez dentro del repositorio, copiamos la URL HTTPS y procedimos a clonarlo en nuestro entorno local utilizando el comando **git clone**. Luego, organizamos una estructura de carpetas en nuestra máquina con una disposición similar a la siguiente:
+  <p align="center">
+        <img src="assets/ima/crear proyecto.png" alt="crear"/>    
+    </p>   
+
+    - Una vez dentro del repositorio, copiamos la URL HTTPS y procedimos a clonarlo en nuestro entorno local utilizando el comando **git clone**. Luego, organizamos una estructura de carpetas en nuestra máquina con una disposición similar a la siguiente:
+
+    <p align="center">
+        <img src="assets/ima/git clone.png" alt="gitclone"/>    
+    </p>   
 
 
-Se implementó el flujo de trabajo Git Flow, manteniendo el desarrollo activo en la rama develop.
+- Se implementó el flujo de trabajo Git Flow, manteniendo el desarrollo activo en la rama develop.
 
-- Inicialmente, desde la consola, se realizó un push a la rama remota main utilizando el comando git push origin main, acompañado de un mensaje de commit descriptivo.
+    - Inicialmente, desde la consola, se realizó un push a la rama remota main utilizando el comando git push origin main, acompañado de un mensaje de commit descriptivo.
 
+    <p align="center">
+        <img src="assets/ima/primer commit.png" alt="primer_commit"/>    
+    </p>
 
+    - Posteriormente, se creó la rama local develop con el comando git checkout -b develop, la cual fue subida al repositorio remoto mediante git push origin develop. Las ramas feature/\* se generaron de forma similar, asegurándose siempre de partir desde develop. Para ello, se utilizó previamente el comando git checkout develop para confirmar que se trabajaba sobre la rama correcta. Este proceso derivó en:
 
-- Posteriormente, se creó la rama local develop con el comando git checkout -b develop, la cual fue subida al repositorio remoto mediante git push origin develop. Las ramas feature/\* se generaron de forma similar, asegurándose siempre de partir desde develop. Para ello, se utilizó previamente el comando git checkout develop para confirmar que se trabajaba sobre la rama correcta. Este proceso derivó en:
-
-
+    <p align="center">
+        <img src="assets/ima/branches.png" alt="branches"/>    
+    </p>
 
 - La integración de cambios mediante un merge desde develop hacia main, cumpliendo con las normas descritas en la sección 5.1.2.
   - Antes de fusionar las ramas, se creó un pull request en GitHub para revisar los cambios, garantizar que no existieran conflictos y validar que el código respetara los estándares acordados.
   - Se efectuaron pruebas manuales con la extensión Live Server, lo que permitió verificar la funcionalidad de la landing page antes de proceder con la fusión.
 - Luego, se activó GitHub Pages como herramienta de despliegue estático, apuntando al contenido de la rama main.
-  - Desde la sección "Settings" > "Pages" del repositorio, se eligió la rama main como fuente para la publicación.
+  - Desde la sección "Settings" > "Pages" del repositorio, se eligió la rama develop como fuente para la publicación.
   - Finalmente, se comprobó que la URL generada por GitHub Pages estuviera activa y desplegara correctamente la landing page, logrando así una publicación exitosa accesible desde una dirección pública.
+
+   <p align="center">
+       <img src="assets/ima/pages.png" alt="pages"/>   
+    </p>
 
 - La landing page fue publicada correctamente y se encuentra disponible a través de una dirección URL accesible públicamente.
 
+<p align="center">
+        <img src="assets/evidencias/inicio.png" alt="inicio"/>    
+    </p>
 
   #### <a name="_19hdpp4kfi7i"></a>**5.2.1.8. Team Collaboration Insights during Sprint**
 Durante este Sprint, el equipo trabajó de manera colaborativa en la construcción de la landing page de EcoVolt, aplicando buenas prácticas en el uso de control de versiones con Git, organizando el flujo de trabajo bajo la metodología Git Flow y asignando tareas conforme a los roles definidos desde el inicio del proyecto, tanto en desarrollo como en diseño.
@@ -1580,51 +1605,35 @@ Durante este Sprint, el equipo trabajó de manera colaborativa en la construcci�
 - Se aplicaron convenciones de commits siguiendo el estándar Conventional Commits, lo que permitió una mejor trazabilidad de los cambios realizados.
 - Los pull requests fueron revisados por otros integrantes del equipo antes de ser integrados a la rama develop, asegurando calidad y coherencia en el código.
 - Se realizaron reuniones breves (dailys o sesiones semanales de seguimiento) que permitieron monitorear el progreso y resolver bloqueos de forma oportuna.
+
 - A continuación, se presenta la evidencia del avance individual de cada miembro del equipo:
   - Anyelo Alejos: Commits relacionados a hojas de estilo
-  - Mathias Aspajo: Commits relacionados a la vista del login y su hoja de estilo
-  - Jack Roque: Commits relacionados a hojas de estilo y assets
-  - Alejandro Mendoza: Commits relacionados a hojas de estilo
-  - Alejandro Torres: Commits relacionados al index principal
 
-**Estrategia de colaboración empleada:**
-
-- Se utilizaron ramas específicas (feature/, develop, main) para mantener un desarrollo ordenado y estructurado de las funcionalidades.
-
-- Se aplicaron convenciones de commits siguiendo el estándar Conventional Commits, lo que permitió una mejor trazabilidad de los cambios realizados.
-
-- Los pull requests fueron revisados por otros integrantes del equipo antes de ser integrados a la rama develop, asegurando calidad y coherencia en el código.
-
-- Se realizaron reuniones breves (dailys o sesiones semanales de seguimiento) que permitieron monitorear el progreso y resolver bloqueos de forma oportuna.
-
-- A continuación, se presenta la evidencia del avance individual de cada miembro del equipo:
-
-    - Anyelo Alejos: Commits relacionados a hojas de estilo 
     <p align="center">
-        <img src="assets/evidencias/commit_anyelo.png" alt="landing-commits-anyelo"/>    
+        <img src="assets/ima/commit_anyelo.png" alt="commit_anyelo"/>    
     </p>
 
-    - Mathias Aspajo: Commits relacionados a la vista del login y su hoja de estilo
+  - Mathias Aspajo: Commits relacionados a hojas de estilo, assets e index principal
+
     <p align="center">
-        <img src="assets/evidencias/commit_aspajo.png" alt="landing-commits-mathias"/>    
+        <img src="assets/ima/commit_mathias.png" alt="commit_mathias"/>    
     </p>
 
-    - Jack Roque: Commits relacionados a hojas de estilo y assets
+  - Jack Roque: Commits relacionados a hojas de estilo
+
     <p align="center">
-        <img src="assets/evidencias/commit_roque.png" alt="landing-commits-jack"/>    
+        <img src="assets/ima/commit_jack.png" alt="commit_jack"/>    
     </p>
-
-    - Alejandro Mendoza: Commits relacionados  a hojas de estilo
-    <p align="center">
-        <img src="assets/evidencias/mendoza.png" alt="landing-commits-alejandrom"/>    
-    </p>   
-
-<hr>
-
 
 ### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 1
+
+
+En esta sección se detalla el proceso de planificación correspondiente al segundo sprint del proyecto. El equipo definió los objetivos a alcanzar durante este ciclo de trabajo, priorizando funcionalidades clave para el desarrollo continuo de la aplicación. **EcoVolt**.
+
+Asimismo, se identificaron las tareas específicas, se asignaron responsables y se estableció el *Sprint Backlog* correspondiente, con el fin de asegurar un avance ordenado y colaborativo en el cumplimiento de las metas propuestas.
+
 
 <table>
   <tr>
@@ -1698,41 +1707,75 @@ Durante este Sprint, el equipo trabajó de manera colaborativa en la construcci�
 
 #### <a name="_rvqlb1v7p2u0"></a>**5.2.2.3. Sprint Backlog 2**
 
+
+|Id	|Title|ID|Title|Description|Estimation (hours)	|Assigned To	|Status|
+| :- | :- | :- | :- | :- | :- | :- | :- |
+|US05|Perfil corporativo	|TS09|Componente de perfil corporativo	|Desarrollo de la sección que muestra información básica de la empresa, plan contratado y beneficios asociados.	|8|Alejandro M.	|Done|
+|US08|Eliminar cuenta|TS10|Funcionalidad de eliminación de cuenta	|Implementación de la opción para borrar cuentas, incluyendo confirmación con contraseña y cancelación.	|6|Anyelo|Done|
+|US18|Histórico comparativo	|TS11|Módulo de gráficos comparativos	|Desarrollo de gráficas de consumo histórico y manejo de períodos sin datos.	|10|Jack|Done|
+|US20|Recomendaciones de ahorro	|TS12|Sistema de recomendaciones	|Generación de sugerencias basadas en patrones de consumo y mensaje de "consumo óptimo".	|12|Mathias|Done|
+|US35|Gestión de dispositivos	|TS13|Panel de gestión IoT	|Listado interactivo de dispositivos con nombre, tipo, estado y funcionalidad para cambiar su estado.	|10|Jack|Done|
+
+
 #### <a name="_63o8yl7le5at"></a>**5.2.2.4. Development Evidence for Sprint Review**
 
 #### <a name="_po0np6kchf3p"></a>**5.2.2.5. Execution Evidence for Sprint Review**
+En este sprint, el equipo de EcoVolt cumplió en la integración del frontend con la landing page. Esto es importante para el proyecto, pues ahora nuestra aplicación web es capaz de dar una correcta interacción con el usuario en tiempo real.
+
+Se implementaron distintas funcionalidades como el inicio de sesión y el cambio de idioma. Con todo esto, se espera que el proyecto siga en buen camino a convertirse en una aplicación totalmente funcional y que cumpla los objetivos detallados en el sprint.
+
+
+Enlace de deployment del FrontEnd: <https://frontend-two-omega-72.vercel.app>
+
+Enlace de deployment de la Landing Page: <https://g-aplicaciones-web.github.io/landing-page/#companies-professionals>
 
 <a name="_vnsfwxiq5oii"></a>**5.2.2.6. Services Documentation Evidence for Sprint Review**
 
 #### <a name="_9gjzawjk4u08"></a>**5.2.2.7. Software Deployment Evidence for Sprint Review**
+Durante este sprint, se ha completado el desarrollo del frontend de la aplicación web. Para el despliegue, se utilizaron las siguientes herramientas y servicios:
+
+Git: Sistema de control de versiones que utilizamos para trabajar de forma colaborativa y monitorear las versiones de la aplicación web en un repositorio remoto.
+
+Gitflow: Este flujo de trabajo colaborativo nos ha permitido dividir el trabajo en ramas dentro de nuestro repositorio, lo que facilita la colaboración en el desarrollo.
+
+GitHub: La plataforma que nos proporcionó la herramienta para crear nuestro repositorio y almacenar las versiones de nuestro proyecto.
+
+my-json-server.typicode: Utilizado para crear y desplegar una Fake API que simula las interacciones del backend, permitiendo realizar pruebas del frontend con datos estructurados.
+
+
+
 
 #### <a name="_k7txxjqwolth"></a>**5.2.2.8. Team Collaboration Insights during Sprint**
 El equipo organizó el desarrollo de las funcionalidades avanzadas de monitoreo energético mediante la división del trabajo en ramas específicas del repositorio. Se siguió la convención de ramas temáticas (bounded-context) y se aplicaron buenas prácticas de GitFlow para separar las tareas de desarrollo, revisión e integración, asegurando un flujo de trabajo ordenado y colaborativo.
-
-Cada funcionalidad fue tratada como una rama independiente, lo que permitió paralelizar el desarrollo sin generar conflictos de fusión. Se realizaron múltiples *pull requests* con revisión entre pares, lo cual ayudó a mantener la calidad del código y reforzó la cohesión del equipo.
-
+Cada funcionalidad fue tratada como una rama independiente, lo que permitió paralelizar el desarrollo sin generar conflictos de fusión. Se realizaron múltiples pull requests con revisión entre pares, lo cual ayudó a mantener la calidad del código y reforzó la cohesión del equipo.
 A continuación, se detallan las tareas asignadas a cada miembro del equipo:
 
 
-|Alumno |Actividad|
-| :- | :- |
-|Aspajo Alvarez, Mathias Joaquin|Se encargó del desarrollo de la sección Inicio, asegurando la correcta visualización de datos iniciales y la experiencia de usuario en el dashboard principal.|
-|Alejos Jesus Anyelo Bill|Se encargó del desarrollo y diseño de la sección Mi Perfil | Empresas, gestionando la presentación de la información y la interacción para usuarios corporativos|
-|Alejandro Franklin Mendoza Vergara|Se encargó del desarrollo y diseño de la sección Mi Perfil | Técnicos, gestionando la visualización y funcionalidades específicas para los usuarios técnicos.|
-|Roque Tello, Jack Eddie|Se encargó de la implementación completa de la sección Dispositivos conforme a la US035 - Gestión de dispositivos conectados, incluyendo la internacionalización (i18n), la integración de gráficos y la distribución general del proyecto.|
+| Alumno | Actividad |
+| ------ | --------- |
+| Aspajo Alvarez, Mathias Joaquin       |   Se encargó del desarrollo de la sección Inicio, asegurando la correcta visualización de datos iniciales y la experiencia de usuario en el dashboard principal.        |
+|    Alejos Jesus Anyelo Bill    |   Se encargó del desarrollo y diseño de la sección Mi Perfil / Empresas, gestionando la presentación de la información y la interacción para usuarios corporativos        |
+|   Alejandro Franklin Mendoza Vergara     |   Se encargó del desarrollo y diseño de la sección Mi Perfil / Técnicos, gestionando la visualización y funcionalidades específicas para los usuarios técnicos.        |
+| Roque Tello, Jack Eddie   | Se encargó de la implementación completa de la sección Dispositivos conforme a la US035 - Gestión de dispositivos conectados, incluyendo la internacionalización (i18n), la integración de gráficos y la distribución general del proyecto.      |
 
 A continuación, se mostrará la tabla de colaboradores en el repositorio de GitHub, con el objetivo de identificar a cada miembro del equipo.
-
 Tabla de integrantes:
 
 
-|Username (Github)|Nombre|
-| :- | :- |
-|AdeXzz|Aspajo Alvarez, Mathias Joaquin|
-|Everkoe|Alejos Jesus Anyelo Bill|
-|AlexBoo1|Alejandro Franklin Mendoza Vergara|
-|UPC-Skylar|Roque Tello, Jack Eddie|
 
+| Username (Github) | Nombre |
+| ----------------- | ------ |
+|     AdeXzz              |  Aspajo Alvarez, Mathias Joaquin      |
+|       Everkoe            |  Alejos Jesus Anyelo Bill      |
+|       AlexBoo1            |  Alejandro Franklin Mendoza Vergara      |
+| UPC-Skylar              | Roque Tello, Jack Eddi   |
+
+
+Por último, se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
+
+<img width="1428" alt="Image" src="https://github.com/user-attachments/assets/10768368-9be4-479b-80cd-66bd86270460" />
+
+<img width="1431" alt="Image" src="https://github.com/user-attachments/assets/8578128c-c786-4662-a880-0827be2a5338" />
 
 ## Conclusiones
 
