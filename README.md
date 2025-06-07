@@ -655,43 +655,40 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 
 - Segmento Objetivo 1 - Empresa consumidora
 <p align="center">
-    <img src="assets/recursos/User_Persona_edgard1.png" alt="User-Persona-edgard"/>
+    <img src="assets/recursos/User_Persona_Alejandro.png" alt="User-Persona-Alejandro"/>
 </p>
 - Segmento Objetivo 2 - Electricistas
 <p align="center">
-    <img src="assets/recursos/User_Persona_Jesus1.png" alt="User-Persona-Jesus"/>
+    <img src="assets/recursos/User_Persona_Guillermo.png" alt="User-Persona-Guillermo"/>
 </p>
 
 #### 2.3.2. User Task Matrix
 
-- Segmento Objetivo 1 - Empresa consumidora
+Aquí se muestra el User Task Matrix, elaborado en base a los User Personas que representan los dos segmentos principales identificados:
 
-|Edgar Torres|||
-| :-: | :-: | :-: |
-|Actividades|Frecuencia|Importancia|
-|Supervisar los gastos de electricidad mensualmente|Alta|Alta|
-|Coordinar con técnicos para revisar instalaciones eléctricas|Media|Alta|
-|Presentar informes de consumo energético a la gerencia|Media|Alta|
-|Evaluar oportunidades de reducción de costos energéticos|Media|Alta|
-|Planificar presupuestos operativos considerando el consumo eléctrico|Alta|Alta|
-|Solicitar cotizaciones para equipos de eficiencia energética|Baja|Media|
-|Revisar facturas de electricidad y verificar consumos|Alta|Alta|
-|Contactar proveedores o electricistas ante fallas|Media|Alta|
+- Segmento 1: Empresas consumidoras de energía
 
-- Segmento Objetivo 2 - Electricistas
+- Segmento 2: Electricistas
 
-|Jesus Gutierrez|||
-| :-: | :-: | :-: |
-|Actividades|Frecuencia|Importancia|
-|Visitar instalaciones de clientes para inspección|Alta|Alta|
-|Identificar fallas o anomalías en circuitos eléctricos|Alta|Alta|
-|Comunicar al cliente posibles soluciones y mejoras|Alta|Alta|
-|Realizar mantenimientos preventivos o correctivos|Media|Alta|
-|Preparar presupuestos para servicios eléctricos|Media|Media|
-|Instalar nuevos dispositivos eléctricos|Alta|Alta|
-|Asesorar a clientes sobre eficiencia energética|Media|Media|
-|Leer planos eléctricos y adaptar diseños según necesidad|Baja|Media|
+Las tareas se determinaron mediante un análisis cualitativo de las entrevistas, y cada una fue valorada según su frecuencia y relevancia para los perfiles correspondientes.
 
+<table><tr><th rowspan="2" valign="top">Tarea / Task</th><th colspan="2" valign="top">Alejandro Alcalá</th><th colspan="2" valign="top">Guillermo Montenegro</th></tr>
+<tr><td valign="top">Frecuencia</td><td valign="top">Importancia</td><td valign="top">Frecuencia</td><td valign="top">Importancia</td></tr>
+<tr><td valign="top">Monitorizar el consumo energético</td><td valign="top">Alta</td><td valign="top">Alta</td><td valign="top">Media</td><td valign="top">Media</td></tr>
+<tr><td valign="top">Detección temprana de incrementos de consumo</td><td valign="top">Alta</td><td valign="top">Alta</td><td valign="top">Media</td><td valign="top">Media</td></tr>
+<tr><td valign="top">Generar informes de consumo</td><td valign="top">Media</td><td valign="top">Alta</td><td valign="top">Alta</td><td valign="top">Alta</td></tr>
+<tr><td valign="top">Acceder a comparativas y alertas de consumo</td><td valign="top">Media</td><td valign="top">Alta</td><td valign="top">Media</td><td valign="top">Media</td></tr>
+<tr><td valign="top">Solicitar técnicos para fallas eléctricas</td><td valign="top">Media</td><td valign="top">Alta</td><td valign="top">Baja</td><td valign="top">Alta</td></tr>
+<tr><td valign="top">Registrar datos de dispositivos</td><td valign="top">Alta</td><td valign="top">Media</td><td valign="top">Media</td><td valign="top">Media</td></tr>
+<tr><td valign="top">Realizar mantenimiento o supervisión de equipos</td><td valign="top">Baja</td><td valign="top">Media</td><td valign="top">Alta</td><td valign="top">Alta</td></tr>
+<tr><td valign="top">Utilizar herramientas de monitoreo</td><td valign="top">Baja</td><td valign="top">Media</td><td valign="top">Alta</td><td valign="top">Alta</td></tr>
+<tr><td valign="top">Solucionar problemas de conectividad</td><td valign="top">Baja</td><td valign="top">Media</td><td valign="top">Alta</td><td valign="top">Alta</td></tr>
+<tr><td valign="top">Gestionar historial de mantenimiento</td><td valign="top">Media</td><td valign="top">Media</td><td valign="top">Alta</td><td valign="top">Alta</td></tr>
+<tr><td valign="top">Acceder a información técnica detallada</td><td valign="top">Baja</td><td valign="top">Baja</td><td valign="top">Alta</td><td valign="top">Alta</td></tr>
+<tr><td valign="top">Gestionar múltiples ubicaciones</td><td valign="top">Media</td><td valign="top">Media</td><td valign="top">Alta</td><td valign="top">Media</td></tr>
+<tr><td valign="top">Firmar documentos/informes digitalmente</td><td valign="top">Baja</td><td valign="top">Baja</td><td valign="top">Media</td><td valign="top">Alta</td></tr>
+<tr><td valign="top">Optimizar el uso de energía</td><td valign="top">Alta</td><td valign="top">Alta</td><td valign="top">Media</td><td valign="top">Media</td></tr>
+</table>
 
 #### 2.3.3. User Journey Mapping
 
@@ -712,13 +709,13 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 #### 2.3.4.1. Empathy Mapping Empresa consumidora
 
 <p align="center">
-    <img src="assets/recursos/Empathy_Mapping_empresass.jpg" alt="Empathy-Mapping-empresas"/>
+    <img src="assets/recursos/Empathy_Mapping_empresass.png" alt="Empathy-Mapping-empresas"/>
 </p>
 
 #### 2.3.4.2. Empathy Mapping Electricistas
 
 <p align="center">
-    <img src="assets/recursos/Empathy_Mapping_electricistass.jpg" alt="Empathy-Mapping-electricistas"/>
+    <img src="assets/recursos/Empathy_Mapping_electricistass.png" alt="Empathy-Mapping-electricistas"/>
 </p>
 
 #### 2.3.5. As-is Scenario Mapping
@@ -726,13 +723,13 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 #### 2.3.5.1. As-is Scenario Mapping Empresa consumidora
 
 <p align="center">
-    <img src="assets/recursos/As_is_electricistas.png" alt="As-is-electricistas"/>
+    <img src="assets/recursos/As_is_empresas.png" alt="As-is-electricistas"/>
 </p>
 
 #### 2.3.5.2. As-is Scenario Mapping Electricistas
 
 <p align="center">
-    <img src="assets/recursos/As_is_empresas.png" alt="As-is-empresas"/>
+    <img src="assets/recursos/As_is_electricistas.png" alt="As-is-empresas"/>
 </p>
 
 ### 2.4. Ubiquitous Language
@@ -755,10 +752,6 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 | **Target Industry**        | Industria objetivo         | Sector económico al que pertenece la empresa cliente para una mejor personalización del servicio. |
 
 <hr>
-
-
-
-
 
 ## Capítulo III: Requirements Specification
 
@@ -844,7 +837,7 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 ### 3.3. Impact Mapping
 
 <p align="center">
-    <img src="assets/recursos/Impact_Mapping.jpg" alt="Impact-Mapping"/>
+    <img src="assets/recursos/Impact_Mapping.png" alt="Impact-Mapping"/>
 </p>
 
 ### 3.4. Product Backlog
