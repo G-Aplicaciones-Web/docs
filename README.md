@@ -1369,7 +1369,7 @@ El equipo decidió aplicar diferentes esquemas de ramificación dependiendo del 
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
-### <a name="_9pi9pa5bcn56"></a>En EcoVolt, hemos establecido pautas claras para garantizar uniformidad y legibilidad en el código, aplicables a múltiples lenguajes y tecnologías:
+En EcoVolt, hemos establecido pautas claras para garantizar uniformidad y legibilidad en el código, aplicables a múltiples lenguajes y tecnologías:
 HTML y CSS
 
 1. Todo archivo HTML inicia con <!DOCTYPE html>.
@@ -1473,9 +1473,9 @@ En estos commits se puede observar los últimos updates a la rama main que se hi
 
 |**Repository**|**Branch**|**Commit ID**|**Commit Message**|<p>**Commit Message**</p><p>**Body**</p>|**Commited on (Date)**|
 | :-: | :-: | :-: | :-: | :-: | :-: |
-|G-Aplicaciones-Web/landing-page|develop|1d90b11|feat: added index.html and manifest.json||24/04/2025|
-|G-Aplicaciones-Web/landing-page|develop|1d50ca0|feat: add landing page structure and styles||24/04/2025|
-|G-Aplicaciones-Web/landing-page|develop|4623b36|feat add login and new asset images||24/04/2025|
+|G-Aplicaciones-Web/landing-page|develop|2311927|feat: agregando modificaciones||01/06/2025|
+|G-Aplicaciones-Web/landing-page|develop|fba6b2c|feat: add landing page structure and styles||01/06/2025|
+|G-Aplicaciones-Web/landing-page|develop|aa3b2ea|feat add login and new asset images||01/06/2025|
 
 
 #### <a name="_qx22u5evz35s"></a>**5.2.1.5. Execution Evidence for Sprint Review**
@@ -1495,7 +1495,7 @@ El Sprint 1 culminó con la implementación exitosa de la landing page, cumplien
 |US33|Visualización de casos de uso reales|Dado que estoy en la sección "Casos de Éxito EcoVolt", cuando visualizo los ejemplos, entonces puedo ver al menos 2 casos reales que demuestran la aplicación y los resultados de la solución EcoVolt.|
 |US34|Solicitud de contacto desde la Landing|Dado que estoy en la sección "Contáctanos", cuando completo los campos de "Correo Electrónico", "Número de Teléfono" y "Tu Mensaje" de forma válida, entonces puedo hacer clic en el botón "Enviar Mensaje" para solicitar un contacto.|
 
-Demo del Landing Page:
+Demo del Landing Page: https://www.youtube.com/watch?v=G9Z4RRyqR2E
 
 **Evidencias visuales**
 
@@ -1554,28 +1554,47 @@ URL de la landing page desplegada: <https://g-aplicaciones-web.github.io/landing
 - Configuración del repositorio GitHub y estructura inicial de carpetas.
   - Se creó un repositorio destinado a la landing page dentro de la organización y se configuró con visibilidad pública
 
-- Una vez dentro del repositorio, copiamos la URL HTTPS y procedimos a clonarlo en nuestro entorno local utilizando el comando **git clone**. Luego, organizamos una estructura de carpetas en nuestra máquina con una disposición similar a la siguiente:
+  <p align="center">
+        <img src="assets/ima/crear proyecto.png" alt="crear"/>    
+    </p>   
+
+    - Una vez dentro del repositorio, copiamos la URL HTTPS y procedimos a clonarlo en nuestro entorno local utilizando el comando **git clone**. Luego, organizamos una estructura de carpetas en nuestra máquina con una disposición similar a la siguiente:
+
+    <p align="center">
+        <img src="assets/ima/git clone.png" alt="gitclone"/>    
+    </p>   
 
 
-Se implementó el flujo de trabajo Git Flow, manteniendo el desarrollo activo en la rama develop.
+- Se implementó el flujo de trabajo Git Flow, manteniendo el desarrollo activo en la rama develop.
 
-- Inicialmente, desde la consola, se realizó un push a la rama remota main utilizando el comando git push origin main, acompañado de un mensaje de commit descriptivo.
+    - Inicialmente, desde la consola, se realizó un push a la rama remota main utilizando el comando git push origin main, acompañado de un mensaje de commit descriptivo.
 
+    <p align="center">
+        <img src="assets/ima/primer commit.png" alt="primer_commit"/>    
+    </p>
 
+    - Posteriormente, se creó la rama local develop con el comando git checkout -b develop, la cual fue subida al repositorio remoto mediante git push origin develop. Las ramas feature/\* se generaron de forma similar, asegurándose siempre de partir desde develop. Para ello, se utilizó previamente el comando git checkout develop para confirmar que se trabajaba sobre la rama correcta. Este proceso derivó en:
 
-- Posteriormente, se creó la rama local develop con el comando git checkout -b develop, la cual fue subida al repositorio remoto mediante git push origin develop. Las ramas feature/\* se generaron de forma similar, asegurándose siempre de partir desde develop. Para ello, se utilizó previamente el comando git checkout develop para confirmar que se trabajaba sobre la rama correcta. Este proceso derivó en:
-
-
+    <p align="center">
+        <img src="assets/ima/branches.png" alt="branches"/>    
+    </p>
 
 - La integración de cambios mediante un merge desde develop hacia main, cumpliendo con las normas descritas en la sección 5.1.2.
   - Antes de fusionar las ramas, se creó un pull request en GitHub para revisar los cambios, garantizar que no existieran conflictos y validar que el código respetara los estándares acordados.
   - Se efectuaron pruebas manuales con la extensión Live Server, lo que permitió verificar la funcionalidad de la landing page antes de proceder con la fusión.
 - Luego, se activó GitHub Pages como herramienta de despliegue estático, apuntando al contenido de la rama main.
-  - Desde la sección "Settings" > "Pages" del repositorio, se eligió la rama main como fuente para la publicación.
+  - Desde la sección "Settings" > "Pages" del repositorio, se eligió la rama develop como fuente para la publicación.
   - Finalmente, se comprobó que la URL generada por GitHub Pages estuviera activa y desplegara correctamente la landing page, logrando así una publicación exitosa accesible desde una dirección pública.
+
+   <p align="center">
+       <img src="assets/ima/pages.png" alt="pages"/>   
+    </p>
 
 - La landing page fue publicada correctamente y se encuentra disponible a través de una dirección URL accesible públicamente.
 
+<p align="center">
+        <img src="assets/evidencias/inicio.png" alt="inicio"/>    
+    </p>
 
   #### <a name="_19hdpp4kfi7i"></a>**5.2.1.8. Team Collaboration Insights during Sprint**
 Durante este Sprint, el equipo trabajó de manera colaborativa en la construcción de la landing page de EcoVolt, aplicando buenas prácticas en el uso de control de versiones con Git, organizando el flujo de trabajo bajo la metodología Git Flow y asignando tareas conforme a los roles definidos desde el inicio del proyecto, tanto en desarrollo como en diseño.
@@ -1586,47 +1605,25 @@ Durante este Sprint, el equipo trabajó de manera colaborativa en la construcci�
 - Se aplicaron convenciones de commits siguiendo el estándar Conventional Commits, lo que permitió una mejor trazabilidad de los cambios realizados.
 - Los pull requests fueron revisados por otros integrantes del equipo antes de ser integrados a la rama develop, asegurando calidad y coherencia en el código.
 - Se realizaron reuniones breves (dailys o sesiones semanales de seguimiento) que permitieron monitorear el progreso y resolver bloqueos de forma oportuna.
+
 - A continuación, se presenta la evidencia del avance individual de cada miembro del equipo:
   - Anyelo Alejos: Commits relacionados a hojas de estilo
-  - Mathias Aspajo: Commits relacionados a la vista del login y su hoja de estilo
-  - Jack Roque: Commits relacionados a hojas de estilo y assets
-  - Alejandro Mendoza: Commits relacionados a hojas de estilo
-  - Alejandro Torres: Commits relacionados al index principal
 
-**Estrategia de colaboración empleada:**
-
-- Se utilizaron ramas específicas (feature/, develop, main) para mantener un desarrollo ordenado y estructurado de las funcionalidades.
-
-- Se aplicaron convenciones de commits siguiendo el estándar Conventional Commits, lo que permitió una mejor trazabilidad de los cambios realizados.
-
-- Los pull requests fueron revisados por otros integrantes del equipo antes de ser integrados a la rama develop, asegurando calidad y coherencia en el código.
-
-- Se realizaron reuniones breves (dailys o sesiones semanales de seguimiento) que permitieron monitorear el progreso y resolver bloqueos de forma oportuna.
-
-- A continuación, se presenta la evidencia del avance individual de cada miembro del equipo:
-
-    - Anyelo Alejos: Commits relacionados a hojas de estilo 
     <p align="center">
-        <img src="assets/evidencias/commit_anyelo.png" alt="landing-commits-anyelo"/>    
+        <img src="assets/ima/commit_anyelo.png" alt="commit_anyelo"/>    
     </p>
 
-    - Mathias Aspajo: Commits relacionados a la vista del login y su hoja de estilo
+  - Mathias Aspajo: Commits relacionados a hojas de estilo, assets e index principal
+
     <p align="center">
-        <img src="assets/evidencias/commit_aspajo.png" alt="landing-commits-mathias"/>    
+        <img src="assets/ima/commit_mathias.png" alt="commit_mathias"/>    
     </p>
 
-    - Jack Roque: Commits relacionados a hojas de estilo y assets
+  - Jack Roque: Commits relacionados a hojas de estilo
+
     <p align="center">
-        <img src="assets/evidencias/commit_roque.png" alt="landing-commits-jack"/>    
+        <img src="assets/ima/commit_jack.png" alt="commit_jack"/>    
     </p>
-
-    - Alejandro Mendoza: Commits relacionados  a hojas de estilo
-    <p align="center">
-        <img src="assets/evidencias/mendoza.png" alt="landing-commits-alejandrom"/>    
-    </p>   
-
-<hr>
-
 
 ### 5.2.2. Sprint 2
 
