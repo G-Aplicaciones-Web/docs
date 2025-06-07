@@ -695,13 +695,13 @@ Las tareas se determinaron mediante un análisis cualitativo de las entrevistas,
 - Segmento Objetivo 1 - Empresa consumidora
 
 <p align="center">
-    <img src="assets/recursos/User_Journey_Mapping1.png" alt="User-Journey-Mapping"/>
+    <img src="assets/recursos/User_Journey_Mapping11.png" alt="User-Journey-Mapping"/>
 </p>
 
 - Segmento Objetivo 2 - Electricistas
 
 <p align="center">
-    <img src="assets/recursos/User_Journey_Mapping2.png" alt="User-Journey-Mapping"/>
+    <img src="assets/recursos/User_Journey_Mapping22.png" alt="User-Journey-Mapping"/>
 </p>
 
 #### 2.3.4. Empathy Mapping
@@ -723,13 +723,13 @@ Las tareas se determinaron mediante un análisis cualitativo de las entrevistas,
 #### 2.3.5.1. As-is Scenario Mapping Empresa consumidora
 
 <p align="center">
-    <img src="assets/recursos/As_is_empresas.png" alt="As-is-electricistas"/>
+    <img src="assets/recursos/As_is_empresas1.png" alt="As-is-electricistas"/>
 </p>
 
 #### 2.3.5.2. As-is Scenario Mapping Electricistas
 
 <p align="center">
-    <img src="assets/recursos/As_is_electricistas.png" alt="As-is-empresas"/>
+    <img src="assets/recursos/As_is_electricistas1.png" alt="As-is-empresas"/>
 </p>
 
 ### 2.4. Ubiquitous Language
@@ -760,13 +760,13 @@ Las tareas se determinaron mediante un análisis cualitativo de las entrevistas,
 #### 3.1.1. To-Be Scenario Mapping Turistas nacionales e internacionales
 
 <p align="center">
-    <img src="assets/recursos/To_be_Empresas.png" alt="To-be-Empresas"/>
+    <img src="assets/recursos/To_be_Empresas1.png" alt="To-be-Empresas"/>
 </p>
 
 #### 3.1.2. To-Be Scenario Mapping Electricistas
 
 <p align="center">
-    <img src="assets/recursos/To_be_Electricistas.png" alt="To-be-Electricistas"/>
+    <img src="assets/recursos/To_be_Electricistas1.png" alt="To-be-Electricistas"/>
 </p>
 
 ### 3.2. User Stories
