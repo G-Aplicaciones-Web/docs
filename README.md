@@ -781,45 +781,63 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 
 |<p>**Epic / Story**</p><p>**ID**</p>|**Título**|**Descripción**|<p>**Criterios de**</p><p>**Aceptación**</p>|<p>**Relacionado**</p><p>**con (Epic ID)**</p>|
 | :- | :- | :- | :- | :- |
-|EP01|Gestión de usuarios y perfiles|Como usuario, quiero gestionar mi cuenta y perfil, para acceder a funciones personalizadas según mi rol.|-|-|
-|EP02|Monitoreo y control de consumo energético| Como empresa, quiero monitorear y controlar mi consumo energético, para optimizar costos y eficiencia.|-|-|
-|EP03|Herramientas para electricistas|Como electricista, quiero disponer de herramientas técnicas avanzadas, para instalar y diagnosticar sistemas.|-|-|
-|EP04|	Landing y accesibilidad|Como visitante, quiero explorar la landing page y cambiar idioma, para entender y acceder sea cual sea mi dispositivo.|-|-|
+|EP01|Gestión de Usuarios y Perfiles|Como usuario, quiero gestionar mi cuenta y perfil para interactuar de forma segura y personalizada con la plataforma según mi rol.|-|-|
+|EP02|Monitoreo de Consumo Energético| Como empresa, quiero monitorear mi consumo energético en tiempo real para identificar patrones y optimizar la eficiencia.|-|-|
+|EP03|Herramientas para Electricistas|Como electricista, quiero disponer de herramientas técnicas especializadas para instalar, configurar, diagnosticar y mantener los dispositivos IoT.|-|-|
+|EP04|Visibilidad y Acceso (Landing Page)|Como visitante, quiero explorar la información de la plataforma y acceder fácilmente a sus secciones para entender el valor de EcoVolt y decidir registrarme.|-|-|
+|EP05|Gestión de Suscripciones y Pagos|Como usuario, quiero gestionar mis suscripciones y pagos para asegurar el acceso continuo al servicio y la viabilidad del negocio.|-|-|
+|EP06|Gestión de Dispositivos y Activos|Como empresa/electricista, quiero gestionar el inventario, la asignación y el estado de los dispositivos IoT para asegurar el correcto flujo de datos de monitoreo.|-|-|
 |US01|Registro de empresa|Como gerente, quiero registrar mi empresa, para comenzar a monitorear consumo.|<p>Scenario 1: Registro exitoso</p><p>Dado que ingreso RUC y datos válidos, cuando el sistema verifica la validez, entonces la empresa queda registrada.</p><p></p><p>Scenario 2: Datos fiscales incorrectos</p><p>Dado que ingreso RUC inválido, cuando el sistema valida los datos, entonces se informa “Verifique su RUC”.</p>|EP01|
 |US02|Registro de electricista|Como electricista, quiero registrar mi colegiatura, para obtener acceso al modo técnico.|<p>Scenario 1: Validación de colegiatura</p><p>Dado que proporciono un certificado legible, cuando el sistema lo comprueba, entonces el modo técnico se activa.</p><p></p><p>Scenario 2: Documento no legible</p><p>Dado que el certificado no puede leerse, cuando el sistema intenta verificarlo, entonces se sugiere “Suba un archivo más claro”.</p>|EP01|
 |US03|Inicio de sesión| Como usuario, quiero iniciar sesión, para acceder a mis datos.|<p>Scenario 1: Acceder inicio</p><p>Dado que ingreso credenciales válidas, cuando el sistema las verifica, entonces inicio sesión con éxito.</p><p>Scenario 2: Credenciales incorrectas</p><p>Dado que ingreso credenciales erróneas tres veces, cuando el sistema las rechaza, entonces la cuenta queda bloqueada temporalmente.</p><p></p>|EP01|
 |US04|Recuperar contraseña|Como usuario, quiero restablecer mi contraseña, para recuperar mi acceso.|<p>Scenario 1: Solicitud exitosa</p><p>Dado que proporciono un email registrado, cuando el sistema lo reconoce, entonces se envía un enlace de restablecimiento.</p><p></p><p>Scenario 2: Email no registrado</p><p>Dado que el email no existe, cuando el sistema busca en la base de datos, entonces informa “Email no encontrado”.</p>|EP01|
-|US05|Edición de perfil|Como usuario, quiero actualizar mi nombre y correo, para mantener mi información al día.|<p>Scenario 1: Actualización de sector</p><p>Dado que ingreso datos válidos, cuando el sistema los guarda, entonces el perfil se actualiza.</p><p></p><p>Scenario 2: Datos no válidos</p><p>Dado que ingreso un correo duplicado, cuando el sistema detecta el conflicto, entonces informa “Correo ya en uso”.</p>|EP01|
+|US05|Edición de perfil|Como usuario, quiero actualizar mi nombre y correo, para mantener mi información al día.|<p>Scenario 1: Actualización de datos generales exitosa</p><p>Dado que ingreso un nombre y correo electrónico válidos, cuando el sistema los guarda, entonces el perfil se actualiza correctamente.</p><p></p><p>Scenario 2: Intento de actualización con datos duplicados</p><p>Dado que ingreso un correo electrónico que ya está en uso, cuando el sistema detecta el conflicto, entonces informa “El correo electrónico ya está registrado”.</p>|EP01|
 |US06|Cambio de contraseña|Como usuario, quiero cambiar mi contraseña, para mejorar mi seguridad.|<p>Scenario 1: Cambio exitoso</p><p>Dado que propongo una contraseña nueva que cumple políticas, cuando el sistema la valida, entonces la contraseña se actualiza.</p><p></p><p>Scenario 2: Intento denegado</p><p>Dado que la nueva contraseña no cumple requisitos, cuando el sistema la comprueba, entonces informa “Contraseña no válida”.</p>|EP01|
 |US07|Roles y permisos|Como administrador, quiero asignar roles, para definir accesos diferenciados. |<p>Scenario 1: Asignación de rol exitoso</p><p>Dado que defino rol válido, cuando el sistema lo asigna, entonces el usuario obtiene los permisos adecuados.</p><p></p><p>Scenario 2: Asignación de rol inválido</p><p>Dado que intento asignar un rol inexistente, cuando el sistema verifica la solicitud, entonces informa “Rol no reconocido”.</p>|EP01|
-|US08|Eliminación de cuenta|Como usuario, quiero borrar mi cuenta, para eliminar mis datos del sistema.|<p>Scenario 1: Eliminación de cuenta exitoso</p><p>Dado que confirmo la eliminación con mi contraseña, cuando el sistema procesa la solicitud, entonces la cuenta es borrada.</p><p></p><p>Scenario 2: Error en borrado de cuenta</p><p>Dado que me retracto antes del borrado, cuando el sistema recibe la orden, entonces la cuenta permanece activa.</p>|EP01|
-|US09|Ver comentarios de empresas|Como visitante, quiero leer opiniones de empresas, para valorar el servicio.|<p>Scenario 1: Visualización de comentarios de empresas</p><p>Dado que existen comentarios cargados, cuando el sistema los muestra, entonces puedo leer testimonios auténticos.</p><p></p><p>Scenario 2: Comentarios de empresas inválidos</p><p>Dado que no hay comentarios, cuando el sistema consulta la API, entonces informa “No hay comentarios disponibles”.</p>|EP01|
-|US10|Ver comentarios de electricistas| Como visitante, quiero leer opiniones de electricistas, para confiar en el soporte técnico. |<p>Scenario 1: Visualización de comentarios de electricistas</p><p>Dado que existen testimonios técnicos, cuando el sistema los muestra, entonces puedo evaluar la calidad del servicio.</p><p></p><p>Scenario 2: Comentarios de electricistas inválidos</p><p>Dado que no hay testimonios, cuando el sistema consulta la API, entonces informa “No hay comentarios disponibles”. </p>|EP01|
-|US11|Cambio de idioma|Como usuario, quiero cambiar entre español e inglés, para usar la app en mi idioma.|<p>Scenario 1: Cambio de idioma al ingles</p><p>Dado que elijo “Inglés”, cuando el sistema aplica la configuración, entonces toda la interfaz aparece en inglés.</p><p></p><p>Scenario 2:  Cambio de idioma al español</p><p>Dado que elijo “Español”, cuando el sistema aplica la configuración, entonces toda la interfaz aparece en español.</p>|EP04|
-|US12|Navegación por landing|Como visitante, quiero explorar la landing, para conocer funcionalidades sin registrarme.|<p>Scenario 1: Visualización de la landing page</p><p>Dado que accedo a la landing, cuando el sistema carga la página, entonces puedo recorrer secciones de información.</p><p></p><p>Scenario 2: Visualización de la landing page en dispositivo diferente</p><p>Dado que recargo la landing en otro dispositivo, cuando el sistema adapta el contenido, entonces muestra todo el texto correctamente.</p>|EP04|
-|US13|Responsividad en móviles|Como usuario móvil, quiero que la app se adapte a mi pantalla, para consultar datos desde mi teléfono.|<p>Scenario 1: Visualización de la landing page en dispositivo móvil</p><p>Dado que uso un dispositivo pequeño, cuando el sistema renderiza la vista, entonces los elementos se ajustan al ancho.</p><p></p><p>Scenario 2: Visualización de la landing page en vista horizontal</p><p>Dado que cambio la orientación, cuando el sistema detecta la rotación, entonces reacomoda el contenido para seguir siendo legible.</p>|EP04|
-|US14|Registro rápido con SSO|Como empresa, quiero registrarme con Google Workspace, para simplificar el acceso.|<p>Scenario 1: Registro rápido exitoso</p><p>Dado que mi cuenta corporativa está autorizada, cuando el sistema valida credenciales, entonces la cuenta queda creada sin contraseña.</p><p></p><p>Scenario 2: Error en el registro rápido</p><p>Dado que mi cuenta no es corporativa, cuando el sistema verifica el dominio, entonces informa “Use una cuenta corporativa”.</p>|EP01|
-|US15|Alertas de consumo|Como empresa, quiero recibir alertas de consumo anómalo, para actuar rápidamente.|<p>Scenario 1: Alerta exitosa</p><p>Dado que un dispositivo supera un umbral predefinido, cuando el sistema registra el evento, entonces se envía una alerta inmediata.</p><p></p><p>Scenario 2: Alerta resuelta</p><p>Dado que el consumo vuelve a valores normales, cuando el sistema reevalúa la métrica, entonces se marca la alerta como resuelta. </p>|EP02|
-|US16|Comparación de consumos|Como empresa, quiero comparar mi consumo mensual y anual, para medir avances.|<p>Scenario 1: Comparación de datos exitoso</p><p>Dado que existen datos de dos periodos completos, cuando el sistema calcula diferencias, entonces muestra porcentajes de cambio.</p><p></p><p>Scenario 2: Sin datos para comparar</p><p>Dado que falta un periodo, cuando el sistema detecta ausencia de datos, entonces informa “Periodo incompleto para comparar”.</p>|EP02|
-|US17| Programación de horarios|Como empresa, quiero programar apagado y encendido de equipos, para optimizar uso. |<p>Scenario 1: Apago automático exitoso</p><p>Dado que defino una hora de apagado, cuando llega el momento, entonces el dispositivo se apaga automáticamente.</p><p></p><p>Scenario 2: Encendido automático exitoso</p><p>Dado que defino una hora de encendido, cuando llega el momento, entonces el dispositivo se enciende automáticamente. </p>|EP02|
-|US18|Exportación de datos|Como auditor, quiero exportar datos en CSV o PDF, para analizarlos fuera de la app.|<p>Scenario 1: Exportación de datos exitoso</p><p>Dado que solicito datos de un periodo, cuando el sistema procesa la exportación, entonces entrega un archivo descargable.</p><p></p><p>Scenario 2: Datos insuficientes para exportar</p><p>Dado que no hay datos en el periodo, cuando el sistema intenta generar el archivo, entonces informa “No hay datos para exportar”. </p><p></p>|EP02|
-|US19|Productos eléctricos compatibles| Como empresa, quiero ver productos IoT compatibles, para vincularlos con EcoVolt.|<p>Scenario 1: Visualización de productos eléctricos</p><p>Dado que hay productos cargados, cuando el sistema consulta la lista, entonces muestra marca y descripción.</p><p></p><p>Scenario 2: Datos insuficientes para mostrar</p><p>Dado que no hay productos, cuando el sistema consulta la API, entonces informa “No hay productos disponibles”.</p>|EP02|
-|US20|Recomendaciones de ahorro|Como empresa, quiero recibir sugerencias de ahorro energético, para implementar mejoras. |<p>Scenario 1: Recomendaciones exitosas</p><p>Dado que el sistema detecta patrones de ineficiencia, cuando los analiza, entonces propone acciones concretas.</p><p></p><p>Scenario 2: Recomendaciones resueltas</p><p>Dado que el consumo es óptimo, cuando el sistema analiza datos, entonces informa “No se detectaron mejoras sugeridas”.</p>|EP02|
-|US21|Registro de dispositivos IoT|Como electricista, quiero emparejar sensores, para comenzar a monitorear.|<p>Scenario 1: Conexión exitosa</p><p>Dado que el sensor está disponible, cuando el sistema establece conexión, entonces el dispositivo queda registrado.</p><p></p><p>Scenario 2: Error de emparejamiento</p><p>Dado que el sensor no responde, cuando el sistema intenta emparejar, entonces sugiere reiniciar el dispositivo.</p>|EP03|
-|US22|Calibración de sensores|Como electricista, quiero ajustar parámetros de sensores, para garantizar mediciones precisas.|<p>Scenario 1: Ajuste de parámetros</p><p>Dado que identifico un desfase, cuando aplico nuevos valores, entonces los datos de consumo reflejan la corrección.</p><p></p><p>Scenario 2: Fuera de rango</p><p>Dado que ingreso un valor fuera de rango, cuando el sistema verifica el parámetro, entonces informa “Parámetro fuera de rango”.</p>|EP03|
-|US23|Modo técnico detallado|Como electricista, quiero acceder a lecturas de voltaje y corriente, para diagnóstico avanzado.|<p>Scenario 1: Generar datos de voltaje</p><p>Dado que el dispositivo envía datos, cuando el sistema los recibe, entonces muestra voltaje, corriente y potencia.</p><p></p><p>Scenario 2: Datos insuficientes de voltaje</p><p>Dado que no llegan datos, cuando el sistema detecta ausencia de señales, entonces informa “Datos no disponibles”.</p>|EP03|
-|US24|Informe técnico en PDF|Como electricista, quiero generar un informe PDF, para entregar al cliente.|<p>Scenario 1: Generar PDF</p><p>Dado que existan datos de diagnóstico, cuando el sistema crea el documento, entonces descarga un PDF con valores e conclusiones.</p><p></p><p>Scenario 2: Datos insuficientes para generar PDF</p><p>Dado que falten datos, cuando el sistema compila el informe, entonces resalta campos incompletos.</p>|EP03|
-|US25|Historial de inspecciones|Como electricista, quiero consultar historial de servicios, para conocer antecedentes. |<p>Scenario 1: Acceso a registros</p><p>Dado que haya registros previos, cuando el sistema consulta la base de datos, entonces muestra fechas y descripciones.</p><p></p><p>Scenario 2: Error al acceder al registro</p><p>Dado que no existan servicios previos, cuando el sistema realice la búsqueda, entonces informa “Sin historial disponible”. </p>|EP03|
-|US26|Comentarios técnicos|Como electricista, quiero dejar notas en cada servicio, para futuras referencias.|<p>Scenario 1: Comentario fijado</p><p>Dado que completo un comentario, cuando el sistema lo guarda, entonces aparece en el historial del cliente.</p><p></p><p>Scenario 2: Comentario no fijado</p><p>Dado que el comentario está vacío, cuando el sistema verifica el contenido, entonces informa “El comentario no puede estar vacío”.</p>|EP03|
-|US27|Chat interno con cliente|Como electricista, quiero comunicarme con el cliente, para aclarar dudas durante la inspección.|<p>Scenario 1: Mensaje enviado</p><p>Dado que escribo un mensaje, cuando el sistema lo envía, entonces el cliente lo recibe al instante.</p><p></p><p>Scenario 2: Archivo adjunto</p><p>Dado que adjunto una imagen, cuando el sistema procesa el archivo, entonces la imagen queda disponible para el cliente.</p>|EP03|
-|US28|Plantillas de reporte personalizadas|Como electricista, quiero crear plantillas, para ahorrar tiempo en cada servicio. |<p>Scenario 1: Crear plantilla</p><p>Dado que defino un formato, cuando el sistema almacena la plantilla, entonces aparece en la lista de plantillas.</p><p></p><p>Scenario 2: Nombre duplicado</p><p>Dado que uso un nombre duplicado, cuando el sistema comprueba la existencia, entonces informa “Nombre de plantilla ya existe”.</p>|EP03|
-|US29|Guías visuales de instalación|Como electricista, quiero acceder a guías paso a paso, para reducir errores en la instalación.|<p>Scenario 1: Acceso a diagramas interactivos</p><p>Dado que solicito una guía, cuando el sistema la entrega, entonces muestra diagramas con instrucciones.</p><p></p><p>Scenario 2: Descarga de manuales</p><p>Dado que requiero descargar la guía, cuando el sistema genera el PDF, entonces se descarga el documento con imágenes. </p>|EP03|
-|US30|Soporte técnico prioritario| Como electricista, quiero soporte 24/7, para resolver emergencias sin demora. |<p>Scenario 1: Emergencia reportada</p><p>Dado que reporto una emergencia, cuando el sistema recibe la solicitud, entonces conecta con un agente en menos de 5 min.</p><p></p><p>Scenario 2: Consulta no urgente</p><p>Dado que realizo una consulta no urgente, cuando el sistema la registra, entonces asigna un horario de respuesta en 1 h.</p>|EP03|
-|US31| Chat de feedback de la landing|Como visitante, quiero enviar comentarios desde la landing, para aportar sugerencias.|<p>Scenario 1: Mensaje enviado</p><p>Dado que envío un mensaje, cuando el sistema lo recibe, entonces lo guarda para revisión</p><p></p><p>Scenario 2: Error al enviar mensaje</p><p>Dado que el mensaje está vacío, cuando el sistema verifica el contenido, entonces informa “El mensaje no puede estar vacío”.</p>|EP04|
-|US32|Ver beneficios clave|Como visitante, quiero conocer ventajas de EcoVolt, para evaluar su utilidad.|<p>Scenario 1: Beneficios clave</p><p>Dado que leo la sección de beneficios, cuando el sistema la presenta, entonces identifico al menos tres ventajas.</p><p></p><p>Scenario 2: Tecnología usada</p><p>Dado que consulto otra sección, cuando el sistema muestra los íconos, entonces entiendo la tecnología aplicada. </p>|EP04|
-|US33|Visualización de casos de uso|Como visitante, quiero ver ejemplos reales, para confiar en EcoVolt.|<p>Scenario 1: Visualización de casos</p><p>Dado que accedo a casos de uso, cuando el sistema los muestra, entonces entiendo cómo otras empresas usan la app.</p><p></p><p>Scenario 2: Error al visualizar casos</p><p>Dado que consulto un caso sin sector, cuando el sistema detecta falta de datos, entonces informa “Caso no disponible en este sector”.</p>|EP04|
-|US34|Contacto con soporte desde landing|Como visitante, quiero solicitar información desde la landing, para aclarar dudas antes de registrarme.|<p>Scenario 1: Solicitud enviada</p><p>Dado que envío una solicitud, cuando el sistema la recibe, entonces genera un ticket de contacto.</p><p></p><p>Scenario 2: Error al enviar solicitud</p><p>Dado que no proporciono email, cuando el sistema verifica el formulario, entonces informa “Email obligatorio”.</p>|EP04|
-|US35|Gestión de dispositivos conectados|Como usuario quiero visualizar un listado de dispositivos IoT asociados a mi cuenta para ver cuáles están conectados o desconectados y poder cambiar su estado de forma interactiva.|<p>Scenario 1: Visualización correcta de la lista de dispositivos</p><p>Cuando el usuario accede al apartado “Dispositivos”, entonces debe visualizar una lista con todos los dispositivos asociados a su cuenta Y cada dispositivo debe mostrar su nombre, tipo y estado actual (conectado o desconectado).</p><p></p><p>Scenario 2: Conectar un dispositivo desconectado</p><p>Cuando el usuario selecciona un dispositivo que está desconectado Y presiona el botón “Conectar”, entonces el dispositivo cambia su estado a conectado y la lista se actualiza mostrando el nuevo estado en tiempo real y se recibe una notificación de éxito.</p>|EP04|
+|US08|Eliminación de cuenta|Como usuario, quiero borrar mi cuenta, para eliminar mis datos del sistema.|<p>Scenario 1: Eliminación de cuenta exitosa</p><p>Dado que confirmo la eliminación con mi contraseña correcta, cuando el sistema procesa la solicitud, entonces la cuenta es borrada permanentemente.</p><p></p><p>Scenario 2: Eliminación de cuenta con contraseña incorrecta</p><p>Dado que intento eliminar mi cuenta pero ingreso una contraseña incorrecta para confirmar, cuando el sistema verifica la contraseña, entonces informa “Contraseña incorrecta” y la cuenta permanece activa.</p>|EP01|
+|US09|Ver comentarios de empresas|Como visitante, quiero leer opiniones de empresas, para valorar el servicio.|<p>Scenario 1: Visualización de comentarios de empresas</p><p>Dado que existen comentarios cargados, cuando el sistema los muestra, entonces puedo leer testimonios auténticos.</p><p></p><p>Scenario 2: Comentarios de empresas inválidos</p><p>Dado que no hay comentarios, cuando el sistema consulta la API, entonces informa “No hay comentarios disponibles”.</p>|EP04|
+|US10|Ver comentarios de electricistas| Como visitante, quiero leer opiniones de electricistas, para confiar en el soporte técnico. |<p>Scenario 1: Visualización de comentarios de electricistas</p><p>Dado que existen testimonios técnicos, cuando el sistema los muestra, entonces puedo evaluar la calidad del servicio.</p><p></p><p>Scenario 2: Comentarios de electricistas inválidos</p><p>Dado que no hay testimonios, cuando el sistema consulta la API, entonces informa “No hay comentarios disponibles”. </p>|EP04|
+|US11|Configuración de idioma de la plataforma|Como usuario, quiero cambiar el idioma de la plataforma entre español e inglés, para interactuar en mi idioma preferido.|<p>Scenario 1: Cambio de idioma al inglés</p><p>Dado que el usuario selecciona "Inglés" en la configuración de idioma, cuando el sistema aplica la configuración, entonces toda la interfaz de la plataforma se muestra en inglés.</p><p></p><p>Scenario 2: Cambio de idioma al español</p><p>Dado que el usuario selecciona "Español" en la configuración de idioma, cuando el sistema aplica la configuración, entonces toda la interfaz de la plataforma se muestra en español.</p>|EP01|
+|US12|Navegación por landing|Como visitante, quiero explorar la landing, para conocer funcionalidades sin registrarme.|<p>Scenario 1: Visualización de la landing page</p><p>Dado que accedo a la URL de la landing page, cuando el sistema carga la página, entonces se visualizan las secciones principales de información.</p><p></p><p>Scenario 2: Visualización de la landing page en dispositivo diferente</p><p>Dado que recargo la landing en otro dispositivo, cuando el sistema adapta el contenido, entonces muestra todo el texto y elementos correctamente ajustados a la pantalla.</p>|EP04|
+|US13|Responsividad en móviles|Como visitante, quiero que la landing page se adapte a mi pantalla, para consultar información desde mi teléfono.|<p>Scenario 1: Visualización en dispositivo móvil vertical</p><p>Dado que uso un dispositivo móvil en orientación vertical, cuando el sistema renderiza la landing page, entonces los elementos se ajustan proporcionalmente al ancho de la pantalla y son legibles.</p><p></p><p>Scenario 2: Visualización en dispositivo móvil horizontal</p><p>Dado que cambio la orientación del dispositivo a horizontal, cuando el sistema detecta la rotación, entonces reacomoda el contenido de la landing page para mantener la legibilidad y la usabilidad.</p>|EP04|
+|US14|Registro rápido con SSO|Como empresa, quiero registrarme con Google Workspace, para simplificar el acceso.|<p>Scenario 1: Registro rápido exitoso</p><p>Dado que mi cuenta corporativa está autorizada por Google Workspace, cuando el sistema valida las credenciales, entonces la cuenta de empresa queda creada en EcoVolt sin requerir una contraseña adicional.</p><p></p><p>Scenario 2: Error en el registro rápido por cuenta no corporativa</p><p>Dado que intento registrarme con una cuenta de Google que no es corporativa, cuando el sistema verifica el dominio, entonces informa “Por favor, use una cuenta corporativa para este tipo de registro”.</p>|EP01|
+|US15|Alertas de consumo anómalo|Como empresa, quiero recibir alertas de consumo anómalo, para actuar rápidamente.|<p>Scenario 1: Recepción de alerta por umbral superado</p><p>Dado que un dispositivo de mi empresa supera un umbral de consumo predefinido, cuando el sistema detecta el evento, entonces se envía una alerta inmediata a los contactos designados.</p><p></p><p>Scenario 2: Alerta marcada como resuelta</p><p>Dado que el consumo del dispositivo vuelve a valores normales, cuando el sistema reevalúa la métrica, entonces se marca la alerta como resuelta y se notifica si es configurable. </p>|EP02|
+|US16|Comparación de consumos históricos|Como empresa, quiero comparar mi consumo energético mensual y anual, para medir avances.|<p>Scenario 1: Comparación de datos exitosa</p><p>Dado que existen datos de consumo para dos periodos completos, cuando el sistema calcula las diferencias, entonces muestra porcentajes de cambio y gráficos comparativos.</p><p></p><p>Scenario 2: Periodo de comparación incompleto</p><p>Dado que intento comparar un periodo con datos faltantes, cuando el sistema detecta ausencia de datos completos, entonces informa “Periodo incompleto para realizar la comparación”.</p>|EP02|
+|US17|Programación de encendido/apagado de equipos|Como empresa, quiero programar el apagado y encendido automático de equipos, para optimizar el uso energético.|<p>Scenario 1: Apagado automático de equipo exitoso</p><p>Dado que defino una hora de apagado automático para un dispositivo, cuando llega la hora programada, entonces el dispositivo se apaga automáticamente.</p><p></p><p>Scenario 2: Encendido automático de equipo exitoso</p><p>Dado que defino una hora de encendido automático para un dispositivo, cuando llega la hora programada, entonces el dispositivo se enciende automáticamente.</p>|EP02|
+|US18|Exportación de reportes de consumo|Como empresa, quiero exportar datos de consumo en formato PDF, para analizarlos fuera de la app.|<p>Scenario 1: Exportación de datos exitosa</p><p>Dado que solicito la exportación de datos para un periodo específico, cuando el sistema procesa la solicitud, entonces genera y entrega un archivo descargable con los datos solicitados.</p><p></p><p>Scenario 2: No hay datos disponibles para exportar</p><p>Dado que no hay datos de consumo registrados en el periodo seleccionado para exportar, cuando el sistema intenta generar el archivo, entonces informa “No hay datos disponibles para el periodo seleccionado”. </p><p></p>|EP02|
+|US19|Listado de productos IoT compatibles|Como empresa, quiero ver una lista de productos IoT compatibles, para vincularlos con EcoVolt.|<p>Scenario 1:Visualización de productos compatibles</p><p>Dado que accedo a la sección de productos compatibles, cuando el sistema consulta la base de datos de dispositivos, entonces muestra un listado con la marca, modelo y descripción de los productos IoT soportados.</p><p></p><p>Scenario 2: Sin productos compatibles disponibles</p><p>Dado que la base de datos no contiene productos IoT compatibles en este momento, cuando el sistema consulta la lista, entonces informa “No hay productos compatibles disponibles en este momento”.</p>|EP06|
+|US20|Sugerencias de ahorro energético|Como empresa, quiero recibir sugerencias de ahorro energético, para implementar mejoras.|<p>Scenario 1: Recomendaciones generadas exitosamente</p><p>Dado que el sistema detecta patrones de ineficiencia en el consumo, cuando analiza los datos históricos, entonces propone acciones concretas y personalizadas para optimizar el ahorro energético.</p><p></p><p>Scenario 2: No se detectan mejoras sugeridas</p><p>Dado que el consumo de la empresa es óptimo o no presenta ineficiencias significativas, cuando el sistema analiza los datos, entonces informa “No se detectaron mejoras sugeridas para su consumo actual”.</p>|EP02|
+|US21|Registro de dispositivos IoT|Como electricista, quiero emparejar sensores, para comenzar a monitorear.|<p>Scenario 1: Conexión exitosa del dispositivo</p><p>Dado que el sensor IoT está disponible para emparejamiento, cuando el sistema establece la conexión, entonces el dispositivo queda registrado y visible en el inventario asociado a la empresa.</p><p></p><p>Scenario 2: Error al emparejar dispositivo</p><p>Dado que el sensor IoT no responde a la solicitud de emparejamiento, cuando el sistema intenta emparejar, entonces informa “Error de conexión. Por favor, intente reiniciar el dispositivo y reintentar el emparejamiento.”</p>|EP03|
+|US22|Calibración de sensores|Como electricista, quiero ajustar parámetros de sensores, para garantizar mediciones precisas.|<p>Scenario 1: Ajuste de parámetros exitoso</p><p>Dado que identifico un desfase en las mediciones de un sensor, cuando aplico nuevos valores de calibración, entonces los datos de consumo reflejan la corrección a partir de ese momento.</p><p></p><p>Scenario 2:Parámetro de calibración fuera de rango</p><p>Dado que ingreso un valor de calibración fuera del rango permitido por el sistema, cuando el sistema verifica el parámetro, entonces informa “El valor ingresado para la calibración está fuera del rango permitido.”</p>|EP03|
+|US23|Modo técnico: Lecturas de voltaje, corriente y potencia|Como electricista, quiero acceder a lecturas de voltaje, corriente y potencia en tiempo real, para diagnóstico avanzado.|<p>Scenario 1:Visualización de datos de diagnóstico</p><p>Dado que el dispositivo IoT envía datos de voltaje, corriente y potencia, cuando el sistema los recibe, entonces muestra estas lecturas detalladas en el modo técnico.</p><p></p><p>Scenario 2: Datos de diagnóstico no disponibles</p><p>Dado que el dispositivo no envía datos o la conexión es inestable, cuando el sistema intenta mostrar las lecturas, entonces informa “Datos de diagnóstico no disponibles en este momento. Verifique la conexión del dispositivo.”</p>|EP03|
+|US24|Generación de informe técnico en PDF|Como electricista, quiero generar un informe técnico en PDF, para entregar al cliente.|<p>Scenario 1: Informe PDF generado exitosamente</p><p>Dado que existen datos de diagnóstico y mantenimiento completos para un servicio, cuando el sistema crea el documento, entonces descarga un archivo PDF con los valores medidos, gráficos y conclusiones del servicio.</p><p></p><p>Scenario 2: Datos insuficientes para generar informe</p><p>Dado que faltan datos clave o obligatorios para compilar el informe, cuando el sistema intenta generar el documento, entonces resalta los campos incompletos y solicita al usuario su llenado antes de la generación.</p>|EP03|
+|US25|Historial de servicios e inspecciones|Como electricista, quiero consultar el historial de servicios realizados, para conocer antecedentes.|<p>Scenario 1: Acceso a registros de servicios</p><p>Dado que existen registros de servicios previos asociados a una empresa o dispositivo, cuando el sistema consulta la base de datos, entonces muestra una lista de servicios con fechas, descripciones y resultados detallados.</p><p></p><p>Scenario 2: Sin historial de servicios disponible</p><p>Dado que no existen servicios previos para la empresa o dispositivo seleccionado, cuando el sistema realiza la búsqueda, entonces informa “No hay historial de servicios disponible para este elemento.”</p>|EP03|
+|US26|Registro de comentarios técnicos|Como electricista, quiero dejar notas detalladas en cada servicio, para futuras referencias.|<p>Scenario 1: Comentario registrado exitosamente</p><p>Dado que completo un comentario con información relevante para el servicio, cuando el sistema lo guarda, entonces el comentario aparece asociado al servicio en el historial del cliente y del electricista.</p><p></p><p>Scenario 2: Intento de guardar comentario vacío</p><p>Dado que el campo de comentario está vacío al intentar guardar, cuando el sistema verifica el contenido, entonces informa “El comentario no puede estar vacío.”</p>|EP03|
+|US27|Chat interno con el cliente|Como electricista, quiero comunicarme directamente con el cliente, para aclarar dudas durante la inspección.|<p>Scenario 1: Mensaje enviado exitosamente</p><p>Dado que escribo un mensaje en el chat asociado al servicio, cuando el sistema lo envía, entonces el mensaje aparece instantáneamente en las interfaces de chat del cliente y del electricista.</p><p></p><p>Scenario 2: Archivo adjunto enviado exitosamente</p><p>Dado que adjunto una imagen o documento al chat, cuando el sistema procesa y sube el archivo, entonces el archivo queda disponible para visualización y descarga por parte del cliente y del electricista.</p>|EP03|
+|US28|Plantillas de reporte personalizadas|Como electricista, quiero crear plantillas de reporte personalizadas, para ahorrar tiempo en cada servicio.|<p>Scenario 1: Creación de plantilla exitosa</p><p>Dado que defino un formato y contenido para una nueva plantilla de reporte, cuando el sistema almacena la plantilla, entonces la nueva plantilla aparece en la lista de plantillas disponibles para su uso.</p><p></p><p>Scenario 2: Nombre de plantilla duplicado</p><p>Dado que intento guardar una plantilla con un nombre que ya existe, cuando el sistema comprueba la existencia, entonces informa “El nombre de la plantilla ya existe. Por favor, use un nombre diferente.”</p>|EP03|
+|US29|Guías visuales de instalación|Como electricista, quiero acceder a guías paso a paso con diagramas, para reducir errores en la instalación.|<p>Scenario 1: Acceso a guías interactivas</p><p>Dado que solicito una guía de instalación para un tipo de dispositivo específico, cuando el sistema la entrega, entonces muestra una secuencia de diagramas interactivos e instrucciones detalladas.</p><p></p><p>Scenario 2: Descarga de manuales en PDF</p><p>Dado que requiero descargar la guía para consulta offline, cuando el sistema genera el documento en PDF, entonces se descarga el manual con los diagramas e instrucciones en formato legible.</p>|EP03|
+|US30|Soporte técnico prioritario|Como electricista, quiero acceder a soporte 24/7, para resolver emergencias sin demora.|<p>Scenario 1: Contacto con soporte en emergencia</p><p>Dado que reporto una emergencia a través del canal de soporte prioritario, cuando el sistema recibe la solicitud, entonces establece una conexión prioritaria con un agente de soporte especializado en menos de 5 minutos.</p><p></p><p>Scenario 2: Gestión de consulta no urgente</p><p>Dado que realizo una consulta no urgente por el canal regular, cuando el sistema la registra, entonces asigna un ticket y notifica el horario de respuesta esperado.</p>|EP03|
+|US31|Envío de comentarios desde la Landing|Como visitante, quiero enviar comentarios desde la landing, para aportar sugerencias sobre la plataforma.|<p>Scenario 1:  Mensaje enviado exitosamente</p><p>Dado que completo el formulario de feedback con un mensaje y lo envío, cuando el sistema lo recibe, entonces lo guarda en la bandeja de entrada de feedback para revisión por el equipo de EcoVolt.</p><p></p><p>Scenario 2: Error al enviar mensaje vacío</p><p>Dado que el campo de mensaje está vacío al intentar enviar el formulario, cuando el sistema verifica el contenido, entonces informa “El mensaje no puede estar vacío. Por favor, escriba su comentario.”</p>|EP04|
+|US32|Visualización de beneficios clave y tecnología|Como visitante, quiero conocer las ventajas y la tecnología detrás de EcoVolt, para evaluar su utilidad.|<p>Scenario 1: Visualización de beneficios clave</p><p>Dado que el visitante accede a la sección de beneficios en la landing page, cuando el sistema la presenta, entonces se muestran de forma clara y concisa al menos tres ventajas principales que ofrece EcoVolt.</p><p></p><p>Scenario 2: Visualización de tecnología utilizada</p><p>Dado que el visitante consulta la sección de tecnología utilizada en la landing page, cuando el sistema muestra los íconos y descripciones, entonces se presenta la información sobre la tecnología aplicada en la plataforma. </p>|EP04|
+|US33|Visualización de casos de uso reales|Como visitante, quiero ver ejemplos de casos de uso reales, para generar confianza en EcoVolt.|<p>Scenario 1:  Visualización de casos de éxito</p><p>Dado que el visitante accede a la sección de casos de uso, cuando el sistema los muestra, entonces se presentan ejemplos concretos de cómo otras empresas han utilizado EcoVolt y los resultados obtenidos.</p><p></p><p>Scenario 2: Caso de uso no disponible por filtro</p><p>Dado que consulto un caso de uso aplicando un filtro que no tiene resultados, cuando el sistema detecta la falta de datos, entonces informa “No hay casos de uso disponibles para este criterio de búsqueda o sector.”</p>|EP04|
+|US34|Solicitud de contacto desde la Landing|Como visitante, quiero solicitar información desde la landing, para aclarar dudas antes de registrarme.|<p>Scenario 1: Solicitud de contacto enviada exitosamente</p><p>Dado que completo y envío una solicitud de contacto con mi información, cuando el sistema la recibe, entonces genera un ticket de contacto en el sistema de atención al cliente de EcoVolt.</p><p></p><p>Scenario 2: Error al enviar solicitud por datos incompletos</p><p>Dado que no proporciono el correo electrónico obligatorio en el formulario de contacto, cuando el sistema verifica el formulario, entonces informa “El correo electrónico es obligatorio para enviar la solicitud.”</p>|EP04|
+|US35|Gestión de Dispositivos IoT|Como usuario, quiero visualizar y gestionar un listado de dispositivos IoT asociados a mi cuenta para monitorear su estado y controlarlos.|<p>Scenario 1: Visualización exitosa de la lista de dispositivos</p><p>Dado que el usuario accede al apartado “Mis Dispositivos” en la aplicación, cuando el sistema carga la información, entonces se muestra una lista con todos los dispositivos IoT asociados a su cuenta, indicando el nombre, tipo y su estado actual.</p><p></p><p>Scenario 2: Cambio de estado de un dispositivo a conectado</p><p>Dado que selecciono un dispositivo que se encuentra desconectado, cuando presiono la acción para "Conectar", entonces el dispositivo cambia su estado a "Conectado", la lista se actualiza mostrando el nuevo estado y recibo una notificación de conexión exitosa</p>|EP06|
+|US36|Visualización de planes de suscripción|Como usuario, quiero ver los diferentes planes de suscripción disponibles, para elegir el que mejor se adapte a mis necesidades.|<p>Scenario 1: Visualización de planes disponibles</p><p>Dado que accedo a la sección de "Suscripciones" o "Planes", cuando el sistema carga la información, entonces se muestra una lista clara de los planes disponibles con sus características, precios y beneficios.</p><p></p><p>Scenario 2: Plan actual resaltado</p><p>Dado que ya tengo una suscripción activa, cuando visualizo los planes, entonces mi plan actual se muestra resaltado para facilitar la identificación.</p>|EP05|
+|US37|Selección y activación de suscripción|Como usuario, quiero seleccionar un plan de suscripción y activarlo, para acceder a las funcionalidades correspondientes.|<p>Scenario 1: Activación de nuevo plan</p><p>Dado que selecciono un plan de suscripción y completo el proceso de pago exitosamente, cuando el sistema valida la transacción, entonces el nuevo plan se activa en mi cuenta y puedo acceder a sus funcionalidades.</p><p></p><p>Scenario 2: Cambio de plan</p><p>Dado que selecciono un plan diferente a mi suscripción actual, cuando confirmo el cambio, entonces mi cuenta se actualiza al nuevo plan y se ajustan las funcionalidades disponibles, con un cobro/reembolso proporcional si aplica.</p>|EP05|
+|US38|Gestión de método de pago|Como usuario, quiero gestionar mi método de pago registrado, para asegurar la continuidad de mi suscripción.|<p>Scenario 1: Actualización de método de pago</p><p>Dado que accedo a la configuración de pagos y proporciono los nuevos datos de mi tarjeta de crédito/débito, cuando el sistema los valida, entonces el método de pago se actualiza correctamente.</p><p></p><p>Scenario 2: Eliminación de método de pago</p><p>Dado que tengo un método de pago registrado, cuando solicito su eliminación, entonces el método de pago se elimina de mi cuenta.</p>|EP05|
+|US39|Historial de transacciones y facturas|Como usuario, quiero consultar mi historial de transacciones y descargar facturas, para llevar un control financiero.|<p>Scenario 1: Visualización de historial</p><p>Dado que accedo a la sección de "Historial de Pagos", cuando el sistema carga los datos, entonces se muestra una lista de mis transacciones con fechas, montos y descripciones.</p><p></p><p>Scenario 2: Descarga de factura</p><p>Dado que selecciono una transacción en el historial, cuando el sistema genera la factura, entonces se descarga un archivo PDF de la factura correspondiente.</p>|EP05|
+|US40|Gestión de grupos de dispositivos / sedes|Como empresa, quiero crear y gestionar grupos de dispositivos o sedes, para organizar mi infraestructura energética.|<p>Scenario 1: Creación de nuevo grupo/sede</p><p>Dado que accedo a la gestión de activos y proporciono un nombre para el nuevo grupo/sede, cuando el sistema lo guarda, entonces el grupo/sede se crea y puedo comenzar a asignarle dispositivos.</p><p></p><p>Scenario 2: Asignación de dispositivo a grupo/sede</p><p>Dado que tengo dispositivos registrados y grupos/sedes creados, cuando arrastro o selecciono un dispositivo para asignarlo a un grupo/sede, entonces el dispositivo queda vinculado a ese grupo/sede en el inventario.</p>|EP06|
+|TS01|Autenticación de usuarios (Login API)|Como Developer, quiero que la API RESTful permita autenticar usuarios, para que puedan iniciar sesión de forma segura y obtener un token de acceso.|<p>Scenario 1: Inicio de sesión exitoso</p><p>Dado que el Developer envía un POST request a /api/auth/login con credenciales válidas, Cuando el sistema procesa la solicitud, Entonces la API retorna un 200 OK con un token JWT válido y datos básicos del usuario en el cuerpo de la respuesta.</p><p></p><p>Scenario 2: Credenciales inválidas</p><p>Dado que el Developer envía un POST request a /api/auth/login con credenciales incorrectas, Cuando el sistema valida las credenciales, Entonces la API retorna un 401 Unauthorized con un mensaje de error descriptivo.</p>|EP01|
+|TS02|Registro de nuevas empresas (API)|Como Developer, quiero que la API RESTful permita registrar nuevas empresas, para integrar el proceso de onboarding.|<p>Scenario 1: Registro de empresa exitoso</p><p>Dado que el Developer envía un POST request a /api/companies/register con los datos de una empresa válidos, Cuando el sistema valida los datos y crea la empresa, Entonces la API retorna un 201 Created con los datos de la empresa registrada y un mensaje de éxito.</p><p></p><p>Scenario 2: RUC duplicado</p><p>Dado que el Developer envía un POST request a /api/companies/register con un RUC ya registrado, Cuando el sistema intenta crear la empresa, Entonces la API retorna un 409 Conflict con un mensaje que indica que el RUC ya está en uso.</p>|EP01|
+|TS03|Gestión de perfiles de usuario (API)|Como Developer, quiero que la API RESTful permita actualizar la información de perfil de un usuario, para mantener sus datos al día.|<p>Scenario 1: Actualización de perfil exitosa</p><p>Dado que el Developer envía un PUT request a /api/users/{userId}/profile con un token de acceso válido y datos de perfil actualizados (ej. nombre, email), Cuando el sistema actualiza el perfil del usuario, Entonces la API retorna un 200 OK con el perfil actualizado.</p><p></p><p>Scenario 2: Datos de perfil inválidos</p><p>Dado que el Developer envía un PUT request a /api/users/{userId}/profile con un email duplicado, Cuando el sistema intenta actualizar el perfil, Entonces la API retorna un 400 Bad Request con un mensaje indicando que el email ya está en uso.</p>|EP01|
+|TS04|Registro de dispositivos IoT (API)|Como Developer, quiero que la API RESTful permita registrar y asociar nuevos dispositivos IoT, para que puedan comenzar a enviar datos.|<p>Scenario 1: Registro de dispositivo exitoso</p><p>Dado que el Developer envía un POST request a /api/devices con la clave del dispositivo y el ID de la empresa, Cuando el sistema valida y asocia el dispositivo, Entonces la API retorna un 201 Created con el ID del dispositivo y un mensaje de éxito.</p><p></p><p>Scenario 2: Dispositivo ya registrado</p><p>Dado que el Developer envía un POST request a /api/devices con una clave de dispositivo ya utilizada, Cuando el sistema intenta registrarlo, Entonces la API retorna un 409 Conflict con un mensaje que indica que el dispositivo ya está registrado.</p>|EP06|
+|TS05|Obtención de datos de consumo energético (API)|Como Developer, quiero que la API RESTful permita obtener datos históricos y en tiempo real de consumo energético, para visualizar el monitoreo.|<p>Scenario 1: Datos de consumo obtenidos exitosamente</p><p>Dado que el Developer envía un GET request a /api/consumption/{deviceId}?period=daily con un token válido, Cuando el sistema consulta los datos del dispositivo, Entonces la API retorna un 200 OK con un array de objetos JSON conteniendo los datos de consumo para el período solicitado.</p><p></p><p>Scenario 2: Dispositivo no encontrado</p><p>Dado que el Developer envía un GET request a /api/consumption/invalidDeviceId, Cuando el sistema busca el dispositivo, Entonces la API retorna un 404 Not Found con un mensaje de error.</p>|EP02|
+|TS06|Gestión de alertas de consumo (API)|Como Developer, quiero que la API RESTful permita configurar y consultar alertas de consumo anómalo, para integrarlas en la aplicación.|<p>Scenario 1: Configuración de alerta exitosa</p><p>Dado que el Developer envía un POST request a /api/alerts con un umbral y ID de dispositivo, Cuando el sistema crea la regla de alerta, Entonces la API retorna un 201 Created con el ID de la alerta configurada.</p><p></p><p>Scenario 2: Consulta de alertas activas</p><p>Dado que el Developer envía un GET request a /api/alerts?status=active, Cuando el sistema recupera las alertas, Entonces la API retorna un 200 OK con una lista de alertas activas.</p>|EP02|
+|TS07|Actualización del estado del dispositivo (API)|Como Developer, quiero que la API RESTful permita cambiar el estado de conexión de un dispositivo IoT, para la gestión remota.|<p>Scenario 1: Cambio de estado a conectado</p><p>Dado que el Developer envía un PUT request a /api/devices/{deviceId}/status con {"status": "connected"}, Cuando el sistema intenta conectar el dispositivo, Entonces la API retorna un 200 OK con el nuevo estado del dispositivo.</p><p></p><p>Scenario 2: Dispositivo no accesible para cambio de estado</p><p>Dado que el Developer envía un PUT request a /api/devices/{deviceId}/status pero el dispositivo no responde, Cuando el sistema intenta cambiar el estado, Entonces la API retorna un 503 Service Unavailable o 424 Failed Dependency con un mensaje indicando el problema de comunicación.</p>|EP06|
+|TS08|Creación de reportes técnicos (API)|Como Developer, quiero que la API RESTful permita iniciar la generación de reportes técnicos en PDF, para que los electricistas puedan descargarlos.|<p>Scenario 1: Solicitud de reporte exitosa</p><p>Dado que el Developer envía un POST request a /api/reports/technical con un ID de servicio y formato PDF, Cuando el sistema acepta la solicitud de generación, Entonces la API retorna un 202 Accepted y un URL de seguimiento para la descarga del reporte una vez esté listo.</p><p></p><p>Scenario 2: Datos insuficientes para reporte</p><p>Dado que el Developer envía un POST request a /api/reports/technical con un ID de servicio incompleto, Cuando el sistema valida la solicitud, Entonces la API retorna un 400 Bad Request con un mensaje detallando los datos faltantes.</p>|EP03|
+|TS09|Gestión de suscripciones (API)|Como Developer, quiero que la API RESTful permita consultar y modificar el plan de suscripción de un usuario, para gestionar su acceso.|<p>Scenario 1: Consulta de plan de suscripción</p><p>Dado que el Developer envía un GET request a /api/subscriptions/{userId}, Cuando el sistema recupera el plan del usuario, Entonces la API retorna un 200 OK con los detalles del plan de suscripción actual.</p><p></p><p>Scenario 2: Actualización de plan de suscripción</p><p>Dado que el Developer envía un PUT request a /api/subscriptions/{userId} con el nuevo planId, Cuando el sistema actualiza la suscripción del usuario, Entonces la API retorna un 200 OK con la confirmación del nuevo plan.</p>|EP05|
+|TS10|Procesamiento de pagos (Webhook/API)|Como Developer, quiero que la API/sistema procese pagos y notifique el resultado, para activar o desactivar suscripciones.|<p>Scenario 1: Pago exitoso procesado</p><p>Dado que la pasarela de pagos envía un POST webhook a /api/payments/webhook con una transacción aprobada, Cuando el sistema procesa la notificación, Entonces la suscripción del usuario se activa/extiende y el webhook retorna un 200 OK.</p><p></p><p>Scenario 2: Pago fallido</p><p>Dado que la pasarela de pagos envía un POST webhook a /api/payments/webhook con una transacción rechazada, Cuando el sistema procesa la notificación, Entonces la suscripción del usuario se mantiene inactiva/expirada y el webhook retorna un 200 OK.</p>|EP05|
+
 
 <hr>
 
@@ -834,41 +852,57 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 
 |# Orden|User Story Id|Título|Descripción|Story Points (1 / 2 / 3 / 5 / 8)|
 | :- | :- | :- | :- | :- |
-|1|US12|Navegación por landing|Como visitante, quiero explorar la landing, para conocer funcionalidades sin registrarme.|2|
-|2|US13|Responsividad en móviles| Como usuario móvil, quiero que la app se adapte a mi pantalla, para consultar datos desde mi teléfono.|3|
-|3|US31|Chat de feedback de la landing|Como visitante, quiero enviar comentarios desde la landing, para aportar sugerencias. |2|
-|4|US32|Ver beneficios clave|Como visitante, quiero conocer ventajas de EcoVolt, para evaluar su utilidad.|2|
-|5|US34|Contacto con soporte desde landing|Como visitante, quiero solicitar información desde la landing, para aclarar dudas antes de registrarme.|2|
-|6|US01|Registro de empresa|Como gerente, quiero registrar mi empresa, para comenzar a monitorear consumo.|3|
-|7|US02|Registro de electricista|Como electricista, quiero registrar mi colegiatura, para obtener acceso al modo técnico.|3|
-|8|US03| Inicio de sesión|Como usuario, quiero iniciar sesión, para acceder a mis datos.|2|
-|9|US04|Recuperar contraseña|Como usuario, quiero restablecer mi contraseña, para recuperar mi acceso.|2|
-|10|US05|Edición de perfil|Como usuario, quiero actualizar mi nombre y correo, para mantener mi información al día. |3|
-|11|US06|Cambio de contraseña |Como usuario, quiero cambiar mi contraseña, para mejorar mi seguridad.|5|
-|12|US07|Roles y permisos|Como administrador, quiero asignar roles, para definir accesos diferenciados.|5|
-|13|US08|Eliminación de cuenta|Como usuario, quiero borrar mi cuenta, para eliminar mis datos del sistema.|5|
-|14|US09|Ver comentarios de empresas|Como visitante, quiero leer opiniones de empresas, para valorar el servicio.|3|
-|15|US10|Ver comentarios de electricistas|Como visitante, quiero leer opiniones de electricistas, para confiar en el soporte técnico.|5|
-|16|US11|Cambio de idioma|Como usuario, quiero cambiar entre español e inglés, para usar la app en mi idioma. |8|
-|17|US14|Registro rápido con SSO|Como empresa, quiero registrarme con Google Workspace, para simplificar el acceso.|5|
-|18|US15| Alertas de consumo|Como empresa, quiero recibir alertas de consumo anómalo, para actuar rápidamente.|5|
-|19|US16|Comparación de consumos|Como empresa, quiero comparar mi consumo mensual y anual, para medir avances.|5|
-|20|US17|Programación de horarios|Como empresa, quiero programar apagado y encendido de equipos, para optimizar uso.|8|
-|21|US18|Exportación de datos |Como auditor, quiero exportar datos en CSV o PDF, para analizarlos fuera de la app. |8|
-|22|US19|Productos eléctricos compatibles|Como empresa, quiero ver productos IoT compatibles, para vincularlos con EcoVolt.|8|
-|23|US20|Recomendaciones de ahorro|Como empresa, quiero recibir sugerencias de ahorro energético, para implementar mejoras.|8|
-|24|US21|Registro de dispositivos IoT|Como electricista, quiero emparejar sensores, para comenzar a monitorear. |5|
-|25|US22|Calibración de sensores| Como electricista, quiero ajustar parámetros de sensores, para garantizar mediciones precisas.|5|
-|26|US23|Modo técnico detallado|Como electricista, quiero acceder a lecturas de voltaje y corriente, para diagnóstico avanzado. |5|
-|27|US24|Informe técnico en PDF|Como electricista, quiero generar un informe PDF, para entregar al cliente. |5|
-|28|US25|Historial de inspecciones| Como electricista, quiero consultar historial de servicios, para conocer antecedentes. |3|
-|29|US26|Comentarios técnicos|Como electricista, quiero dejar notas en cada servicio, para futuras referencias.|3|
-|30|US27|Chat interno con cliente|Como electricista, quiero comunicarme con el cliente, para aclarar dudas durante la inspección.|8|
-|31|US28|Plantillas de reporte personalizadas|Como electricista, quiero crear plantillas, para ahorrar tiempo en cada servicio.|5|
-|32|US29|Guías visuales de instalación|Como electricista, quiero acceder a guías paso a paso, para reducir errores en la instalación.|5|
-|33|US30|Soporte técnico prioritario|Como electricista, quiero soporte 24/7, para resolver emergencias sin demora.|8|
-|34|US33| Visualización de casos de uso|Como visitante, quiero ver ejemplos reales, para confiar en EcoVolt. |3|
-|35|US35| Gestión de dispositivos conectados|Como usuario quiero visualizar un listado de dispositivos IoT asociados a mi cuenta para ver cuáles están conectados o desconectados y poder cambiar su estado de forma interactiva. |5|
+|1|US09|Ver comentarios de empresas|Como visitante, quiero ver comentarios de empresas, para conocer su experiencia y recomendaciones.|2|
+|2|US10|Ver comentarios de electricistas|Como visitante, quiero ver comentarios de electricistas, para conocer su experiencia y recomendaciones.|2|
+|3|US11|Configuración de idioma de la plataforma|Como usuario, quiero cambiar el idioma de la plataforma entre español e inglés, para interactuar en mi idioma preferido.|3|
+|4|US12|Navegación por landing|Como visitante, quiero explorar la landing, para conocer funcionalidades sin registrarme.|2|
+|5|US13|Responsividad en móviles (Landing Page)|Como visitante, quiero que la landing page se adapte a mi pantalla, para consultar información desde mi teléfono.|3|
+|6|US31|Envío de comentarios desde la Landing|Como visitante, quiero enviar comentarios desde la landing, para aportar sugerencias sobre la plataforma.|3|
+|7|US32|Visualización de beneficios clave y tecnología|Como visitante, quiero conocer las ventajas y la tecnología detrás de EcoVolt, para evaluar su utilidad.|2|
+|8|US33|Visualización de casos de uso reales|Como visitante, quiero ver ejemplos de casos de uso reales, para generar confianza en EcoVolt.|3|
+|9|US34|Solicitud de contacto desde la Landing|Como visitante, quiero solicitar información desde la landing, para aclarar dudas antes de registrarme.|3|
+|10|US01|Registro de empresa|Como empresa, quiero registrarme en la plataforma, para comenzar a gestionar mi energía.|5|
+|11|US02|Registro de electricista|Como electricista, quiero registrarme en la plataforma, para ofrecer mis servicios.|5|
+|12|US03|Inicio de sesión|Como visitante, quiero solicitar información desde la landing, para aclarar dudas antes de registrarme.|3|
+|13|US04|Recuperar contraseña|Como usuario, quiero recuperar mi contraseña, para acceder si la olvido.|3|
+|14|US05|Edición de perfil|Como usuario, quiero actualizar mi nombre y correo, para mantener mi información al día.|3|
+|15|US06|Cambio de contraseña|Como usuario, quiero cambiar mi contraseña, para mantener mi cuenta segura.|3|
+|16|US07|Gestión de roles y permisos|Como usuario, quiero cambiar mi contraseña, para mantener mi cuenta segura.|8|
+|17|US08|Eliminación de cuenta|Como usuario, quiero borrar mi cuenta, para eliminar mis datos del sistema.|5|
+|18|US14|Registro rápido con SSO|Como empresa, quiero registrarme con Google Workspace, para simplificar el acceso.|5|
+|19|US15|Alertas de consumo anómalo|Como empresa, quiero recibir alertas de consumo anómalo, para actuar rápidamente.|8|
+|20|US16|Comparación de consumos históricos|Como empresa, quiero comparar mi consumo energético mensual y anual, para medir avances.|5|
+|21|US17|Programación de encendido/apagado de equipos|Como empresa, quiero programar el apagado y encendido automático de equipos, para optimizar el uso energético.|8|
+|22|US18|Exportación de reportes de consumo|Como empresa, quiero exportar datos de consumo en formatos CSV o PDF, para analizarlos fuera de la app.|5|
+|23|US19|Listado de productos IoT compatibles|Como empresa, quiero ver una lista de productos IoT compatibles, para vincularlos con EcoVolt.|3|
+|24|US20|Sugerencias de ahorro energético|Como empresa, quiero recibir sugerencias de ahorro energético, para implementar mejoras.|8|
+|25|US21|Registro de dispositivos IoT|Como electricista, quiero emparejar sensores, para comenzar a monitorear.|5|
+|26|US22|Calibración de sensores|Como electricista, quiero ajustar parámetros de sensores, para garantizar mediciones precisas.|8|
+|27|US23|Modo técnico: Lecturas de voltaje, corriente y potencia|Como electricista, quiero acceder a lecturas de voltaje, corriente y potencia en tiempo real, para diagnóstico avanzado.|5|
+|28|US24|Generación de informe técnico en PDF|Como electricista, quiero generar un informe técnico en PDF, para entregar al cliente.|5|
+|29|US25|Historial de servicios e inspecciones|Como electricista, quiero consultar el historial de servicios realizados, para conocer antecedentes.|3|
+|30|US26|Registro de comentarios técnicos|Como electricista, quiero dejar notas detalladas en cada servicio, para futuras referencias.|3|
+|31|US27|Chat interno con el cliente|Como electricista, quiero comunicarme directamente con el cliente, para aclarar dudas durante la inspección.|5|
+|32|US28|Plantillas de reporte personalizadas|Como electricista, quiero crear plantillas de reporte personalizadas, para ahorrar tiempo en cada servicio.|5|
+|33|US29|Guías visuales de instalación|Como electricista, quiero acceder a guías paso a paso con diagramas, para reducir errores en la instalación.|3|
+|34|US30|Soporte técnico prioritario|Como electricista, quiero acceder a soporte 24/7, para resolver emergencias sin demora.|5|
+|35|US35|Gestión de Dispositivos IoT|Como usuario, quiero visualizar y gestionar un listado de dispositivos IoT asociados a mi cuenta para monitorear su estado y controlarlos.|5|
+|36|US36|Visualización de planes de suscripción|Como usuario, quiero ver los diferentes planes de suscripción disponibles, para elegir el que mejor se adapte a mis necesidades.|3|
+|37|US37|Selección y activación de suscripción|Como usuario, quiero seleccionar un plan de suscripción y activarlo, para acceder a las funcionalidades correspondientes.|8|
+|38|US38|Gestión de método de pago|Como usuario, quiero gestionar mi método de pago registrado, para asegurar la continuidad de mi suscripción.|5|
+|39|US39|Historial de transacciones y facturas|Como usuario, quiero consultar mi historial de transacciones y descargar facturas, para llevar un control financiero.|5|
+|40|US40|Gestión de grupos de dispositivos / sedes|Como empresa, quiero crear y gestionar grupos de dispositivos o sedes, para organizar mi infraestructura energética.|5|
+|41|TS01|Autenticación de usuarios (Login API)|Como Developer, quiero que la API RESTful permita autenticar usuarios, para que puedan iniciar sesión de forma segura y obtener un token de acceso.|5|
+|42|TS02|Registro de nuevas empresas (API)|Como Developer, quiero que la API RESTful permita registrar nuevas empresas, para integrar el proceso de onboarding.|5|
+|43|TS03|Gestión de perfiles de usuario (API)|Como Developer, quiero que la API RESTful permita actualizar la información de perfil de un usuario, para mantener sus datos al día.|5|
+|44|TS04|Registro de dispositivos IoT (API)|Como Developer, quiero que la API RESTful permita registrar y asociar nuevos dispositivos IoT, para que puedan comenzar a enviar datos.|8|
+|45|TS05|Obtención de datos de consumo energético (API)|Como Developer, quiero que la API RESTful permita obtener datos históricos y en tiempo real de consumo energético, para visualizar el monitoreo.|8|
+|46|TS06|	Gestión de alertas de consumo (API)|Como Developer, quiero que la API RESTful permita configurar y consultar alertas de consumo anómalo, para integrarlas en la aplicación.|8|
+|47|TS07|Actualización del estado del dispositivo (API)|Como Developer, quiero que la API RESTful permita cambiar el estado de conexión de un dispositivo IoT (activar/desactivar), para la gestión remota.|8|
+|48|TS08|Creación de reportes técnicos (API)|Como Developer, quiero que la API RESTful permita iniciar la generación de reportes técnicos en PDF, para que los electricistas puedan descargarlos.|5|
+|49|TS09|Gestión de suscripciones (API)|Como Developer, quiero que la API RESTful permita consultar y modificar el plan de suscripción de un usuario, para gestionar su acceso.|5|
+|50|TS10|Procesamiento de pagos (Webhook/API)|Como Developer, quiero que la API/sistema procese pagos y notifique el resultado, para activar o desactivar suscripciones.|8|
+
 
 <hr>
 
@@ -1387,13 +1421,23 @@ En esta sección, detallamos el proceso para publicar la Landing Page de EcoVolt
 
 #### <a name="_w3aib2uruk5u"></a>**5.2.1.2. Aspect Leaders and Collaborators**
 
-|Member (Last Name, First Name)|GitHub Username|Navbar (Barra de navegación)|Hero Section|Footer|<p>About </p><p>Us </p><p>Section</p>|Information Section|Benefits Section|Contact Us Section|Responsive Design (Multi-device)|Documentación del Sprint|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|Roque Tello, Jack Eddie|UPC-Skylar|L|L|L|L|L|L|L|L|C|
-|Aspajo Alvarez, Mathias Joaquin|<p>[](https://github.com/AdeXzz)</p><p>[](https://github.com/AdeXzz)AdeXzz</p><p></p>|C|C|C|C|C|C|C|C|L|
-|Alejos Jesús, Anyelo Bill||C|C|C|C|C|C|C|C|C|
-|Mendoza Vergara, Alejandro Franklin|AlexBoo1|C|C|C|C|C|C|C|C|C|
-|Torres Alva, Alejandro|MauricioMVilcapoma|C|C|C|C|C|C|C|C|C|
+
+Los aspectos clave implementados en el Sprint 1 para la Landing Page incluyen:
+
+- UI/UX Design
+- Maquetación HTML/CSS
+- Desarrollo JavaScript
+- Documentación de Servicios
+Despliegue
+
+A continuación se detalla la Matriz LACX (Liderazgo y Colaboración), donde "L" designa al líder responsable de cada área y "C" a los colaboradores participantes:
+
+|Member (Last Name, First Name)|GitHub Username|ToolBar|How it Works?|Features|Services|Real Cases|Testimonials|About Us|Contact Us|Footer|Responsive Design|
+| :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- |
+|Roque Tello, Jack Eddie|UPC-Skylar|C|||L|||||C||
+|Aspajo Alvarez, Mathias Joaquin|AdeXzz|L|L|L||L|||L|L|L|
+|Mendoza Vergara, Alejandro Franklin	|AlexBoo1|||C|||L||||C|
+|Alejos Jesús, Anyelo Bill|<p></p><p>Everkoe</p>||C|||C||L||||
 
 #### <a name="_ou2rpzc79qrv"></a>**5.2.1.3. Sprint Backlog 1**
 En el primer sprint backlog, el equipo se propuso iniciar y completar el desarrollo de la landing page. Para coordinar y gestionar al equipo, se utilizó Trello, una herramienta que facilitó la división de las user stories en tareas más pequeñas y su asignación según las habilidades de cada miembro. El objetivo principal del sprint era desarrollar la landing page de manera completa, garantizando que fuera atractiva y funcional.
@@ -1438,12 +1482,55 @@ En estos commits se puede observar los últimos updates a la rama main que se hi
 
 Durante el Sprint 1, se desarrollaron y se validaron funcionalidades clave de la landing page de **EcoVolt**. A continuación, se listan las *User Stories* que fueron implementadas, junto con sus respectivos criterios de aceptación, los cuales se cumplieron satisfactoriamente en las pruebas realizadas.
 
-|**Epic / Story ID**|**Título**|**Criterios de Aceptación**|
-| :-: | :-: | :-: |
-|US03|Inicio de sesión|Dado que me encuentro en la página inicial, cuando hago clic en "Acceder", entonces se abre un formulario donde puedes ingresar tu correo electrónico y tu contraseña.|
-|US31|Navegación por el landing page|Dado que el usuario se encuentra en la página de inicio, cuando selecciona un elemento del menú, entonces es dirigido a la sección correspondiente dentro de la misma página.|
-|US32|Ver información del proyecto|Dado que leo "Cómo funciona", cuando reviso los íconos, entonces identificó 4 ventajas principales.|
-|US34|Contactar al equipo de soporte|Dado que completo el formulario, cuando hago clic en "Enviar", entonces recibo un email de confirmación.|
+El Sprint 1 culminó con la implementación exitosa de la landing page, cumpliendo todos los criterios de aceptación de las historias de usuario. El entregable un sitio web funcional, visualmente atractivo, responsive, con información del equipo y formularios de contacto representa un hito fundamental para validar el producto con usuarios reales y consolidar la presencia digital del proyecto.
+
+|Epic / Story ID|Título|Criterios de Aceptación|
+| :- | :- | :- |
+|US09|Ver comentarios de empresas|Dado que estoy en la sección de "Testimonios" de la landing page, cuando navego por el carrusel, entonces puedo ver los comentarios de al menos 3 empresas.|
+|US10|Ver comentarios de electricistas|Dado que estoy en la sección de "Testimonios" de la landing page, cuando navego por el carrusel, entonces puedo ver los comentarios de al menos 3 electricistas.|
+|US12|Navegación por landing|Dado que el usuario está en la página principal, cuando haga clic en cualquier ítem del menú de navegación, entonces es redirigido suavemente a la sección correspondiente de la landing page.|
+|US13|Responsividad en móviles (Landing Page)|Dado que el usuario accede a la landing page desde un dispositivo móvil, cuando visualiza cualquier sección de la página, entonces el contenido se adapta y se muestra de forma legible y utilizable sin scroll horizontal.|
+|US31|Envío de comentarios desde la Landing|Dado que el usuario completa el formulario de contacto con datos válidos, cuando hace clic en el botón "Enviar Mensaje", entonces la página muestra un mensaje de confirmación "¡Mensaje enviado con éxito!" y el formulario se vacía.|
+|US32|Visualización de beneficios clave y tecnología|Dado que estoy en la sección "Descubre el Poder de EcoVolt", cuando veo las tarjetas de beneficios, entonces puedo identificar claramente al menos 4 características clave de la plataforma.|
+|US33|Visualización de casos de uso reales|Dado que estoy en la sección "Casos de Éxito EcoVolt", cuando visualizo los ejemplos, entonces puedo ver al menos 2 casos reales que demuestran la aplicación y los resultados de la solución EcoVolt.|
+|US34|Solicitud de contacto desde la Landing|Dado que estoy en la sección "Contáctanos", cuando completo los campos de "Correo Electrónico", "Número de Teléfono" y "Tu Mensaje" de forma válida, entonces puedo hacer clic en el botón "Enviar Mensaje" para solicitar un contacto.|
+
+Demo del Landing Page:
+
+**Evidencias visuales**
+
+<p align="center">
+        <img src="assets/evidencias/inicio.png" alt="inicio"/>    
+    </p>
+
+<p align="center">
+        <img src="assets/evidencias/how_works.png" alt="how-works"/>    
+    </p>
+
+<p align="center">
+        <img src="assets/evidencias/features.png" alt="features"/>    
+    </p>
+
+<p align="center">
+        <img src="assets/evidencias/services.png" alt="services"/>    
+    </p>
+
+<p align="center">
+        <img src="assets/evidencias/real_cases.png" alt="real_cases"/>    
+    </p>
+
+<p align="center">
+        <img src="assets/evidencias/testimonials.png" alt="testimonials"/>    
+    </p>
+
+<p align="center">
+        <img src="assets/evidencias/about_us.png" alt="about-us"/>    
+    </p>
+
+<p align="center">
+        <img src="assets/evidencias/contact_us.png" alt="contact-us"/>    
+    </p>                            
+
 
 #### <a name="_sbbcjfucpj9k"></a>**5.2.1.6. Services Documentation Evidence for Sprint Review**
 Durante este Sprint, el enfoque se centró únicamente en la creación del frontend estático (Landing Page) del proyecto EcoVolt. Por ello, no se abordaron endpoints ni funcionalidades vinculadas a servicios web o APIs RESTful.
@@ -1623,124 +1710,40 @@ Asimismo, se identificaron las tareas específicas, se asignaron responsables y 
 
 #### <a name="_rvqlb1v7p2u0"></a>**5.2.2.3. Sprint Backlog 2**
 
-Esta sección ofrece un resumen del objetivo central del sprint, resaltando las metas propuestas y las funcionalidades que se planean desarrollar. Seguidamente, se incluye una captura del tablero del sprint en la herramienta de gestión elegida, Trello, junto con su enlace público. También se presenta una tabla con las User Stories asignadas al sprint, los Work-items o tareas derivadas, y otras actividades adicionales requeridas para alcanzar los objetivos generales del sprint.
-Este es nuestro link de invitación a nuestro Trello:
 
-https://trello.com/b/9qlfPKR6/ecovolt
-
-![Image](https://github.com/user-attachments/assets/c32774e9-23c0-4c90-a4d3-e2b4d69f5582)
-
-En el **Sprint Backlog 2**, el equipo se enfocó en el desarrollo de la **web frontend application** para la plataforma EcoVolt. Durante este sprint, se implementaron funcionalidades clave que permiten al usuario:
-* Visualizar gráficos comparativos de consumo eléctrico histórico y en tiempo real.
-* Consultar recomendaciones personalizadas para el ahorro energético.
-* Gestionar dispositivos IoT conectados y desconectados, con actualización dinámica y control interactivo del estado de cada dispositivo.
-* Utilizar la aplicación en múltiples idiomas gracias a la integración de la internacionalización (i18n).
-* Acceder a perfiles diferenciados tanto para empresas como para técnicos, con información relevante y opciones específicas para cada tipo de usuario.
-
-El objetivo principal del sprint fue garantizar una experiencia de usuario completa, funcional y multilingüe en la aplicación, sentando las bases para futuras integraciones y mejora.
-
-
-
-| ID  | Title | ID   | Title | Description | Estimation (hours) | Assigned To | Status |
-| --- | ----- | ---- | ----- | ----------- | ------------------ | ----------- | ------ |
-| US35    |   Gestión de dispositivos	    |  TS09    | Implementar la funcionalidad de visualización y control de dispositivos IoT conectados y desconectados    |    Desarrollar el módulo que permita a los usuarios visualizar en tiempo real un listado de dispositivos IoT asociados a su cuenta, indicando cuáles están conectados o desconectados. Implementar controles interactivos para que el usuario pueda cambiar el estado de cada dispositivo (conectar o desconectar) y reflejar estos cambios dinámicamente en la interfaz. Garantizar la integración con la internacionalización para que todos los textos relacionados sean multilingües.         |   8                 |      Jack Roque       |    Done   |
-|  US20   |   Recomendaciones de ahorro	    |   TS12   |   Sistema de recomendaciones	    |    Generación de sugerencias basadas en patrones de consumo y mensaje de "consumo óptimo".	         |            3        |Mathias	Aspajo |  Done      |
-|  US18   |   Histórico comparativo	    |  TS11    |  Módulo de gráficos comparativos	     |     Desarrollo de gráficas de consumo histórico y manejo de períodos sin datos.	        |     3               |    Mathias Aspajo	        |   Done    |
-|  US08  |   Eliminar cuenta	    |  TS10    |  Funcionalidad de eliminación de cuenta	     |     Implementación de la opción para borrar cuentas, incluyendo confirmación con contraseña y cancelación.	        |         3           |     Alejandro Mendoza        |        |
-|  US05	   | Perfil corporativo	  | TS09	 |   Componente de perfil corporativo	    |    Desarrollo de la sección que muestra información básica de la empresa, plan contratado y beneficios asociados.	         |         5          |    Anyelo Bill        |    Done    |
-
+|Id	|Title|ID|Title|Description|Estimation (hours)	|Assigned To	|Status|
+| :- | :- | :- | :- | :- | :- | :- | :- |
+|US05|Perfil corporativo	|TS09|Componente de perfil corporativo	|Desarrollo de la sección que muestra información básica de la empresa, plan contratado y beneficios asociados.	|8|Alejandro M.	|Done|
+|US08|Eliminar cuenta|TS10|Funcionalidad de eliminación de cuenta	|Implementación de la opción para borrar cuentas, incluyendo confirmación con contraseña y cancelación.	|6|Anyelo|Done|
+|US18|Histórico comparativo	|TS11|Módulo de gráficos comparativos	|Desarrollo de gráficas de consumo histórico y manejo de períodos sin datos.	|10|Jack|Done|
+|US20|Recomendaciones de ahorro	|TS12|Sistema de recomendaciones	|Generación de sugerencias basadas en patrones de consumo y mensaje de "consumo óptimo".	|12|Mathias|Done|
+|US35|Gestión de dispositivos	|TS13|Panel de gestión IoT	|Listado interactivo de dispositivos con nombre, tipo, estado y funcionalidad para cambiar su estado.	|10|Jack|Done|
 
 
 #### <a name="_63o8yl7le5at"></a>**5.2.2.4. Development Evidence for Sprint Review**
 
-|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commit Message Body**|**Commited on (Date)**|
-| :- | :- | :- | :- | :- | :- |
-|G-Aplicaciones-Web/landing-page|develop|9204f12|feat: add modifications chapter 4||15/05/25|
-|G-Aplicaciones-Web/landing-page|develop|b77f42b|feat:add modifications chapter 3||15/05/25|
-|G-Aplicaciones-Web/landing-page|develop|142fad2|feat: add modifications chapter 5||12/05/25|
-
-
-
-
-
 #### <a name="_po0np6kchf3p"></a>**5.2.2.5. Execution Evidence for Sprint Review**
-En esta entrega, nuestro equipo ha desplegado con éxito la frontend web application.
+En este sprint, el equipo de EcoVolt cumplió en la integración del frontend con la landing page. Esto es importante para el proyecto, pues ahora nuestra aplicación web es capaz de dar una correcta interacción con el usuario en tiempo real.
 
-**Enlace de la Frontend Web Application:** https://frontend-two-omega-72.vercel.app/
-
-1. Cuando el usuario ingrese a la web frontend application de EcoVolt se le mostrará la sección "Home" donde podrá visualizar sus analíticas de consumo energético (US-018) respecto a meses anteriores.
+Se implementaron distintas funcionalidades como el inicio de sesión y el cambio de idioma. Con todo esto, se espera que el proyecto siga en buen camino a convertirse en una aplicación totalmente funcional y que cumpla los objetivos detallados en el sprint.
 
 
-<img width="1434" alt="Image" src="https://github.com/user-attachments/assets/cbaa062e-2112-439b-9645-1c07c2c7bbc0" />
+Enlace de deployment del FrontEnd: <https://frontend-two-omega-72.vercel.app>
 
-2. También podrá visualizar recomendaciones de ahorro que le ofrecerá la aplicación (US-20) además de los dispositivos con mayor y menor consumo de energía.
-
-<img width="1424" alt="Image" src="https://github.com/user-attachments/assets/3edc134f-5450-4fa5-a033-4e35bee6df0c" />
-
-
-3. Adicional a ello, cabe resaltar que el idioma por defecto de la web frontend application es inglés, sin embargo, el usuario tiene opción a modificarlo a español si lo desea.
-
-<img width="1418" alt="Image" src="https://github.com/user-attachments/assets/053efa8b-33d1-4115-81dc-9f5073907c0c" />
-
-4. En la sección "Devices", el usuario podrá interactuar con los dispositivos conectados y desconectados, de esta manera, tiene un control total sobre su consumo energético (US-035).
-
-<img width="1427" alt="Image" src="https://github.com/user-attachments/assets/6123f421-34e2-4000-b182-5ad5195c33e7" />
-
-5. El usuario podrá visualizar su perfil corporativo a través de la aplicación en la sección "My Profile | Companies (US-05)".
-
-<img width="1416" alt="Image" src="https://github.com/user-attachments/assets/08dd0742-6976-4f94-9af7-52fe7380f264" />
-
-6. También podrá visualizar su perfil en caso sea un técnico en la sección "My Profile | Technicians".
-
-<img width="1423" alt="Image" src="https://github.com/user-attachments/assets/c296fff3-897d-4b21-b9d6-7832b49519b8" />
-
-7. El usuario tiene la opción de poder eliminar su cuenta si cree conveniente (US-08).
-
-<img width="1413" alt="Image" src="https://github.com/user-attachments/assets/c8c7a197-b824-4469-a4de-ace0a7924308" />
-
-**Resumen:**
-
-Durante este sprint, el equipo de EcoVolt logró completar con éxito la integración del frontend con la landing page, fortaleciendo la experiencia de usuario en tiempo real dentro de la aplicación web. Esta integración es un avance crucial para el proyecto, ya que permite una interacción fluida y dinámica, mejorando la usabilidad y el acceso a las funcionalidades principales.
-
-**Se implementaron funcionalidades clave como:**
-* El sistema de inicio de sesión.
-* El cambio de idioma en tiempo real mediante internacionalización (i18n).
-* La gestión de dispositivos conectados y desconectados.
-* Visualización de gráficos de consumo eléctrico.
-* Perfiles diferenciados para empresas y técnicos.
-
-**Conclusión:**
-
-Con estos avances, el proyecto está encaminado hacia una aplicación plenamente funcional que cumple con los objetivos planteados en el sprint, proporcionando valor tangible a sus usuarios.
+Enlace de deployment de la Landing Page: <https://g-aplicaciones-web.github.io/landing-page/#companies-professionals>
 
 <a name="_vnsfwxiq5oii"></a>**5.2.2.6. Services Documentation Evidence for Sprint Review**
 
-Durante el segundo sprint, el equipo priorizó el desarrollo de la interfaz de usuario (frontend) de la aplicación web de EcoVolt. Debido a este enfoque en la capa visual y la experiencia del usuario, no se incluyó la implementación de servicios web o integraciones backend en esta fase del proyecto.
-
 #### <a name="_9gjzawjk4u08"></a>**5.2.2.7. Software Deployment Evidence for Sprint Review**
+Durante este sprint, se ha completado el desarrollo del frontend de la aplicación web. Para el despliegue, se utilizaron las siguientes herramientas y servicios:
 
-Para el despligue de nuestra Frontend Web Application, nuestro equipo considero pertinente usar la plataforma de alojamiento on cloud, **Vercel**. Adicional a ello, para la gestión del código se utilizaron las siguientes herramientas y servicios:
+Git: Sistema de control de versiones que utilizamos para trabajar de forma colaborativa y monitorear las versiones de la aplicación web en un repositorio remoto.
 
-* **Git:** Sistema de control de versiones que permitió la colaboración entre los miembros del equipo y el seguimiento riguroso de los cambios en el código fuente a través de un repositorio remoto.
+Gitflow: Este flujo de trabajo colaborativo nos ha permitido dividir el trabajo en ramas dentro de nuestro repositorio, lo que facilita la colaboración en el desarrollo.
 
-* **Gitflow:** Metodología utilizada para gestionar el flujo de trabajo mediante ramas específicas (feature, develop, main), facilitando la organización y coordinación del desarrollo.
+GitHub: La plataforma que nos proporcionó la herramienta para crear nuestro repositorio y almacenar las versiones de nuestro proyecto.
 
-* **GitHub:** Plataforma que alojó nuestro repositorio bajo la organización G-Aplicaciones-Web, sirviendo como repositorio central para el almacenamiento, revisión y control de versiones del proyecto.
-
-En cuanto al manejo de Vercel, se importó directamente el repositorio del frontend desde GitHub, habilitando un despliegue automático y actualizado de la web frontend application.
-
-<img width="620" alt="Image" src="https://github.com/user-attachments/assets/61a11eda-6b80-4d0e-8201-43be9c7589d2" />
-
-Aqui podemos visualizar el Overview de nuestro repositorio llamado "frontend", importado de nuestra organización "G-Aplicaciones-Web" en GitHub
-
-<img width="1421" alt="Image" src="https://github.com/user-attachments/assets/965775cb-de52-49de-96f7-7c839fdd5016" />
-
-Inclusive podemos visualizar los deployment que se realizaron
-
-<img width="1282" alt="Image" src="https://github.com/user-attachments/assets/42c079b1-9f5f-4b8e-b5e5-2478a24dd407" />
-
-**Conclusión:**
-La principal ventaja de implementar nuestra solución mediante Vercel radica en su integración directa con GitHub, lo que permite optimizar significativamente los tiempos de desarrollo. Además, garantiza que cada push realizado en las ramas configuradas desencadene automáticamente un proceso de build y despliegue inmediato, facilitando así la revisión y validación continua de la aplicación en un entorno real accesible a través de una URL pública.
+my-json-server.typicode: Utilizado para crear y desplegar una Fake API que simula las interacciones del backend, permitiendo realizar pruebas del frontend con datos estructurados.
 
 
 
