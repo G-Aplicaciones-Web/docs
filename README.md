@@ -723,7 +723,7 @@ Las tareas se determinaron mediante un análisis cualitativo de las entrevistas,
 #### 2.3.5.1. As-is Scenario Mapping Empresa consumidora
 
 <p align="center">
-    <img src="assets/recursos/As_is_empresas1.png" alt="As-is-electricistas"/>
+    <img src="assets/recursos/As_is_empresas11.png" alt="As-is-electricistas"/>
 </p>
 
 #### 2.3.5.2. As-is Scenario Mapping Electricistas
@@ -760,7 +760,7 @@ Las tareas se determinaron mediante un análisis cualitativo de las entrevistas,
 #### 3.1.1. To-Be Scenario Mapping Turistas nacionales e internacionales
 
 <p align="center">
-    <img src="assets/recursos/To_be_Empresas1.png" alt="To-be-Empresas"/>
+    <img src="assets/recursos/To_be_Empresas11.png" alt="To-be-Empresas"/>
 </p>
 
 #### 3.1.2. To-Be Scenario Mapping Electricistas
