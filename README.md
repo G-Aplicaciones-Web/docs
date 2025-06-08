@@ -1198,7 +1198,7 @@ Url del vídeo: https://drive.google.com/file/d/1Q6ayIjy0mkNyJbGn1AF7HG8hGP4nTBx
 #### 4.6.3. Software Architecture Components Diagrams
 
 <p align="center">
-    <img src="assets/content-diagram/diagrama_componentes.png" alt="MockUp-UserFlow" width="400"/>
+    <img src="assets/content-diagram/diagrama_componentes1.png" alt="diagrama-componentes" width="400"/>
 </p>
 
 ### 4.7. Software Object-Oriented Design
@@ -1302,7 +1302,7 @@ Url del vídeo: https://drive.google.com/file/d/1Q6ayIjy0mkNyJbGn1AF7HG8hGP4nTBx
 #### 4.8.1. Database Diagram
 
 <p align="center">
-    <img src="assets/database/database_diagram.png" alt="Database-Diagram" width="650"/>
+    <img src="assets/database/database_diagram1.png" alt="Database-Diagram" width="650"/>
 </p>
 <hr>
 
