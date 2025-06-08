@@ -1433,7 +1433,7 @@ En esta sección, detallamos el proceso para publicar la Landing Page de EcoVolt
 |Attendees (to planning meeting)|Anyelo Alejos, Mathias Aspajo, Alejandro Mendoza, Jack Roque, Alejandro Torres|
 |Sprint n - 1 Review Summary|Este es el primer Sprint, por lo que este campo no aplica|
 |Sprint n - 1 Retrospective Summary|Este es el primer Sprint, por lo que este campo no aplica|
-|Sprint 1 Goal|Durante este sprint, nos centraremos en la creación de la landing page de nuestra aplicación, ya que la consideramos fundamental para brindar una presentación llamativa y efectiva del producto a los usuarios potenciales. El éxito de esta tarea se medirá al alcanzar un número de visitas que hemos definido como objetivo previamente.|
+|Sprint 1 Goal|Verificar la propuesta de valor de EcoVolt facilitando que los visitantes descubran la solución, identifiquen sus beneficios esenciales y abran vías de comunicación inicial, con una experiencia de usuario intuitiva y adaptable en cualquier dispositivo.|
 |Sprint 1 Velocity|Nuestro equipo puede aceptar hasta 25 story points|
 |Sum of Story Points|La suma de Story Points atendidos es de 22 story points|
 
@@ -1474,14 +1474,14 @@ https://trello.com/invite/b/6839ae7f516f2f051442624b/ATTI8f930c14e55d21d39723d43
 | :-: | :-: | :- | :- | :- | :- | :- | :- | :- | :- |
 |**User Story**|**Work-Item / Task**|||||||||
 |**Id**|**Title**|**Id**|**Title**|**Description**|**Estimation (Hours)**|**Assigned To**|**Status (To-do / In-Process / To-Review / Done)**|||
-|US09|Ver comentarios de empresas|UT01|Diseño del componente de comentarios.|Diseñar sección donde se muestran comentarios de empresas destacadas.|2|Jack Roque|Done|
-|US10|Ver comentarios de electricistas|UT02|Carga de comentarios.|Implementar carga de comentarios desde JSON simulado o API.|2|Jack Roque|Done|||
-|US12|Navegación por landing|UT03|Implementación del menú principal.|Construir la barra de navegación de la landing page con enlaces funcionales.|2|Anyelo Alejos|Done|
-|US13|Responsividad en móviles(Landing Page)|UT04|Ajuste responsive del diseño.|Aplicar media queries para adaptar la landing a pantallas móviles.|2|Anyelo Alejos|Done|
-|US31|Envío de comentarios desde la Landing|UT05|Diseño del formulario de comentarios.|Crear formulario accesible para que usuarios envíen comentarios.|2|Mathias Aspajo|Done|
-|US32|Visualización de beneficios clave y tecnología|UT06|Diseño visual de beneficios.|Crear sección con íconos o imágenes representando los beneficios clave de la solución.información acerca del equipo y la misión de la empresa.|2|Mathias Aspajo|Done|
-|US33|Visualización de casos de uso reales|UT07|Diseño de casos de uso reales.|Crear sección que muestre ejemplos reales del uso de EcoVolt con texto e imágenes.|2|Alejandro Mendoza|Done|
-|US34|Solicitud de contacto desde la Landing|UT08|Diseño del formulario de contacto.|Crear sección para que usuarios envíen solicitudes de contacto.|2|Alejandro Mendoza |Done|
+|US09|Ver comentarios de empresas|T01|Diseño del componente de comentarios.|Diseñar sección donde se muestran comentarios de empresas destacadas.|2|Jack Roque|Done|
+|US10|Ver comentarios de electricistas|T02|Carga de comentarios.|Implementar carga de comentarios desde JSON simulado o API.|2|Jack Roque|Done|||
+|US12|Navegación por landing|T03|Implementación del menú principal.|Construir la barra de navegación de la landing page con enlaces funcionales.|2|Anyelo Alejos|Done|
+|US13|Responsividad en móviles(Landing Page)|T04|Ajuste responsive del diseño.|Aplicar media queries para adaptar la landing a pantallas móviles.|2|Anyelo Alejos|Done|
+|US31|Envío de comentarios desde la Landing|T05|Diseño del formulario de comentarios.|Crear formulario accesible para que usuarios envíen comentarios.|2|Mathias Aspajo|Done|
+|US32|Visualización de beneficios clave y tecnología|T06|Diseño visual de beneficios.|Crear sección con íconos o imágenes representando los beneficios clave de la solución.información acerca del equipo y la misión de la empresa.|2|Mathias Aspajo|Done|
+|US33|Visualización de casos de uso reales|T07|Diseño de casos de uso reales.|Crear sección que muestre ejemplos reales del uso de EcoVolt con texto e imágenes.|2|Alejandro Mendoza|Done|
+|US34|Solicitud de contacto desde la Landing|T08|Diseño del formulario de contacto.|Crear sección para que usuarios envíen solicitudes de contacto.|2|Alejandro Mendoza |Done|
 
 
 
@@ -1684,7 +1684,6 @@ Asimismo, se identificaron las tareas específicas, se asignaron responsables y 
       Mendoza Vergara, Alejandro<br>
       Aspajo Alvarez, Mathias<br>
       Roque Tello, Jack<br>
-      Torres Alva, Alejandro	
     </td>
   </tr>
   <tr>
@@ -1700,100 +1699,148 @@ Asimismo, se identificaron las tareas específicas, se asignaron responsables y 
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 2 Goal </td>
-    <td> Nuestro enfoque principal fue implementar una interfaz intuitiva que permita a los usuarios descubrir las características de EcoVolt, desarrollar una landing page funcional que comunique efectivamente los beneficios del servicio y establecer las bases para futuras iteraciones del producto</td>
+    <td> Permitir que usuarios registrados accedan a funciones básicas personalizables para ver y administrar elementos principales de sus dispositivos conectados.</td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 2 Velocity </td>
-    <td> <strong>10</strong><br> Basándonos en la complejidad técnica y los recursos disponibles, asignamos 10 Story Points para este sprint. Esta estimación considera el desarrollo de componentes UI esenciales, integración con sistemas mock y pruebas de usabilidad básicas</td>
+    <td> <strong>51</strong><br> Basándonos en la complejidad técnica y los recursos disponibles, asignamos 51 Story Points para este sprint. Esta estimación considera el desarrollo de componentes UI esenciales, integración con sistemas mock y pruebas de usabilidad básicas</td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sum of Story Points </td>
-    <td> 10 </td>
+    <td> 55 </td>
   </tr>
 </table>
 
 
 #### <a name="_usnkbe31yipk"></a>**5.2.2.2. Aspect Leaders and Collaborators**
 
-|Member (Last Name, First Name)|GitHub Username|DashBoard Section|Alerta Section|<p>Monitor</p><p>Section</p>|Exportation section|Facturation Section|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|Roque Tello, Jack Eddie|UPC-Skylar|C|C|C|C|L|
-|Aspajo Alvarez, Mathias Joaquin|<p>[](https://github.com/AdeXzz)</p><p>[](https://github.com/AdeXzz)AdeXzz</p><p></p>|L|C|C|C|C|
-|Alejos Jesús, Anyelo Bill||C|C|L|C|C|
-|Mendoza Vergara, Alejandro Franklin|AlexBoo1|C|L|C|C|C|
-|Torres Alva, Alejandro|MauricioMVilcapoma|C|C|C|L|C|
+|**Member (Last Name, First Name)**|**GitHub Username**|**Home Section**|**Devices Section**|**Subscriptions Sections**|**Guides Section**|**Companies Section** |**Electricians Section**|
+| :- | :- | :- | :- | :- | :- | :- | :- |
+|**Roque Tello, Jack Eddie**|**UPC-Skylar**||||**L**|||
+|**Aspajo Alvarez, Mathias Joaquin**|**AdeXzz**|**L**|**L**|||**L**|**L**|
+|**Alejos Jesús, Anyelo Bill**|**Everkoe**|||**L**||||
+|**Mendoza Vergara, Alejandro Franklin**|**AlexBoo1**|||**C**|**C**|||
 
 #### <a name="_rvqlb1v7p2u0"></a>**5.2.2.3. Sprint Backlog 2**
 
+El Sprint Backlog 2 está centrado en la evolución del frontend después del lanzamiento de la versión inicial. Durante esta etapa, se priorizan la optimización de la experiencia de usuario, implementación de funcionalidades adicionales y ajustes de diseño y rendimiento. El propósito es fortalecer los avances del primer sprint, refinando componentes clave de la interfaz, mejorando la usabilidad e integrando nuevas secciones para lograr una plataforma más pulida, intuitiva y funcional.
 
-|Id	|Title|ID|Title|Description|Estimation (hours)	|Assigned To	|Status|
+Enlace del board donde se trabajo el Sprint Backlog #2: https://trello.com/invite/b/6839ae7f516f2f051442624b/ATTI8f930c14e55d21d39723d436948beba04F2256B3/ecovolt
+
+|**Id**|**Title**|**ID**|**Title**|**Description**|**Estimation (hours)**|**Assigned To**|**Status**|
 | :- | :- | :- | :- | :- | :- | :- | :- |
-|US05|Perfil corporativo	|TS09|Componente de perfil corporativo	|Desarrollo de la sección que muestra información básica de la empresa, plan contratado y beneficios asociados.	|8|Alejandro M.	|Done|
-|US08|Eliminar cuenta|TS10|Funcionalidad de eliminación de cuenta	|Implementación de la opción para borrar cuentas, incluyendo confirmación con contraseña y cancelación.	|6|Anyelo|Done|
-|US18|Histórico comparativo	|TS11|Módulo de gráficos comparativos	|Desarrollo de gráficas de consumo histórico y manejo de períodos sin datos.	|10|Jack|Done|
-|US20|Recomendaciones de ahorro	|TS12|Sistema de recomendaciones	|Generación de sugerencias basadas en patrones de consumo y mensaje de "consumo óptimo".	|12|Mathias|Done|
-|US35|Gestión de dispositivos	|TS13|Panel de gestión IoT	|Listado interactivo de dispositivos con nombre, tipo, estado y funcionalidad para cambiar su estado.	|10|Jack|Done|
+|US11|Configuración de idioma de la plataforma|T09|Diseñar y desarrollar la funcionalidad de cambio de idioma.|Permitir al usuario seleccionar y aplicar el idioma de su preferencia para la interfaz de la plataforma.|0\.5|Mathias|Done|
+|US17|Programación de encendido/apagado de equipos|T10|Implementar control remoto de dispositivos IoT.|Desarrollar la funcionalidad para que el usuario pueda controlar el encendido y apagado remoto de sus equipos conectados a la plataforma.|0\.5|Mathias|Done|
+|US19|Listado de productos IoT compatibles	|T11|Listar los dispositivos IoT compatibles.|Mostrar una lista de los dispositivos IoT que pueden ser integrados y monitoreados por la plataforma EcoVolt.|1|Mathias|Done|
+|US20|Sugerencias de ahorro energético	|T12|Desarrollar un módulo de recomendaciones de ahorro energético.|Implementar sugerencias generales de cómo optimizar el consumo de energía|1|Mathias|Done|
+|US21|Registro de dispositivos IoT|T13|Diseñar y desarrollar la funcionalidad de registro de nuevos dispositivos.|Permitir a los usuarios añadir y configurar nuevos dispositivos IoT en su cuenta de la plataforma EcoVolt.|1|Mathias|Done|
+|US22|Calibración de sensores|T14|Implementar función de calibración para sensores.|Desarrollar una herramienta para ajustar y calibrar los sensores de los dispositivos IoT para asegurar la precisión de las mediciones.|0\.5|Mathias|Done|
+|US23|Modo técnico: Lecturas de voltaje, corriente y potencia|T15|Desarrollar la vista de "Modo Técnico" para electricistas.|Crear una interfaz especializada que muestre en tiempo real las lecturas detalladas de voltaje, corriente y potencia de los dispositivos para el uso de electricistas.|1\.5|Mathias|Done|
+|US29|Guías visuales de instalación|T16|Crear y visualizar guías de instalación para dispositivos.|Proporcionar una guía de paso a paso con elementos visuales para asistir en la correcta instalación de los dispositivos IoT.|0\.5|Jack|Done|
+|US35|Gestión de Dispositivos IoT|T17|Desarrollar la funcionalidad de gestión de dispositivos.|Permitir a los usuarios y electricistas ver el estado, editar la información y realizar acciones básicas sobre los dispositivos IoT registrados.|1\.5|Mathias|Done|
+|US36|Visualización de planes de suscripción|T18|Diseñar y desarrollar la interfaz para mostrar los planes de suscripción.|Presentar de manera clara y detallada los diferentes planes de suscripción disponibles en EcoVolt, incluyendo sus características y precios.|1\.5|Anyelo|Done|
 
 
 #### <a name="_63o8yl7le5at"></a>**5.2.2.4. Development Evidence for Sprint Review**
 
+Aquí presentamos nuestra metodología para el diseño y actualización continua del Frontend.
+
+|**Repository**|**Branch**|**Commit ID**|**Commit Message**|<p>**Commit Message**</p><p></p><p>**Body**</p>|**Commited on (Date)**|
+| :- | :- | :- | :- | :- | :- |
+|G-Aplicaciones-Web/frontend-web|develop|a49b696|update home||04/06/2025|
+|G-Aplicaciones-Web/frontend-web|develop|b20949b|update devices||04/06/2025|
+|G-Aplicaciones-Web/frontend-web|develop|4b28e26|update companies||04/06/2025|
+|G-Aplicaciones-Web/frontend-web|develop|d7fad54|update subscriptions||04/06/2025|
+|G-Aplicaciones-Web/frontend-web|develop|bf58cae|update electricians||04/06/2025|
+|G-Aplicaciones-Web/frontend-web|develop|a562acf|update guides||04/06/2025|
+
 #### <a name="_po0np6kchf3p"></a>**5.2.2.5. Execution Evidence for Sprint Review**
-En este sprint, el equipo de EcoVolt cumplió en la integración del frontend con la landing page. Esto es importante para el proyecto, pues ahora nuestra aplicación web es capaz de dar una correcta interacción con el usuario en tiempo real.
 
-Se implementaron distintas funcionalidades como el inicio de sesión y el cambio de idioma. Con todo esto, se espera que el proyecto siga en buen camino a convertirse en una aplicación totalmente funcional y que cumpla los objetivos detallados en el sprint.
+El equipo desplegó las vistas principales de EcoVolt durante este Sprint, logrando una interfaz fluida, intuitiva y visualmente alineada con los diseños.
 
+<p align="center">
+        <img src="assets/evidencias/front1.png" alt="front1"/>    
+</p>
 
-Enlace de deployment del FrontEnd: <https://frontend-two-omega-72.vercel.app>
+<p align="center">
+        <img src="assets/evidencias/front2.png" alt="front2"/>    
+</p>
 
-Enlace de deployment de la Landing Page: <https://g-aplicaciones-web.github.io/landing-page/#companies-professionals>
+<p align="center">
+        <img src="assets/evidencias/front3.png" alt="front3"/>    
+</p>
 
-<a name="_vnsfwxiq5oii"></a>**5.2.2.6. Services Documentation Evidence for Sprint Review**
+<p align="center">
+        <img src="assets/evidencias/front4.png" alt="front4"/>    
+</p>
+
+<p align="center">
+        <img src="assets/evidencias/front6.png" alt="front5"/>    
+</p>
+
+<p align="center">
+        <img src="assets/evidencias/front5.png" alt="front6"/>    
+</p>
+
+<p align="center">
+        <img src="assets/evidencias/front7.png" alt="front7"/>    
+</p>
+
+#### <a name="_vnsfwxiq5oii"></a>**5.2.2.6. Services Documentation Evidence for Sprint Review**
+
+Este Sprint se dedicó exclusivamente al frontend de EcoVolt, desarrollando los siguientes endpoints:
+
+<p align="center">
+        <img src="assets/evidencias/endpoints.png" alt="endpoints"/>    
+</p>
 
 #### <a name="_9gjzawjk4u08"></a>**5.2.2.7. Software Deployment Evidence for Sprint Review**
-Durante este sprint, se ha completado el desarrollo del frontend de la aplicación web. Para el despliegue, se utilizaron las siguientes herramientas y servicios:
 
-Git: Sistema de control de versiones que utilizamos para trabajar de forma colaborativa y monitorear las versiones de la aplicación web en un repositorio remoto.
+Se desplegó el frontend de EcoVolt durante este Sprint como parte del lanzamiento progresivo del sistema, con el objetivo de validar funcionalidades, interacción con usuarios y retroalimentación del equipo docente.
 
-Gitflow: Este flujo de trabajo colaborativo nos ha permitido dividir el trabajo en ramas dentro de nuestro repositorio, lo que facilita la colaboración en el desarrollo.
+Actividades clave realizadas:
 
-GitHub: La plataforma que nos proporcionó la herramienta para crear nuestro repositorio y almacenar las versiones de nuestro proyecto.
+- Configuración inicial del repositorio GitHub con estructura de carpetas
 
-my-json-server.typicode: Utilizado para crear y desplegar una Fake API que simula las interacciones del backend, permitiendo realizar pruebas del frontend con datos estructurados.
+- Implementación de Git Flow (desarrollo en rama develop)
 
+- Configuración de despliegue automático con Firebase (rama develop)
 
+- Publicación exitosa del frontend en URL accesible públicamente
 
+**Evidencia del despliegue**
+
+<p align="center">
+        <img src="assets/evidencias/front1.png" alt="front1"/>    
+</p>
+
+URL de la landing page desplegada: https://ecovolt-43549.web.app/
 
 #### <a name="_k7txxjqwolth"></a>**5.2.2.8. Team Collaboration Insights during Sprint**
-El equipo organizó el desarrollo de las funcionalidades avanzadas de monitoreo energético mediante la división del trabajo en ramas específicas del repositorio. Se siguió la convención de ramas temáticas (bounded-context) y se aplicaron buenas prácticas de GitFlow para separar las tareas de desarrollo, revisión e integración, asegurando un flujo de trabajo ordenado y colaborativo.
-Cada funcionalidad fue tratada como una rama independiente, lo que permitió paralelizar el desarrollo sin generar conflictos de fusión. Se realizaron múltiples pull requests con revisión entre pares, lo cual ayudó a mantener la calidad del código y reforzó la cohesión del equipo.
-A continuación, se detallan las tareas asignadas a cada miembro del equipo:
 
+Durante el Sprint, el equipo trabajó conjuntamente en el frontend de EcoVolt, aplicando buenas prácticas de versionado con Git, estructurando el trabajo mediante Git Flow, y respetando la división de roles entre diseño y desarrollo establecida desde el inicio del proyecto.
 
-| Alumno | Actividad |
-| ------ | --------- |
-| Aspajo Alvarez, Mathias Joaquin       |   Se encargó del desarrollo de la sección Inicio, asegurando la correcta visualización de datos iniciales y la experiencia de usuario en el dashboard principal.        |
-|    Alejos Jesus Anyelo Bill    |   Se encargó del desarrollo y diseño de la sección Mi Perfil / Empresas, gestionando la presentación de la información y la interacción para usuarios corporativos        |
-|   Alejandro Franklin Mendoza Vergara     |   Se encargó del desarrollo y diseño de la sección Mi Perfil / Técnicos, gestionando la visualización y funcionalidades específicas para los usuarios técnicos.        |
-| Roque Tello, Jack Eddie   | Se encargó de la implementación completa de la sección Dispositivos conforme a la US035 - Gestión de dispositivos conectados, incluyendo la internacionalización (i18n), la integración de gráficos y la distribución general del proyecto.      |
+Estrategia de colaboración implementada:
 
-A continuación, se mostrará la tabla de colaboradores en el repositorio de GitHub, con el objetivo de identificar a cada miembro del equipo.
-Tabla de integrantes:
+- Uso de ramas estructuradas (feature/, develop, main)
 
+- Convenciones de commits con Conventional Commits
 
+- Revisión obligatoria mediante pull requests
 
-| Username (Github) | Nombre |
-| ----------------- | ------ |
-|     AdeXzz              |  Aspajo Alvarez, Mathias Joaquin      |
-|       Everkoe            |  Alejos Jesus Anyelo Bill      |
-|       AlexBoo1            |  Alejandro Franklin Mendoza Vergara      |
-| UPC-Skylar              | Roque Tello, Jack Eddi   |
+- Sincronización en reuniones ágiles
 
+Insights:
 
-Por último, se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
+<p align="center">
+        <img src="assets/evidencias/insights.png" alt="insights"/>    
+</p>
 
-<img width="1428" alt="Image" src="https://github.com/user-attachments/assets/10768368-9be4-479b-80cd-66bd86270460" />
+Gitflow:
 
-<img width="1431" alt="Image" src="https://github.com/user-attachments/assets/8578128c-c786-4662-a880-0827be2a5338" />
+<p align="center">
+        <img src="assets/evidencias/network.png" alt="network"/>    
+</p>
 
 ## Conclusiones
 
