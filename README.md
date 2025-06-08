@@ -1185,29 +1185,21 @@ Url del vídeo: https://drive.google.com/file/d/1Q6ayIjy0mkNyJbGn1AF7HG8hGP4nTBx
 
 #### 4.6.1. Software Architecture Context Diagrams
 
-<img src="assets/content-diagram/Content%20diagram.png" width=650px >
+<p align="center">
+    <img src="assets/content-diagram/diagrama_contexto.png" alt="MockUp-UserFlow" width="400"/>
+</p>
 
 #### 4.6.2. Software Architecture Container Diagrams
 
-<img src="assets/content-diagram/structurizr-77431-Contenedor.png" width=650px >
+<p align="center">
+    <img src="assets/content-diagram/diagrama_contenedores.png" alt="MockUp-UserFlow" width="400"/>
+</p>
 
 #### 4.6.3. Software Architecture Components Diagrams
 
-**Bounded context User & Account Service**
-
-<img src="assets/content-diagram/Component%20diagram%20User.png" width=650px >
-
-**Bounded context Payment Services**
-
-<img src="assets/content-diagram/Component%20diagram%20payment.png" width=650px >
-
-**Bounded context IoT Device Manager**
-
-<img src="assets/content-diagram/Component%20diagram%20IoT%20Device.png" width=650px >
-
-**Bounded context Analytics & Alert Engine**
-
-<img src="assets/content-diagram/Component%20diagram%20Analytics.png" width=650px >
+<p align="center">
+    <img src="assets/content-diagram/diagrama_componentes.png" alt="MockUp-UserFlow" width="400"/>
+</p>
 
 ### 4.7. Software Object-Oriented Design
 
