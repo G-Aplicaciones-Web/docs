@@ -1214,62 +1214,95 @@ Url del vídeo: https://drive.google.com/file/d/1Q6ayIjy0mkNyJbGn1AF7HG8hGP4nTBx
 #### 4.7.1. Class Diagrams
 
 <p align="center">
-    <img src="assets/database/Class_Diagrams1.jpeg" alt="Class-Diagrams" width="650"/>
+    <img src="assets/database/diagram_class.png" alt="Class-Diagrams" width="650"/>
 </p>
 
 #### 4.7.2. Class Dictionary
 
-| **Clase**       | **Nombre de Atributo** | **Descripción**                             | **Tipo de Dato** |
-|-----------------|------------------------|---------------------------------------------|------------------|
-| User            | id                     | Identificador único del usuario                         | int             |
-| User            | email                     | Correo electrónico para autenticación                         | String             |
-| User            | password                     | Contraseña encriptada del usuario                         | String             |
-| User            | role                     | Define el tipo de usuario                         | String             |
-| Subscription            | id                     | 	Identificador único de la suscripción                         | int             |
-| Subscription            | planType                     | 	Tipo de plan contratado                         | String             |
-| Subscription            | status                     | Estado actual de la suscripción                         | String             |
-| Subscription            | startDate                     | Fecha de inicio de la suscripción                         | Date             |
-| Subscription            | endDate                     | Fecha de finalización de la suscripción                         | Date             |
-| Invoice            | id                     | Identificador único de la factura                         | int             |
-| Invoice            | amount                     | Monto total a pagar                         | Float             |
-| Invoice            | issueDate                     | 	Fecha de emisión de la factura                         | Date             |
-| Invoice            | paid                     | Indica si la factura ha sido pagada                         | Boolean             |
-| CompanyReview            | id                     | Identificador único de la reseña                         | int             |
-| CompanyReview            | companyName                     | Nombre de la empresa evaluada                         | String             |
-| CompanyReview            | comment                     | Opinión escrita por el usuario                         | String             |
-| CompanyReview            | createdDate                     | Fecha de creación de la reseña                         | Date             |
-| Company            | id                     | Identificador único de la empresa                         | int             |
-| Company            | name                     | Nombre legal de la empresa                         | String             |
-| Company            | ruc                     | RUC de la empresa                         | String             |
-| Company            | address                     | Dirección física de la empresa                         | String             |
-| Electrician            | id                     | Identificador único del electricista                         | int             |
-| Electrician            | fullName                     | Nombre completo del electricista                         | String             |
-| ElectricianReview            | id                     | Identificador único de la reseña                         | int             |
-| ElectricianReview            | electricianName                     | Nombre del electricista evaluado                         | String             |
-| ElectricianReview            | comment                     | Opinión sobre el servicio del electricista                         | String             |
-| ElectricianReview            | createdDate                     | Fecha de creación de la reseña                         | Date             |
-| Report            | id                     | Identificador único del informe                         | int             |
-| Report            | generatedDate                     | Fecha de generación del informe                         | Date             |
-| Report            | reportType                     | Tipo de informe                         | String             |
-| Report            | description                     | Detalles o conclusiones del informe                         | String             |
-| Device            | id                     | Identificador único del dispositivo IoT                         | int             |
-| Device            | serialNumber                     | Número de serie del dispositivo                         | String             |
-| Device            | location                     | Ubicación física del dispositivo en las instalaciones                         | String             |
-| Device            | status	                     | Estado operativo                         | String             |
-| ConsumptionData            | ConsumptionData	                     | 	Identificador único del registro de consumo                         | int             |
-| ConsumptionData            | timestamp	                     | Fecha exacta de la medición                         | Date             |
-| ConsumptionData            | voltage	                     | Voltaje registrado                         | Float             |
-| ConsumptionData            | power	                     | Potencia consumida                         | Float             |
-| ConsumptionData            | frequency	                     | Frecuencia eléctrica                         | Float             |
-| Alert	            | id	                     | Identificador único de la alerta                         | int             |
-| Alert	            | alertType	                     | Tipo de alerta                         | String             |
-| Alert	            | description	                     | Detalles técnicos de la alerta                         | String             |
-| Alert	            | activatedDate	                     | 	Fecha de activación de la alerta                         | Date             |
-| Alert	            | resolved	                     | Indica si la alerta ha sido solucionada                         | Boolean             |
-| ElectricProduct	            | id	                     | 	Identificador único del producto eléctrico                         | int             |
-| ElectricProduct	            | name	                     | 	Nombre comercial del producto                         | String             |
-| ElectricProduct	            | brand	                     | 	Marca fabricante                         | String             |
-| ElectricProduct	            | description	                     | Características técnicas y compatibilidad                         | String             |
+
+|**Clase**|**Nombre de atributo**|**Descripción (Basada en el contexto)**|**Tipo de dato**|
+| :- | :- | :- | :- |
+|User|id|Identificador único del usuario|Int|
+|User|email|Correo electrónico del usuario|String|
+|User|password|Contraseña del usuario|String|
+|User|role|Rol o tipo de usuario|String|
+|Company|id|Identificador único de la empresa|Int|
+|Company|name|Nombre de la empresa|String|
+|Company|ruc|Número de RUC de la empresa|String|
+|Company|address|Dirección de la empresa|String|
+|Electrician|id|Identificador único del electricista|Int|
+|Electrician|fullName|Nombre completo del electricista|String|
+|Electrician|employeeCode|Código de empleado del electricista|String|
+|Subscription|id|Identificador único de la suscripción|Int|
+|Subscription|planType|Tipo de plan de la suscripción|String|
+|Subscription|status|Estado actual de la suscripción|String|
+|Subscription|startDate|Fecha de inicio de la suscripción|Date|
+|Subscription|endDate|Fecha de fin de la suscripción|Date|
+|Plan|id|Identificador único del plan|Int|
+|Plan|name|Nombre del plan|String|
+|Plan|price|Precio del plan|Float|
+|Invoice|id|Identificador único de la factura|Int|
+|Invoice|amount|Monto total de la factura|Float|
+|Invoice|issuedAt|Fecha de emisión de la factura|Date|
+|Invoice|paid|Estado de pago de la factura (true si pagada)|Boolean|
+|Payment|id|Identificador único del pago|Int|
+|Payment|amount|Monto del pago|Float|
+|Payment|paymentDate|Fecha en que se realizó el pago|Date|
+|Payment|status|Estado del pago|String|
+|Payment|method|Método de pago utilizado|String|
+|Device|id|Identificador único del dispositivo|Int|
+|Device|serialNumber|Número de serie del dispositivo|String|
+|Device|name|Nombre del dispositivo|String|
+|Device|description|Descripción del dispositivo|String|
+|Device|status|Estado actual del dispositivo|String|
+|Device|location|Ubicación del dispositivo|String|
+|AssetType|id|Identificador único del tipo de activo|Int|
+|AssetType|name|Nombre del tipo de activo|String|
+|Measurement|id|Identificador único de la medición|Int|
+|Measurement|timeStamp|Marca de tiempo de la medición|Date|
+|Measurement|voltage|Valor de voltaje medido|Float|
+|Measurement|current|Valor de corriente medido|Float|
+|Measurement|power|Valor de potencia medido|Float|
+|Measurement|frequency|Valor de frecuencia medido|Float|
+|Alert|id|Identificador único de la alerta|Int|
+|Alert|alertType|Tipo de alerta|String|
+|Alert|description|Descripción de la alerta|String|
+|Alert|generatedAt|Fecha y hora de generación de la alerta|Date|
+|Alert|resolved|Estado de resolución de la alerta (true si resuelta)|Boolean|
+|Alert|severity|Nivel de severidad de la alerta|String|
+|ServiceRequest|id|Identificador único de la solicitud de servicio|Int|
+|ServiceRequest|description|Descripción de la solicitud|String|
+|ServiceRequest|requestDate|Fecha de la solicitud|Date|
+|ServiceRequest|status|Estado de la solicitud|String|
+|ServiceRequest|priority|Prioridad de la solicitud|String|
+|WorkOrder|id|Identificador único de la orden de trabajo|Int|
+|WorkOrder|description|Descripción de la orden de trabajo|String|
+|WorkOrder|assignedDate|Fecha de asignación de la orden|Date|
+|WorkOrder|completionDate|Fecha de finalización de la orden|Date|
+|WorkOrder|status|Estado de la orden de trabajo|String|
+|WorkOrder|notes|Notas adicionales de la orden|String|
+|ServiceReport|id|Identificador único del informe de servicio|Int|
+|ServiceReport|generatedAt|Fecha de generación del informe|Date|
+|ServiceReport|content|Contenido detallado del informe|String|
+|ServiceReport|signedByElectrician|Indica si el electricista firmó el informe|Boolean|
+|ServiceReport|pdfUrl|URL del archivo PDF del informe|String|
+|Report|id|Identificador único del reporte|Int|
+|Report|reportType|Tipo de reporte|String|
+|Report|generatedAt|Fecha de generación del reporte|Date|
+|Report|dataSummary|Resumen de los datos del reporte|String|
+|Report|pdfUrl|URL del archivo PDF del reporte|String|
+|CompanyReview|id|Identificador único de la reseña de empresa|Int|
+|CompanyReview|companyName|Nombre de la empresa reseñada|String|
+|CompanyReview|comment|Comentario de la reseña|String|
+|CompanyReview|createdAt|Fecha de creación de la reseña|Date|
+|ElectricianReview|id|Identificador único de la reseña de electricista|Int|
+|ElectricianReview|electricianName|Nombre del electricista reseñado|String|
+|ElectricianReview|comment|Comentario de la reseña|String|
+|ElectricianReview|createdAt|Fecha de creación de la reseña|Date|
+|ElectricProduct|id|Identificador único del producto eléctrico|Int|
+|ElectricProduct|name|Nombre del producto eléctrico|String|
+|ElectricProduct|brand|Marca del producto eléctrico|String|
+|ElectricProduct|description|Descripción del producto eléctrico|String|
 
 
 ### 4.8. Database Design
@@ -1277,7 +1310,7 @@ Url del vídeo: https://drive.google.com/file/d/1Q6ayIjy0mkNyJbGn1AF7HG8hGP4nTBx
 #### 4.8.1. Database Diagram
 
 <p align="center">
-    <img src="assets/database/Database_Diagram.png" alt="Database-Diagram" width="650"/>
+    <img src="assets/database/database_diagram.png" alt="Database-Diagram" width="650"/>
 </p>
 <hr>
 
