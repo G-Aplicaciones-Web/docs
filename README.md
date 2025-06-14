@@ -1858,6 +1858,26 @@ Gitflow:
 
 ## 5.2.3. Sprint 3
 ### 5.2.3.1. Sprint Planning 3 
+En esta sección se detalla el proceso de planificación correspondiente al tercer sprint del proyecto. El equipo definió los objetivos a alcanzar durante este ciclo de trabajo, priorizando funcionalidades relacionadas con el back-end para el desarrollo continuo de nuestro proyecto.
+Asimismo, se identificaron las tareas específicas, se asignaron responsables y se estableció el Sprint Backlog correspondiente, con el fin de asegurar un avance ordenado y colaborativo en el cumplimiento de las metas propuestas.
+
+
+
+| Sprint #                        | Sprint 3            |
+| -------------------------- | ------------------- |
+| Sprint Planning Background | --------            |
+| Date                       | 13/06/2025          |
+| Time                       | 18:00 horas (GMT-5) |
+| Location                   | Virtual (Zoom)      |
+| Prepared By                | Aspajo Alvarez, Mathias|
+| Attendees (to planning meeting) |  Alejos Jesus, Anyelo <br> Mendoza Vergara, Alejandro <br>Aspajo Alvarez, Mathias <br>Roque Tello, Jack |
+| Sprint 2 Review Summary   | Durante el segundo sprint, el equipo priorizó el desarrollo de la aplicación web frontend, utilizando herramientas clave como JSON Server para simular un backend funcional, y Vue-i18n para implementar la internacionalización de la plataforma. Se desarrollaron funcionalidades esenciales como el registro de dispositivos IoT (US21), el modo técnico para lectura de voltaje, corriente y potencia (US23), y la visualización de planes de suscripción (US36). Estas funcionalidades permitieron validar de forma temprana la experiencia de usuario prevista para electricistas y empresas, facilitando el monitoreo inicial de dispositivos conectados.                    |
+| Sprint 2 Retrospective Summary   | En la retrospectiva del Sprint 2, el equipo reconoció que aún quedaban funcionalidades importantes pendientes para completar la experiencia completa en la aplicación web frontend. Por ello, se comprometió a continuar fortaleciendo esta capa en el siguiente sprint. Se destacó como acierto el progreso técnico alcanzado y como área de mejora la necesidad de una mayor integración entre frontend y backend simulado. Además, se reconoció una mejora significativa en la comunicación y colaboración entre los integrantes del equipo, lo cual impactó positivamente en la eficiencia del desarrollo.    |
+| Sprint Goal & User Stories | -------- | 
+| Sprint 3 Goal | Our focus is on enabling core backend functionalities for user authentication, profile management, and monitoring of consumption and service history. We believe it delivers critical platform operability to enterprise and electrician users. This will be confirmed when users are able to register, log in, and view device-related consumption and service data through authenticated sessions.|
+| Sprint 3 Velocity | Nuestro equipo ha definido una velocity de 36 Story Points para este tercer sprint. Esta capacidad refleja el ritmo de trabajo sostenible que hemos logrado consolidar durante los sprints anteriores, considerando el alcance técnico del backend y la consolidación de funcionalidades clave para la operatividad del sistema.| 
+| Sum of Story Points | US15 – Alertas de consumo anómalo (3SP)<br> US16 – Comparación de consumos históricos (5SP) <br> US25 – Historial de servicios e inspecciones (5SP) <br> US40 – Gestión de grupos de dispositivos / sedes (5SP) <br> US26 – Registro de comentarios técnicos (3SP) <br> US39 – Historial de transacciones y facturas (3SP) <br> US03 – Inicio de sesión (3SP) <br> US04 – Recuperar contraseña (3SP) <br> US05 – Edición de perfil (3SP) <br> US01 – Registro de Empresas (1SP) <br> US02 – Registro de Electricista (1SP) <br> US06 – Cambio de contraseña (1SP) <br> **Total**: 36SP| 
+
 ### 5.2.3.2. Aspect Leaders and Collaborators 
 ### 5.2.3.3. Sprint Backlog 3 
 ### 5.2.3.4. Development Evidence for Sprint Review
